@@ -158,7 +158,8 @@ function showPage(p) {
 
   const pool = applyFilter(GRAMMAR);
   if (p === "flashcards") renderFC(document.getElementById("fc-body"), pool);
-  if (p === "quiz") renderQuiz(document.getElementById("quiz-body"), pool);
+  if (p === "quiz")
+    renderQuiz(document.getElementById("quiz-body"), pool, GRAMMAR);
   if (p === "exam") renderExam(document.getElementById("exam-body"), pool);
   if (p === "game") renderGame(document.getElementById("game-body"), pool);
   if (p === "schedule") renderSchedule();
@@ -176,7 +177,7 @@ function setGF(f, btn) {
   const pool = applyFilter(GRAMMAR);
   if (id === "flashcards") renderFC(document.getElementById("fc-body"), pool);
   else if (id === "quiz")
-    renderQuiz(document.getElementById("quiz-body"), pool);
+    renderQuiz(document.getElementById("quiz-body"), pool, GRAMMAR);
   else if (id === "exam")
     renderExam(document.getElementById("exam-body"), pool);
   else if (id === "game")
@@ -261,7 +262,8 @@ function openDay(w, d, pts) {
     `${pts.length} grammar points`;
   renderLesson(document.getElementById("d-lesson"), pts);
   renderFC(document.getElementById("d-fc"), pts);
-  renderQuiz(document.getElementById("d-quiz"), pts);
+  // Always use the full GRAMMAR pool for quiz distractor generation
+  renderQuiz(document.getElementById("d-quiz"), pts, GRAMMAR);
   renderExam(document.getElementById("d-exam"), pts);
   renderGame(document.getElementById("d-game"), pts);
   document
@@ -489,11 +491,13 @@ function renderFC(container, pool) {
 // ============================================================
 // QUIZ
 // ============================================================
-function renderQuiz(container, pool) {
+function renderQuiz(container, pool, distractorPool) {
   if (!container) return;
-  if (!pool || pool.length < 4) {
+  // Use distractorPool (full GRAMMAR) to check if we can actually build a quiz
+  const actualDistractorPool = distractorPool || pool;
+  if (!pool || pool.length === 0 || actualDistractorPool.length < 4) {
     container.innerHTML =
-      '<div class="locked-overlay"><span class="locked-icon">📚</span><div class="locked-title">Not enough content</div><div class="locked-sub">Need at least 4 grammar points. Change filter.</div></div>';
+      '<div class="locked-overlay"><span class="locked-icon">📚</span><div class="locked-title">Not enough content</div><div class="locked-sub">Need at least 4 grammar points in total to generate distractors.</div></div>';
     return;
   }
   let score = 0,
@@ -519,7 +523,10 @@ function renderQuiz(container, pool) {
     const q = set[qi];
     answered = false;
     const type = Math.random() < 0.5 ? "meaning" : "usage";
-    const wrongs = shuffle(pool.filter((g) => g.g !== q.g)).slice(0, 3);
+    // Pull distractors from the distractorPool (full list) so we always have enough options
+    const wrongs = shuffle(
+      actualDistractorPool.filter((g) => g.g !== q.g),
+    ).slice(0, 3);
     const opts = shuffle([q, ...wrongs]);
     container.innerHTML = `
       <div class="quiz-scorebar">
@@ -580,7 +587,7 @@ function renderQuiz(container, pool) {
           <div style="font-size:12px;color:rgba(26,23,20,0.48);margin-bottom:1.25rem">${pct >= 80 ? "🎌 Excellent!" : pct >= 60 ? "👍 Good — keep going." : "📚 Review weak points."}</div>
           <button class="btn-primary" id="qrestart">Try again ↺</button></div>`;
         container.querySelector("#qrestart").onclick = () =>
-          renderQuiz(container, pool);
+          renderQuiz(container, pool, actualDistractorPool);
       } else showQ();
     };
   }
