@@ -24,6 +24,7 @@ const SHEET_URL =
   "https://script.google.com/macros/s/AKfycbyRLVvOSBQp8Og-ybmZ-v1cmM_-bUtls1BYvoi36pF7atFUoDAYIP9u8IijEOZrqjX4Sw/exec";
 let syncTimer = null;
 let globalFilter = "all";
+let filterDay = null; // {w, d}
 
 // ============================================================
 // DATA FETCHING
@@ -132,6 +133,8 @@ function applyFilter(pool) {
           PROGRESS.fcUnsureSet.includes(g.g) ||
           PROGRESS.fcAgainSet.includes(g.g),
       );
+    case "day":
+      return pool.filter((g) => g.w === filterDay.w && g.d === filterDay.d);
     default:
       return pool;
   }
@@ -140,64 +143,124 @@ function applyFilter(pool) {
 // ============================================================
 // NAVIGATION
 // ============================================================
-function showPage(p) {
+let currentPage = "schedule";
+
+function showPage(p, btn) {
+  currentPage = p;
+
+  // Update active page
   document
     .querySelectorAll(".page")
-    .forEach((e) => e.classList.remove("active"));
-  document
-    .querySelectorAll(".nav-btn")
     .forEach((e) => e.classList.remove("active"));
   const targetPage = document.getElementById("page-" + p);
   if (targetPage) targetPage.classList.add("active");
 
-  const map = { schedule: 0, flashcards: 1, quiz: 2, exam: 3, game: 4 };
-  if (map[p] !== undefined) {
-    const navBtns = document.querySelectorAll(".nav-btn");
-    if (navBtns[map[p]]) navBtns[map[p]].classList.add("active");
-  }
-
-  const pool = applyFilter(GRAMMAR);
-  if (p === "flashcards") renderFC(document.getElementById("fc-body"), pool);
-  if (p === "quiz")
-    renderQuiz(document.getElementById("quiz-body"), pool, GRAMMAR);
-  if (p === "exam") renderExam(document.getElementById("exam-body"), pool);
-  if (p === "game") renderGame(document.getElementById("game-body"), pool);
-  if (p === "schedule") renderSchedule();
-}
-
-function setGF(f, btn) {
-  globalFilter = f;
-  document
-    .querySelectorAll(".fpill")
-    .forEach((b) => b.classList.remove("active"));
-  btn.classList.add("active");
-  const active = document.querySelector(".page.active");
-  if (!active) return;
-  const id = active.id.replace("page-", "");
-  const pool = applyFilter(GRAMMAR);
-  if (id === "flashcards") renderFC(document.getElementById("fc-body"), pool);
-  else if (id === "quiz")
-    renderQuiz(document.getElementById("quiz-body"), pool, GRAMMAR);
-  else if (id === "exam")
-    renderExam(document.getElementById("exam-body"), pool);
-  else if (id === "game")
-    renderGame(document.getElementById("game-body"), pool);
-}
-
-function switchTab(panelId, btn) {
+  // Update active tab
   document
     .querySelectorAll(".mode-tab")
-    .forEach((b) => b.classList.remove("active"));
-  document
-    .querySelectorAll(".mode-panel")
-    .forEach((p) => p.classList.remove("active"));
-  btn.classList.add("active");
-  const targetPanel = document.getElementById(panelId);
-  if (targetPanel) targetPanel.classList.add("active");
+    .forEach((e) => e.classList.remove("active"));
+  if (btn) {
+    btn.classList.add("active");
+  } else {
+    const tab = document.getElementById("tab-" + p);
+    if (tab) tab.classList.add("active");
+  }
+
+  // Show/Hide filter selector
+  const filterWrap = document.getElementById("global-filter-wrap");
+  if (filterWrap) {
+    filterWrap.style.display = p === "schedule" ? "none" : "block";
+  }
+
+  // Update Global Hero Strip
+  const heroSub = document.getElementById("hero-sub");
+  const heroMain = document.getElementById("hero-main");
+  const hStat1 = document.getElementById("h-stat-1");
+  const hLbl1 = document.getElementById("h-lbl-1");
+  const hStat2 = document.getElementById("h-stat-2");
+  const hLbl2 = document.getElementById("h-lbl-2");
+
+  const pool = applyFilter(GRAMMAR);
+
+  if (p === "schedule") {
+    heroSub.textContent = "Weekly Schedule";
+    heroMain.textContent = "学習計画";
+    hStat1.textContent = PROGRESS.totalKnown;
+    hLbl1.textContent = "Mastered";
+    const days = studyDay();
+    hStat2.textContent = days;
+    hLbl2.textContent = days === 1 ? "Day" : "Days";
+    renderSchedule();
+  } else if (p === "lessons") {
+    if (globalFilter === "day") {
+      heroSub.textContent = `${DAY_NAMES[filterDay.d]} — Week ${filterDay.w}`;
+    } else {
+      heroSub.textContent =
+        globalFilter === "all"
+          ? "All Lessons"
+          : globalFilter.charAt(0).toUpperCase() +
+            globalFilter.slice(1) +
+            " Lessons";
+    }
+    heroMain.textContent = "学習内容";
+    hStat1.textContent = pool.length;
+    hLbl1.textContent = pool.length === 1 ? "Item" : "Items";
+    hStat2.textContent = PROGRESS.totalKnown;
+    hLbl2.textContent = "Mastered";
+    renderLesson(document.getElementById("lessons-body"), pool);
+  } else if (p === "flashcards") {
+    heroSub.textContent = "Flashcard Deck";
+    heroMain.textContent = "フラッシュカード";
+    hStat1.textContent = PROGRESS.totalKnown;
+    hLbl1.textContent = "Mastered";
+    hStat2.textContent = pool.length;
+    hLbl2.textContent = "In Deck";
+    renderFC(document.getElementById("fc-body"), pool);
+  } else if (p === "quiz") {
+    heroSub.textContent = "Multiple Choice";
+    heroMain.textContent = "クイズ";
+    hStat1.textContent =
+      PROGRESS.quizBestPct > 0 ? PROGRESS.quizBestPct + "%" : "—";
+    hLbl1.textContent = "Accuracy";
+    hStat2.textContent = pool.length;
+    hLbl2.textContent = "Pool";
+    renderQuiz(document.getElementById("quiz-body"), pool, GRAMMAR);
+  } else if (p === "exam") {
+    heroSub.textContent = "JLPT N3 Style";
+    heroMain.textContent = "試験モード";
+    hStat1.textContent = PROGRESS.quizBestScore || 0;
+    hLbl1.textContent = "High Score";
+    hStat2.textContent = pool.length;
+    hLbl2.textContent = "Pool";
+    renderExam(document.getElementById("exam-body"), pool);
+  } else if (p === "game") {
+    heroSub.textContent = "Recall Training";
+    heroMain.textContent = "タイピングゲーム";
+    hStat1.textContent = PROGRESS.gameBestStreak || 0;
+    hLbl1.textContent = "Best";
+    hStat2.textContent = PROGRESS.gameTotalAnswered || 0;
+    hLbl2.textContent = "Total";
+    renderGame(document.getElementById("game-body"), pool);
+  }
+
+  // Scroll to top on page change
+  window.scrollTo(0, 0);
+}
+
+function setGF(f) {
+  globalFilter = f;
+
+  // Update select value if not already set (e.g. when called from code)
+  const select = document.getElementById("global-filter-select");
+  if (select && select.value !== f) select.value = f;
+
+  // Refresh current page with new filter
+  showPage(currentPage);
 }
 
 // ============================================================
 // SCHEDULE
+// ============================================================
 // ============================================================
 function renderSchedule() {
   const grid = document.getElementById("sched-grid");
@@ -205,10 +268,10 @@ function renderSchedule() {
   grid.innerHTML = "";
   const today = studyDay();
 
-  const hDay = document.getElementById("h-day");
+  const hDay = document.getElementById("h-stat-2");
   if (hDay) hDay.textContent = today;
 
-  const hKnow = document.getElementById("h-know");
+  const hKnow = document.getElementById("h-stat-1");
   if (hKnow) hKnow.textContent = PROGRESS.totalKnown;
 
   const fcKnownH = document.getElementById("fc-known-h");
@@ -256,25 +319,21 @@ function renderSchedule() {
 }
 
 function openDay(w, d, pts) {
-  document.getElementById("dd-title").textContent =
-    `${DAY_NAMES[d]} — Week ${w}`;
-  document.getElementById("dd-sub").textContent =
-    `${pts.length} grammar points`;
-  renderLesson(document.getElementById("d-lesson"), pts);
-  renderFC(document.getElementById("d-fc"), pts);
-  // Always use the full GRAMMAR pool for quiz distractor generation
-  renderQuiz(document.getElementById("d-quiz"), pts, GRAMMAR);
-  renderExam(document.getElementById("d-exam"), pts);
-  renderGame(document.getElementById("d-game"), pts);
-  document
-    .querySelectorAll(".mode-tab")
-    .forEach((b) => b.classList.remove("active"));
-  document
-    .querySelectorAll(".mode-panel")
-    .forEach((p) => p.classList.remove("active"));
-  document.querySelector(".mode-tab").classList.add("active");
-  document.getElementById("d-lesson").classList.add("active");
-  showPage("day");
+  globalFilter = "day";
+  filterDay = { w, d };
+
+  // Hide filter wrap since we are in a specific day view
+  const filterWrap = document.getElementById("global-filter-wrap");
+  if (filterWrap) filterWrap.style.display = "none";
+
+  // Show the lessons page for this day
+  showPage("lessons");
+}
+
+function openLesson(grammarName) {
+  const g = GRAMMAR.find((x) => x.g === grammarName);
+  if (!g) return;
+  openDay(g.w, g.d);
 }
 
 // ============================================================
@@ -417,6 +476,7 @@ function renderFC(container, pool) {
         <!-- FRONT -->
         <div class="card-front-wrap">
           <div class="card-front card-side" style="min-height:180px;position:relative">
+            <button class="lesson-link-icon" onclick="event.stopPropagation(); openLesson('${c.g}')" title="View full lesson">📖</button>
             <div class="card-glyph">${c.g}</div>
             <div class="card-romaji">${c.r}</div>
             <div class="card-tap">tap to reveal</div>
@@ -477,7 +537,7 @@ function renderFC(container, pool) {
         deck.splice(Math.min(idx + 2, deck.length), 0, c);
       }
       PROGRESS.totalKnown = PROGRESS.fcKnownSet.length;
-      ["h-know", "fc-known-h"].forEach((id) => {
+      ["h-stat-1", "fc-known-h"].forEach((id) => {
         const el = document.getElementById(id);
         if (el) el.textContent = PROGRESS.totalKnown;
       });
@@ -860,7 +920,11 @@ function renderGame(container, pool) {
         <div><div class="streak-display" id="g-str">🔥 ${streak}</div><span class="streak-lbl">streak</span></div>
         <div style="text-align:right"><div class="streak-display">${gtotal}</div><span class="streak-lbl">answered</span></div>
       </div>
-      <div class="game-prompt"><div class="game-prompt-text">${pt}</div><div class="game-prompt-sub">${sub}</div></div>
+      <div class="game-prompt" style="position:relative">
+        <button class="lesson-link-icon" onclick="openLesson('${current.g}')" title="View full lesson">📖</button>
+        <div class="game-prompt-text">${pt}</div>
+        <div class="game-prompt-sub">${sub}</div>
+      </div>
       <div class="game-hint">${hint}</div>
       <div class="game-input-row">
         <input type="text" class="game-input" id="g-inp" placeholder="type your answer…"/>
@@ -994,7 +1058,7 @@ async function loadProgress() {
         PROGRESS.startDate = getLocalDateString(getStudyStart());
       }
       setSyncStatus("ok", "synced");
-      ["h-know", "fc-known-h"].forEach((id) => {
+      ["h-stat-1", "fc-known-h"].forEach((id) => {
         const el = document.getElementById(id);
         if (el) el.textContent = PROGRESS.totalKnown;
       });
@@ -1036,47 +1100,6 @@ async function saveProgress() {
 function scheduleSave() {
   clearTimeout(syncTimer);
   syncTimer = setTimeout(saveProgress, 1200);
-}
-
-async function syncDate() {
-  if (
-    !confirm(
-      "This will align the study schedule with the current week's Monday. Your mastered grammar and scores will NOT be lost. Proceed?",
-    )
-  )
-    return;
-  PROGRESS.startDate = getLocalDateString(getStudyStart());
-  showToast("Schedule synced to current week");
-  await saveProgress();
-  renderSchedule();
-}
-
-async function resetData() {
-  if (
-    !confirm(
-      "Are you sure you want to reset all progress and study dates? This cannot be undone.",
-    )
-  )
-    return;
-
-  PROGRESS = {
-    fcKnownSet: [],
-    fcUnsureSet: [],
-    fcAgainSet: [],
-    totalKnown: 0,
-    quizBestScore: 0,
-    quizBestPct: 0,
-    gameBestStreak: 0,
-    gameTotalAnswered: 0,
-    badgesEarned: [],
-    lastSaved: null,
-    startDate: getLocalDateString(getStudyStart()),
-  };
-
-  showToast("Data reset. Saving to cloud...");
-  await saveProgress();
-  renderSchedule();
-  showPage("schedule");
 }
 
 // ============================================================

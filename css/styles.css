@@ -51,11 +51,11 @@ header {
 }
 .logo-jp {
   font-family: "Shippori Mincho", serif;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 700;
 }
 .logo-en {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   color: rgba(245, 240, 232, 0.4);
   letter-spacing: 0.14em;
@@ -72,7 +72,7 @@ nav {
   color: rgba(245, 240, 232, 0.5);
   padding: 6px 10px;
   font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.15s;
@@ -95,13 +95,13 @@ nav {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: 12px;
   color: rgba(245, 240, 232, 0.38);
   font-family: "DM Mono", monospace;
 }
 .sync-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: rgba(245, 240, 232, 0.2);
   transition: background 0.4s;
@@ -128,7 +128,7 @@ nav {
 .level-badge {
   background: var(--red);
   color: #fff;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
   padding: 3px 8px;
   border-radius: 4px;
@@ -194,84 +194,97 @@ nav {
 /* HERO */
 .hero-strip {
   background: linear-gradient(135deg, var(--ink) 0%, #2d2520 100%);
-  color: var(--paper);
-  padding: 1.75rem 1.25rem 1.25rem;
+  color: #fff;
+  padding: 2rem;
+  min-height: 160px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 2rem;
 }
 .hero-title {
   font-family: "Shippori Mincho", serif;
-  font-size: 30px;
+  font-size: 52px;
   font-weight: 700;
   line-height: 1.1;
+  color: #fff;
+  text-align: left;
 }
 .hero-title span {
   display: block;
   font-family: "DM Sans", sans-serif;
-  font-size: 10px;
-  font-weight: 300;
-  letter-spacing: 0.13em;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(245, 240, 232, 0.42);
-  margin-bottom: 5px;
+  color: #fff;
+  margin-bottom: 12px;
+  opacity: 0.9;
 }
 .hero-stats {
   display: flex;
-  gap: 1.25rem;
+  gap: 3.5rem;
+  justify-content: flex-end;
+  text-align: right;
 }
 .hstat {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .hstat-num {
   font-family: "Shippori Mincho", serif;
-  font-size: 24px;
+  font-size: 42px;
   font-weight: 600;
   display: block;
+  color: #fff;
+  line-height: 1;
 }
 .hstat-lbl {
-  font-size: 10px;
-  color: rgba(245, 240, 232, 0.38);
-  letter-spacing: 0.1em;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.12em;
   text-transform: uppercase;
+  margin-top: 8px;
 }
 /* LAYOUT */
 .page-body {
-  max-width: 680px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 1.5rem 1.25rem;
+  padding: 2rem 1.5rem;
 }
 /* SCHEDULE */
 .sched-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
 }
 .week-block {
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
+  background: var(--paper);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 .wb-header {
-  padding: 10px 14px;
+  padding: 14px 18px;
   background: var(--ink);
   color: var(--paper);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 .wb-num {
   font-family: "Shippori Mincho", serif;
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 700;
   color: rgba(245, 240, 232, 0.3);
-  min-width: 26px;
+  min-width: 35px;
 }
 .wb-title {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   flex: 1;
 }
 .wb-status {
@@ -292,19 +305,19 @@ nav {
   color: #fff;
 }
 .day-list {
-  padding: 6px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 6px;
 }
 .day-row {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 7px 9px;
-  border-radius: 6px;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: all 0.15s ease;
   border: 1px solid transparent;
 }
 .day-row:hover:not(.locked) {
@@ -323,21 +336,22 @@ nav {
   background: var(--green-l);
 }
 .day-lbl {
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: rgba(26, 23, 20, 0.38);
-  min-width: 28px;
+  letter-spacing: 0.08em;
+  color: rgba(26, 23, 20, 0.5);
+  min-width: 40px;
 }
 .day-pts {
-  font-size: 11px;
+  font-size: 15px;
   color: var(--ink);
   flex: 1;
-  line-height: 1.4;
+  line-height: 1.6;
+  font-weight: 500;
 }
 .day-badge-icon {
-  font-size: 10px;
+  font-size: 14px;
 }
 /* DAY DETAIL */
 .dd-header {
@@ -371,35 +385,72 @@ nav {
   color: rgba(245, 240, 232, 0.45);
   margin-top: 1px;
 }
+/* MODE TABS */
 .mode-tabs {
   display: flex;
-  gap: 4px;
-  padding: 0.9rem 1.25rem 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
   border-bottom: 1px solid var(--border);
-  background: var(--paper);
+  background: var(--paper2);
+  position: sticky;
+  top: 58px;
+  z-index: 100;
+  gap: 15px;
+}
+.tab-scroll-wrap {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  flex: 1;
+}
+.tab-scroll-wrap::-webkit-scrollbar {
+  display: none;
 }
 .mode-tab {
-  padding: 7px 14px;
+  padding: 14px 14px;
   border: none;
   border-bottom: 2px solid transparent;
   background: transparent;
   cursor: pointer;
   font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(26, 23, 20, 0.48);
   transition: all 0.15s;
   margin-bottom: -1px;
+}
+.mode-tab:hover {
+  color: var(--ink);
 }
 .mode-tab.active {
   color: var(--ink);
   border-bottom-color: var(--red);
   font-weight: 500;
 }
-.mode-panel {
-  display: none;
+.filter-select-wrap {
+  padding: 8px 0;
 }
-.mode-panel.active {
-  display: block;
+#global-filter-select {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border-s);
+  background: var(--paper);
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  color: var(--ink);
+  cursor: pointer;
+  outline: none;
+}
+#global-filter-select:hover {
+  border-color: var(--ink);
+}
+@media (max-width: 600px) {
+  .mode-tabs {
+    padding: 0 0.75rem;
+    gap: 10px;
+  }
 }
 /* FLASHCARDS / SRS */
 .prog-row {
@@ -623,19 +674,45 @@ nav {
 }
 .btn-flip-fc {
   width: 100%;
-  padding: 9px;
-  border-radius: 7px;
-  border: 1px solid var(--border-s);
-  background: transparent;
-  color: var(--ink);
-  font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  margin-top: 1rem;
+  padding: 12px;
+  background: var(--paper2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 13px;
   cursor: pointer;
-  margin-bottom: 6px;
+  color: var(--ink);
+  transition: all 0.2s;
 }
 .btn-flip-fc:hover {
-  background: var(--paper2);
+  background: var(--border);
 }
+
+.lesson-link-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--ink);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+  z-index: 10;
+}
+.lesson-link-icon:hover {
+  background: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* QUIZ */
 .quiz-scorebar {
   display: grid;
