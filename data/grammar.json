@@ -1,0 +1,1489 @@
+{
+  "WEEK_TITLES": {
+    "1": "Foundations — あ・ば",
+    "2": "Degree & Extent",
+    "3": "Core connectors",
+    "4": "に family (part 1)",
+    "5": "に family (part 2)",
+    "6": "て & と forms",
+    "7": "と forms & adverbs",
+    "8": "Causatives & result",
+    "9": "Advanced nuance",
+    "10": "Final review"
+  },
+  "DAY_NAMES": ["", "Mon", "Tue", "Wed", "Thu", "Fri"],
+  "GRAMMAR": [
+    {
+      "g": "上げる",
+      "r": "ageru",
+      "m": "to finish doing~",
+      "ex": "手紙を書き上げた。 I finished writing the letter.",
+      "w": 1,
+      "d": 1
+    },
+    {
+      "g": "あまり",
+      "r": "amari",
+      "m": "so much… that",
+      "ex": "あまり食べてお腹が痛い。",
+      "w": 1,
+      "d": 1
+    },
+    {
+      "g": "あまりにも",
+      "r": "amari ni mo",
+      "m": "too~; excessively~",
+      "ex": "あまりにも難しくて諦めた。",
+      "w": 1,
+      "d": 1
+    },
+    {
+      "g": "合う",
+      "r": "au",
+      "m": "do something together",
+      "ex": "一緒に考え合おう。",
+      "w": 1,
+      "d": 2
+    },
+    {
+      "g": "ばいい",
+      "r": "ba ii",
+      "m": "should~; it would be good if~",
+      "ex": "もっと勉強すればいい。",
+      "w": 1,
+      "d": 2
+    },
+    {
+      "g": "ばよかった",
+      "r": "ba yokatta",
+      "m": "should have; would have been better if~",
+      "ex": "早く来ればよかった。",
+      "w": 1,
+      "d": 3
+    },
+    {
+      "g": "ば～ほど",
+      "r": "ba~hodo",
+      "m": "the more… the more~",
+      "ex": "練習すればするほど上手になる。",
+      "w": 1,
+      "d": 3
+    },
+    {
+      "g": "ば～のに",
+      "r": "ba~noni",
+      "m": "would have; if only~",
+      "ex": "お金があれば旅行するのに。",
+      "w": 1,
+      "d": 3
+    },
+    {
+      "g": "ばかりで",
+      "r": "bakari de",
+      "m": "only; just (negative)",
+      "ex": "食べてばかりで運動しない。",
+      "w": 1,
+      "d": 4
+    },
+    {
+      "g": "ばかりでなく",
+      "r": "bakari denaku",
+      "m": "not only… but also",
+      "ex": "日本語ばかりでなく英語も勉強する。",
+      "w": 1,
+      "d": 4
+    },
+    {
+      "g": "べきだ",
+      "r": "beki da",
+      "m": "should do~; must do~",
+      "ex": "約束は守るべきだ。",
+      "w": 1,
+      "d": 4
+    },
+    {
+      "g": "べきではない",
+      "r": "beki dewa nai",
+      "m": "should not do~",
+      "ex": "嘘をつくべきではない。",
+      "w": 1,
+      "d": 5
+    },
+    {
+      "g": "別に～ない",
+      "r": "betsu ni~nai",
+      "m": "not really; not particularly",
+      "ex": "別に気にしない。",
+      "w": 1,
+      "d": 5
+    },
+    {
+      "g": "ぶりに",
+      "r": "buri ni",
+      "m": "for the first time in [period]",
+      "ex": "三年ぶりに会った。",
+      "w": 1,
+      "d": 5
+    },
+    {
+      "g": "中",
+      "r": "chuu/juu",
+      "m": "currently; during; throughout",
+      "ex": "工事中です。",
+      "w": 2,
+      "d": 1
+    },
+    {
+      "g": "だけ",
+      "r": "dake",
+      "m": "as much as~; only~",
+      "ex": "できるだけ頑張ります。",
+      "w": 2,
+      "d": 1
+    },
+    {
+      "g": "だけでなく",
+      "r": "dake de naku",
+      "m": "not only… but also",
+      "ex": "英語だけでなく日本語も話す。",
+      "w": 2,
+      "d": 1
+    },
+    {
+      "g": "だらけ",
+      "r": "darake",
+      "m": "full of; covered with~",
+      "ex": "部屋がゴミだらけだ。",
+      "w": 2,
+      "d": 2
+    },
+    {
+      "g": "どんなに～ても",
+      "r": "donna ni~temo",
+      "m": "no matter how (much)",
+      "ex": "どんなに疲れても続ける。",
+      "w": 2,
+      "d": 2
+    },
+    {
+      "g": "どうしても",
+      "r": "doushitemo",
+      "m": "no matter what; at any cost",
+      "ex": "どうしても行きたい。",
+      "w": 2,
+      "d": 2
+    },
+    {
+      "g": "がち",
+      "r": "gachi",
+      "m": "tend to; tendency to~",
+      "ex": "忘れがちなので注意する。",
+      "w": 2,
+      "d": 3
+    },
+    {
+      "g": "がたい",
+      "r": "gatai",
+      "m": "very difficult to; impossible to~",
+      "ex": "信じがたい話だ。",
+      "w": 2,
+      "d": 3
+    },
+    {
+      "g": "ごとに",
+      "r": "goto ni",
+      "m": "each; every; at intervals of~",
+      "ex": "一時間ごとに休憩する。",
+      "w": 2,
+      "d": 3
+    },
+    {
+      "g": "ほど",
+      "r": "hodo",
+      "m": "degree; extent; upper limit",
+      "ex": "死ぬほど疲れた。",
+      "w": 2,
+      "d": 4
+    },
+    {
+      "g": "ほど～ない",
+      "r": "hodo~nai",
+      "m": "is not as… as~",
+      "ex": "思ったほど難しくない。",
+      "w": 2,
+      "d": 4
+    },
+    {
+      "g": "一度に",
+      "r": "ichido ni",
+      "m": "all at once",
+      "ex": "一度に全部食べた。",
+      "w": 2,
+      "d": 4
+    },
+    {
+      "g": "いくら～ても",
+      "r": "ikura~temo",
+      "m": "no matter how~",
+      "ex": "いくら寝ても眠い。",
+      "w": 2,
+      "d": 5
+    },
+    {
+      "g": "一方だ",
+      "r": "ippou da",
+      "m": "more and more; continue to~",
+      "ex": "物価が上がる一方だ。",
+      "w": 2,
+      "d": 5
+    },
+    {
+      "g": "一体",
+      "r": "ittai",
+      "m": "emphasis; what on earth?",
+      "ex": "一体何が起きたの？",
+      "w": 2,
+      "d": 5
+    },
+    {
+      "g": "かける",
+      "r": "kakeru",
+      "m": "half-; not yet finished~",
+      "ex": "読みかけの本がある。",
+      "w": 3,
+      "d": 1
+    },
+    {
+      "g": "代わりに",
+      "r": "kawari ni",
+      "m": "instead of; in exchange for~",
+      "ex": "私の代わりに行ってください。",
+      "w": 3,
+      "d": 1
+    },
+    {
+      "g": "結局",
+      "r": "kekkyoku",
+      "m": "after all; eventually; in the end",
+      "ex": "結局諦めた。",
+      "w": 3,
+      "d": 1
+    },
+    {
+      "g": "決して～ない",
+      "r": "kesshite~nai",
+      "m": "never; by no means",
+      "ex": "決して諦めない。",
+      "w": 3,
+      "d": 2
+    },
+    {
+      "g": "切れない",
+      "r": "kirenai",
+      "m": "unable to do; too much to finish",
+      "ex": "食べ切れない量だ。",
+      "w": 3,
+      "d": 2
+    },
+    {
+      "g": "こそ",
+      "r": "koso",
+      "m": "for sure; precisely; definitely",
+      "ex": "今年こそ合格する。",
+      "w": 3,
+      "d": 2
+    },
+    {
+      "g": "こと",
+      "r": "koto",
+      "m": "(must) do~",
+      "ex": "毎日練習すること。",
+      "w": 3,
+      "d": 3
+    },
+    {
+      "g": "ことから",
+      "r": "koto kara",
+      "m": "from the fact that~",
+      "ex": "色が変わったことから腐っていると分かった。",
+      "w": 3,
+      "d": 3
+    },
+    {
+      "g": "ことになっている",
+      "r": "koto ni natteiru",
+      "m": "to be expected to; it has been decided~",
+      "ex": "明日会議に出ることになっている。",
+      "w": 3,
+      "d": 3
+    },
+    {
+      "g": "ことはない",
+      "r": "koto wa nai",
+      "m": "there is no need to~",
+      "ex": "そんなに心配することはない。",
+      "w": 3,
+      "d": 4
+    },
+    {
+      "g": "くせに",
+      "r": "kuse ni",
+      "m": "although~; despite the fact that~",
+      "ex": "知っているくせに教えない。",
+      "w": 3,
+      "d": 4
+    },
+    {
+      "g": "まるで",
+      "r": "maru de",
+      "m": "as if; as though; just like~",
+      "ex": "まるで夢のようだ。",
+      "w": 3,
+      "d": 4
+    },
+    {
+      "g": "めったに～ない",
+      "r": "metta ni~nai",
+      "m": "hardly; rarely; seldom~",
+      "ex": "めったに怒らない人だ。",
+      "w": 3,
+      "d": 5
+    },
+    {
+      "g": "もしかしたら",
+      "r": "moshika shitara",
+      "m": "perhaps; maybe; by chance~",
+      "ex": "もしかしたら来ないかもしれない。",
+      "w": 3,
+      "d": 5
+    },
+    {
+      "g": "むしろ",
+      "r": "mushiro",
+      "m": "rather; instead; better~",
+      "ex": "これはむしろ良い機会だ。",
+      "w": 3,
+      "d": 5
+    },
+    {
+      "g": "ながらも",
+      "r": "nagara mo",
+      "m": "but; although; despite~",
+      "ex": "小さいながらも夢を持っている。",
+      "w": 4,
+      "d": 1
+    },
+    {
+      "g": "ないことはない",
+      "r": "nai koto wa nai",
+      "m": "can do~; is not impossible~",
+      "ex": "できないことはないが大変だ。",
+      "w": 4,
+      "d": 1
+    },
+    {
+      "g": "なかなか",
+      "r": "nakanaka",
+      "m": "quite~; pretty~; just not~",
+      "ex": "なかなか難しい問題だ。",
+      "w": 4,
+      "d": 1
+    },
+    {
+      "g": "なるべく",
+      "r": "naru beku",
+      "m": "as much as possible",
+      "ex": "なるべく早く来てください。",
+      "w": 4,
+      "d": 2
+    },
+    {
+      "g": "なぜなら",
+      "r": "nazenara",
+      "m": "because; the reason is~",
+      "ex": "行けない。なぜなら忙しいから。",
+      "w": 4,
+      "d": 2
+    },
+    {
+      "g": "に違いない",
+      "r": "ni chigai nai",
+      "m": "I'm certain; no doubt that~",
+      "ex": "彼は知っているに違いない。",
+      "w": 4,
+      "d": 2
+    },
+    {
+      "g": "に反して",
+      "r": "ni hanshite",
+      "m": "against; contrary to~",
+      "ex": "予想に反して簡単だった。",
+      "w": 4,
+      "d": 3
+    },
+    {
+      "g": "に比べて",
+      "r": "ni kurabete",
+      "m": "compared to~",
+      "ex": "去年に比べて上手になった。",
+      "w": 4,
+      "d": 3
+    },
+    {
+      "g": "に慣れる",
+      "r": "ni nareru",
+      "m": "to be used to something",
+      "ex": "日本の生活に慣れた。",
+      "w": 4,
+      "d": 3
+    },
+    {
+      "g": "において",
+      "r": "ni oite",
+      "m": "in; at; regarding~",
+      "ex": "スポーツにおいて努力が大切だ。",
+      "w": 4,
+      "d": 4
+    },
+    {
+      "g": "にしたがって",
+      "r": "ni shitagatte",
+      "m": "as; in accordance with~",
+      "ex": "時代にしたがって言葉が変わる。",
+      "w": 4,
+      "d": 4
+    },
+    {
+      "g": "にしても",
+      "r": "ni shite mo",
+      "m": "even if; even though~",
+      "ex": "冗談にしても失礼だ。",
+      "w": 4,
+      "d": 4
+    },
+    {
+      "g": "にしては",
+      "r": "ni shite wa",
+      "m": "for; considering it's~",
+      "ex": "初めてにしては上手だ。",
+      "w": 4,
+      "d": 5
+    },
+    {
+      "g": "に対して",
+      "r": "ni taishite",
+      "m": "towards; against; regarding~",
+      "ex": "先生に対して礼儀正しくする。",
+      "w": 4,
+      "d": 5
+    },
+    {
+      "g": "にとって",
+      "r": "ni totte",
+      "m": "for; concerning~",
+      "ex": "私にとって家族が一番大切だ。",
+      "w": 4,
+      "d": 5
+    },
+    {
+      "g": "について",
+      "r": "ni tsuite",
+      "m": "concerning; regarding; about~",
+      "ex": "日本の文化について話した。",
+      "w": 5,
+      "d": 1
+    },
+    {
+      "g": "につれて",
+      "r": "ni tsurete",
+      "m": "as; in proportion to~",
+      "ex": "年をとるにつれて体が弱くなる。",
+      "w": 5,
+      "d": 1
+    },
+    {
+      "g": "によると",
+      "r": "ni yoru to",
+      "m": "according to~",
+      "ex": "ニュースによると大雨が降るそうだ。",
+      "w": 5,
+      "d": 1
+    },
+    {
+      "g": "によって",
+      "r": "ni yotte",
+      "m": "by means of; due to; because of~",
+      "ex": "努力によって夢が叶う。",
+      "w": 5,
+      "d": 2
+    },
+    {
+      "g": "さえ",
+      "r": "sae",
+      "m": "even; so much as~",
+      "ex": "名前さえ知らない。",
+      "w": 5,
+      "d": 2
+    },
+    {
+      "g": "さえ～ば",
+      "r": "sae~ba",
+      "m": "if only; as long as~",
+      "ex": "健康でさえあれば幸せだ。",
+      "w": 5,
+      "d": 2
+    },
+    {
+      "g": "際に",
+      "r": "sai ni",
+      "m": "when; at the time of~",
+      "ex": "出発の際にご連絡ください。",
+      "w": 5,
+      "d": 3
+    },
+    {
+      "g": "最中に",
+      "r": "saichuu ni",
+      "m": "while; in the middle of~",
+      "ex": "食事の最中に電話が鳴った。",
+      "w": 5,
+      "d": 3
+    },
+    {
+      "g": "せいで",
+      "r": "sei de",
+      "m": "because of; due to~",
+      "ex": "雨のせいで試合が中止になった。",
+      "w": 5,
+      "d": 3
+    },
+    {
+      "g": "しかない",
+      "r": "shikanai",
+      "m": "have no choice but~",
+      "ex": "歩いて行くしかない。",
+      "w": 5,
+      "d": 4
+    },
+    {
+      "g": "そのために",
+      "r": "sono tame ni",
+      "m": "hence; for that reason~",
+      "ex": "遅れた。そのために謝った。",
+      "w": 5,
+      "d": 4
+    },
+    {
+      "g": "たものだ",
+      "r": "ta mono da",
+      "m": "used to do; would often do~",
+      "ex": "子供の頃よく遊んだものだ。",
+      "w": 5,
+      "d": 4
+    },
+    {
+      "g": "たとたん",
+      "r": "ta totan",
+      "m": "as soon as; just as~",
+      "ex": "ドアを開けたとたん猫が入った。",
+      "w": 5,
+      "d": 5
+    },
+    {
+      "g": "たびに",
+      "r": "tabi ni",
+      "m": "whenever; every time~",
+      "ex": "日本に来るたびに寿司を食べる。",
+      "w": 5,
+      "d": 5
+    },
+    {
+      "g": "ために",
+      "r": "tame ni",
+      "m": "for; in order to~",
+      "ex": "合格するために毎日勉強する。",
+      "w": 5,
+      "d": 5
+    },
+    {
+      "g": "たとえ～ても",
+      "r": "tatoe~temo",
+      "m": "even if… is the case~",
+      "ex": "たとえ雨でも行きます。",
+      "w": 6,
+      "d": 1
+    },
+    {
+      "g": "てばかりいる",
+      "r": "te bakari iru",
+      "m": "only; nothing but~",
+      "ex": "遊んでばかりいる。",
+      "w": 6,
+      "d": 1
+    },
+    {
+      "g": "てごらん",
+      "r": "te goran",
+      "m": "(please) try to~",
+      "ex": "食べてごらん。",
+      "w": 6,
+      "d": 1
+    },
+    {
+      "g": "てはじめて",
+      "r": "te hajimete",
+      "m": "not until~; only after~",
+      "ex": "失って初めてその大切さが分かった。",
+      "w": 6,
+      "d": 2
+    },
+    {
+      "g": "てからでないと",
+      "r": "te kara de nai to",
+      "m": "must first do; cannot without~",
+      "ex": "宿題をしてからでないとゲームはできない。",
+      "w": 6,
+      "d": 2
+    },
+    {
+      "g": "てしょうがない",
+      "r": "te shou ga nai",
+      "m": "can't help but~; very~",
+      "ex": "眠くてしょうがない。",
+      "w": 6,
+      "d": 2
+    },
+    {
+      "g": "て済む",
+      "r": "te sumu",
+      "m": "sufficient by; resolve by~",
+      "ex": "謝って済む問題ではない。",
+      "w": 6,
+      "d": 3
+    },
+    {
+      "g": "ても始まらない",
+      "r": "temo hajimaranai",
+      "m": "even if you… it's no use~",
+      "ex": "泣いても始まらない。",
+      "w": 6,
+      "d": 3
+    },
+    {
+      "g": "てもかまわない",
+      "r": "temo kamawanai",
+      "m": "it doesn't matter if~",
+      "ex": "遅くなってもかまわない。",
+      "w": 6,
+      "d": 3
+    },
+    {
+      "g": "と言えば",
+      "r": "to ieba",
+      "m": "speaking of~",
+      "ex": "日本と言えば富士山だ。",
+      "w": 6,
+      "d": 4
+    },
+    {
+      "g": "といい/たらいい",
+      "r": "to ii/tara ii",
+      "m": "it would be nice if; I hope~",
+      "ex": "合格したらいいな。",
+      "w": 6,
+      "d": 4
+    },
+    {
+      "g": "といっても",
+      "r": "to ittemo",
+      "m": "although I say~",
+      "ex": "上手といっても練習が必要だ。",
+      "w": 6,
+      "d": 4
+    },
+    {
+      "g": "ということだ",
+      "r": "to iu koto da",
+      "m": "I heard; it means~",
+      "ex": "彼が来ないということだ。",
+      "w": 6,
+      "d": 5
+    },
+    {
+      "g": "というのは",
+      "r": "to iu nowa",
+      "m": "this means~; that is to say~",
+      "ex": "友達というのは大切だ。",
+      "w": 6,
+      "d": 5
+    },
+    {
+      "g": "というより",
+      "r": "to iu yori",
+      "m": "rather than~",
+      "ex": "好きというより大好きだ。",
+      "w": 6,
+      "d": 5
+    },
+    {
+      "g": "とみえる",
+      "r": "to mieru",
+      "m": "it seems that~",
+      "ex": "彼は疲れているとみえる。",
+      "w": 7,
+      "d": 1
+    },
+    {
+      "g": "とすれば",
+      "r": "to sureba",
+      "m": "assuming~; if A then B~",
+      "ex": "それが本当だとすれば大変だ。",
+      "w": 7,
+      "d": 1
+    },
+    {
+      "g": "と共に",
+      "r": "to tomo ni",
+      "m": "together with; at the same time as~",
+      "ex": "春と共に花が咲く。",
+      "w": 7,
+      "d": 1
+    },
+    {
+      "g": "途中で",
+      "r": "tochuu de",
+      "m": "on the way; in the middle of~",
+      "ex": "途中で疲れて休んだ。",
+      "w": 7,
+      "d": 2
+    },
+    {
+      "g": "ところが",
+      "r": "tokoro ga",
+      "m": "even so; however~",
+      "ex": "頑張った。ところが失敗した。",
+      "w": 7,
+      "d": 2
+    },
+    {
+      "g": "とおりに",
+      "r": "toori ni",
+      "m": "in the same way as; as~",
+      "ex": "言われたとおりにした。",
+      "w": 7,
+      "d": 2
+    },
+    {
+      "g": "として",
+      "r": "toshite",
+      "m": "as~; in the role of~",
+      "ex": "先生として最善を尽くす。",
+      "w": 7,
+      "d": 3
+    },
+    {
+      "g": "とても～ない",
+      "r": "totemo~nai",
+      "m": "cannot possibly be; hardly~",
+      "ex": "とても信じられない。",
+      "w": 7,
+      "d": 3
+    },
+    {
+      "g": "とは限らない",
+      "r": "towa kagiranai",
+      "m": "not necessarily; not always true",
+      "ex": "高いものが良いとは限らない。",
+      "w": 7,
+      "d": 3
+    },
+    {
+      "g": "つい",
+      "r": "tsui",
+      "m": "accidentally; unintentionally~",
+      "ex": "ついお菓子を食べ過ぎた。",
+      "w": 7,
+      "d": 4
+    },
+    {
+      "g": "ついに",
+      "r": "tsui ni",
+      "m": "finally~; at last~",
+      "ex": "ついに夢が叶った。",
+      "w": 7,
+      "d": 4
+    },
+    {
+      "g": "ついでに",
+      "r": "tsuide ni",
+      "m": "while; at the same time~",
+      "ex": "買い物のついでに銀行に寄った。",
+      "w": 7,
+      "d": 4
+    },
+    {
+      "g": "つまり",
+      "r": "tsumari",
+      "m": "in other words; in short~",
+      "ex": "つまり無理だということだ。",
+      "w": 7,
+      "d": 5
+    },
+    {
+      "g": "うちに",
+      "r": "uchi ni",
+      "m": "while~; before~ changes",
+      "ex": "若いうちに旅行しよう。",
+      "w": 7,
+      "d": 5
+    },
+    {
+      "g": "うえで",
+      "r": "ue de",
+      "m": "after; upon; when~",
+      "ex": "確認したうえで連絡します。",
+      "w": 7,
+      "d": 5
+    },
+    {
+      "g": "わけがない",
+      "r": "wake ga nai",
+      "m": "there's no way; cannot be~",
+      "ex": "彼が嘘をつくわけがない。",
+      "w": 8,
+      "d": 1
+    },
+    {
+      "g": "わけだ",
+      "r": "wake da",
+      "m": "it means; of course; naturally~",
+      "ex": "練習したから上手なわけだ。",
+      "w": 8,
+      "d": 1
+    },
+    {
+      "g": "わけではない",
+      "r": "wake dewa nai",
+      "m": "it doesn't mean that~",
+      "ex": "嫌いなわけではない。",
+      "w": 8,
+      "d": 1
+    },
+    {
+      "g": "やすい",
+      "r": "yasui",
+      "m": "easy to do; likely to~",
+      "ex": "この道は滑りやすい。",
+      "w": 8,
+      "d": 2
+    },
+    {
+      "g": "にかけて",
+      "r": "ni kakete",
+      "m": "over a period; concerning~",
+      "ex": "3月から4月にかけて桜が咲く.",
+      "w": 8,
+      "d": 2
+    },
+    {
+      "g": "をはじめ",
+      "r": "o hajime",
+      "m": "for example; starting with~",
+      "ex": "東京をはじめ全国で売っている。",
+      "w": 8,
+      "d": 2
+    },
+    {
+      "g": "を通じて",
+      "r": "o tsuujite",
+      "m": "through; via; throughout~",
+      "ex": "SNSを通じて友達になった。",
+      "w": 8,
+      "d": 3
+    },
+    {
+      "g": "おかげで",
+      "r": "okage de",
+      "m": "thanks to~; owing to~",
+      "ex": "先生のおかげで合格できた。",
+      "w": 8,
+      "d": 3
+    },
+    {
+      "g": "っぱなし",
+      "r": "ppanashi",
+      "m": "leaving still in use; leaving on~",
+      "ex": "電気をつけっぱなしにした。",
+      "w": 8,
+      "d": 3
+    },
+    {
+      "g": "っぽい",
+      "r": "ppoi",
+      "m": "seems; -ish; easily does~",
+      "ex": "子供っぽい行動だ。",
+      "w": 8,
+      "d": 4
+    },
+    {
+      "g": "さらに",
+      "r": "sara ni",
+      "m": "furthermore; more and more~",
+      "ex": "さらに詳しく説明します。",
+      "w": 8,
+      "d": 4
+    },
+    {
+      "g": "しばらく",
+      "r": "shibaraku",
+      "m": "for a while; for a moment~",
+      "ex": "しばらく待ってください。",
+      "w": 8,
+      "d": 4
+    },
+    {
+      "g": "すでに",
+      "r": "sude ni",
+      "m": "already; something already done",
+      "ex": "彼はすでに帰った。",
+      "w": 8,
+      "d": 5
+    },
+    {
+      "g": "確かに",
+      "r": "tashika ni",
+      "m": "surely; certainly~",
+      "ex": "確かに彼の言う通りだ。",
+      "w": 8,
+      "d": 5
+    },
+    {
+      "g": "たて",
+      "r": "tate",
+      "m": "just done; freshly done~",
+      "ex": "炊きたてのご飯は美味しい。",
+      "w": 8,
+      "d": 5
+    },
+    {
+      "g": "例えば",
+      "r": "tatoeba",
+      "m": "for example~",
+      "ex": "例えば東京や大阪が有名だ。",
+      "w": 9,
+      "d": 1
+    },
+    {
+      "g": "気味",
+      "r": "gimi",
+      "m": "-like; tending to~",
+      "ex": "最近疲れ気味だ。",
+      "w": 9,
+      "d": 1
+    },
+    {
+      "g": "んだって",
+      "r": "ndatte",
+      "m": "I hear that; heard that~",
+      "ex": "彼が来ないんだって。",
+      "w": 9,
+      "d": 1
+    },
+    {
+      "g": "のでしょうか",
+      "r": "no deshou ka",
+      "m": "ask a question politely",
+      "ex": "どこに行くのでしょうか。",
+      "w": 9,
+      "d": 2
+    },
+    {
+      "g": "を中心に",
+      "r": "o chuushin ni",
+      "m": "focused on; centered on~",
+      "ex": "東京を中心に活動している。",
+      "w": 9,
+      "d": 2
+    },
+    {
+      "g": "を込めて",
+      "r": "o komete",
+      "m": "filled with; full of~",
+      "ex": "心を込めてプレゼントした。",
+      "w": 9,
+      "d": 2
+    },
+    {
+      "g": "さて",
+      "r": "sate",
+      "m": "well; now; then (conjunction)",
+      "ex": "さて、始めましょう。",
+      "w": 9,
+      "d": 3
+    },
+    {
+      "g": "せいぜい",
+      "r": "seizei",
+      "m": "at the most; at best~",
+      "ex": "せいぜい一時間で終わる。",
+      "w": 9,
+      "d": 3
+    },
+    {
+      "g": "それとも",
+      "r": "soretomo",
+      "m": "or; or else~",
+      "ex": "コーヒー、それとも紅茶？",
+      "w": 9,
+      "d": 3
+    },
+    {
+      "g": "そうもない",
+      "r": "sou mo nai",
+      "m": "very unlikely to~",
+      "ex": "彼は来そうもない。",
+      "w": 9,
+      "d": 4
+    },
+    {
+      "g": "すなわち",
+      "r": "sunawachi",
+      "m": "in other words; namely~",
+      "ex": "すなわち失敗だということだ。",
+      "w": 9,
+      "d": 4
+    },
+    {
+      "g": "たって",
+      "r": "tatte",
+      "m": "even if; even though~",
+      "ex": "今さら謝ったって遅い。",
+      "w": 9,
+      "d": 5
+    },
+    {
+      "g": "ている場合じゃない",
+      "r": "teiru baai janai",
+      "m": "this is no time to be doing~",
+      "ex": "泣いている場合じゃない。",
+      "w": 9,
+      "d": 5
+    },
+    {
+      "g": "的",
+      "r": "teki",
+      "m": "change noun into na-adjective",
+      "ex": "科学的な方法で研究する。",
+      "w": 10,
+      "d": 1
+    },
+    {
+      "g": "ところで",
+      "r": "tokoro de",
+      "m": "by the way~",
+      "ex": "ところで、最近どう？",
+      "w": 10,
+      "d": 1
+    },
+    {
+      "g": "通す",
+      "r": "toosu",
+      "m": "to do until the end; continually~",
+      "ex": "最後までやり通す。",
+      "w": 10,
+      "d": 1
+    },
+    {
+      "g": "つもりだった",
+      "r": "tsumori datta",
+      "m": "I thought I~; I believe I did~",
+      "ex": "電話したつもりだったが忘れた。",
+      "w": 10,
+      "d": 2
+    },
+    {
+      "g": "つもりで",
+      "r": "tsumori de",
+      "m": "with the intention of doing~",
+      "ex": "本気のつもりで練習する。",
+      "w": 10,
+      "d": 2
+    },
+    {
+      "g": "も～ば～も",
+      "r": "mo~ba~mo",
+      "m": "and; also; as well~",
+      "ex": "雨も降れば風も吹く。",
+      "w": 10,
+      "d": 2
+    },
+    {
+      "g": "もしも～たら",
+      "r": "moshimo~tara",
+      "m": "if; in the case; supposing~",
+      "ex": "もしも宝くじが当たったら。",
+      "w": 10,
+      "d": 3
+    },
+    {
+      "g": "向け",
+      "r": "muke",
+      "m": "intended for; aimed at~",
+      "ex": "子供向けの番組だ。",
+      "w": 10,
+      "d": 3
+    },
+    {
+      "g": "向き",
+      "r": "muki",
+      "m": "suitable for~",
+      "ex": "初心者向き of courseだ。",
+      "w": 10,
+      "d": 3
+    },
+    {
+      "g": "直す",
+      "r": "naosu",
+      "m": "to do again; to do over~",
+      "ex": "もう一度書き直してください。",
+      "w": 10,
+      "d": 4
+    },
+    {
+      "g": "込む",
+      "r": "komu",
+      "m": "move inside; do a long time~",
+      "ex": "考え込んでしまった。",
+      "w": 10,
+      "d": 4
+    },
+    {
+      "g": "切る",
+      "r": "kiru",
+      "m": "to do completely to the end~",
+      "ex": "最後まで言い切った。",
+      "w": 10,
+      "d": 4
+    },
+    {
+      "g": "きり",
+      "r": "kiri",
+      "m": "only; just; since~",
+      "ex": "彼と会ったきり連絡がない。",
+      "w": 10,
+      "d": 5
+    },
+    {
+      "g": "ふりをする",
+      "r": "furi o suru",
+      "m": "to pretend; to act as if~",
+      "ex": "知らないふりをした。",
+      "w": 10,
+      "d": 5
+    },
+    {
+      "g": "ふと",
+      "r": "futo",
+      "m": "suddenly; accidentally~",
+      "ex": "ふと空を見上げた。",
+      "w": 10,
+      "d": 5
+    }
+  ],
+  "GRAMMAR_DETAIL": {
+    "上げる": {
+      "formation": "Verb-stem + あげる",
+      "note": "Indicates completing an action all the way to the end. Often implies effort or accomplishment.",
+      "examples": [
+        {
+          "jp": "手紙を書き上げた。",
+          "furigana": "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げた。",
+          "en": "I finished writing the letter."
+        },
+        {
+          "jp": "レポートをやっと仕上げた。",
+          "furigana": "レポートをやっと<ruby>仕上<rt>しあ</rt></ruby>げた。",
+          "en": "I finally finished the report."
+        },
+        {
+          "jp": "彼女は三年かけて小説を書き上げた。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は3<ruby>年<rt>ねん</rt></ruby>かけて<ruby>小説<rt>しょうせつ</rt></ruby> को <ruby>書<rt>か</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げた。",
+          "en": "She finished writing a novel over three years."
+        }
+      ]
+    },
+    "あまり": {
+      "formation": "あまり + [negative verb] / [positive verb] + あまり",
+      "note": "Used in two ways: (1) before a negative = \"not very~\"; (2) after a verb = \"so much that~\" (often negative result).",
+      "examples": [
+        {
+          "jp": "あまり食べて、お腹が痛い。",
+          "furigana": "あまり<ruby>食<rt>た</rt></ruby>べて、お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い。",
+          "en": "I ate so much that my stomach hurts."
+        },
+        {
+          "jp": "彼女はあまり話さない。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>はあまり<ruby>話<rt>はな</rt></ruby>さない。",
+          "en": "She doesn't talk very much."
+        },
+        {
+          "jp": "心配のあまり、眠れなかった。",
+          "furigana": "<ruby>心配<rt>しんぱい</rt></ruby>のあまり、<ruby>眠<rt>ねむ</rt></ruby>れなかった。",
+          "en": "I was so worried that I couldn't sleep."
+        }
+      ]
+    },
+    "あまりにも": {
+      "formation": "あまりにも + adjective/adverb",
+      "note": "Stronger than あまり. Expresses that something is excessively so — often carries an emotional or critical nuance.",
+      "examples": [
+        {
+          "jp": "あまりにも難しくて諦めた。",
+          "furigana": "あまりにも<ruby>難<rt>むずか</rt></ruby>しくて<ruby>諦<rt>あきら</rt></ruby>めた。",
+          "en": "It was so excessively difficult that I gave up."
+        },
+        {
+          "jp": "あまりにも暑くて外に出られない。",
+          "furigana": "あまりにも<ruby>暑<rt>あつ</rt></ruby>しくて<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>られない。",
+          "en": "It's far too hot to go outside."
+        },
+        {
+          "jp": "彼の言葉はあまりにも失礼だった。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>はあまりにも<ruby>失礼<rt>しつれい</rt></ruby>だった。",
+          "en": "His words were excessively rude."
+        }
+      ]
+    },
+    "合う": {
+      "formation": "Verb-stem + 合う",
+      "note": "Expresses mutual or reciprocal action — doing something together or to each other.",
+      "examples": [
+        {
+          "jp": "一緒に考え合おう。",
+          "furigana": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>え<ruby>合<rt>あ</rt></ruby>おう。",
+          "en": "Let's think about it together."
+        },
+        {
+          "jp": "二人は見つめ合っていた。",
+          "furigana": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>見<rt>み</rt></ruby>つめ<ruby>合<rt>あ</rt></ruby>っていた。",
+          "en": "The two were gazing at each other."
+        },
+        {
+          "jp": "お互いに助け合うことが大切だ。",
+          "furigana": "お<ruby>互<rt>たが</rt></ruby>いに<ruby>助<rt>たす</rt></ruby>け<ruby>合<rt>あ</rt></ruby>うことが<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "It's important to help each other."
+        }
+      ]
+    },
+    "ばいい": {
+      "formation": "Verb (conditional ば-form) + いい",
+      "note": "Gives advice or a suggestion: \"you should~\" or \"it would be good if~\". Softer than べきだ.",
+      "examples": [
+        {
+          "jp": "もっと勉強すればいい。",
+          "furigana": "もっと<ruby>勉強<rt>べんきょう</rt></ruby>すればいい。",
+          "en": "You should study more."
+        },
+        {
+          "jp": "わからなければ聞けばいい。",
+          "furigana": "わからなければ<ruby>聞<rt>き</rt></ruby>けばいい。",
+          "en": "If you don't understand, you should just ask."
+        },
+        {
+          "jp": "疲れたなら、休めばいい。",
+          "furigana": "<ruby>疲<rt>つか</rt></ruby>れたなら、<ruby>休<rt>やす</rt></ruby>めばいい。",
+          "en": "If you're tired, you should rest."
+        }
+      ]
+    },
+    "ばよかった": {
+      "formation": "Verb (conditional ば-form) + よかった",
+      "note": "Expresses regret — \"I should have done X\" or \"it would have been better if X\". Always about the past.",
+      "examples": [
+        {
+          "jp": "早く来ればよかった。",
+          "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>ればよかった。",
+          "en": "I should have come earlier."
+        },
+        {
+          "jp": "もっと練習しておけばよかった。",
+          "furigana": "もっと<ruby>練習<rt>れんしゅう</rt></ruby>しておけばよかった。",
+          "en": "I should have practiced more beforehand."
+        },
+        {
+          "jp": "傘を持ってくればよかった。",
+          "furigana": "<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってくればよかった。",
+          "en": "I should have brought an umbrella."
+        }
+      ]
+    },
+    "ば～ほど": {
+      "formation": "Verb/adj (ば-form) + Verb/adj (plain) + ほど",
+      "note": "The more you do X, the more Y happens. Both the condition and the result use the same verb or a related one.",
+      "examples": [
+        {
+          "jp": "練習すればするほど上手になる。",
+          "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>すればするほど<ruby>上手<rt>じょうず</rt></ruby>になる。",
+          "en": "The more you practice, the better you get."
+        },
+        {
+          "jp": "考えれば考えるほど難しくなる。",
+          "furigana": "<ruby>考<rt>かんが</rt></ruby>えれば<ruby>考<rt>かんが</rt></ruby>えるほど<ruby>難<rt>むずか</rt></ruby>しくなる。",
+          "en": "The more I think about it, the harder it gets."
+        },
+        {
+          "jp": "安ければ安いほど助かる。",
+          "furigana": "<ruby>安<rt>やす</rt></ruby>ければ<ruby>安<rt>やす</rt></ruby>いほど<ruby>助<rt>たす</rt></ruby>かる。",
+          "en": "The cheaper the better — it really helps."
+        }
+      ]
+    },
+    "ば～のに": {
+      "formation": "Verb (ば-form) + のに",
+      "note": "Expresses regret or disappointment about a counterfactual — \"If only X, then Y would have happened.\" Always about unfulfilled conditions.",
+      "examples": [
+        {
+          "jp": "お金があれば旅行するのに。",
+          "furigana": "お<ruby>金<rt>かね</rt></ruby>があれば<ruby>旅行<rt>りょこう</rt></ruby>するのに。",
+          "en": "If only I had money, I would travel."
+        },
+        {
+          "jp": "もっと早く知っていれば助けられたのに。",
+          "furigana": "もっと<ruby>早<rt>はや</rt></ruby>く<ruby>知<rt>し</rt></ruby>っていれば<ruby>助<rt>たす</rt></ruby>けられたのに。",
+          "en": "If I had known sooner I could have helped."
+        },
+        {
+          "jp": "彼が来れば、もっと楽しいのに。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>き</rt></ruby>れば、もっと<ruby>楽<rt>たの</rt></ruby>しいのに。",
+          "en": "If he came, it would be more fun."
+        }
+      ]
+    },
+    "ばかりで": {
+      "formation": "Verb (て-form) + ばかりいる / Noun + ばかりで",
+      "note": "Implies a negative criticism — the person only does one thing (nothing else). Often implies laziness or imbalance.",
+      "examples": [
+        {
+          "jp": "食べてばかりで運動しない。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べてばかりで<ruby>運動<rt>うんどう</rt></ruby>しない。",
+          "en": "You only eat and don't exercise at all."
+        },
+        {
+          "jp": "文句ばかりで何もしない人だ。",
+          "furigana": "<ruby>文句<rt>もんく</rt></ruby>ばかりで<ruby>何<rt>なに</rt></ruby>もしない<ruby>人<rt>ひと</rt></ruby>だ。",
+          "en": "He's the type who just complains without doing anything."
+        },
+        {
+          "jp": "泣いてばかりいても仕方がない。",
+          "furigana": "<ruby>泣<rt>な</rt></ruby>いてばかりいても<ruby>仕方<rt>しかた</rt></ruby>がない。",
+          "en": "There's no use just crying all the time."
+        }
+      ]
+    },
+    "ばかりでなく": {
+      "formation": "Noun/Verb + ばかりでなく + [also/too]",
+      "note": "Means \"not only X but also Y\". Adds information — Y is an additional, often surprising fact.",
+      "examples": [
+        {
+          "jp": "日本語ばかりでなく英語も勉強する。",
+          "furigana": "<ruby>日本語<rt>にほんご</rt></ruby>ばかりでなく<ruby>英語<rt>えいご</rt></ruby>も<ruby>勉強<rt>べんきょう</rt></ruby>する。",
+          "en": "I study not only Japanese but also English."
+        },
+        {
+          "jp": "彼は頭がいいばかりでなく、優しい。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頭<rt>あたま</rt></ruby>がいいばかりでなく、<ruby>優<rt>やさ</rt></ruby>しい。",
+          "en": "He is not only smart but also kind."
+        },
+        {
+          "jp": "この薬は痛みばかりでなく熱も下げる。",
+          "furigana": "この<ruby>薬<rt>くすり</rt></ruby>は<ruby>痛<rt>いた</rt></ruby>みばかりでなく<ruby>熱<rt>ねつ</rt></ruby>も<ruby>下<rt>さ</rt></ruby>げる。",
+          "en": "This medicine not only relieves pain but also reduces fever."
+        }
+      ]
+    },
+    "べきだ": {
+      "formation": "Verb (plain form) + べきだ",
+      "note": "Strong moral obligation or advice — \"should/must do\". Stronger than ばいい. する→すべき (irregular).",
+      "examples": [
+        {
+          "jp": "約束は守るべきだ。",
+          "furigana": "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まomoru</rt></ruby>るべきだ。",
+          "en": "You should keep your promises."
+        },
+        {
+          "jp": "もっと早く報告すべきだった。",
+          "furigana": "もっと<ruby>早<rt>haya</rt></ruby>く<ruby>報告<rt>houkoku</rt></ruby>すべきだった。",
+          "en": "I should have reported it sooner."
+        },
+        {
+          "jp": "健康のために野菜を食べるべきだ。",
+          "furigana": "<ruby>健康<rt>kenkou</rt></ruby>のために<ruby>野菜<rt>yasai</rt></ruby>を<ruby>食<rt>ta</rt></ruby>べるべきだ。",
+          "en": "You should eat vegetables for your health."
+        }
+      ]
+    },
+    "べきではない": {
+      "formation": "Verb (plain form) + べきではない",
+      "note": "Strong prohibition — \"you should not / must not do\". The opposite of べきだ.",
+      "examples": [
+        {
+          "jp": "嘘をつくべきではない。",
+          "furigana": "<ruby>嘘<rt>uso</rt></ruby>をつくべきではない。",
+          "en": "You should not lie."
+        },
+        {
+          "jp": "人の悪口を言うべきではない。",
+          "furigana": "<ruby>人<rt>hito</rt></ruby>の<ruby>悪口<rt>waruguchi</rt></ruby>を<ruby>言<rt>i</rt></ruby>うべきではない。",
+          "en": "You should not speak badly of others."
+        },
+        {
+          "jp": "そんな大事な決断を急ぐべきではない。",
+          "furigana": "そんな<ruby>大事<rt>daiji</rt></ruby>な<ruby>決断<rt>ketsudan</rt></ruby>を<ruby>急<rt>iso</rt></ruby>ぐべきではない。",
+          "en": "You shouldn't rush such an important decision."
+        }
+      ]
+    },
+    "別に～ない": {
+      "formation": "別に + negative verb/adjective",
+      "note": "Means \"not particularly / not especially\". Implies that something is neither good nor bad — just indifferent.",
+      "examples": [
+        {
+          "jp": "別に気にしない。",
+          "furigana": "<ruby>別<rt>betsu</rt></ruby>に<ruby>気<rt>ki</rt></ruby>にしない。",
+          "en": "I don't particularly mind."
+        },
+        {
+          "jp": "別に急いでいるわけではない。",
+          "furigana": "<ruby>別<rt>betsu</rt></ruby>に<ruby>急<rt>iso</rt></ruby>いでいるわけではない。",
+          "en": "I'm not in any particular hurry."
+        },
+        {
+          "jp": "あの映画、別に面白くなかった。",
+          "furigana": "あの<ruby>映画<rt>eiga</rt></ruby>、<ruby>別<rt>betsu</rt></ruby>に<ruby>面白<rt>omoshiro</rt></ruby>くなかった。",
+          "en": "That movie wasn't particularly interesting."
+        }
+      ]
+    },
+    "ぶりに": {
+      "formation": "Time period + ぶりに",
+      "note": "Used to express that something is happening for the first time after a specific period has passed.",
+      "examples": [
+        {
+          "jp": "三年ぶりに会った。",
+          "furigana": "3<ruby>年<rt>nen</rt></ruby>ぶりに<ruby>会<rt>a</rt></ruby>った。",
+          "en": "We met for the first time in three years."
+        },
+        {
+          "jp": "久しぶりに故郷に帰った。",
+          "furigana": "<ruby>久<rt>hisa</rt></ruby>しぶりに<ruby>故郷<rt>furusato</rt></ruby>に<ruby>帰<rt>kae</rt></ruby>った。",
+          "en": "I returned to my hometown for the first time in a long time."
+        },
+        {
+          "jp": "一ヶ月ぶりに晴れた。",
+          "furigana": "1<ruby>ヶ月<rt>kagetsu</rt></ruby>ぶりに<ruby>晴<rt>ha</rt></ruby>れた。",
+          "en": "It cleared up for the first time in a month."
+        }
+      ]
+    }
+  }
+}

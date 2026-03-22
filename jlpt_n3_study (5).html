@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N3 Grammar Master — JLPT Study</title>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span class="logo-jp">文法マスター</span>
+    <span class="logo-en">JLPT N3</span>
+  </div>
+  <nav>
+    <button class="nav-btn active" onclick="showPage('schedule')">Schedule</button>
+    <button class="nav-btn" onclick="showPage('flashcards')">Flashcards</button>
+    <button class="nav-btn" onclick="showPage('quiz')">Quiz</button>
+    <button class="nav-btn" onclick="showPage('exam')">Exam Mode</button>
+    <button class="nav-btn" onclick="showPage('game')">Typing Game</button>
+  </nav>
+  <div class="header-right">
+    <div class="sync-status"><div class="sync-dot" id="sync-dot"></div><span id="sync-label">…</span></div>
+    <button class="nav-btn" style="color:rgba(255,255,255,0.4);margin-left:5px;font-size:10px" onclick="syncDate()">Sync Date</button>
+    <button class="nav-btn" style="color:rgba(255,255,255,0.2);margin-left:5px;font-size:10px" onclick="resetData()">Reset</button>
+    <span class="level-badge">N3</span>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <span class="fb-label">Show</span>
+  <button class="fpill active" onclick="setGF('all',this)">All Grammar</button>
+  <button class="fpill" onclick="setGF('today',this)">Today</button>
+  <button class="fpill" onclick="setGF('week',this)">This Week</button>
+  <button class="fpill" onclick="setGF('month',this)">This Month</button>
+  <button class="fpill" onclick="setGF('reached',this)">Unlocked</button>
+  <button class="fpill" onclick="setGF('srs_review',this)">SRS Review</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- SCHEDULE -->
+<div id="page-schedule" class="page active">
+  <div class="hero-strip">
+    <div class="hero-title"><span>Weekly Schedule</span>学習計画</div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num" id="h-know">0</span><span class="hstat-lbl">Mastered</span></div>
+      <div class="hstat"><span class="hstat-num" id="h-day">1</span><span class="hstat-lbl">Day</span></div>
+    </div>
+  </div>
+  <div class="page-body">
+    <div class="section-label" style="margin-bottom:.9rem">Click any unlocked day to start that session</div>
+    <div class="sched-grid" id="sched-grid"></div>
+  </div>
+</div>
+
+<!-- DAY DETAIL -->
+<div id="page-day" class="page">
+  <div class="dd-header">
+    <button class="back-btn" onclick="showPage('schedule')">← Back</button>
+    <div>
+      <div class="dd-title" id="dd-title">Monday — Week 1</div>
+      <div class="dd-sub" id="dd-sub">3 grammar points</div>
+    </div>
+  </div>
+  <div class="mode-tabs">
+    <button class="mode-tab active" onclick="switchTab('d-lesson',this)">Lessons</button>
+    <button class="mode-tab" onclick="switchTab('d-fc',this)">Flashcards</button>
+    <button class="mode-tab" onclick="switchTab('d-quiz',this)">Quiz</button>
+    <button class="mode-tab" onclick="switchTab('d-exam',this)">Exam</button>
+    <button class="mode-tab" onclick="switchTab('d-game',this)">Game</button>
+  </div>
+  <div class="page-body" style="padding-top:1.1rem">
+    <div id="d-lesson" class="mode-panel active"></div>
+    <div id="d-fc" class="mode-panel"></div>
+    <div id="d-quiz" class="mode-panel"></div>
+    <div id="d-exam" class="mode-panel"></div>
+    <div id="d-game" class="mode-panel"></div>
+  </div>
+</div>
+
+<!-- FLASHCARDS -->
+<div id="page-flashcards" class="page">
+  <div class="hero-strip">
+    <div class="hero-title"><span>Flashcard Deck</span>フラッシュカード</div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num" id="fc-known-h">0</span><span class="hstat-lbl">Mastered</span></div>
+    </div>
+  </div>
+  <div class="page-body" id="fc-body"></div>
+</div>
+
+<!-- QUIZ -->
+<div id="page-quiz" class="page">
+  <div class="hero-strip">
+    <div class="hero-title"><span>Multiple Choice</span>クイズ</div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num" id="qh-pct">—</span><span class="hstat-lbl">Accuracy</span></div>
+    </div>
+  </div>
+  <div class="page-body" id="quiz-body"></div>
+</div>
+
+<!-- EXAM MODE -->
+<div id="page-exam" class="page">
+  <div class="hero-strip">
+    <div class="hero-title"><span>JLPT N3 Style</span>試験モード</div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num" id="exam-h">0</span><span class="hstat-lbl">Score</span></div>
+    </div>
+  </div>
+  <div class="page-body" id="exam-body"></div>
+</div>
+
+<!-- GAME -->
+<div id="page-game" class="page">
+  <div class="hero-strip">
+    <div class="hero-title"><span>Recall Training</span>タイピングゲーム</div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-num" id="gh-streak">0</span><span class="hstat-lbl">Best</span></div>
+    </div>
+  </div>
+  <div class="page-body" id="game-body"></div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
