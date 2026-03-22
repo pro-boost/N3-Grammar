@@ -1191,297 +1191,2796 @@
     }
   ],
   "GRAMMAR_DETAIL": {
-    "上げる": {
-      "formation": "Verb-stem + あげる",
-      "note": "Indicates completing an action all the way to the end. Often implies effort or accomplishment.",
+    "中": {
+      "formation": "Noun + 中（ちゅう/じゅう）",
+      "note": "ちゅう = currently in progress (工事中). じゅう = throughout an entire period or place (一年中).",
       "examples": [
         {
-          "jp": "手紙を書き上げた。",
-          "furigana": "<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げた。",
-          "en": "I finished writing the letter."
+          "jp": "工事中です。",
+          "furigana": "<ruby>工事<rt>こうじ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>です。",
+          "en": "Under construction."
         },
         {
-          "jp": "レポートをやっと仕上げた。",
-          "furigana": "レポートをやっと<ruby>仕上<rt>しあ</rt></ruby>げた。",
-          "en": "I finally finished the report."
+          "jp": "一年中忙しい。",
+          "furigana": "<ruby>一年中<rt>いちねんじゅう</rt></ruby><ruby>忙<rt>いそが</rt></ruby>しい。",
+          "en": "I am busy throughout the whole year."
         },
         {
-          "jp": "彼女は三年かけて小説を書き上げた。",
-          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は3<ruby>年<rt>ねん</rt></ruby>かけて<ruby>小説<rt>しょうせつ</rt></ruby> को <ruby>書<rt>か</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げた。",
-          "en": "She finished writing a novel over three years."
+          "jp": "授業中は静かにしてください。",
+          "furigana": "<ruby>授業中<rt>じゅぎょうちゅう</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かにしてください。",
+          "en": "Please be quiet during class."
         }
       ]
     },
-    "あまり": {
-      "formation": "あまり + [negative verb] / [positive verb] + あまり",
-      "note": "Used in two ways: (1) before a negative = \"not very~\"; (2) after a verb = \"so much that~\" (often negative result).",
+    "だけ": {
+      "formation": "Noun / Verb (plain) + だけ",
+      "note": "Two uses: (1) 'only / just' limiting scope; (2) 'as much as' expressing a maximum amount.",
       "examples": [
         {
-          "jp": "あまり食べて、お腹が痛い。",
-          "furigana": "あまり<ruby>食<rt>た</rt></ruby>べて、お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い。",
-          "en": "I ate so much that my stomach hurts."
+          "jp": "できるだけ頑張ります。",
+          "furigana": "できるだけ<ruby>頑張<rt>がんば</rt></ruby>ります。",
+          "en": "I will do my best as much as I can."
         },
         {
-          "jp": "彼女はあまり話さない。",
-          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>はあまり<ruby>話<rt>はな</rt></ruby>さない。",
-          "en": "She doesn't talk very much."
+          "jp": "見るだけで買わない。",
+          "furigana": "<ruby>見<rt>み</rt></ruby>るだけで<ruby>買<rt>か</rt></ruby>わない。",
+          "en": "I just look without buying."
         },
         {
-          "jp": "心配のあまり、眠れなかった。",
-          "furigana": "<ruby>心配<rt>しんぱい</rt></ruby>のあまり、<ruby>眠<rt>ねむ</rt></ruby>れなかった。",
-          "en": "I was so worried that I couldn't sleep."
+          "jp": "一人だけ残った。",
+          "furigana": "<ruby>一人<rt>ひとり</rt></ruby>だけ<ruby>残<rt>のこ</rt></ruby>った。",
+          "en": "Only one person remained."
         }
       ]
     },
-    "あまりにも": {
-      "formation": "あまりにも + adjective/adverb",
-      "note": "Stronger than あまり. Expresses that something is excessively so — often carries an emotional or critical nuance.",
+    "だけでなく": {
+      "formation": "Noun / Verb (plain) + だけでなく + も",
+      "note": "'Not only… but also'. Adds an extra fact on top of something already stated. Similar to ばかりでなく but slightly more neutral.",
       "examples": [
         {
-          "jp": "あまりにも難しくて諦めた。",
-          "furigana": "あまりにも<ruby>難<rt>むずか</rt></ruby>しくて<ruby>諦<rt>あきら</rt></ruby>めた。",
-          "en": "It was so excessively difficult that I gave up."
+          "jp": "英語だけでなく日本語も話す。",
+          "furigana": "<ruby>英語<rt>えいご</rt></ruby>だけでなく<ruby>日本語<rt>にほんご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>す。",
+          "en": "I speak not only English but also Japanese."
         },
         {
-          "jp": "あまりにも暑くて外に出られない。",
-          "furigana": "あまりにも<ruby>暑<rt>あつ</rt></ruby>しくて<ruby>外<rt>そと</rt></ruby>に<ruby>出<rt>で</rt></ruby>られない。",
-          "en": "It's far too hot to go outside."
+          "jp": "彼は頭がいいだけでなく運動も得意だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頭<rt>あたま</rt></ruby>がいいだけでなく<ruby>運動<rt>うんどう</rt></ruby>も<ruby>得意<rt>とくい</rt></ruby>だ。",
+          "en": "He is not only smart but also good at sports."
         },
         {
-          "jp": "彼の言葉はあまりにも失礼だった。",
-          "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>言葉<rt>ことば</rt></ruby>はあまりにも<ruby>失礼<rt>しつれい</rt></ruby>だった。",
-          "en": "His words were excessively rude."
+          "jp": "見た目だけでなく味も大切だ。",
+          "furigana": "<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>だけでなく<ruby>味<rt>あじ</rt></ruby>も<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "Not only appearance but also taste is important."
         }
       ]
     },
-    "合う": {
-      "formation": "Verb-stem + 合う",
-      "note": "Expresses mutual or reciprocal action — doing something together or to each other.",
+    "だらけ": {
+      "formation": "Noun + だらけ",
+      "note": "'Full of / covered with'. Usually used with negative or undesirable things. Implies an overwhelming amount.",
       "examples": [
         {
-          "jp": "一緒に考え合おう。",
-          "furigana": "<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>え<ruby>合<rt>あ</rt></ruby>おう。",
-          "en": "Let's think about it together."
+          "jp": "部屋がゴミだらけだ。",
+          "furigana": "<ruby>部屋<rt>へや</rt></ruby>がゴミだらけだ。",
+          "en": "The room is full of trash."
         },
         {
-          "jp": "二人は見つめ合っていた。",
-          "furigana": "<ruby>二人<rt>ふたり</rt></ruby>は<ruby>見<rt>み</rt></ruby>つめ<ruby>合<rt>あ</rt></ruby>っていた。",
-          "en": "The two were gazing at each other."
+          "jp": "テストは間違いだらけだった。",
+          "furigana": "テストは<ruby>間違<rt>まちが</rt></ruby>いだらけだった。",
+          "en": "The test was full of mistakes."
         },
         {
-          "jp": "お互いに助け合うことが大切だ。",
-          "furigana": "お<ruby>互<rt>たが</rt></ruby>いに<ruby>助<rt>たす</rt></ruby>け<ruby>合<rt>あ</rt></ruby>うことが<ruby>大切<rt>たいせつ</rt></ruby>だ。",
-          "en": "It's important to help each other."
+          "jp": "子供は泥だらけで帰ってきた。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>は<ruby>泥<rt>どろ</rt></ruby>だらけで<ruby>帰<rt>かえ</rt></ruby>ってきた。",
+          "en": "The child came home covered in mud."
         }
       ]
     },
-    "ばいい": {
-      "formation": "Verb (conditional ば-form) + いい",
-      "note": "Gives advice or a suggestion: \"you should~\" or \"it would be good if~\". Softer than べきだ.",
+    "どんなに～ても": {
+      "formation": "どんなに + Verb-て / い-adj (-くても) / な-adj + でも",
+      "note": "'No matter how (much)'. Regardless of the degree, the result stays the same.",
       "examples": [
         {
-          "jp": "もっと勉強すればいい。",
-          "furigana": "もっと<ruby>勉強<rt>べんきょう</rt></ruby>すればいい。",
-          "en": "You should study more."
+          "jp": "どんなに疲れても続ける。",
+          "furigana": "どんなに<ruby>疲<rt>つか</rt></ruby>れても<ruby>続<rt>つづ</rt></ruby>ける。",
+          "en": "No matter how tired I am, I keep going."
         },
         {
-          "jp": "わからなければ聞けばいい。",
-          "furigana": "わからなければ<ruby>聞<rt>き</rt></ruby>けばいい。",
-          "en": "If you don't understand, you should just ask."
+          "jp": "どんなに高くても欲しい。",
+          "furigana": "どんなに<ruby>高<rt>たか</rt></ruby>くても<ruby>欲<rt>ほ</rt></ruby>しい。",
+          "en": "No matter how expensive it is, I want it."
         },
         {
-          "jp": "疲れたなら、休めばいい。",
-          "furigana": "<ruby>疲<rt>つか</rt></ruby>れたなら、<ruby>休<rt>やす</rt></ruby>めばいい。",
-          "en": "If you're tired, you should rest."
+          "jp": "どんなに頑張っても無理だった。",
+          "furigana": "どんなに<ruby>頑張<rt>がんば</rt></ruby>っても<ruby>無理<rt>むり</rt></ruby>だった。",
+          "en": "No matter how hard I tried, it was impossible."
         }
       ]
     },
-    "ばよかった": {
-      "formation": "Verb (conditional ば-form) + よかった",
-      "note": "Expresses regret — \"I should have done X\" or \"it would have been better if X\". Always about the past.",
+    "どうしても": {
+      "formation": "どうしても + Verb (positive or negative)",
+      "note": "'No matter what / at any cost'. With positive = strong determination. With negative = absolute impossibility.",
       "examples": [
         {
-          "jp": "早く来ればよかった。",
-          "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>ればよかった。",
-          "en": "I should have come earlier."
+          "jp": "どうしても行きたい。",
+          "furigana": "どうしても<ruby>行<rt>い</rt></ruby>きたい。",
+          "en": "I want to go no matter what."
         },
         {
-          "jp": "もっと練習しておけばよかった。",
-          "furigana": "もっと<ruby>練習<rt>れんしゅう</rt></ruby>しておけばよかった。",
-          "en": "I should have practiced more beforehand."
+          "jp": "どうしても名前が思い出せない。",
+          "furigana": "どうしても<ruby>名前<rt>なまえ</rt></ruby>が<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>せない。",
+          "en": "I just cannot remember the name no matter what."
         },
         {
-          "jp": "傘を持ってくればよかった。",
-          "furigana": "<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってくればよかった。",
-          "en": "I should have brought an umbrella."
+          "jp": "どうしても諦められない夢がある。",
+          "furigana": "どうしても<ruby>諦<rt>あきら</rt></ruby>められない<ruby>夢<rt>ゆめ</rt></ruby>がある。",
+          "en": "There is a dream I simply cannot give up on."
         }
       ]
     },
-    "ば～ほど": {
-      "formation": "Verb/adj (ば-form) + Verb/adj (plain) + ほど",
-      "note": "The more you do X, the more Y happens. Both the condition and the result use the same verb or a related one.",
+    "がち": {
+      "formation": "Verb-stem + がち / Noun + がち",
+      "note": "'Tend to / have a tendency to'. Describes a recurring, usually negative habit or undesirable tendency.",
       "examples": [
         {
-          "jp": "練習すればするほど上手になる。",
-          "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>すればするほど<ruby>上手<rt>じょうず</rt></ruby>になる。",
-          "en": "The more you practice, the better you get."
+          "jp": "忘れがちなので注意する。",
+          "furigana": "<ruby>忘<rt>わす</rt></ruby>れがちなので<ruby>注意<rt>ちゅうい</rt></ruby>する。",
+          "en": "I tend to forget, so I am careful."
         },
         {
-          "jp": "考えれば考えるほど難しくなる。",
-          "furigana": "<ruby>考<rt>かんが</rt></ruby>えれば<ruby>考<rt>かんが</rt></ruby>えるほど<ruby>難<rt>むずか</rt></ruby>しくなる。",
-          "en": "The more I think about it, the harder it gets."
+          "jp": "曇りがちな天気が続いている。",
+          "furigana": "<ruby>曇<rt>くも</rt></ruby>りがちな<ruby>天気<rt>てんき</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いている。",
+          "en": "Cloudy weather tends to continue."
         },
         {
-          "jp": "安ければ安いほど助かる。",
-          "furigana": "<ruby>安<rt>やす</rt></ruby>ければ<ruby>安<rt>やす</rt></ruby>いほど<ruby>助<rt>たす</rt></ruby>かる。",
-          "en": "The cheaper the better — it really helps."
+          "jp": "病気がちな子供を心配している。",
+          "furigana": "<ruby>病気<rt>びょうき</rt></ruby>がちな<ruby>子供<rt>こども</rt></ruby>を<ruby>心配<rt>しんぱい</rt></ruby>している。",
+          "en": "I worry about the child who tends to get sick."
         }
       ]
     },
-    "ば～のに": {
-      "formation": "Verb (ば-form) + のに",
-      "note": "Expresses regret or disappointment about a counterfactual — \"If only X, then Y would have happened.\" Always about unfulfilled conditions.",
+    "がたい": {
+      "formation": "Verb-stem + がたい",
+      "note": "'Very difficult to / impossible to'. Expresses something extremely hard to do emotionally or practically.",
       "examples": [
         {
-          "jp": "お金があれば旅行するのに。",
-          "furigana": "お<ruby>金<rt>かね</rt></ruby>があれば<ruby>旅行<rt>りょこう</rt></ruby>するのに。",
-          "en": "If only I had money, I would travel."
+          "jp": "信じがたい話だ。",
+          "furigana": "<ruby>信<rt>しん</rt></ruby>じがたい<ruby>話<rt>はなし</rt></ruby>だ。",
+          "en": "It is a story that is hard to believe."
         },
         {
-          "jp": "もっと早く知っていれば助けられたのに。",
-          "furigana": "もっと<ruby>早<rt>はや</rt></ruby>く<ruby>知<rt>し</rt></ruby>っていれば<ruby>助<rt>たす</rt></ruby>けられたのに。",
-          "en": "If I had known sooner I could have helped."
+          "jp": "彼の行動は理解しがたい。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>は<ruby>理解<rt>りかい</rt></ruby>しがたい。",
+          "en": "His behaviour is hard to understand."
         },
         {
-          "jp": "彼が来れば、もっと楽しいのに。",
-          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>き</rt></ruby>れば、もっと<ruby>楽<rt>たの</rt></ruby>しいのに。",
-          "en": "If he came, it would be more fun."
+          "jp": "その悲しみは言い表しがたい。",
+          "furigana": "その<ruby>悲<rt>かな</rt></ruby>しみは<ruby>言<rt>い</rt></ruby>い<ruby>表<rt>あらわ</rt></ruby>しがたい。",
+          "en": "That sadness is hard to put into words."
         }
       ]
     },
-    "ばかりで": {
-      "formation": "Verb (て-form) + ばかりいる / Noun + ばかりで",
-      "note": "Implies a negative criticism — the person only does one thing (nothing else). Often implies laziness or imbalance.",
+    "ごとに": {
+      "formation": "Noun (time/quantity) + ごとに",
+      "note": "'Each / every / at intervals of'. Marks a regular interval or each member of a group.",
       "examples": [
         {
-          "jp": "食べてばかりで運動しない。",
-          "furigana": "<ruby>食<rt>た</rt></ruby>べてばかりで<ruby>運動<rt>うんどう</rt></ruby>しない。",
-          "en": "You only eat and don't exercise at all."
+          "jp": "一時間ごとに休憩する。",
+          "furigana": "<ruby>一時間<rt>いちじかん</rt></ruby>ごとに<ruby>休憩<rt>きゅうけい</rt></ruby>する。",
+          "en": "I take a break every hour."
         },
         {
-          "jp": "文句ばかりで何もしない人だ。",
-          "furigana": "<ruby>文句<rt>もんく</rt></ruby>ばかりで<ruby>何<rt>なに</rt></ruby>もしない<ruby>人<rt>ひと</rt></ruby>だ。",
-          "en": "He's the type who just complains without doing anything."
+          "jp": "人ごとに意見が違う。",
+          "furigana": "<ruby>人<rt>ひと</rt></ruby>ごとに<ruby>意見<rt>いけん</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>う。",
+          "en": "Every person has a different opinion."
         },
         {
-          "jp": "泣いてばかりいても仕方がない。",
-          "furigana": "<ruby>泣<rt>な</rt></ruby>いてばかりいても<ruby>仕方<rt>しかた</rt></ruby>がない。",
-          "en": "There's no use just crying all the time."
+          "jp": "季節ごとに服を変える。",
+          "furigana": "<ruby>季節<rt>きせつ</rt></ruby>ごとに<ruby>服<rt>ふく</rt></ruby>を<ruby>変<rt>か</rt></ruby>える。",
+          "en": "I change my clothes with each season."
         }
       ]
     },
-    "ばかりでなく": {
-      "formation": "Noun/Verb + ばかりでなく + [also/too]",
-      "note": "Means \"not only X but also Y\". Adds information — Y is an additional, often surprising fact.",
+    "ほど": {
+      "formation": "Noun / Verb (plain) + ほど",
+      "note": "'To the degree of / to the extent that'. Expresses an extreme degree or comparison.",
       "examples": [
         {
-          "jp": "日本語ばかりでなく英語も勉強する。",
-          "furigana": "<ruby>日本語<rt>にほんご</rt></ruby>ばかりでなく<ruby>英語<rt>えいご</rt></ruby>も<ruby>勉強<rt>べんきょう</rt></ruby>する。",
-          "en": "I study not only Japanese but also English."
+          "jp": "死ぬほど疲れた。",
+          "furigana": "<ruby>死<rt>し</rt></ruby>ぬほど<ruby>疲<rt>つか</rt></ruby>れた。",
+          "en": "I am tired to the point of death."
         },
         {
-          "jp": "彼は頭がいいばかりでなく、優しい。",
-          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頭<rt>あたま</rt></ruby>がいいばかりでなく、<ruby>優<rt>やさ</rt></ruby>しい。",
-          "en": "He is not only smart but also kind."
+          "jp": "泣くほど嬉しかった。",
+          "furigana": "<ruby>泣<rt>な</rt></ruby>くほど<ruby>嬉<rt>うれ</rt></ruby>しかった。",
+          "en": "I was so happy that I cried."
         },
         {
-          "jp": "この薬は痛みばかりでなく熱も下げる。",
-          "furigana": "この<ruby>薬<rt>くすり</rt></ruby>は<ruby>痛<rt>いた</rt></ruby>みばかりでなく<ruby>熱<rt>ねつ</rt></ruby>も<ruby>下<rt>さ</rt></ruby>げる。",
-          "en": "This medicine not only relieves pain but also reduces fever."
+          "jp": "これほど大変だとは思わなかった。",
+          "furigana": "これほど<ruby>大変<rt>たいへん</rt></ruby>だとは<ruby>思<rt>おも</rt></ruby>わなかった。",
+          "en": "I did not think it would be this hard."
         }
       ]
     },
-    "べきだ": {
-      "formation": "Verb (plain form) + べきだ",
-      "note": "Strong moral obligation or advice — \"should/must do\". Stronger than ばいい. する→すべき (irregular).",
+    "ほど～ない": {
+      "formation": "A は B ほど + [negative adjective/verb]",
+      "note": "'A is not as … as B'. Used to compare two things, stating the subject falls short of the standard set by B.",
       "examples": [
         {
-          "jp": "約束は守るべきだ。",
-          "furigana": "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まomoru</rt></ruby>るべきだ。",
-          "en": "You should keep your promises."
+          "jp": "思ったほど難しくない。",
+          "furigana": "<ruby>思<rt>おも</rt></ruby>ったほど<ruby>難<rt>むずか</rt></ruby>しくない。",
+          "en": "It is not as difficult as I thought."
         },
         {
-          "jp": "もっと早く報告すべきだった。",
-          "furigana": "もっと<ruby>早<rt>haya</rt></ruby>く<ruby>報告<rt>houkoku</rt></ruby>すべきだった。",
-          "en": "I should have reported it sooner."
+          "jp": "東京は大阪ほど食事が安くない。",
+          "furigana": "<ruby>東京<rt>とうきょう</rt></ruby>は<ruby>大阪<rt>おおさか</rt></ruby>ほど<ruby>食事<rt>しょくじ</rt></ruby>が<ruby>安<rt>やす</rt></ruby>くない。",
+          "en": "Tokyo food is not as cheap as Osaka."
         },
         {
-          "jp": "健康のために野菜を食べるべきだ。",
-          "furigana": "<ruby>健康<rt>kenkou</rt></ruby>のために<ruby>野菜<rt>yasai</rt></ruby>を<ruby>食<rt>ta</rt></ruby>べるべきだ。",
-          "en": "You should eat vegetables for your health."
+          "jp": "試験は予想したほど難しくなかった。",
+          "furigana": "<ruby>試験<rt>しけん</rt></ruby>は<ruby>予想<rt>よそう</rt></ruby>したほど<ruby>難<rt>むずか</rt></ruby>しくなかった。",
+          "en": "The exam was not as hard as expected."
         }
       ]
     },
-    "べきではない": {
-      "formation": "Verb (plain form) + べきではない",
-      "note": "Strong prohibition — \"you should not / must not do\". The opposite of べきだ.",
+    "一度に": {
+      "formation": "一度に + action",
+      "note": "'All at once / at the same time'. Implies doing multiple things simultaneously or completing everything in one go.",
       "examples": [
         {
-          "jp": "嘘をつくべきではない。",
-          "furigana": "<ruby>嘘<rt>uso</rt></ruby>をつくべきではない。",
-          "en": "You should not lie."
+          "jp": "一度に全部食べた。",
+          "furigana": "<ruby>一度<rt>いちど</rt></ruby>に<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>食<rt>た</rt></ruby>べた。",
+          "en": "I ate everything all at once."
         },
         {
-          "jp": "人の悪口を言うべきではない。",
-          "furigana": "<ruby>人<rt>hito</rt></ruby>の<ruby>悪口<rt>waruguchi</rt></ruby>を<ruby>言<rt>i</rt></ruby>うべきではない。",
-          "en": "You should not speak badly of others."
+          "jp": "一度にたくさんのことを考えられない。",
+          "furigana": "<ruby>一度<rt>いちど</rt></ruby>にたくさんのことを<ruby>考<rt>かんが</rt></ruby>えられない。",
+          "en": "I cannot think about many things at the same time."
         },
         {
-          "jp": "そんな大事な決断を急ぐべきではない。",
-          "furigana": "そんな<ruby>大事<rt>daiji</rt></ruby>な<ruby>決断<rt>ketsudan</rt></ruby>を<ruby>急<rt>iso</rt></ruby>ぐべきではない。",
-          "en": "You shouldn't rush such an important decision."
+          "jp": "荷物を一度に運んだ。",
+          "furigana": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>一度<rt>いちど</rt></ruby>に<ruby>運<rt>はこ</rt></ruby>んだ。",
+          "en": "I carried all the luggage at once."
         }
       ]
     },
-    "別に～ない": {
-      "formation": "別に + negative verb/adjective",
-      "note": "Means \"not particularly / not especially\". Implies that something is neither good nor bad — just indifferent.",
+    "いくら～ても": {
+      "formation": "いくら + Verb-て / adjective + ても",
+      "note": "'No matter how much / no matter how many'. The result is unchanged regardless of quantity or effort.",
       "examples": [
         {
-          "jp": "別に気にしない。",
-          "furigana": "<ruby>別<rt>betsu</rt></ruby>に<ruby>気<rt>ki</rt></ruby>にしない。",
-          "en": "I don't particularly mind."
+          "jp": "いくら寝ても眠い。",
+          "furigana": "いくら<ruby>寝<rt>ね</rt></ruby>ても<ruby>眠<rt>ねむ</rt></ruby>い。",
+          "en": "No matter how much I sleep, I am still sleepy."
         },
         {
-          "jp": "別に急いでいるわけではない。",
-          "furigana": "<ruby>別<rt>betsu</rt></ruby>に<ruby>急<rt>iso</rt></ruby>いでいるわけではない。",
-          "en": "I'm not in any particular hurry."
+          "jp": "いくら練習しても上手くならない。",
+          "furigana": "いくら<ruby>練習<rt>れんしゅう</rt></ruby>しても<ruby>上手<rt>うま</rt></ruby>くならない。",
+          "en": "No matter how much I practice, I cannot improve."
         },
         {
-          "jp": "あの映画、別に面白くなかった。",
-          "furigana": "あの<ruby>映画<rt>eiga</rt></ruby>、<ruby>別<rt>betsu</rt></ruby>に<ruby>面白<rt>omoshiro</rt></ruby>くなかった。",
-          "en": "That movie wasn't particularly interesting."
+          "jp": "いくら謝っても許してもらえない。",
+          "furigana": "いくら<ruby>謝<rt>あやま</rt></ruby>っても<ruby>許<rt>ゆる</rt></ruby>してもらえない。",
+          "en": "No matter how many times I apologise, I am not forgiven."
         }
       ]
     },
-    "ぶりに": {
-      "formation": "Time period + ぶりに",
-      "note": "Used to express that something is happening for the first time after a specific period has passed.",
+    "一方だ": {
+      "formation": "Verb (plain) + 一方だ",
+      "note": "'Continue to / more and more'. A one-directional trend that keeps increasing or worsening. Cannot reverse.",
       "examples": [
         {
-          "jp": "三年ぶりに会った。",
-          "furigana": "3<ruby>年<rt>nen</rt></ruby>ぶりに<ruby>会<rt>a</rt></ruby>った。",
-          "en": "We met for the first time in three years."
+          "jp": "物価が上がる一方だ。",
+          "furigana": "<ruby>物価<rt>ぶっか</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がる<ruby>一方<rt>いっぽう</rt></ruby>だ。",
+          "en": "Prices just keep rising."
         },
         {
-          "jp": "久しぶりに故郷に帰った。",
-          "furigana": "<ruby>久<rt>hisa</rt></ruby>しぶりに<ruby>故郷<rt>furusato</rt></ruby>に<ruby>帰<rt>kae</rt></ruby>った。",
-          "en": "I returned to my hometown for the first time in a long time."
+          "jp": "環境問題は悪化する一方だ。",
+          "furigana": "<ruby>環境<rt>かんきょう</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>は<ruby>悪化<rt>あっか</rt></ruby>する<ruby>一方<rt>いっぽう</rt></ruby>だ。",
+          "en": "Environmental problems just keep getting worse."
         },
         {
-          "jp": "一ヶ月ぶりに晴れた。",
-          "furigana": "1<ruby>ヶ月<rt>kagetsu</rt></ruby>ぶりに<ruby>晴<rt>ha</rt></ruby>れた。",
-          "en": "It cleared up for the first time in a month."
+          "jp": "彼の成績は下がる一方だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>成績<rt>せいせき</rt></ruby>は<ruby>下<rt>さ</rt></ruby>がる<ruby>一方<rt>いっぽう</rt></ruby>だ。",
+          "en": "His grades just keep falling."
+        }
+      ]
+    },
+    "一体": {
+      "formation": "一体 + question word (何、誰、どこ、なぜ…)",
+      "note": "'What on earth / just who'. Adds strong emphasis or bewilderment to a question. Always used with a question word.",
+      "examples": [
+        {
+          "jp": "一体何が起きたの？",
+          "furigana": "<ruby>一体<rt>いったい</rt></ruby><ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたの？",
+          "en": "What on earth happened?"
+        },
+        {
+          "jp": "一体誰がこんなことをしたんだ。",
+          "furigana": "<ruby>一体<rt>いったい</rt></ruby><ruby>誰<rt>だれ</rt></ruby>がこんなことをしたんだ。",
+          "en": "Who on earth did something like this?"
+        },
+        {
+          "jp": "一体どこに行くつもりだ。",
+          "furigana": "<ruby>一体<rt>いったい</rt></ruby>どこに<ruby>行<rt>い</rt></ruby>くつもりだ。",
+          "en": "Just where are you planning to go?"
+        }
+      ]
+    },
+    "かける": {
+      "formation": "Verb-stem + かける / かけの + Noun",
+      "note": "'Half done / not yet finished / about to'. The action has started but has not been completed. Often implies interruption.",
+      "examples": [
+        {
+          "jp": "読みかけの本がある。",
+          "furigana": "<ruby>読<rt>よ</rt></ruby>みかけの<ruby>本<rt>ほん</rt></ruby>がある。",
+          "en": "There is a half-read book."
+        },
+        {
+          "jp": "食べかけのパンを捨てた。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べかけのパンを<ruby>捨<rt>す</rt></ruby>てた。",
+          "en": "I threw away the half-eaten bread."
+        },
+        {
+          "jp": "言いかけてやめた。",
+          "furigana": "<ruby>言<rt>い</rt></ruby>いかけてやめた。",
+          "en": "I started to say something and stopped."
+        }
+      ]
+    },
+    "代わりに": {
+      "formation": "Noun の / Verb (plain) + 代わりに",
+      "note": "'Instead of / in place of / in exchange for'. A substitution is made. Can also mean doing something as compensation.",
+      "examples": [
+        {
+          "jp": "私の代わりに行ってください。",
+          "furigana": "<ruby>私<rt>わたし</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに<ruby>行<rt>い</rt></ruby>ってください。",
+          "en": "Please go in my place."
+        },
+        {
+          "jp": "車を使う代わりに電車に乗る。",
+          "furigana": "<ruby>車<rt>くるま</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>代<rt>か</rt></ruby>わりに<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る。",
+          "en": "Instead of using a car, I take the train."
+        },
+        {
+          "jp": "助けてもらった代わりに料理を作った。",
+          "furigana": "<ruby>助<rt>たす</rt></ruby>けてもらった<ruby>代<rt>か</rt></ruby>わりに<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った。",
+          "en": "In return for being helped, I cooked."
+        }
+      ]
+    },
+    "結局": {
+      "formation": "結局 + result (often negative or contrary to expectation)",
+      "note": "'After all / in the end / eventually'. Introduces a final outcome after a process or struggle.",
+      "examples": [
+        {
+          "jp": "結局諦めた。",
+          "furigana": "<ruby>結局<rt>けっきょく</rt></ruby><ruby>諦<rt>あきら</rt></ruby>めた。",
+          "en": "In the end, I gave up."
+        },
+        {
+          "jp": "結局誰も来なかった。",
+          "furigana": "<ruby>結局<rt>けっきょく</rt></ruby><ruby>誰<rt>だれ</rt></ruby>も<ruby>来<rt>こ</rt></ruby>なかった。",
+          "en": "In the end, nobody came."
+        },
+        {
+          "jp": "話し合ったが、結局解決しなかった。",
+          "furigana": "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>ったが、<ruby>結局<rt>けっきょく</rt></ruby><ruby>解決<rt>かいけつ</rt></ruby>しなかった。",
+          "en": "We discussed it but in the end it was not resolved."
+        }
+      ]
+    },
+    "決して～ない": {
+      "formation": "決して + negative verb / adjective",
+      "note": "'Never / by no means / absolutely not'. Strongest negative in Japanese. Used for strong denials or emphatic statements.",
+      "examples": [
+        {
+          "jp": "決して諦めない。",
+          "furigana": "<ruby>決<rt>けっ</rt></ruby>して<ruby>諦<rt>あきら</rt></ruby>めない。",
+          "en": "I will never give up."
+        },
+        {
+          "jp": "彼は決して嘘をつかない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>決<rt>けっ</rt></ruby>して<ruby>嘘<rt>うそ</rt></ruby>をつかない。",
+          "en": "He never lies."
+        },
+        {
+          "jp": "このことは決して忘れない。",
+          "furigana": "このことは<ruby>決<rt>けっ</rt></ruby>して<ruby>忘<rt>わす</rt></ruby>れない。",
+          "en": "I will never forget this."
+        }
+      ]
+    },
+    "切れない": {
+      "formation": "Verb-stem + 切れない",
+      "note": "'Cannot finish doing / too much to complete'. The subject is unable to finish an action due to quantity or capacity.",
+      "examples": [
+        {
+          "jp": "食べ切れない量だ。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べ<ruby>切<rt>き</rt></ruby>れない<ruby>量<rt>りょう</rt></ruby>だ。",
+          "en": "It is too much to eat."
+        },
+        {
+          "jp": "この仕事は一日で終わり切れない。",
+          "furigana": "この<ruby>仕事<rt>しごと</rt></ruby>は<ruby>一日<rt>いちにち</rt></ruby>で<ruby>終<rt>お</rt></ruby>わり<ruby>切<rt>き</rt></ruby>れない。",
+          "en": "This work cannot be finished in one day."
+        },
+        {
+          "jp": "感謝しきれないほど助けてもらった。",
+          "furigana": "<ruby>感謝<rt>かんしゃ</rt></ruby>しきれないほど<ruby>助<rt>たす</rt></ruby>けてもらった。",
+          "en": "I was helped so much I cannot express enough gratitude."
+        }
+      ]
+    },
+    "こそ": {
+      "formation": "Noun / Verb (た-form) + こそ",
+      "note": "'For sure / precisely / exactly'. Adds strong emphasis. Often used in contrastive or emphatic statements.",
+      "examples": [
+        {
+          "jp": "今年こそ合格する。",
+          "furigana": "<ruby>今年<rt>ことし</rt></ruby>こそ<ruby>合格<rt>ごうかく</rt></ruby>する。",
+          "en": "This year for sure I will pass."
+        },
+        {
+          "jp": "あなたこそ本当の友達だ。",
+          "furigana": "あなたこそ<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>友達<rt>ともだち</rt></ruby>だ。",
+          "en": "You are precisely a true friend."
+        },
+        {
+          "jp": "失敗したからこそ成長できた。",
+          "furigana": "<ruby>失敗<rt>しっぱい</rt></ruby>したからこそ<ruby>成長<rt>せいちょう</rt></ruby>できた。",
+          "en": "It is precisely because I failed that I could grow."
+        }
+      ]
+    },
+    "こと": {
+      "formation": "Verb (plain) + こと (sentence-ending directive)",
+      "note": "'Must do / rule'. A directive written as a rule. Softer than ～なさい but firmer than ～てください.",
+      "examples": [
+        {
+          "jp": "毎日練習すること。",
+          "furigana": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>すること。",
+          "en": "(Rule:) Practice every day."
+        },
+        {
+          "jp": "教室でタバコを吸わないこと。",
+          "furigana": "<ruby>教室<rt>きょうしつ</rt></ruby>でタバコを<ruby>吸<rt>す</rt></ruby>わないこと。",
+          "en": "Do not smoke in the classroom."
+        },
+        {
+          "jp": "試験中は静かにすること。",
+          "furigana": "<ruby>試験中<rt>しけんちゅう</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かにすること。",
+          "en": "Be quiet during the exam."
+        }
+      ]
+    },
+    "ことから": {
+      "formation": "Verb / adj (plain) + ことから",
+      "note": "'From the fact that / judging from'. Draws a conclusion or reason from observable evidence.",
+      "examples": [
+        {
+          "jp": "色が変わったことから腐っていると分かった。",
+          "furigana": "<ruby>色<rt>いろ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わったことから<ruby>腐<rt>くさ</rt></ruby>っていると<ruby>分<rt>わ</rt></ruby>かった。",
+          "en": "From the fact that the colour changed, I knew it had gone bad."
+        },
+        {
+          "jp": "発音がきれいなことから外国人だと分かった。",
+          "furigana": "<ruby>発音<rt>はつおん</rt></ruby>がきれいなことから<ruby>外国人<rt>がいこくじん</rt></ruby>だと<ruby>分<rt>わ</rt></ruby>かった。",
+          "en": "From the clear pronunciation, I knew they were a foreigner."
+        },
+        {
+          "jp": "値段が高いことから品質がいいと思った。",
+          "furigana": "<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いことから<ruby>品質<rt>ひんしつ</rt></ruby>がいいと<ruby>思<rt>おも</rt></ruby>った。",
+          "en": "From the high price, I thought the quality is good."
+        }
+      ]
+    },
+    "ことになっている": {
+      "formation": "Verb (plain) + ことになっている",
+      "note": "'It has been decided that / is expected to / is supposed to'. Describes a rule or schedule established externally.",
+      "examples": [
+        {
+          "jp": "明日会議に出ることになっている。",
+          "furigana": "<ruby>明日<rt>あした</rt></ruby><ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ることになっている。",
+          "en": "It has been decided that I attend the meeting tomorrow."
+        },
+        {
+          "jp": "ここでは靴を脱ぐことになっています。",
+          "furigana": "ここでは<ruby>靴<rt>くつ</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>ぐことになっています。",
+          "en": "It is the rule here to take off your shoes."
+        },
+        {
+          "jp": "来月から新しいシステムを使うことになっている。",
+          "furigana": "<ruby>来月<rt>らいげつ</rt></ruby>から<ruby>新<rt>あたら</rt></ruby>しいシステムを<ruby>使<rt>つか</rt></ruby>うことになっている。",
+          "en": "We are supposed to use a new system from next month."
+        }
+      ]
+    },
+    "ことはない": {
+      "formation": "Verb (plain) + ことはない",
+      "note": "'There is no need to / you don't have to'. Reassures someone that an action is unnecessary.",
+      "examples": [
+        {
+          "jp": "そんなに心配することはない。",
+          "furigana": "そんなに<ruby>心配<rt>しんぱい</rt></ruby>することはない。",
+          "en": "There is no need to worry so much."
+        },
+        {
+          "jp": "謝ることはないよ、君は悪くない。",
+          "furigana": "<ruby>謝<rt>あやま</rt></ruby>ることはないよ、<ruby>君<rt>きみ</rt></ruby>は<ruby>悪<rt>わる</rt></ruby>くない。",
+          "en": "There is no need to apologise — you did nothing wrong."
+        },
+        {
+          "jp": "急ぐことはない、時間はある。",
+          "furigana": "<ruby>急<rt>いそ</rt></ruby>ぐことはない、<ruby>時間<rt>じかん</rt></ruby>はある。",
+          "en": "There is no need to rush — there is time."
+        }
+      ]
+    },
+    "くせに": {
+      "formation": "Verb / adj / Noun + くせに",
+      "note": "'Although / despite the fact that / and yet'. Expresses criticism — the speaker feels the subject should know better.",
+      "examples": [
+        {
+          "jp": "知っているくせに教えない。",
+          "furigana": "<ruby>知<rt>し</rt></ruby>っているくせに<ruby>教<rt>おし</rt></ruby>えない。",
+          "en": "Even though you know, you won't tell me."
+        },
+        {
+          "jp": "下手くせに偉そうにする。",
+          "furigana": "<ruby>下手<rt>へた</rt></ruby>くせに<ruby>偉<rt>えら</rt></ruby>そうにする。",
+          "en": "Despite being bad at it, he acts arrogant."
+        },
+        {
+          "jp": "子供のくせに生意気だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>のくせに<ruby>生意気<rt>なまいき</rt></ruby>だ。",
+          "en": "Despite being a child, he is cheeky."
+        }
+      ]
+    },
+    "まるで": {
+      "formation": "まるで + [clause] + ようだ / みたいだ / かのようだ",
+      "note": "'Just like / as if / as though'. Makes a strong comparison. Always paired with a simile expression.",
+      "examples": [
+        {
+          "jp": "まるで夢のようだ。",
+          "furigana": "まるで<ruby>夢<rt>ゆめ</rt></ruby>のようだ。",
+          "en": "It is just like a dream."
+        },
+        {
+          "jp": "彼はまるで子供のように泣いた。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>はまるで<ruby>子供<rt>こども</rt></ruby>のように<ruby>泣<rt>な</rt></ruby>いた。",
+          "en": "He cried just like a child."
+        },
+        {
+          "jp": "まるで知らないかのように振る舞った。",
+          "furigana": "まるで<ruby>知<rt>し</rt></ruby>らないかのように<ruby>振<rt>ふ</rt></ruby>る<ruby>舞<rt>ま</rt></ruby>った。",
+          "en": "He behaved as if he did not know."
+        }
+      ]
+    },
+    "めったに～ない": {
+      "formation": "めったに + negative verb",
+      "note": "'Hardly ever / rarely / seldom'. Expresses that something occurs very infrequently.",
+      "examples": [
+        {
+          "jp": "めったに怒らない人だ。",
+          "furigana": "めったに<ruby>怒<rt>おこ</rt></ruby>らない<ruby>人<rt>ひと</rt></ruby>だ。",
+          "en": "He is a person who rarely gets angry."
+        },
+        {
+          "jp": "彼女はめったに外食しない。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>はめったに<ruby>外食<rt>がいしょく</rt></ruby>しない。",
+          "en": "She rarely eats out."
+        },
+        {
+          "jp": "私はめったにテレビを見ない。",
+          "furigana": "<ruby>私<rt>わたし</rt></ruby>はめったにテレビを<ruby>見<rt>み</rt></ruby>ない。",
+          "en": "I seldom watch television."
+        }
+      ]
+    },
+    "もしかしたら": {
+      "formation": "もしかしたら / もしかすると + かもしれない",
+      "note": "'Perhaps / maybe / by any chance'. Expresses uncertainty with a possibility. Softer than おそらく.",
+      "examples": [
+        {
+          "jp": "もしかしたら来ないかもしれない。",
+          "furigana": "もしかしたら<ruby>来<rt>こ</rt></ruby>ないかもしれない。",
+          "en": "Perhaps he might not come."
+        },
+        {
+          "jp": "もしかしたら間違えたかもしれない。",
+          "furigana": "もしかしたら<ruby>間違<rt>まちが</rt></ruby>えたかもしれない。",
+          "en": "I might have made a mistake."
+        },
+        {
+          "jp": "もしかしたら彼女は知っているかも。",
+          "furigana": "もしかしたら<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>知<rt>し</rt></ruby>っているかも。",
+          "en": "Maybe she knows."
+        }
+      ]
+    },
+    "むしろ": {
+      "formation": "むしろ + [preferred option]",
+      "note": "'Rather / instead / on the contrary'. Introduces the preferred or contrasting option. Often corrects a previous statement.",
+      "examples": [
+        {
+          "jp": "これはむしろ良い機会だ。",
+          "furigana": "これはむしろ<ruby>良<rt>よ</rt></ruby>い<ruby>機会<rt>きかい</rt></ruby>だ。",
+          "en": "This is rather a good opportunity."
+        },
+        {
+          "jp": "暑いよりむしろ寒い方が好きだ。",
+          "furigana": "<ruby>暑<rt>あつ</rt></ruby>いよりむしろ<ruby>寒<rt>さむ</rt></ruby>い<ruby>方<rt>ほう</rt></ruby>が<ruby>好<rt>す</rt></ruby>きだ。",
+          "en": "I prefer cold rather than hot."
+        },
+        {
+          "jp": "怒るよりむしろ悲しかった。",
+          "furigana": "<ruby>怒<rt>おこ</rt></ruby>るよりむしろ<ruby>悲<rt>かな</rt></ruby>しかった。",
+          "en": "Rather than angry, I was sad."
+        }
+      ]
+    },
+    "ながらも": {
+      "formation": "Verb-stem / い-adj / な-adj / Noun + ながらも",
+      "note": "'Although / but / despite'. Expresses a contrast where the second clause is surprising given the first.",
+      "examples": [
+        {
+          "jp": "小さいながらも夢を持っている。",
+          "furigana": "<ruby>小<rt>ちい</rt></ruby>さいながらも<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っている。",
+          "en": "Although small, I have big dreams."
+        },
+        {
+          "jp": "忙しいながらも楽しく過ごしている。",
+          "furigana": "<ruby>忙<rt>いそが</rt></ruby>しいながらも<ruby>楽<rt>たの</rt></ruby>しく<ruby>過<rt>す</rt></ruby>ごしている。",
+          "en": "Although busy, I am having a good time."
+        },
+        {
+          "jp": "初心者ながらもよくできた。",
+          "furigana": "<ruby>初心者<rt>しょしんしゃ</rt></ruby>ながらもよくできた。",
+          "en": "Although a beginner, he did very well."
+        }
+      ]
+    },
+    "ないことはない": {
+      "formation": "Verb (ない-form) + ことはない / い-adj (neg) + ことはない",
+      "note": "'It's not that… / it is not impossible'. A double negative expressing a weak affirmative — possible but with reservations.",
+      "examples": [
+        {
+          "jp": "できないことはないが大変だ。",
+          "furigana": "できないことはないが<ruby>大変<rt>たいへん</rt></ruby>だ。",
+          "en": "It is not impossible, but it is tough."
+        },
+        {
+          "jp": "行けないことはないけど、疲れる。",
+          "furigana": "<ruby>行<rt>い</rt></ruby>けないことはないけど、<ruby>疲<rt>つか</rt></ruby>れる。",
+          "en": "It is not that I cannot go, but it is tiring."
+        },
+        {
+          "jp": "食べられないことはないが、好きではない。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べられないことはないが、<ruby>好<rt>す</rt></ruby>きではない。",
+          "en": "It is not that I cannot eat it, I just don't like it."
+        }
+      ]
+    },
+    "なかなか": {
+      "formation": "なかなか + positive adjective / なかなか + negative verb",
+      "note": "Two uses: (1) with positive = 'quite / pretty / rather good'; (2) with negative = 'just won't / cannot easily'.",
+      "examples": [
+        {
+          "jp": "なかなか難しい問題だ。",
+          "furigana": "なかなか<ruby>難<rt>むずか</rt></ruby>しい<ruby>問題<rt>もんだい</rt></ruby>だ。",
+          "en": "It is quite a difficult problem."
+        },
+        {
+          "jp": "なかなか眠れない。",
+          "furigana": "なかなか<ruby>眠<rt>ねむ</rt></ruby>れない。",
+          "en": "I just cannot get to sleep."
+        },
+        {
+          "jp": "なかなかいいアイデアだ。",
+          "furigana": "なかなかいいアイデアだ。",
+          "en": "That is quite a good idea."
+        }
+      ]
+    },
+    "なるべく": {
+      "formation": "なるべく + verb / adjective",
+      "note": "'As much as possible / if possible'. Expresses doing something to the maximum reasonable extent.",
+      "examples": [
+        {
+          "jp": "なるべく早く来てください。",
+          "furigana": "なるべく<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>てください。",
+          "en": "Please come as early as possible."
+        },
+        {
+          "jp": "なるべく野菜を食べるようにしている。",
+          "furigana": "なるべく<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べるようにしている。",
+          "en": "I try to eat vegetables as much as possible."
+        },
+        {
+          "jp": "なるべくお金を使わないようにしよう。",
+          "furigana": "なるべくお<ruby>金<rt>かね</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わないようにしよう。",
+          "en": "Let's try not to spend money as much as possible."
+        }
+      ]
+    },
+    "なぜなら": {
+      "formation": "[Statement]. なぜなら + [reason] + から / だからだ",
+      "note": "'Because / the reason is'. Introduces a reason after a statement. Always gives the cause after the effect.",
+      "examples": [
+        {
+          "jp": "行けない。なぜなら忙しいから。",
+          "furigana": "<ruby>行<rt>い</rt></ruby>けない。なぜなら<ruby>忙<rt>いそが</rt></ruby>しいから。",
+          "en": "I cannot go. Because I am busy."
+        },
+        {
+          "jp": "彼が好きだ。なぜなら優しいからだ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>好<rt>す</rt></ruby>きだ。なぜなら<ruby>優<rt>やさ</rt></ruby>しいからだ。",
+          "en": "I like him. Because he is kind."
+        },
+        {
+          "jp": "試験に落ちた。なぜなら勉強しなかったからだ。",
+          "furigana": "<ruby>試験<rt>しけん</rt></ruby>に<ruby>落<rt>お</rt></ruby>ちた。なぜなら<ruby>勉強<rt>べんきょう</rt></ruby>しなかったからだ。",
+          "en": "I failed the exam. Because I did not study."
+        }
+      ]
+    },
+    "に違いない": {
+      "formation": "Verb / adj (plain) + に違いない",
+      "note": "'I'm certain / no doubt / must be'. The speaker's strong conviction based on evidence or reasoning.",
+      "examples": [
+        {
+          "jp": "彼は知っているに違いない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>知<rt>し</rt></ruby>っているに<ruby>違<rt>ちが</rt></ruby>いない。",
+          "en": "He must know."
+        },
+        {
+          "jp": "あの光は飛行機に違いない。",
+          "furigana": "あの<ruby>光<rt>ひかり</rt></ruby>は<ruby>飛行機<rt>ひこうき</rt></ruby>に<ruby>違<rt>ちが</rt></ruby>いない。",
+          "en": "That light must be an aeroplane."
+        },
+        {
+          "jp": "彼女は怒っているに違いない。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>っているに<ruby>違<rt>ちが</rt></ruby>いない。",
+          "en": "She must be angry."
+        }
+      ]
+    },
+    "に反して": {
+      "formation": "Noun + に反して",
+      "note": "'Against / contrary to'. An outcome that is the opposite of an expectation, rule, or wish.",
+      "examples": [
+        {
+          "jp": "予想に反して簡単だった。",
+          "furigana": "<ruby>予想<rt>よそう</rt></ruby>に<ruby>反<rt>はん</rt></ruby>して<ruby>簡単<rt>かんたん</rt></ruby>だった。",
+          "en": "Contrary to expectations, it was easy."
+        },
+        {
+          "jp": "ルールに反して行動した。",
+          "furigana": "ルールに<ruby>反<rt>はん</rt></ruby>して<ruby>行動<rt>こうどう</rt></ruby>した。",
+          "en": "He acted against the rules."
+        },
+        {
+          "jp": "親の期待に反して画家になった。",
+          "furigana": "<ruby>親<rt>おや</rt></ruby>の<ruby>期待<rt>きたい</rt></ruby>に<ruby>反<rt>はん</rt></ruby>して<ruby>画家<rt>がか</rt></ruby>になった。",
+          "en": "Contrary to his parents' expectations, he became a painter."
+        }
+      ]
+    },
+    "に比べて": {
+      "formation": "Noun + に比べて",
+      "note": "'Compared to / in comparison with'. A direct comparison between two things.",
+      "examples": [
+        {
+          "jp": "去年に比べて上手になった。",
+          "furigana": "<ruby>去年<rt>きょねん</rt></ruby>に<ruby>比<rt>くら</rt></ruby>べて<ruby>上手<rt>じょうず</rt></ruby>になった。",
+          "en": "Compared to last year, I have improved."
+        },
+        {
+          "jp": "東京に比べて田舎は静かだ。",
+          "furigana": "<ruby>東京<rt>とうきょう</rt></ruby>に<ruby>比<rt>くら</rt></ruby>べて<ruby>田舎<rt>いなか</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かだ。",
+          "en": "Compared to Tokyo, the countryside is quiet."
+        },
+        {
+          "jp": "他の国に比べて日本は安全だ。",
+          "furigana": "<ruby>他<rt>ほか</rt></ruby>の<ruby>国<rt>くに</rt></ruby>に<ruby>比<rt>くら</rt></ruby>べて<ruby>日本<rt>にほん</rt></ruby>は<ruby>安全<rt>あんぜん</rt></ruby>だ。",
+          "en": "Compared to other countries, Japan is safe."
+        }
+      ]
+    },
+    "に慣れる": {
+      "formation": "Noun / Verb (dictionary form) + に慣れる",
+      "note": "'To get used to / to become accustomed to'. Describes adaptation to a new situation or skill.",
+      "examples": [
+        {
+          "jp": "日本の生活に慣れた。",
+          "furigana": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れた。",
+          "en": "I got used to life in Japan."
+        },
+        {
+          "jp": "新しい仕事にまだ慣れていない。",
+          "furigana": "<ruby>新<rt>あたら</rt></ruby>しい<ruby>仕事<rt>しごと</rt></ruby>にまだ<ruby>慣<rt>な</rt></ruby>れていない。",
+          "en": "I am not yet used to my new job."
+        },
+        {
+          "jp": "早起きするのに慣れるまで時間がかかった。",
+          "furigana": "<ruby>早起<rt>はやお</rt></ruby>きするのに<ruby>慣<rt>な</rt></ruby>れるまで<ruby>時間<rt>じかん</rt></ruby>がかかった。",
+          "en": "It took time to get used to waking up early."
+        }
+      ]
+    },
+    "において": {
+      "formation": "Noun + において / においては / においても",
+      "note": "'In / at / regarding'. A formal version of で or に. Used in written or official contexts.",
+      "examples": [
+        {
+          "jp": "スポーツにおいて努力が大切だ。",
+          "furigana": "スポーツにおいて<ruby>努力<rt>どりょく</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "In sport, effort is important."
+        },
+        {
+          "jp": "現代社会において、環境問題は深刻だ。",
+          "furigana": "<ruby>現代<rt>げんだい</rt></ruby><ruby>社会<rt>しゃかい</rt></ruby>において、<ruby>環境<rt>かんきょう</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>は<ruby>深刻<rt>しんこく</rt></ruby>だ。",
+          "en": "In modern society, environmental issues are serious."
+        },
+        {
+          "jp": "この分野においては彼が専門家だ。",
+          "furigana": "この<ruby>分野<rt>ぶんや</rt></ruby>においては<ruby>彼<rt>かれ</rt></ruby>が<ruby>専門家<rt>せんもんか</rt></ruby>だ。",
+          "en": "He is the expert in this field."
+        }
+      ]
+    },
+    "にしたがって": {
+      "formation": "Noun / Verb (plain) + にしたがって",
+      "note": "'As / in accordance with'. A change that follows or keeps pace with another change.",
+      "examples": [
+        {
+          "jp": "時代にしたがって言葉が変わる。",
+          "furigana": "<ruby>時代<rt>じだい</rt></ruby>にしたがって<ruby>言葉<rt>ことば</rt></ruby>が<ruby>変<rt>か</rt></ruby>わる。",
+          "en": "Language changes in accordance with the times."
+        },
+        {
+          "jp": "年をとるにしたがって体が弱くなる。",
+          "furigana": "<ruby>年<rt>とし</rt></ruby>をとるにしたがって<ruby>体<rt>からだ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>くなる。",
+          "en": "As one ages, the body grows weaker."
+        },
+        {
+          "jp": "指示にしたがって動いてください。",
+          "furigana": "<ruby>指示<rt>しじ</rt></ruby>にしたがって<ruby>動<rt>うご</rt></ruby>いてください。",
+          "en": "Please act in accordance with the instructions."
+        }
+      ]
+    },
+    "にしても": {
+      "formation": "Verb / adj (plain) + にしても / Noun + にしても",
+      "note": "'Even if / even though'. Acknowledges a premise but states the result is not changed.",
+      "examples": [
+        {
+          "jp": "冗談にしても失礼だ。",
+          "furigana": "<ruby>冗談<rt>じょうだん</rt></ruby>にしても<ruby>失礼<rt>しつれい</rt></ruby>だ。",
+          "en": "Even as a joke, that is rude."
+        },
+        {
+          "jp": "忙しいにしても連絡くらいできる。",
+          "furigana": "<ruby>忙<rt>いそが</rt></ruby>しいにしても<ruby>連絡<rt>れんらく</rt></ruby>くらいできる。",
+          "en": "Even if busy, you can at least get in touch."
+        },
+        {
+          "jp": "たとえ失敗するにしても挑戦する。",
+          "furigana": "たとえ<ruby>失敗<rt>しっぱい</rt></ruby>するにしても<ruby>挑戦<rt>ちょうせん</rt></ruby>する。",
+          "en": "Even if I will fail, I will still try."
+        }
+      ]
+    },
+    "にしては": {
+      "formation": "Noun / Verb (plain) + にしては",
+      "note": "'For / considering it is'. Surprise that the result is different from what one would expect for that category.",
+      "examples": [
+        {
+          "jp": "初めてにしては上手だ。",
+          "furigana": "<ruby>初<rt>はじ</rt></ruby>めてにしては<ruby>上手<rt>じょうず</rt></ruby>だ。",
+          "en": "Considering it is your first time, you are good."
+        },
+        {
+          "jp": "子供にしては難しい本だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>にしては<ruby>難<rt>むずか</rt></ruby>しい<ruby>本<rt>ほん</rt></ruby>だ。",
+          "en": "For a child, it is a difficult book."
+        },
+        {
+          "jp": "値段にしてはあまりおいしくない。",
+          "furigana": "<ruby>値段<rt>ねだん</rt></ruby>にしてはあまりおいしくない。",
+          "en": "For the price, it is not very tasty."
+        }
+      ]
+    },
+    "に対して": {
+      "formation": "Noun + に対して / に対する + Noun",
+      "note": "'Towards / against / in contrast to'. Describes direction of action, contrast, or attitude.",
+      "examples": [
+        {
+          "jp": "先生に対して礼儀正しくする。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して<ruby>礼儀正<rt>れいぎただ</rt></ruby>しくする。",
+          "en": "I am polite towards my teacher."
+        },
+        {
+          "jp": "彼女は批判に対して強い。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>批判<rt>ひはん</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して<ruby>強<rt>つよ</rt></ruby>い。",
+          "en": "She is strong against criticism."
+        },
+        {
+          "jp": "都市に対して田舎はのんびりしている。",
+          "furigana": "<ruby>都市<rt>とし</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して<ruby>田舎<rt>いなか</rt></ruby>はのんびりしている。",
+          "en": "In contrast to the city, the countryside is relaxed."
+        }
+      ]
+    },
+    "にとって": {
+      "formation": "Noun + にとって",
+      "note": "'For / from the perspective of'. Expresses how something is evaluated from a particular person's standpoint.",
+      "examples": [
+        {
+          "jp": "私にとって家族が一番大切だ。",
+          "furigana": "<ruby>私<rt>わたし</rt></ruby>にとって<ruby>家族<rt>かぞく</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "For me, family is the most important."
+        },
+        {
+          "jp": "外国人にとって日本語は難しい。",
+          "furigana": "<ruby>外国人<rt>がいこくじん</rt></ruby>にとって<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しい。",
+          "en": "For foreigners, Japanese is difficult."
+        },
+        {
+          "jp": "子供にとって遊びは大切だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>にとって<ruby>遊<rt>あそ</rt></ruby>びは<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "For children, play is important."
+        }
+      ]
+    },
+    "について": {
+      "formation": "Noun + について / についての + Noun",
+      "note": "'About / concerning / regarding'. Very common. Used when discussing or explaining a topic.",
+      "examples": [
+        {
+          "jp": "日本の文化について話した。",
+          "furigana": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>文化<rt>ぶんか</rt></ruby>について<ruby>話<rt>はな</rt></ruby>した。",
+          "en": "We talked about Japanese culture."
+        },
+        {
+          "jp": "環境問題についてレポートを書いた。",
+          "furigana": "<ruby>環境<rt>かんきょう</rt></ruby><ruby>問題<rt>もんだい</rt></ruby>についてレポートを<ruby>書<rt>か</rt></ruby>いた。",
+          "en": "I wrote a report about environmental issues."
+        },
+        {
+          "jp": "それについて何か知っていますか。",
+          "furigana": "それについて<ruby>何<rt>なに</rt></ruby>か<ruby>知<rt>し</rt></ruby>っていますか。",
+          "en": "Do you know anything about that?"
+        }
+      ]
+    },
+    "につれて": {
+      "formation": "Verb (plain) / Noun + につれて",
+      "note": "'As / in proportion to'. Both situations change together. Similar to にしたがって but more natural in conversation.",
+      "examples": [
+        {
+          "jp": "年をとるにつれて体が弱くなる。",
+          "furigana": "<ruby>年<rt>とし</rt></ruby>をとるにつれて<ruby>体<rt>からだ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>くなる。",
+          "en": "As one gets older, the body weakens."
+        },
+        {
+          "jp": "夜が深まるにつれて気温が下がった。",
+          "furigana": "<ruby>夜<rt>よる</rt></ruby>が<ruby>深<rt>ふか</rt></ruby>まるにつれて<ruby>気温<rt>きおん</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がった。",
+          "en": "As the night deepened, the temperature dropped."
+        },
+        {
+          "jp": "練習するにつれて自信がついてきた。",
+          "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>するにつれて<ruby>自信<rt>じしん</rt></ruby>がついてきた。",
+          "en": "As I practiced, my confidence grew."
+        }
+      ]
+    },
+    "によると": {
+      "formation": "Noun + によると / によれば",
+      "note": "'According to'. Introduces information from a source. The speaker is reporting what they heard or read.",
+      "examples": [
+        {
+          "jp": "ニュースによると大雨が降るそうだ。",
+          "furigana": "ニュースによると<ruby>大雨<rt>おおあめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るそうだ。",
+          "en": "According to the news, heavy rain is expected."
+        },
+        {
+          "jp": "天気予報によると明日は晴れる。",
+          "furigana": "<ruby>天気予報<rt>てんきよほう</rt></ruby>によると<ruby>明日<rt>あした</rt></ruby>は<ruby>晴<rt>は</rt></ruby>れる。",
+          "en": "According to the weather forecast, it will be sunny tomorrow."
+        },
+        {
+          "jp": "彼女によると、試験はとても難しかったそうだ。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>によると、<ruby>試験<rt>しけん</rt></ruby>はとても<ruby>難<rt>むずか</rt></ruby>しかったそうだ。",
+          "en": "According to her, the exam was very difficult."
+        }
+      ]
+    },
+    "によって": {
+      "formation": "Noun + によって / により (formal)",
+      "note": "'By / due to / depending on / by means of'. Four uses: agent in passive, cause, method, and variation.",
+      "examples": [
+        {
+          "jp": "努力によって夢が叶う。",
+          "furigana": "<ruby>努力<rt>どりょく</rt></ruby>によって<ruby>夢<rt>ゆめ</rt></ruby>が<ruby>叶<rt>かな</rt></ruby>う。",
+          "en": "Dreams come true through effort."
+        },
+        {
+          "jp": "場所によって値段が違う。",
+          "furigana": "<ruby>場所<rt>ばしょ</rt></ruby>によって<ruby>値段<rt>ねだん</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>う。",
+          "en": "Prices vary depending on the location."
+        },
+        {
+          "jp": "台風によって大きな被害が出た。",
+          "furigana": "<ruby>台風<rt>たいふう</rt></ruby>によって<ruby>大<rt>おお</rt></ruby>きな<ruby>被害<rt>ひがい</rt></ruby>が<ruby>出<rt>で</rt></ruby>た。",
+          "en": "Major damage occurred due to the typhoon."
+        }
+      ]
+    },
+    "さえ": {
+      "formation": "Noun / Verb (stem) + さえ",
+      "note": "'Even / so much as'. Marks an extreme example — if even X (the minimal case) applies, certainly more is true.",
+      "examples": [
+        {
+          "jp": "名前さえ知らない。",
+          "furigana": "<ruby>名前<rt>なまえ</rt></ruby>さえ<ruby>知<rt>し</rt></ruby>らない。",
+          "en": "I don't even know the name."
+        },
+        {
+          "jp": "水さえあれば生きられる。",
+          "furigana": "<ruby>水<rt>みず</rt></ruby>さえあれば<ruby>生<rt>い</rt></ruby>きられる。",
+          "en": "If there is even water, one can survive."
+        },
+        {
+          "jp": "彼は挨拶さえしない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>挨拶<rt>あいさつ</rt></ruby>さえしない。",
+          "en": "He does not even greet people."
+        }
+      ]
+    },
+    "さえ～ば": {
+      "formation": "Noun + さえ + Verb (ば-form) / Adj (-ければ)",
+      "note": "'If only / as long as'. A single minimal condition that is all that is needed for a good outcome.",
+      "examples": [
+        {
+          "jp": "健康でさえあれば幸せだ。",
+          "furigana": "<ruby>健康<rt>けんこう</rt></ruby>でさえあれば<ruby>幸<rt>しあわ</rt></ruby>せだ。",
+          "en": "As long as I have my health, I am happy."
+        },
+        {
+          "jp": "お金さえあれば何でもできる。",
+          "furigana": "お<ruby>金<rt>かね</rt></ruby>さえあれば<ruby>何<rt>なん</rt></ruby>でもできる。",
+          "en": "If only I had money, I could do anything."
+        },
+        {
+          "jp": "練習さえすれば上手くなる。",
+          "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>さえすれば<ruby>上手<rt>うま</rt></ruby>くなる。",
+          "en": "As long as you practice, you will improve."
+        }
+      ]
+    },
+    "際に": {
+      "formation": "Noun の / Verb (plain) + 際に",
+      "note": "'When / at the time of / on the occasion of'. Formal expression for important, specific moments.",
+      "examples": [
+        {
+          "jp": "出発の際にご連絡ください。",
+          "furigana": "<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>際<rt>さい</rt></ruby>にご<ruby>連絡<rt>れんらく</rt></ruby>ください。",
+          "en": "Please contact us when you depart."
+        },
+        {
+          "jp": "ご来店の際はこちらをご確認ください。",
+          "furigana": "ご<ruby>来店<rt>らいてん</rt></ruby>の<ruby>際<rt>さい</rt></ruby>はこちらをご<ruby>確認<rt>かくにん</rt></ruby>ください。",
+          "en": "When visiting the store, please check this."
+        },
+        {
+          "jp": "緊急の際は119番に電話してください。",
+          "furigana": "<ruby>緊急<rt>きんきゅう</rt></ruby>の<ruby>際<rt>さい</rt></ruby>は119<ruby>番<rt>ばん</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>してください。",
+          "en": "In case of emergency, please call 119."
+        }
+      ]
+    },
+    "最中に": {
+      "formation": "Noun の / Verb (～ている) + 最中に",
+      "note": "'While / right in the midst of'. Emphasises interruption — something else happens exactly during an ongoing action.",
+      "examples": [
+        {
+          "jp": "食事の最中に電話が鳴った。",
+          "furigana": "<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>電話<rt>でんわ</rt></ruby>が<ruby>鳴<rt>な</rt></ruby>った。",
+          "en": "The phone rang right in the middle of eating."
+        },
+        {
+          "jp": "会議の最中に停電が起きた。",
+          "furigana": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>停電<rt>ていでん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた。",
+          "en": "A power cut happened right in the middle of the meeting."
+        },
+        {
+          "jp": "寝ている最中に地震があった。",
+          "furigana": "<ruby>寝<rt>ね</rt></ruby>ている<ruby>最中<rt>さいちゅう</rt></ruby>に<ruby>地震<rt>じしん</rt></ruby>があった。",
+          "en": "There was an earthquake right while I was sleeping."
+        }
+      ]
+    },
+    "せいで": {
+      "formation": "Noun の / Verb / adj (plain) + せいで",
+      "note": "'Because of / due to (negative)'. Always implies blame or an undesirable outcome. Opposite of おかげで.",
+      "examples": [
+        {
+          "jp": "雨のせいで試合が中止になった。",
+          "furigana": "<ruby>雨<rt>あめ</rt></ruby>のせいで<ruby>試合<rt>しあい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった。",
+          "en": "The match was cancelled because of the rain."
+        },
+        {
+          "jp": "彼のせいで計画が失敗した。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>のせいで<ruby>計画<rt>けいかく</rt></ruby>が<ruby>失敗<rt>しっぱい</rt></ruby>した。",
+          "en": "The plan failed because of him."
+        },
+        {
+          "jp": "風邪のせいで試験を受けられなかった。",
+          "furigana": "<ruby>風邪<rt>かぜ</rt></ruby>のせいで<ruby>試験<rt>しけん</rt></ruby>を<ruby>受<rt>う</rt></ruby>けられなかった。",
+          "en": "I could not take the exam because of a cold."
+        }
+      ]
+    },
+    "しかない": {
+      "formation": "Verb (plain) + しかない",
+      "note": "'Have no choice but to / can only do'. There is only one available option, often out of necessity.",
+      "examples": [
+        {
+          "jp": "歩いて行くしかない。",
+          "furigana": "<ruby>歩<rt>ある</rt></ruby>いて<ruby>行<rt>い</rt></ruby>くしかない。",
+          "en": "I have no choice but to walk."
+        },
+        {
+          "jp": "もう諦めるしかなかった。",
+          "furigana": "もう<ruby>諦<rt>あきら</rt></ruby>めるしかなかった。",
+          "en": "I had no choice but to give up."
+        },
+        {
+          "jp": "お金がないから節約するしかない。",
+          "furigana": "お<ruby>金<rt>かね</rt></ruby>がないから<ruby>節約<rt>せつやく</rt></ruby>するしかない。",
+          "en": "Since I have no money, I can only save up."
+        }
+      ]
+    },
+    "そのために": {
+      "formation": "[statement]. そのために + [result/action]",
+      "note": "'For that reason / therefore'. A logical connector — first clause gives the cause, そのために introduces the result.",
+      "examples": [
+        {
+          "jp": "遅れた。そのために謝った。",
+          "furigana": "<ruby>遅<rt>おく</rt></ruby>れた。そのために<ruby>謝<rt>あやま</rt></ruby>った。",
+          "en": "I was late. For that reason, I apologised."
+        },
+        {
+          "jp": "毎日運動している。そのために健康だ。",
+          "furigana": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>している。そのために<ruby>健康<rt>けんこう</rt></ruby>だ。",
+          "en": "I exercise every day. That is why I am healthy."
+        },
+        {
+          "jp": "準備が必要だ。そのために時間を作る。",
+          "furigana": "<ruby>準備<rt>じゅんび</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。そのために<ruby>時間<rt>じかん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。",
+          "en": "Preparation is necessary. For that reason I make time."
+        }
+      ]
+    },
+    "たものだ": {
+      "formation": "Verb (plain past) + ものだ",
+      "note": "'Used to do / would often do (nostalgically)'. Recalls a past habit with nostalgia. Only for past, no longer current actions.",
+      "examples": [
+        {
+          "jp": "子供の頃よく遊んだものだ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>の<ruby>頃<rt>ころ</rt></ruby>よく<ruby>遊<rt>あそ</rt></ruby>んだものだ。",
+          "en": "I used to play a lot when I was a child."
+        },
+        {
+          "jp": "若い頃はよく旅行したものだ。",
+          "furigana": "<ruby>若<rt>わか</rt></ruby>い<ruby>頃<rt>ころ</rt></ruby>はよく<ruby>旅行<rt>りょこう</rt></ruby>したものだ。",
+          "en": "I used to travel a lot when I was young."
+        },
+        {
+          "jp": "祖母はよく昔話をしてくれたものだ。",
+          "furigana": "<ruby>祖母<rt>そぼ</rt></ruby>はよく<ruby>昔話<rt>むかしばなし</rt></ruby>をしてくれたものだ。",
+          "en": "My grandmother would often tell me old stories."
+        }
+      ]
+    },
+    "たとたん": {
+      "formation": "Verb (た-form) + とたん（に）",
+      "note": "'As soon as / the moment'. The second action occurs instantly after the first. Always involuntary or unexpected.",
+      "examples": [
+        {
+          "jp": "ドアを開けたとたん猫が入った。",
+          "furigana": "ドアを<ruby>開<rt>あ</rt></ruby>けたとたん<ruby>猫<rt>ねこ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>った。",
+          "en": "The moment I opened the door, the cat came in."
+        },
+        {
+          "jp": "布団に入ったとたん眠くなった。",
+          "furigana": "<ruby>布団<rt>ふとん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったとたん<ruby>眠<rt>ねむ</rt></ruby>くなった。",
+          "en": "The moment I got into bed, I became sleepy."
+        },
+        {
+          "jp": "彼を見たとたん名前を忘れた。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>を<ruby>見<rt>み</rt></ruby>たとたん<ruby>名前<rt>なまえ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れた。",
+          "en": "The moment I saw him, I forgot his name."
+        }
+      ]
+    },
+    "たびに": {
+      "formation": "Verb (plain) / Noun + たびに",
+      "note": "'Whenever / every time / each time'. Every time action A happens, B also happens.",
+      "examples": [
+        {
+          "jp": "日本に来るたびに寿司を食べる。",
+          "furigana": "<ruby>日本<rt>にほん</rt></ruby>に<ruby>来<rt>く</rt></ruby>るたびに<ruby>寿司<rt>すし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べる。",
+          "en": "Every time I come to Japan, I eat sushi."
+        },
+        {
+          "jp": "会うたびに背が高くなっている。",
+          "furigana": "<ruby>会<rt>あ</rt></ruby>うたびに<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くなっている。",
+          "en": "Every time I see him, he has grown taller."
+        },
+        {
+          "jp": "この曲を聴くたびに彼女を思い出す。",
+          "furigana": "この<ruby>曲<rt>きょく</rt></ruby>を<ruby>聴<rt>き</rt></ruby>くたびに<ruby>彼女<rt>かのじょ</rt></ruby>を<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す。",
+          "en": "Every time I listen to this song, I think of her."
+        }
+      ]
+    },
+    "ために": {
+      "formation": "Verb (plain) / Noun + のために",
+      "note": "'In order to (purpose) / because of (cause)'. Two uses: goal you are working towards, or reason for a result.",
+      "examples": [
+        {
+          "jp": "合格するために毎日勉強する。",
+          "furigana": "<ruby>合格<rt>ごうかく</rt></ruby>するために<ruby>毎日<rt>まいにち</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>する。",
+          "en": "I study every day in order to pass."
+        },
+        {
+          "jp": "健康のために野菜を食べている。",
+          "furigana": "<ruby>健康<rt>けんこう</rt></ruby>のために<ruby>野菜<rt>やさい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べている。",
+          "en": "I eat vegetables for my health."
+        },
+        {
+          "jp": "大雪のために電車が止まった。",
+          "furigana": "<ruby>大雪<rt>おおゆき</rt></ruby>のために<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった。",
+          "en": "The train stopped because of heavy snow."
+        }
+      ]
+    },
+    "たとえ～ても": {
+      "formation": "たとえ + Verb (て-form) + も / たとえ + adj + ても",
+      "note": "'Even if / even though'. Acknowledges a hypothetical extreme case but states the result remains the same.",
+      "examples": [
+        {
+          "jp": "たとえ雨でも行きます。",
+          "furigana": "たとえ<ruby>雨<rt>あめ</rt></ruby>でも<ruby>行<rt>い</rt></ruby>きます。",
+          "en": "Even if it rains, I will go."
+        },
+        {
+          "jp": "たとえ失敗しても諦めない。",
+          "furigana": "たとえ<ruby>失敗<rt>しっぱい</rt></ruby>しても<ruby>諦<rt>あきら</rt></ruby>めない。",
+          "en": "Even if I fail, I will not give up."
+        },
+        {
+          "jp": "たとえどんなに辛くても続ける。",
+          "furigana": "たとえどんなに<ruby>辛<rt>つら</rt></ruby>くても<ruby>続<rt>つづ</rt></ruby>ける。",
+          "en": "Even if it is incredibly hard, I will continue."
+        }
+      ]
+    },
+    "てばかりいる": {
+      "formation": "Verb (て-form) + ばかりいる",
+      "note": "'Only / nothing but'. Criticises someone who only does one thing. Implies negligence of other duties.",
+      "examples": [
+        {
+          "jp": "遊んでばかりいる。",
+          "furigana": "<ruby>遊<rt>あそ</rt></ruby>んでばかりいる。",
+          "en": "You are always just playing around."
+        },
+        {
+          "jp": "寝てばかりいないで勉強しなさい。",
+          "furigana": "<ruby>寝<rt>ね</rt></ruby>てばかりいないで<ruby>勉強<rt>べんきょう</rt></ruby>しなさい。",
+          "en": "Stop just sleeping and study."
+        },
+        {
+          "jp": "文句を言ってばかりいる人が嫌いだ。",
+          "furigana": "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>ってばかりいる<ruby>人<rt>ひと</rt></ruby>が<ruby>嫌<rt>きら</rt></ruby>いだ。",
+          "en": "I dislike people who do nothing but complain."
+        }
+      ]
+    },
+    "てごらん": {
+      "formation": "Verb (て-form) + ごらん",
+      "note": "'Please try to / go ahead and'. A soft encouraging command suggesting the listener try something.",
+      "examples": [
+        {
+          "jp": "食べてごらん。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べてごらん。",
+          "en": "Go ahead and try eating it."
+        },
+        {
+          "jp": "一度やってごらん。",
+          "furigana": "<ruby>一度<rt>いちど</rt></ruby>やってごらん。",
+          "en": "Try doing it once."
+        },
+        {
+          "jp": "この本を読んでごらん、面白いよ。",
+          "furigana": "この<ruby>本<rt>ほん</rt></ruby>を<ruby>読<rt>よ</rt></ruby>んでごらん、<ruby>面白<rt>おもしろ</rt></ruby>いよ。",
+          "en": "Try reading this book — it's interesting."
+        }
+      ]
+    },
+    "てはじめて": {
+      "formation": "Verb (て-form) + はじめて",
+      "note": "'Not until / only after'. The second realisation or change only became possible after the first action.",
+      "examples": [
+        {
+          "jp": "失って初めてその大切さが分かった。",
+          "furigana": "<ruby>失<rt>うしな</rt></ruby>って<ruby>初<rt>はじ</rt></ruby>めてその<ruby>大切<rt>たいせつ</rt></ruby>さが<ruby>分<rt>わ</rt></ruby>かった。",
+          "en": "Only after losing it did I realise its importance."
+        },
+        {
+          "jp": "親になってはじめて親の苦労が分かる。",
+          "furigana": "<ruby>親<rt>おや</rt></ruby>になってはじめて<ruby>親<rt>おや</rt></ruby>の<ruby>苦労<rt>くろう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かる。",
+          "en": "Only after becoming a parent do you understand a parent's hardship."
+        },
+        {
+          "jp": "行ってはじめて本当の良さが分かった。",
+          "furigana": "<ruby>行<rt>い</rt></ruby>ってはじめて<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>良<rt>よ</rt></ruby>さが<ruby>分<rt>わ</rt></ruby>かった。",
+          "en": "Only after going there did I truly understand its appeal."
+        }
+      ]
+    },
+    "てからでないと": {
+      "formation": "Verb (て-form) + からでないと / からでなければ",
+      "note": "'Must first do / cannot do Y without first doing X'. States a prerequisite.",
+      "examples": [
+        {
+          "jp": "宿題をしてからでないとゲームはできない。",
+          "furigana": "<ruby>宿題<rt>しゅくだい</rt></ruby>をしてからでないとゲームはできない。",
+          "en": "You cannot play games without first doing your homework."
+        },
+        {
+          "jp": "確認してからでないと返事できない。",
+          "furigana": "<ruby>確認<rt>かくにん</rt></ruby>してからでないと<ruby>返事<rt>へんじ</rt></ruby>できない。",
+          "en": "I cannot reply without checking first."
+        },
+        {
+          "jp": "洗ってからでないと食べられない。",
+          "furigana": "<ruby>洗<rt>あら</rt></ruby>ってからでないと<ruby>食<rt>た</rt></ruby>べられない。",
+          "en": "You cannot eat it without washing it first."
+        }
+      ]
+    },
+    "てしょうがない": {
+      "formation": "Verb (て-form) / い-adj (-くて) / な-adj (+で) + しょうがない",
+      "note": "'Cannot help but / extremely / so ~ that there is nothing you can do'. An overwhelming feeling or condition.",
+      "examples": [
+        {
+          "jp": "眠くてしょうがない。",
+          "furigana": "<ruby>眠<rt>ねむ</rt></ruby>くてしょうがない。",
+          "en": "I am so sleepy I cannot help it."
+        },
+        {
+          "jp": "心配でしょうがない。",
+          "furigana": "<ruby>心配<rt>しんぱい</rt></ruby>でしょうがない。",
+          "en": "I cannot help but worry."
+        },
+        {
+          "jp": "早く会いたくてしょうがない。",
+          "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>会<rt>あ</rt></ruby>いたくてしょうがない。",
+          "en": "I cannot help but want to see you soon."
+        }
+      ]
+    },
+    "て済む": {
+      "formation": "Verb (て-form) + 済む",
+      "note": "'Sufficient by / resolve by / get away with just'. A situation is resolved with only a minimal action.",
+      "examples": [
+        {
+          "jp": "謝って済む問題ではない。",
+          "furigana": "<ruby>謝<rt>あやま</rt></ruby>って<ruby>済<rt>す</rt></ruby>む<ruby>問題<rt>もんだい</rt></ruby>ではない。",
+          "en": "This is not a problem that can be solved just by apologising."
+        },
+        {
+          "jp": "一言言えば済んだのに。",
+          "furigana": "<ruby>一言<rt>ひとこと</rt></ruby><ruby>言<rt>い</rt></ruby>えば<ruby>済<rt>す</rt></ruby>んだのに。",
+          "en": "It could have been resolved with just one word."
+        },
+        {
+          "jp": "電話一本で済む話だ。",
+          "furigana": "<ruby>電話<rt>でんわ</rt></ruby><ruby>一本<rt>いっぽん</rt></ruby>で<ruby>済<rt>す</rt></ruby>む<ruby>話<rt>はなし</rt></ruby>だ。",
+          "en": "It is a matter that can be settled with just one phone call."
+        }
+      ]
+    },
+    "ても始まらない": {
+      "formation": "Verb (て-form) + も始まらない",
+      "note": "'Even if you… it's no use'. A certain reaction or action will not solve the problem.",
+      "examples": [
+        {
+          "jp": "泣いても始まらない。",
+          "furigana": "<ruby>泣<rt>な</rt></ruby>いても<ruby>始<rt>はじ</rt></ruby>まらない。",
+          "en": "Even if you cry, it won't help."
+        },
+        {
+          "jp": "今更後悔しても始まらない。",
+          "furigana": "<ruby>今更<rt>いまさら</rt></ruby><ruby>後悔<rt>こうかい</rt></ruby>しても<ruby>始<rt>はじ</rt></ruby>まらない。",
+          "en": "Even if you regret it now, it won't help."
+        },
+        {
+          "jp": "文句を言っても始まらない、行動しよう。",
+          "furigana": "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>っても<ruby>始<rt>はじ</rt></ruby>まらない、<ruby>行動<rt>こうどう</rt></ruby>しよう。",
+          "en": "Complaining won't help — let's take action."
+        }
+      ]
+    },
+    "てもかまわない": {
+      "formation": "Verb (て-form) + もかまわない",
+      "note": "'It doesn't matter if / it is fine even if'. Gives permission or expresses indifference.",
+      "examples": [
+        {
+          "jp": "遅くなってもかまわない。",
+          "furigana": "<ruby>遅<rt>おく</rt></ruby>くなってもかまわない。",
+          "en": "It does not matter if you are late."
+        },
+        {
+          "jp": "使ってもかまいませんよ。",
+          "furigana": "<ruby>使<rt>つか</rt></ruby>ってもかまいませんよ。",
+          "en": "I don't mind if you use it."
+        },
+        {
+          "jp": "帰ってもかまわない。",
+          "furigana": "<ruby>帰<rt>かえ</rt></ruby>ってもかまわない。",
+          "en": "It is fine if you go home."
+        }
+      ]
+    },
+    "と言えば": {
+      "formation": "Noun + と言えば",
+      "note": "'Speaking of / when you mention'. Triggers a related topic or the most typical example of something.",
+      "examples": [
+        {
+          "jp": "日本と言えば富士山だ。",
+          "furigana": "<ruby>日本<rt>にほん</rt></ruby>と<ruby>言<rt>い</rt></ruby>えば<ruby>富士山<rt>ふじさん</rt></ruby>だ。",
+          "en": "Speaking of Japan, it's Mt. Fuji."
+        },
+        {
+          "jp": "夏と言えばスイカを思い出す。",
+          "furigana": "<ruby>夏<rt>なつ</rt></ruby>と<ruby>言<rt>い</rt></ruby>えばスイカを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>す。",
+          "en": "Speaking of summer, I think of watermelon."
+        },
+        {
+          "jp": "彼と言えば、最近見ていないな。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>と<ruby>言<rt>い</rt></ruby>えば、<ruby>最近<rt>さいきん</rt></ruby><ruby>見<rt>み</rt></ruby>ていないな。",
+          "en": "Speaking of him, I haven't seen him lately."
+        }
+      ]
+    },
+    "といい/たらいい": {
+      "formation": "Verb (plain / たら-form) + といい / たらいい",
+      "note": "'It would be nice if / I hope / you should'. Expresses a wish or gentle advice.",
+      "examples": [
+        {
+          "jp": "合格したらいいな。",
+          "furigana": "<ruby>合格<rt>ごうかく</rt></ruby>したらいいな。",
+          "en": "I hope I pass."
+        },
+        {
+          "jp": "早く良くなるといいね。",
+          "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>良<rt>よ</rt></ruby>くなるといいね。",
+          "en": "I hope you get better soon."
+        },
+        {
+          "jp": "明日晴れるといいけど。",
+          "furigana": "<ruby>明日<rt>あした</rt></ruby><ruby>晴<rt>は</rt></ruby>れるといいけど。",
+          "en": "It would be nice if it were sunny tomorrow."
+        }
+      ]
+    },
+    "といっても": {
+      "formation": "Noun / Verb (plain) + といっても",
+      "note": "'Although I say'. Clarifies or limits the scope of a previous statement — the reality is less extreme.",
+      "examples": [
+        {
+          "jp": "上手といっても練習が必要だ。",
+          "furigana": "<ruby>上手<rt>じょうず</rt></ruby>といっても<ruby>練習<rt>れんしゅう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。",
+          "en": "Although I say good, practice is still needed."
+        },
+        {
+          "jp": "旅行といっても日帰りだ。",
+          "furigana": "<ruby>旅行<rt>りょこう</rt></ruby>といっても<ruby>日帰<rt>ひがえ</rt></ruby>りだ。",
+          "en": "Although I say travel, it's just a day trip."
+        },
+        {
+          "jp": "経験があるといっても少しだけだ。",
+          "furigana": "<ruby>経験<rt>けいけん</rt></ruby>があるといっても<ruby>少<rt>すこ</rt></ruby>しだけだ。",
+          "en": "Although I say I have experience, it is only a little."
+        }
+      ]
+    },
+    "ということだ": {
+      "formation": "Verb / adj (plain) + ということだ / とのことだ (formal)",
+      "note": "'I heard that / it means'. (1) Hearsay — reporting information; (2) conclusion — 'this means that'.",
+      "examples": [
+        {
+          "jp": "彼が来ないということだ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないということだ。",
+          "en": "Apparently he is not coming."
+        },
+        {
+          "jp": "つまり失敗したということだ。",
+          "furigana": "つまり<ruby>失敗<rt>しっぱい</rt></ruby>したということだ。",
+          "en": "In other words, it means I failed."
+        },
+        {
+          "jp": "会議は中止になったということだ。",
+          "furigana": "<ruby>会議<rt>かいぎ</rt></ruby>は<ruby>中止<rt>ちゅうし</rt></ruby>になったということだ。",
+          "en": "Apparently the meeting has been cancelled."
+        }
+      ]
+    },
+    "というのは": {
+      "formation": "Noun / clause + というのは + [explanation]",
+      "note": "'This means that / that is to say'. Introduces a definition, explanation, or reason for what was just said.",
+      "examples": [
+        {
+          "jp": "友達というのは大切だ。",
+          "furigana": "<ruby>友達<rt>ともだち</rt></ruby>というのは<ruby>大切<rt>たいせつ</rt></ruby>だ。",
+          "en": "What we call 'friends' is something precious."
+        },
+        {
+          "jp": "JLPT N3というのは中級レベルだ。",
+          "furigana": "JLPT N3というのは<ruby>中級<rt>ちゅうきゅう</rt></ruby>レベルだ。",
+          "en": "What is called 'JLPT N3' is an intermediate level."
+        },
+        {
+          "jp": "結婚というのは二人の約束だ。",
+          "furigana": "<ruby>結婚<rt>けっこん</rt></ruby>というのは<ruby>二人<rt>ふたり</rt></ruby>の<ruby>約束<rt>やくそく</rt></ruby>だ。",
+          "en": "What we call 'marriage' is a promise between two people."
+        }
+      ]
+    },
+    "というより": {
+      "formation": "Noun / Verb (plain) + というより",
+      "note": "'Rather than / more precisely'. Corrects or refines a previous description with a more accurate one.",
+      "examples": [
+        {
+          "jp": "好きというより大好きだ。",
+          "furigana": "<ruby>好<rt>す</rt></ruby>きというより<ruby>大好<rt>だいす</rt></ruby>きだ。",
+          "en": "Rather than 'like', I love it."
+        },
+        {
+          "jp": "疲れたというより眠い。",
+          "furigana": "<ruby>疲<rt>つか</rt></ruby>れたというより<ruby>眠<rt>ねむ</rt></ruby>い。",
+          "en": "Rather than tired, I am sleepy."
+        },
+        {
+          "jp": "難しいというより複雑だ。",
+          "furigana": "<ruby>難<rt>むずか</rt></ruby>しいというより<ruby>複雑<rt>ふくざつ</rt></ruby>だ。",
+          "en": "Rather than difficult, it is complex."
+        }
+      ]
+    },
+    "とみえる": {
+      "formation": "Verb / adj (plain) + とみえる / とみえて",
+      "note": "'It seems that / appears to'. Based on visual or circumstantial evidence, the speaker makes a reasonable inference.",
+      "examples": [
+        {
+          "jp": "彼は疲れているとみえる。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>疲<rt>つか</rt></ruby>れているとみえる。",
+          "en": "He appears to be tired."
+        },
+        {
+          "jp": "眠いとみえて、授業中に居眠りした。",
+          "furigana": "<ruby>眠<rt>ねむ</rt></ruby>いとみえて、<ruby>授業中<rt>じゅぎょうちゅう</rt></ruby>に<ruby>居眠<rt>いねむ</rt></ruby>りした。",
+          "en": "Apparently sleepy, he dozed off during class."
+        },
+        {
+          "jp": "誰も来ないとみえる、会場は空だ。",
+          "furigana": "<ruby>誰<rt>だれ</rt></ruby>も<ruby>来<rt>こ</rt></ruby>ないとみえる、<ruby>会場<rt>かいじょう</rt></ruby>は<ruby>空<rt>から</rt></ruby>だ。",
+          "en": "It seems nobody is coming — the venue is empty."
+        }
+      ]
+    },
+    "とすれば": {
+      "formation": "Verb / adj (plain) + とすれば / とすると",
+      "note": "'If we assume / assuming that'. Sets up a hypothetical assumption and draws a conclusion from it.",
+      "examples": [
+        {
+          "jp": "それが本当だとすれば大変だ。",
+          "furigana": "それが<ruby>本当<rt>ほんとう</rt></ruby>だとすれば<ruby>大変<rt>たいへん</rt></ruby>だ。",
+          "en": "If that is true, it is serious."
+        },
+        {
+          "jp": "彼が犯人だとすれば誰を信じるの？",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>犯人<rt>はんにん</rt></ruby>だとすれば<ruby>誰<rt>だれ</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じるの？",
+          "en": "If he is the culprit, who can we trust?"
+        },
+        {
+          "jp": "明日雨だとすれば、予定を変えよう。",
+          "furigana": "<ruby>明日<rt>あした</rt></ruby><ruby>雨<rt>あめ</rt></ruby>だとすれば、<ruby>予定<rt>よてい</rt></ruby>を<ruby>変<rt>か</rt></ruby>えよう。",
+          "en": "If it is going to rain tomorrow, let's change our plans."
+        }
+      ]
+    },
+    "と共に": {
+      "formation": "Noun / Verb (plain) + と共に",
+      "note": "'Together with / along with / at the same time as'. (1) Accompaniment; (2) simultaneous change.",
+      "examples": [
+        {
+          "jp": "春と共に花が咲く。",
+          "furigana": "<ruby>春<rt>はる</rt></ruby>と<ruby>共<rt>とも</rt></ruby>に<ruby>花<rt>はな</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>く。",
+          "en": "Flowers bloom along with spring."
+        },
+        {
+          "jp": "彼と共に働けて光栄だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>と<ruby>共<rt>とも</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>けて<ruby>光栄<rt>こうえい</rt></ruby>だ。",
+          "en": "It is an honour to work together with him."
+        },
+        {
+          "jp": "年をとると共に考えが変わる。",
+          "furigana": "<ruby>年<rt>とし</rt></ruby>をとると<ruby>共<rt>とも</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>えが<ruby>変<rt>か</rt></ruby>わる。",
+          "en": "As one ages, one's thinking changes."
+        }
+      ]
+    },
+    "途中で": {
+      "formation": "Noun の途中で / Verb (て-form) いる途中で",
+      "note": "'On the way / in the middle of'. A point midway through a journey or activity, often involving interruption.",
+      "examples": [
+        {
+          "jp": "途中で疲れて休んだ。",
+          "furigana": "<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>疲<rt>つか</rt></ruby>れて<ruby>休<rt>やす</rt></ruby>んだ。",
+          "en": "I got tired on the way and rested."
+        },
+        {
+          "jp": "映画の途中で眠ってしまった。",
+          "furigana": "<ruby>映画<rt>えいが</rt></ruby>の<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>眠<rt>ねむ</rt></ruby>ってしまった。",
+          "en": "I fell asleep in the middle of the film."
+        },
+        {
+          "jp": "仕事の途中で電話がかかってきた。",
+          "furigana": "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>途中<rt>とちゅう</rt></ruby>で<ruby>電話<rt>でんわ</rt></ruby>がかかってきた。",
+          "en": "A phone call came in the middle of work."
+        }
+      ]
+    },
+    "ところが": {
+      "formation": "[statement]. ところが + [unexpected result]",
+      "note": "'However / but / even so'. Introduces a result contrary to what was expected. Stronger contrast than でも or しかし.",
+      "examples": [
+        {
+          "jp": "頑張った。ところが失敗した。",
+          "furigana": "<ruby>頑張<rt>がんば</rt></ruby>った。ところが<ruby>失敗<rt>しっぱい</rt></ruby>した。",
+          "en": "I worked hard. However, I failed."
+        },
+        {
+          "jp": "薬を飲んだ。ところが熱が下がらない。",
+          "furigana": "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>んだ。ところが<ruby>熱<rt>ねつ</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がらない。",
+          "en": "I took medicine. However, my fever won't go down."
+        },
+        {
+          "jp": "早めに出た。ところが遅刻した。",
+          "furigana": "<ruby>早<rt>はや</rt></ruby>めに<ruby>出<rt>で</rt></ruby>た。ところが<ruby>遅刻<rt>ちこく</rt></ruby>した。",
+          "en": "I left early. But I was still late."
+        }
+      ]
+    },
+    "とおりに": {
+      "formation": "Noun の通りに / Verb (plain/た) + 通りに",
+      "note": "'In the same way as / exactly as'. Do something exactly as instructed, written, or expected.",
+      "examples": [
+        {
+          "jp": "言われたとおりにした。",
+          "furigana": "<ruby>言<rt>い</rt></ruby>われたとおりにした。",
+          "en": "I did it just as I was told."
+        },
+        {
+          "jp": "レシピのとおりに料理した。",
+          "furigana": "レシピのとおりに<ruby>料理<rt>りょうり</rt></ruby>した。",
+          "en": "I cooked exactly according to the recipe."
+        },
+        {
+          "jp": "思ったとおりの結果になった。",
+          "furigana": "<ruby>思<rt>おも</rt></ruby>ったとおりの<ruby>結果<rt>けっか</rt></ruby>になった。",
+          "en": "The result turned out exactly as I thought."
+        }
+      ]
+    },
+    "として": {
+      "formation": "Noun + として",
+      "note": "'As / in the capacity of / in the role of'. Describes the role, function, or status in which someone acts.",
+      "examples": [
+        {
+          "jp": "先生として最善を尽くす。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>として<ruby>最善<rt>さいぜん</rt></ruby>を<ruby>尽<rt>つ</rt></ruby>くす。",
+          "en": "I give my best as a teacher."
+        },
+        {
+          "jp": "代表として発表した。",
+          "furigana": "<ruby>代表<rt>だいひょう</rt></ruby>として<ruby>発表<rt>はっぴょう</rt></ruby>した。",
+          "en": "I presented as the representative."
+        },
+        {
+          "jp": "観光地として有名な場所だ。",
+          "furigana": "<ruby>観光地<rt>かんこうち</rt></ruby>として<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>だ。",
+          "en": "It is a place famous as a tourist spot."
+        }
+      ]
+    },
+    "とても～ない": {
+      "formation": "とても + negative verb / adjective",
+      "note": "'Cannot possibly / hardly / there is no way'. An action or state that is completely impossible.",
+      "examples": [
+        {
+          "jp": "とても信じられない。",
+          "furigana": "とても<ruby>信<rt>しん</rt></ruby>じられない。",
+          "en": "I simply cannot believe it."
+        },
+        {
+          "jp": "そんなにたくさんはとても食べられない。",
+          "furigana": "そんなにたくさんはとても<ruby>食<rt>た</rt></ruby>べられない。",
+          "en": "I cannot possibly eat that much."
+        },
+        {
+          "jp": "一人ではとても無理だ。",
+          "furigana": "<ruby>一人<rt>ひとり</rt></ruby>ではとても<ruby>無理<rt>むり</rt></ruby>だ。",
+          "en": "It is absolutely impossible alone."
+        }
+      ]
+    },
+    "とは限らない": {
+      "formation": "Verb / adj (plain) + とは限らない",
+      "note": "'Not necessarily / not always true'. Just because X is often true does not mean it is always true.",
+      "examples": [
+        {
+          "jp": "高いものが良いとは限らない。",
+          "furigana": "<ruby>高<rt>たか</rt></ruby>いものが<ruby>良<rt>よ</rt></ruby>いとは<ruby>限<rt>かぎ</rt></ruby>らない。",
+          "en": "Expensive things are not necessarily good."
+        },
+        {
+          "jp": "有名なものがおいしいとは限らない。",
+          "furigana": "<ruby>有名<rt>ゆうめい</rt></ruby>なものがおいしいとは<ruby>限<rt>かぎ</rt></ruby>らない。",
+          "en": "Famous things are not necessarily delicious."
+        },
+        {
+          "jp": "一生懸命やれば成功するとは限らない。",
+          "furigana": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>やれば<ruby>成功<rt>せいこう</rt></ruby>するとは<ruby>限<rt>かぎ</rt></ruby>らない。",
+          "en": "Working hard does not necessarily mean success."
+        }
+      ]
+    },
+    "つい": {
+      "formation": "つい + Verb (て-form) / てしまった",
+      "note": "'Accidentally / unintentionally'. The action happened without proper intention, often followed by regret.",
+      "examples": [
+        {
+          "jp": "ついお菓子を食べ過ぎた。",
+          "furigana": "つい<ruby>菓子<rt>かし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べ<ruby>過<rt>す</rt></ruby>ぎた。",
+          "en": "I accidentally ate too many snacks."
+        },
+        {
+          "jp": "つい本音を言ってしまった。",
+          "furigana": "つい<ruby>本音<rt>ほんね</rt></ruby>を<ruby>言<rt>い</rt></ruby>ってしまった。",
+          "en": "I accidentally said what I really think."
+        },
+        {
+          "jp": "暇だったのでついゲームをしてしまった。",
+          "furigana": "<ruby>暇<rt>ひま</rt></ruby>だったのでついゲームをしてしまった。",
+          "en": "Since I was free, I ended up playing games without thinking."
+        }
+      ]
+    },
+    "ついに": {
+      "formation": "ついに + verb (often past or negative)",
+      "note": "'Finally / at last / in the end'. After a long wait or effort, something is achieved — or fails to happen.",
+      "examples": [
+        {
+          "jp": "ついに夢が叶った。",
+          "furigana": "ついに<ruby>夢<rt>ゆめ</rt></ruby>が<ruby>叶<rt>かな</rt></ruby>った。",
+          "en": "My dream finally came true."
+        },
+        {
+          "jp": "ついに彼は来なかった。",
+          "furigana": "ついに<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>こ</rt></ruby>なかった。",
+          "en": "In the end, he never came."
+        },
+        {
+          "jp": "三年間の努力がついに実を結んだ。",
+          "furigana": "3<ruby>年間<rt>ねんかん</rt></ruby>の<ruby>努力<rt>どりょく</rt></ruby>がついに<ruby>実<rt>み</rt></ruby>を<ruby>結<rt>むす</rt></ruby>んだ。",
+          "en": "Three years of effort finally bore fruit."
+        }
+      ]
+    },
+    "ついでに": {
+      "formation": "Noun の / Verb (plain) + ついでに",
+      "note": "'While / while I'm at it'. Takes advantage of an existing opportunity to do something additional without extra effort.",
+      "examples": [
+        {
+          "jp": "買い物のついでに銀行に寄った。",
+          "furigana": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>のついでに<ruby>銀行<rt>ぎんこう</rt></ruby>に<ruby>寄<rt>よ</rt></ruby>った。",
+          "en": "I stopped by the bank while shopping."
+        },
+        {
+          "jp": "外出のついでに郵便を出した。",
+          "furigana": "<ruby>外出<rt>がいしゅつ</rt></ruby>のついでに<ruby>郵便<rt>ゆうびん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>した。",
+          "en": "I mailed the letter while I was out."
+        },
+        {
+          "jp": "図書館に行くついでに本を返した。",
+          "furigana": "<ruby>図書館<rt>としょかん</rt></ruby>に<ruby>行<rt>い</rt></ruby>くついでに<ruby>本<rt>ほん</rt></ruby>を<ruby>返<rt>かえ</rt></ruby>した。",
+          "en": "While going to the library, I returned the books."
+        }
+      ]
+    },
+    "つまり": {
+      "formation": "つまり + [summary / rephrased conclusion]",
+      "note": "'In other words / in short'. Introduces a paraphrase, summary, or conclusion from what was said before.",
+      "examples": [
+        {
+          "jp": "つまり無理だということだ。",
+          "furigana": "つまり<ruby>無理<rt>むり</rt></ruby>だということだ。",
+          "en": "In short, it means it is impossible."
+        },
+        {
+          "jp": "彼は来ない。つまり、諦めたんだ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>こ</rt></ruby>ない。つまり、<ruby>諦<rt>あきら</rt></ruby>めたんだ。",
+          "en": "He is not coming. In other words, he gave up."
+        },
+        {
+          "jp": "つまり、君が間違えたということだ。",
+          "furigana": "つまり、<ruby>君<rt>きみ</rt></ruby>が<ruby>間違<rt>まちが</rt></ruby>えたということだ。",
+          "en": "In short, it means you made a mistake."
+        }
+      ]
+    },
+    "うちに": {
+      "formation": "Verb (plain/ている) / adj + うちに",
+      "note": "'While / before the situation changes'. Do something now before the window of opportunity closes.",
+      "examples": [
+        {
+          "jp": "若いうちに旅行しよう。",
+          "furigana": "<ruby>若<rt>わか</rt></ruby>いうちに<ruby>旅行<rt>りょこう</rt></ruby>しよう。",
+          "en": "Let's travel while we are young."
+        },
+        {
+          "jp": "熱いうちに食べてください。",
+          "furigana": "<ruby>熱<rt>あつ</rt></ruby>いうちに<ruby>食<rt>た</rt></ruby>べてください。",
+          "en": "Please eat it while it is hot."
+        },
+        {
+          "jp": "覚えているうちにメモしておこう。",
+          "furigana": "<ruby>覚<rt>おぼ</rt></ruby>えているうちにメモしておこう。",
+          "en": "Let me take notes while I still remember."
+        }
+      ]
+    },
+    "うえで": {
+      "formation": "Verb (plain/た) / Noun + の上で",
+      "note": "'After / upon doing'. (1) After completing X, then do Y; (2) in the context of doing X.",
+      "examples": [
+        {
+          "jp": "確認したうえで連絡します。",
+          "furigana": "<ruby>確認<rt>かくにん</rt></ruby>したうえで<ruby>連絡<rt>れんらく</rt></ruby>します。",
+          "en": "I will contact you after confirming."
+        },
+        {
+          "jp": "話し合ったうえで決める。",
+          "furigana": "<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>ったうえで<ruby>決<rt>き</rt></ruby>める。",
+          "en": "We will decide after discussing."
+        },
+        {
+          "jp": "契約するうえで注意点がある。",
+          "furigana": "<ruby>契約<rt>けいやく</rt></ruby>するうえで<ruby>注意点<rt>ちゅういてん</rt></ruby>がある。",
+          "en": "There are points to note when signing a contract."
+        }
+      ]
+    },
+    "わけがない": {
+      "formation": "Verb / adj (plain) + わけがない",
+      "note": "'There is no way / it is impossible that'. Strong denial based on logic.",
+      "examples": [
+        {
+          "jp": "彼が嘘をつくわけがない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>嘘<rt>うそ</rt></ruby>をつくわけがない。",
+          "en": "There is no way he would lie."
+        },
+        {
+          "jp": "こんな短時間でできるわけがない。",
+          "furigana": "こんな<ruby>短時間<rt>たんじかん</rt></ruby>でできるわけがない。",
+          "en": "There is no way it can be done in such a short time."
+        },
+        {
+          "jp": "あの人が悪いわけがない。",
+          "furigana": "あの<ruby>人<rt>ひと</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いわけがない。",
+          "en": "There is no way that person is bad."
+        }
+      ]
+    },
+    "わけだ": {
+      "formation": "Verb / adj (plain) + わけだ",
+      "note": "'It means / of course / naturally'. Draws a natural conclusion or explains why something makes sense.",
+      "examples": [
+        {
+          "jp": "練習したから上手なわけだ。",
+          "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>したから<ruby>上手<rt>じょうず</rt></ruby>なわけだ。",
+          "en": "Of course he is good — he practiced."
+        },
+        {
+          "jp": "10年住んでいるから詳しいわけだ。",
+          "furigana": "10<ruby>年<rt>ねん</rt></ruby><ruby>住<rt>す</rt></ruby>んでいるから<ruby>詳<rt>くわ</rt></ruby>しいわけだ。",
+          "en": "No wonder he knows the details — he has lived here for 10 years."
+        },
+        {
+          "jp": "毎日勉強したから合格したわけだ。",
+          "furigana": "<ruby>毎日<rt>まいにち</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>したから<ruby>合格<rt>ごうかく</rt></ruby>したわけだ。",
+          "en": "Naturally she passed — she studied every day."
+        }
+      ]
+    },
+    "わけではない": {
+      "formation": "Verb / adj (plain) + わけではない / わけじゃない",
+      "note": "'It doesn't mean that / it's not that'. Denies or corrects a possible misunderstanding.",
+      "examples": [
+        {
+          "jp": "嫌いなわけではない。",
+          "furigana": "<ruby>嫌<rt>きら</rt></ruby>いなわけではない。",
+          "en": "It's not that I dislike it."
+        },
+        {
+          "jp": "諦めたわけではない、まだ続ける。",
+          "furigana": "<ruby>諦<rt>あきら</rt></ruby>めたわけではない、まだ<ruby>続<rt>つづ</rt></ruby>ける。",
+          "en": "It does not mean I gave up — I will continue."
+        },
+        {
+          "jp": "お金がないわけじゃないけど節約したい。",
+          "furigana": "お<ruby>金<rt>かね</rt></ruby>がないわけじゃないけど<ruby>節約<rt>せつやく</rt></ruby>したい。",
+          "en": "It's not that I have no money, but I want to save."
+        }
+      ]
+    },
+    "やすい": {
+      "formation": "Verb-stem + やすい",
+      "note": "'Easy to do / likely to / prone to'. Opposite: にくい (hard to do).",
+      "examples": [
+        {
+          "jp": "この道は滑りやすい。",
+          "furigana": "この<ruby>道<rt>みち</rt></ruby>は<ruby>滑<rt>すべ</rt></ruby>りやすい。",
+          "en": "This road is easy to slip on."
+        },
+        {
+          "jp": "この本は読みやすい。",
+          "furigana": "この<ruby>本<rt>ほん</rt></ruby>は<ruby>読<rt>よ</rt></ruby>みやすい。",
+          "en": "This book is easy to read."
+        },
+        {
+          "jp": "彼は風邪をひきやすい体質だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>風邪<rt>かぜ</rt></ruby>をひきやすい<ruby>体質<rt>たいしつ</rt></ruby>だ。",
+          "en": "He has a constitution that easily catches colds."
+        }
+      ]
+    },
+    "にかけて": {
+      "formation": "Noun + にかけて",
+      "note": "'Over a period / from ~ to~'. A continuous span of time or space between two points.",
+      "examples": [
+        {
+          "jp": "3月から4月にかけて桜が咲く。",
+          "furigana": "3<ruby>月<rt>がつ</rt></ruby>から4<ruby>月<rt>がつ</rt></ruby>にかけて<ruby>桜<rt>さくら</rt></ruby>が<ruby>咲<rt>さ</rt></ruby>く。",
+          "en": "Cherry blossoms bloom from March through April."
+        },
+        {
+          "jp": "北海道から東北にかけて大雪が降る。",
+          "furigana": "<ruby>北海道<rt>ほっかいどう</rt></ruby>から<ruby>東北<rt>とうほく</rt></ruby>にかけて<ruby>大雪<rt>おおゆき</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る。",
+          "en": "Heavy snow will fall across Hokkaido through Tohoku."
+        },
+        {
+          "jp": "夕方から夜にかけて雨が降るだろう。",
+          "furigana": "<ruby>夕方<rt>ゆうがた</rt></ruby>から<ruby>夜<rt>よる</rt></ruby>にかけて<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>るだろう。",
+          "en": "It will probably rain from the evening through the night."
+        }
+      ]
+    },
+    "をはじめ": {
+      "formation": "Noun + をはじめ（として）",
+      "note": "'Starting with / for example / including'. Introduces the most representative example first, implying there are more.",
+      "examples": [
+        {
+          "jp": "東京をはじめ全国で売っている。",
+          "furigana": "<ruby>東京<rt>とうきょう</rt></ruby>をはじめ<ruby>全国<rt>ぜんこく</rt></ruby>で<ruby>売<rt>う</rt></ruby>っている。",
+          "en": "Starting with Tokyo, it is sold nationwide."
+        },
+        {
+          "jp": "日本語をはじめ多くの言語が話せる。",
+          "furigana": "<ruby>日本語<rt>にほんご</rt></ruby>をはじめ<ruby>多<rt>おお</rt></ruby>くの<ruby>言語<rt>げんご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せる。",
+          "en": "He can speak many languages, starting with Japanese."
+        },
+        {
+          "jp": "山田先生をはじめ先生方に感謝する。",
+          "furigana": "<ruby>山田<rt>やまだ</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>をはじめ<ruby>先生方<rt>せんせいがた</rt></ruby>に<ruby>感謝<rt>かんしゃ</rt></ruby>する。",
+          "en": "I am grateful to the teachers, starting with Mr. Yamada."
+        }
+      ]
+    },
+    "を通じて": {
+      "formation": "Noun + を通じて / を通して",
+      "note": "'Through / via / by means of'. The medium, channel, or period through which something is done.",
+      "examples": [
+        {
+          "jp": "SNSを通じて友達になった。",
+          "furigana": "SNSを<ruby>通<rt>つう</rt></ruby>じて<ruby>友達<rt>ともだち</rt></ruby>になった。",
+          "en": "We became friends through social media."
+        },
+        {
+          "jp": "通訳を通じて話した。",
+          "furigana": "<ruby>通訳<rt>つうやく</rt></ruby>を<ruby>通<rt>とお</rt></ruby>じて<ruby>話<rt>はな</rt></ruby>した。",
+          "en": "We spoke through an interpreter."
+        },
+        {
+          "jp": "一年を通じて温暖な気候だ。",
+          "furigana": "<ruby>一年<rt>いちねん</rt></ruby>を<ruby>通<rt>つう</rt></ruby>じて<ruby>温暖<rt>おんだん</rt></ruby>な<ruby>気候<rt>きこう</rt></ruby>だ。",
+          "en": "The climate is mild throughout the year."
+        }
+      ]
+    },
+    "おかげで": {
+      "formation": "Noun の / Verb (plain) + おかげで",
+      "note": "'Thanks to / owing to (positive)'. Gratitude for a positive result. Opposite of せいで.",
+      "examples": [
+        {
+          "jp": "先生のおかげで合格できた。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>のおかげで<ruby>合格<rt>ごうかく</rt></ruby>できた。",
+          "en": "Thanks to my teacher, I was able to pass."
+        },
+        {
+          "jp": "みんなのおかげでプロジェクトが成功した。",
+          "furigana": "みんなのおかげでプロジェクトが<ruby>成功<rt>せいこう</rt></ruby>した。",
+          "en": "Thanks to everyone, the project succeeded."
+        },
+        {
+          "jp": "薬のおかげで早く回復した。",
+          "furigana": "<ruby>薬<rt>くすり</rt></ruby>のおかげで<ruby>早<rt>はや</rt></ruby>く<ruby>回復<rt>かいふく</rt></ruby>した。",
+          "en": "Thanks to the medicine, I recovered quickly."
+        }
+      ]
+    },
+    "っぱなし": {
+      "formation": "Verb-stem + っぱなし",
+      "note": "'Leaving on / in a state of neglect'. The action was done but no follow-up was taken to restore the original state.",
+      "examples": [
+        {
+          "jp": "電気をつけっぱなしにした。",
+          "furigana": "<ruby>電気<rt>でんき</rt></ruby>をつけっぱなしにした。",
+          "en": "I left the light on without turning it off."
+        },
+        {
+          "jp": "水を出しっぱなしにして出かけた。",
+          "furigana": "<ruby>水<rt>みず</rt></ruby>を<ruby>出<rt>だ</rt></ruby>しっぱなしにして<ruby>出<rt>で</rt></ruby>かけた。",
+          "en": "I left the water running and went out."
+        },
+        {
+          "jp": "立ちっぱなしで足が痛い。",
+          "furigana": "<ruby>立<rt>た</rt></ruby>ちっぱなしで<ruby>足<rt>あし</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い。",
+          "en": "My legs hurt from standing this whole time."
+        }
+      ]
+    },
+    "っぽい": {
+      "formation": "Noun / Verb-stem + っぽい",
+      "note": "'-ish / seems / easily does'. (1) Resembles or suggests a quality; (2) prone to doing something. Informal.",
+      "examples": [
+        {
+          "jp": "子供っぽい行動だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>っぽい<ruby>行動<rt>こうどう</rt></ruby>だ。",
+          "en": "That is childish behaviour."
+        },
+        {
+          "jp": "彼は怒りっぽい性格だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>りっぽい<ruby>性格<rt>せいかく</rt></ruby>だ。",
+          "en": "He has an easily-angered personality."
+        },
+        {
+          "jp": "この料理は洋風っぽい味がする。",
+          "furigana": "この<ruby>料理<rt>りょうり</rt></ruby>は<ruby>洋風<rt>ようふう</rt></ruby>っぽい<ruby>味<rt>あじ</rt></ruby>がする。",
+          "en": "This dish tastes kind of Western-style."
+        }
+      ]
+    },
+    "さらに": {
+      "formation": "さらに + verb / adjective (often comparative)",
+      "note": "'Furthermore / even more / additionally'. Adds extra information or increases degree.",
+      "examples": [
+        {
+          "jp": "さらに詳しく説明します。",
+          "furigana": "さらに<ruby>詳<rt>くわ</rt></ruby>しく<ruby>説明<rt>せつめい</rt></ruby>します。",
+          "en": "I will explain in even more detail."
+        },
+        {
+          "jp": "問題はさらに複雑になった。",
+          "furigana": "<ruby>問題<rt>もんだい</rt></ruby>はさらに<ruby>複雑<rt>ふくざつ</rt></ruby>になった。",
+          "en": "The problem has become even more complicated."
+        },
+        {
+          "jp": "さらに努力が必要だ。",
+          "furigana": "さらに<ruby>努力<rt>どりょく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。",
+          "en": "Even more effort is needed."
+        }
+      ]
+    },
+    "しばらく": {
+      "formation": "しばらく + verb / しばらくの間",
+      "note": "'For a while / for some time'. An unspecified but moderate period — can be minutes or years depending on context.",
+      "examples": [
+        {
+          "jp": "しばらく待ってください。",
+          "furigana": "しばらく<ruby>待<rt>ま</rt></ruby>ってください。",
+          "en": "Please wait for a moment."
+        },
+        {
+          "jp": "しばらくぶりに会った。",
+          "furigana": "しばらくぶりに<ruby>会<rt>あ</rt></ruby>った。",
+          "en": "I met him after not seeing him for a while."
+        },
+        {
+          "jp": "旅行中はしばらく連絡できない。",
+          "furigana": "<ruby>旅行中<rt>りょこうちゅう</rt></ruby>はしばらく<ruby>連絡<rt>れんらく</rt></ruby>できない。",
+          "en": "I won't be able to contact you for a while during the trip."
+        }
+      ]
+    },
+    "すでに": {
+      "formation": "すでに + verb (often past or state)",
+      "note": "'Already / by now'. More formal/literary than もう. Used in writing, news, and formal speech.",
+      "examples": [
+        {
+          "jp": "彼はすでに帰った。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>はすでに<ruby>帰<rt>かえ</rt></ruby>った。",
+          "en": "He has already gone home."
+        },
+        {
+          "jp": "問題はすでに解決されている。",
+          "furigana": "<ruby>問題<rt>もんだい</rt></ruby>はすでに<ruby>解決<rt>かいけつ</rt></ruby>されている。",
+          "en": "The problem has already been resolved."
+        },
+        {
+          "jp": "彼女はすでに知っていたようだ。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>はすでに<ruby>知<rt>し</rt></ruby>っていたようだ。",
+          "en": "It seems she already knew."
+        }
+      ]
+    },
+    "確かに": {
+      "formation": "確かに + statement",
+      "note": "'Certainly / surely / indeed / admittedly'. Confirms or acknowledges a point, often before adding a counterpoint.",
+      "examples": [
+        {
+          "jp": "確かに彼の言う通りだ。",
+          "furigana": "<ruby>確<rt>たし</rt></ruby>かに<ruby>彼<rt>かれ</rt></ruby>の<ruby>言<rt>い</rt></ruby>う<ruby>通<rt>とお</rt></ruby>りだ。",
+          "en": "He is certainly right."
+        },
+        {
+          "jp": "確かに難しいが、不可能ではない。",
+          "furigana": "<ruby>確<rt>たし</rt></ruby>かに<ruby>難<rt>むずか</rt></ruby>しいが、<ruby>不可能<rt>ふかのう</rt></ruby>ではない。",
+          "en": "It is certainly difficult, but not impossible."
+        },
+        {
+          "jp": "確かにそれは問題だ。",
+          "furigana": "<ruby>確<rt>たし</rt></ruby>かにそれは<ruby>問題<rt>もんだい</rt></ruby>だ。",
+          "en": "That is certainly a problem."
+        }
+      ]
+    },
+    "たて": {
+      "formation": "Verb-stem + たて (の / だ)",
+      "note": "'Just done / freshly done'. Something is in a fresh state immediately after being completed.",
+      "examples": [
+        {
+          "jp": "炊きたてのご飯は美味しい。",
+          "furigana": "<ruby>炊<rt>た</rt></ruby>きたてのご<ruby>飯<rt>はん</rt></ruby>は<ruby>美味<rt>おい</rt></ruby>しい。",
+          "en": "Freshly cooked rice is delicious."
+        },
+        {
+          "jp": "焼きたてのパンのにおいが好きだ。",
+          "furigana": "<ruby>焼<rt>や</rt></ruby>きたてのパンのにおいが<ruby>好<rt>す</rt></ruby>きだ。",
+          "en": "I love the smell of freshly baked bread."
+        },
+        {
+          "jp": "作りたての料理を食べた。",
+          "furigana": "<ruby>作<rt>つく</rt></ruby>りたての<ruby>料理<rt>りょうり</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた。",
+          "en": "I ate freshly made food."
+        }
+      ]
+    },
+    "例えば": {
+      "formation": "例えば + [example clause]",
+      "note": "'For example / for instance'. Introduces a specific example to illustrate a general point.",
+      "examples": [
+        {
+          "jp": "例えば東京や大阪が有名だ。",
+          "furigana": "<ruby>例<rt>たと</rt></ruby>えば<ruby>東京<rt>とうきょう</rt></ruby>や<ruby>大阪<rt>おおさか</rt></ruby>が<ruby>有名<rt>ゆうめい</rt></ruby>だ。",
+          "en": "For example, Tokyo and Osaka are famous."
+        },
+        {
+          "jp": "果物、例えばリンゴやバナナが好きだ。",
+          "furigana": "<ruby>果物<rt>くだもの</rt></ruby>、<ruby>例<rt>たと</rt></ruby>えばリンゴやバナナが<ruby>好<rt>す</rt></ruby>きだ。",
+          "en": "I like fruit, for example apples and bananas."
+        },
+        {
+          "jp": "スポーツ、例えばサッカーや野球が人気だ。",
+          "furigana": "スポーツ、<ruby>例<rt>たと</rt></ruby>えばサッカーや<ruby>野球<rt>やきゅう</rt></ruby>が<ruby>人気<rt>にんき</rt></ruby>だ。",
+          "en": "Sports, for example football and baseball, are popular."
+        }
+      ]
+    },
+    "気味": {
+      "formation": "Noun / Verb-stem + 気味",
+      "note": "'-like / tending towards'. Expresses a feeling or tendency, usually slightly negative or undesirable.",
+      "examples": [
+        {
+          "jp": "最近疲れ気味だ。",
+          "furigana": "<ruby>最近<rt>さいきん</rt></ruby><ruby>疲<rt>つか</rt></ruby>れ<ruby>気味<rt>ぎみ</rt></ruby>だ。",
+          "en": "I have been feeling somewhat tired lately."
+        },
+        {
+          "jp": "風邪気味なので早く寝る。",
+          "furigana": "<ruby>風邪<rt>かぜ</rt></ruby><ruby>気味<rt>ぎみ</rt></ruby>なので<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>る。",
+          "en": "I am feeling a bit like I have a cold, so I will sleep early."
+        },
+        {
+          "jp": "最近太り気味だから運動しよう。",
+          "furigana": "<ruby>最近<rt>さいきん</rt></ruby><ruby>太<rt>ふと</rt></ruby>り<ruby>気味<rt>ぎみ</rt></ruby>だから<ruby>運動<rt>うんどう</rt></ruby>しよう。",
+          "en": "I have been tending to put on weight lately, so let's exercise."
+        }
+      ]
+    },
+    "んだって": {
+      "formation": "Verb / adj (plain) + んだって (informal)",
+      "note": "'I hear that / apparently'. Casual way to convey hearsay or information just received.",
+      "examples": [
+        {
+          "jp": "彼が来ないんだって。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が<ruby>来<rt>こ</rt></ruby>ないんだって。",
+          "en": "I hear he is not coming."
+        },
+        {
+          "jp": "あのお店、閉まったんだって。",
+          "furigana": "あのお<ruby>店<rt>みせ</rt></ruby>、<ruby>閉<rt>し</rt></ruby>まったんだって。",
+          "en": "Apparently that shop has closed."
+        },
+        {
+          "jp": "試験は延期になったんだって。",
+          "furigana": "<ruby>試験<rt>しけん</rt></ruby>は<ruby>延期<rt>えんき</rt></ruby>になったんだって。",
+          "en": "I heard the exam has been postponed."
+        }
+      ]
+    },
+    "のでしょうか": {
+      "formation": "Verb / adj (plain) + のでしょうか",
+      "note": "'I wonder if / do you think'. A polite or rhetorical question seeking confirmation or inviting agreement.",
+      "examples": [
+        {
+          "jp": "どこに行くのでしょうか。",
+          "furigana": "どこに<ruby>行<rt>い</rt></ruby>くのでしょうか。",
+          "en": "I wonder where they are going."
+        },
+        {
+          "jp": "本当に合格できるのでしょうか。",
+          "furigana": "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できるのでしょうか。",
+          "en": "I wonder if I can really pass."
+        },
+        {
+          "jp": "これは正しいのでしょうか。",
+          "furigana": "これは<ruby>正<rt>ただ</rt></ruby>しいのでしょうか。",
+          "en": "I wonder if this is correct."
+        }
+      ]
+    },
+    "を中心に": {
+      "formation": "Noun + を中心に（して）",
+      "note": "'Focused on / centred on'. Something revolves around a central topic, person, or place.",
+      "examples": [
+        {
+          "jp": "東京を中心に活動している。",
+          "furigana": "<ruby>東京<rt>とうきょう</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>活動<rt>かつどう</rt></ruby>している。",
+          "en": "I am active mainly in Tokyo."
+        },
+        {
+          "jp": "子供を中心に考えた計画だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>考<rt>かんが</rt></ruby>えた<ruby>計画<rt>けいかく</rt></ruby>だ。",
+          "en": "It is a plan centred around the children."
+        },
+        {
+          "jp": "アジアを中心に販売されている。",
+          "furigana": "アジアを<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>販売<rt>はんばい</rt></ruby>されている。",
+          "en": "It is sold mainly in Asia."
+        }
+      ]
+    },
+    "を込めて": {
+      "formation": "Noun + を込めて",
+      "note": "'With / filled with / putting feeling into'. Done with a strong emotion or intention poured into it.",
+      "examples": [
+        {
+          "jp": "心を込めてプレゼントした。",
+          "furigana": "<ruby>心<rt>こころ</rt></ruby>を<ruby>込<rt>こ</rt></ruby>めてプレゼントした。",
+          "en": "I gave a present with all my heart."
+        },
+        {
+          "jp": "思いを込めて手紙を書いた。",
+          "furigana": "<ruby>思<rt>おも</rt></ruby>いを<ruby>込<rt>こ</rt></ruby>めて<ruby>手紙<rt>てがみ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いた。",
+          "en": "I wrote the letter with all my feelings."
+        },
+        {
+          "jp": "愛情を込めて料理した。",
+          "furigana": "<ruby>愛情<rt>あいじょう</rt></ruby>を<ruby>込<rt>こ</rt></ruby>めて<ruby>料理<rt>りょうり</rt></ruby>した。",
+          "en": "I cooked with love and care."
+        }
+      ]
+    },
+    "さて": {
+      "formation": "さて + [new topic / transition]",
+      "note": "'Well / now then'. A transitional word that shifts the topic or marks a new stage in conversation.",
+      "examples": [
+        {
+          "jp": "さて、始めましょう。",
+          "furigana": "さて、<ruby>始<rt>はじ</rt></ruby>めましょう。",
+          "en": "Well then, let's begin."
+        },
+        {
+          "jp": "さて、次の問題です。",
+          "furigana": "さて、<ruby>次<rt>つぎ</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>です。",
+          "en": "Now then, the next question."
+        },
+        {
+          "jp": "さて、どうしましょうか。",
+          "furigana": "さて、どうしましょうか。",
+          "en": "Well now, what shall we do?"
+        }
+      ]
+    },
+    "せいぜい": {
+      "formation": "せいぜい + quantity / verb",
+      "note": "'At most / at best / no more than'. The maximum possible extent, often implying it is not much.",
+      "examples": [
+        {
+          "jp": "せいぜい一時間で終わる。",
+          "furigana": "せいぜい<ruby>一時間<rt>いちじかん</rt></ruby>で<ruby>終<rt>お</rt></ruby>わる。",
+          "en": "At most it will be done in an hour."
+        },
+        {
+          "jp": "彼の実力はせいぜい平均だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>実力<rt>じつりょく</rt></ruby>はせいぜい<ruby>平均<rt>へいきん</rt></ruby>だ。",
+          "en": "His ability is average at best."
+        },
+        {
+          "jp": "せいぜい三人しか入れない部屋だ。",
+          "furigana": "せいぜい<ruby>三人<rt>さんにん</rt></ruby>しか<ruby>入<rt>はい</rt></ruby>れない<ruby>部屋<rt>へや</rt></ruby>だ。",
+          "en": "It is a room that can hold three people at most."
+        }
+      ]
+    },
+    "それとも": {
+      "formation": "[option A]. それとも + [option B]",
+      "note": "'Or / or else'. Presents an alternative. Used in questions to give two choices.",
+      "examples": [
+        {
+          "jp": "コーヒー、それとも紅茶？",
+          "furigana": "コーヒー、それとも<ruby>紅茶<rt>こうちゃ</rt></ruby>？",
+          "en": "Coffee, or tea?"
+        },
+        {
+          "jp": "電車で行く？それとも車？",
+          "furigana": "<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>行<rt>い</rt></ruby>く？それとも<ruby>車<rt>くるま</rt></ruby>？",
+          "en": "Shall we go by train? Or by car?"
+        },
+        {
+          "jp": "今日やる？それとも明日でもいい？",
+          "furigana": "<ruby>今日<rt>きょう</rt></ruby>やる？それとも<ruby>明日<rt>あした</rt></ruby>でもいい？",
+          "en": "Shall we do it today? Or is tomorrow fine?"
+        }
+      ]
+    },
+    "そうもない": {
+      "formation": "Verb-stem + そうもない",
+      "note": "'Very unlikely to'. Stronger than そうではない. An action is almost impossible to occur.",
+      "examples": [
+        {
+          "jp": "彼は来そうもない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>こ</rt></ruby>そうもない。",
+          "en": "He is very unlikely to come."
+        },
+        {
+          "jp": "この天気では晴れそうもない。",
+          "furigana": "この<ruby>天気<rt>てんき</rt></ruby>では<ruby>晴<rt>は</rt></ruby>れそうもない。",
+          "en": "With this weather it is unlikely to clear up."
+        },
+        {
+          "jp": "あんな難しい試験に合格しそうもない。",
+          "furigana": "あんな<ruby>難<rt>むずか</rt></ruby>しい<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>しそうもない。",
+          "en": "It seems very unlikely to pass such a difficult exam."
+        }
+      ]
+    },
+    "すなわち": {
+      "formation": "すなわち + [definition / equivalent statement]",
+      "note": "'In other words / namely'. More formal and literary than つまり. Used to rephrase or define precisely.",
+      "examples": [
+        {
+          "jp": "すなわち失敗だということだ。",
+          "furigana": "すなわち<ruby>失敗<rt>しっぱい</rt></ruby>だということだ。",
+          "en": "In other words, it means failure."
+        },
+        {
+          "jp": "彼は私の兄、すなわち長男だ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>私<rt>わたし</rt></ruby>の<ruby>兄<rt>あに</rt></ruby>、すなわち<ruby>長男<rt>ちょうなん</rt></ruby>だ。",
+          "en": "He is my brother, namely the eldest son."
+        },
+        {
+          "jp": "自由とはすなわち責任を伴うものだ。",
+          "furigana": "<ruby>自由<rt>じゆう</rt></ruby>とはすなわち<ruby>責任<rt>せきにん</rt></ruby>を<ruby>伴<rt>ともな</rt></ruby>うものだ。",
+          "en": "Freedom, in other words, comes with responsibility."
+        }
+      ]
+    },
+    "たって": {
+      "formation": "Verb / adj (informal) + たって",
+      "note": "'Even if / even though'. Informal version of ても. Casual speech, often with a sense of futility or resignation.",
+      "examples": [
+        {
+          "jp": "今さら謝ったって遅い。",
+          "furigana": "<ruby>今更<rt>いまさら</rt></ruby><ruby>謝<rt>あやま</rt></ruby>ったって<ruby>遅<rt>おそ</rt></ruby>い。",
+          "en": "Even if you apologise now, it is too late."
+        },
+        {
+          "jp": "いくら急いだって間に合わない。",
+          "furigana": "いくら<ruby>急<rt>いそ</rt></ruby>いだって<ruby>間<rt>ま</rt></ruby>に<ruby>合<rt>あ</rt></ruby>わない。",
+          "en": "Even if you hurry, you won't make it in time."
+        },
+        {
+          "jp": "泣いたって何も変わらない。",
+          "furigana": "<ruby>泣<rt>な</rt></ruby>いたって<ruby>何<rt>なに</rt></ruby>も<ruby>変<rt>か</rt></ruby>わらない。",
+          "en": "Even if you cry, nothing will change."
+        }
+      ]
+    },
+    "ている場合じゃない": {
+      "formation": "Verb (て-form) + いる場合じゃない",
+      "note": "'This is no time to be doing'. Urges someone to stop an unimportant action because something urgent needs attention.",
+      "examples": [
+        {
+          "jp": "泣いている場合じゃない。",
+          "furigana": "<ruby>泣<rt>な</rt></ruby>いている<ruby>場合<rt>ばあい</rt></ruby>じゃない。",
+          "en": "This is no time to be crying."
+        },
+        {
+          "jp": "遊んでいる場合じゃない、勉強しろ。",
+          "furigana": "<ruby>遊<rt>あそ</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>じゃない、<ruby>勉強<rt>べんきょう</rt></ruby>しろ。",
+          "en": "This is no time to be playing — study."
+        },
+        {
+          "jp": "休んでいる場合じゃない、急ごう。",
+          "furigana": "<ruby>休<rt>やす</rt></ruby>んでいる<ruby>場合<rt>ばあい</rt></ruby>じゃない、<ruby>急<rt>いそ</rt></ruby>ごう。",
+          "en": "This is no time to be resting — let's hurry."
+        }
+      ]
+    },
+    "的": {
+      "formation": "Noun + 的（な / に）",
+      "note": "'Change noun into na-adjective / adverb'. Adds a meaning of '-ish / -like / -al / -ic'. Very productive suffix.",
+      "examples": [
+        {
+          "jp": "科学的な方法で研究する。",
+          "furigana": "<ruby>科学的<rt>かがくてき</rt></ruby>な<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>研究<rt>けんきゅう</rt></ruby>する。",
+          "en": "I conduct research using a scientific method."
+        },
+        {
+          "jp": "積極的に発言した。",
+          "furigana": "<ruby>積極的<rt>せっきょくてき</rt></ruby>に<ruby>発言<rt>はつげん</rt></ruby>した。",
+          "en": "I actively expressed my opinion."
+        },
+        {
+          "jp": "経済的な問題がある。",
+          "furigana": "<ruby>経済的<rt>けいざいてき</rt></ruby>な<ruby>問題<rt>もんだい</rt></ruby>がある。",
+          "en": "There are economic problems."
+        }
+      ]
+    },
+    "ところで": {
+      "formation": "ところで + [new topic]",
+      "note": "'By the way / incidentally'. Introduces a new, often unrelated topic into conversation.",
+      "examples": [
+        {
+          "jp": "ところで、最近どう？",
+          "furigana": "ところで、<ruby>最近<rt>さいきん</rt></ruby>どう？",
+          "en": "By the way, how have you been lately?"
+        },
+        {
+          "jp": "ところで、あの映画もう見た？",
+          "furigana": "ところで、あの<ruby>映画<rt>えいが</rt></ruby>もう<ruby>見<rt>み</rt></ruby>た？",
+          "en": "By the way, have you seen that movie yet?"
+        },
+        {
+          "jp": "ところで、明日予定はある？",
+          "furigana": "ところで、<ruby>明日<rt>あした</rt></ruby><ruby>予定<rt>よてい</rt></ruby>はある？",
+          "en": "By the way, do you have plans tomorrow?"
+        }
+      ]
+    },
+    "通す": {
+      "formation": "Verb-stem + 通す",
+      "note": "'Do all the way through / persist to the end'. Completing an action from start to finish without giving up.",
+      "examples": [
+        {
+          "jp": "最後までやり通す。",
+          "furigana": "<ruby>最後<rt>さいご</rt></ruby>までやり<ruby>通<rt>とお</rt></ruby>す。",
+          "en": "I will see it through to the end."
+        },
+        {
+          "jp": "一晩中読み通した。",
+          "furigana": "<ruby>一晩中<rt>ひとばんじゅう</rt></ruby><ruby>読<rt>よ</rt></ruby>み<ruby>通<rt>とお</rt></ruby>した。",
+          "en": "I read all the way through the night."
+        },
+        {
+          "jp": "意見を言い通した。",
+          "furigana": "<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>い<ruby>通<rt>とお</rt></ruby>した。",
+          "en": "I kept stating my opinion to the very end."
+        }
+      ]
+    },
+    "つもりだった": {
+      "formation": "Verb (plain) + つもりだった",
+      "note": "'I intended to / I planned to (but didn't)'. An intention that was not carried out.",
+      "examples": [
+        {
+          "jp": "電話したつもりだったが忘れた。",
+          "furigana": "<ruby>電話<rt>でんわ</rt></ruby>したつもりだったが<ruby>忘<rt>わす</rt></ruby>れた。",
+          "en": "I intended to call but forgot."
+        },
+        {
+          "jp": "早く起きるつもりだったが寝過ごした。",
+          "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きるつもりだったが<ruby>寝過<rt>ねす</rt></ruby>ごした。",
+          "en": "I meant to wake up early but overslept."
+        },
+        {
+          "jp": "節約するつもりだったが使い過ぎた。",
+          "furigana": "<ruby>節約<rt>せつやく</rt></ruby>するつもりだったが<ruby>使<rt>つか</rt></ruby>い<ruby>過<rt>す</rt></ruby>ぎた。",
+          "en": "I intended to save money but spent too much."
+        }
+      ]
+    },
+    "つもりで": {
+      "formation": "Verb (plain/た) + つもりで",
+      "note": "'With the intention of / as if'. Acts or behaves as if a particular condition is true.",
+      "examples": [
+        {
+          "jp": "本気のつもりで練習する。",
+          "furigana": "<ruby>本気<rt>ほんき</rt></ruby>のつもりで<ruby>練習<rt>れんしゅう</rt></ruby>する。",
+          "en": "I practise as if I am serious."
+        },
+        {
+          "jp": "プロのつもりで料理した。",
+          "furigana": "プロのつもりで<ruby>料理<rt>りょうり</rt></ruby>した。",
+          "en": "I cooked as if I were a professional."
+        },
+        {
+          "jp": "海外旅行のつもりで英語を勉強する。",
+          "furigana": "<ruby>海外<rt>かいがい</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby>のつもりで<ruby>英語<rt>えいご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>する。",
+          "en": "I study English as if I am going to travel abroad."
+        }
+      ]
+    },
+    "も～ば～も": {
+      "formation": "Noun/Verb + も + ば/なら + Noun/Verb + も",
+      "note": "'Both… and / as well as'. Lists two things that are true at the same time.",
+      "examples": [
+        {
+          "jp": "雨も降れば風も吹く。",
+          "furigana": "<ruby>雨<rt>あめ</rt></ruby>も<ruby>降<rt>ふ</rt></ruby>れば<ruby>風<rt>かぜ</rt></ruby>も<ruby>吹<rt>ふ</rt></ruby>く。",
+          "en": "It both rains and blows."
+        },
+        {
+          "jp": "長所もあれば短所もある。",
+          "furigana": "<ruby>長所<rt>ちょうしょ</rt></ruby>もあれば<ruby>短所<rt>たんしょ</rt></ruby>もある。",
+          "en": "There are both strengths and weaknesses."
+        },
+        {
+          "jp": "楽しいこともあれば辛いこともある。",
+          "furigana": "<ruby>楽<rt>たの</rt></ruby>しいこともあれば<ruby>辛<rt>つら</rt></ruby>いこともある。",
+          "en": "There are both fun times and hard times."
+        }
+      ]
+    },
+    "もしも～たら": {
+      "formation": "もしも + Verb (たら-form) / Noun + だったら",
+      "note": "'If / supposing / in the event that'. A hypothetical condition with stronger emphasis than もし alone.",
+      "examples": [
+        {
+          "jp": "もしも宝くじが当たったら。",
+          "furigana": "もしも<ruby>宝<rt>たから</rt></ruby>くじが<ruby>当<rt>あ</rt></ruby>たったら。",
+          "en": "What if I won the lottery."
+        },
+        {
+          "jp": "もしも失敗したらどうする？",
+          "furigana": "もしも<ruby>失敗<rt>しっぱい</rt></ruby>したらどうする？",
+          "en": "What would you do if you fail?"
+        },
+        {
+          "jp": "もしも時間があったら来てください。",
+          "furigana": "もしも<ruby>時間<rt>じかん</rt></ruby>があったら<ruby>来<rt>き</rt></ruby>てください。",
+          "en": "Please come if you have time."
+        }
+      ]
+    },
+    "向け": {
+      "formation": "Noun + 向け（の）",
+      "note": "'Intended for / aimed at / targeted at'. A product or content designed for a specific audience.",
+      "examples": [
+        {
+          "jp": "子供向けの番組だ。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby><ruby>向<rt>む</rt></ruby>けの<ruby>番組<rt>ばんぐみ</rt></ruby>だ。",
+          "en": "It is a programme intended for children."
+        },
+        {
+          "jp": "これは初心者向けの教材だ。",
+          "furigana": "これは<ruby>初心者<rt>しょしんしゃ</rt></ruby><ruby>向<rt>む</rt></ruby>けの<ruby>教材<rt>きょうざい</rt></ruby>だ。",
+          "en": "This is teaching material aimed at beginners."
+        },
+        {
+          "jp": "海外向けに商品を開発した。",
+          "furigana": "<ruby>海外<rt>かいがい</rt></ruby><ruby>向<rt>む</rt></ruby>けに<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>開発<rt>かいはつ</rt></ruby>した。",
+          "en": "We developed a product aimed at overseas markets."
+        }
+      ]
+    },
+    "向き": {
+      "formation": "Noun + 向き（の）",
+      "note": "'Suitable for / well-suited to'. Something that is appropriate or fits well for a person or situation.",
+      "examples": [
+        {
+          "jp": "初心者向きのコースだ。",
+          "furigana": "<ruby>初心者<rt>しょしんしゃ</rt></ruby><ruby>向<rt>む</rt></ruby>きのコースだ。",
+          "en": "It is a course suitable for beginners."
+        },
+        {
+          "jp": "一人暮らし向きのアパートだ。",
+          "furigana": "<ruby>一人暮<rt>ひとりぐ</rt></ruby>らし<ruby>向<rt>む</rt></ruby>きのアパートだ。",
+          "en": "It is an apartment well-suited for living alone."
+        },
+        {
+          "jp": "このゲームは大人向きだ。",
+          "furigana": "このゲームは<ruby>大人<rt>おとな</rt></ruby><ruby>向<rt>む</rt></ruby>きだ。",
+          "en": "This game is suitable for adults."
+        }
+      ]
+    },
+    "直す": {
+      "formation": "Verb-stem + 直す",
+      "note": "'Do again / redo / correct'. Doing an action over from the start, usually to fix or improve.",
+      "examples": [
+        {
+          "jp": "もう一度書き直してください。",
+          "furigana": "もう<ruby>一度<rt>いちど</rt></ruby><ruby>書<rt>か</rt></ruby>き<ruby>直<rt>なお</rt></ruby>してください。",
+          "en": "Please write it again."
+        },
+        {
+          "jp": "間違いを見つけてやり直した。",
+          "furigana": "<ruby>間違<rt>まちが</rt></ruby>いを<ruby>見<rt>み</rt></ruby>つけてやり<ruby>直<rt>なお</rt></ruby>した。",
+          "en": "I found a mistake and did it over."
+        },
+        {
+          "jp": "もう一度考え直してみる。",
+          "furigana": "もう<ruby>一度<rt>いちど</rt></ruby><ruby>考<rt>かんが</rt></ruby>え<ruby>直<rt>なお</rt></ruby>してみる。",
+          "en": "I will try thinking it over again."
+        }
+      ]
+    },
+    "込む": {
+      "formation": "Verb-stem + 込む",
+      "note": "'Move inside / do deeply / become absorbed'. Going into something deeply or doing something intensely.",
+      "examples": [
+        {
+          "jp": "考え込んでしまった。",
+          "furigana": "<ruby>考<rt>かんが</rt></ruby>え<ruby>込<rt>こ</rt></ruby>んでしまった。",
+          "en": "I became lost in thought."
+        },
+        {
+          "jp": "子供が押し込んで来た。",
+          "furigana": "<ruby>子供<rt>こども</rt></ruby>が<ruby>押<rt>お</rt></ruby>し<ruby>込<rt>こ</rt></ruby>んで<ruby>来<rt>き</rt></ruby>た。",
+          "en": "The child pushed his way inside."
+        },
+        {
+          "jp": "悲しみに落ち込んでしまった。",
+          "furigana": "<ruby>悲<rt>かな</rt></ruby>しみに<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んでしまった。",
+          "en": "I fell deep into sadness."
+        }
+      ]
+    },
+    "切る": {
+      "formation": "Verb-stem + 切る",
+      "note": "'Do completely to the end / finish entirely'. Complete exhaustion or full execution of an action.",
+      "examples": [
+        {
+          "jp": "最後まで言い切った。",
+          "furigana": "<ruby>最後<rt>さいご</rt></ruby>まで<ruby>言<rt>い</rt></ruby>い<ruby>切<rt>き</rt></ruby>った。",
+          "en": "I stated it clearly to the very end."
+        },
+        {
+          "jp": "食べ切れなかった。",
+          "furigana": "<ruby>食<rt>た</rt></ruby>べ<ruby>切<rt>き</rt></ruby>れなかった。",
+          "en": "I could not finish eating all of it."
+        },
+        {
+          "jp": "疲れ切って倒れた。",
+          "furigana": "<ruby>疲<rt>つか</rt></ruby>れ<ruby>切<rt>き</rt></ruby>って<ruby>倒<rt>たお</rt></ruby>れた。",
+          "en": "I collapsed from utter exhaustion."
+        }
+      ]
+    },
+    "きり": {
+      "formation": "Noun / Verb (た-form) + きり",
+      "note": "'Only / just / since (and no more)'. (1) Only X and nothing else; (2) since X happened, no further change.",
+      "examples": [
+        {
+          "jp": "彼と会ったきり連絡がない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>と<ruby>会<rt>あ</rt></ruby>ったきり<ruby>連絡<rt>れんらく</rt></ruby>がない。",
+          "en": "Since I met him, there has been no contact."
+        },
+        {
+          "jp": "二人きりで話したい。",
+          "furigana": "<ruby>二人<rt>ふたり</rt></ruby>きりで<ruby>話<rt>はな</rt></ruby>したい。",
+          "en": "I want to talk with just the two of us."
+        },
+        {
+          "jp": "言ったきりで何もしない。",
+          "furigana": "<ruby>言<rt>い</rt></ruby>ったきりで<ruby>何<rt>なに</rt></ruby>もしない。",
+          "en": "He just said it and has done nothing since."
+        }
+      ]
+    },
+    "ふりをする": {
+      "formation": "Verb (plain) / Noun の + ふりをする",
+      "note": "'Pretend to / act as if / feign'. The subject acts as though something is true when it is not.",
+      "examples": [
+        {
+          "jp": "知らないふりをした。",
+          "furigana": "<ruby>知<rt>し</rt></ruby>らないふりをした。",
+          "en": "I pretended not to know."
+        },
+        {
+          "jp": "寝ているふりをした。",
+          "furigana": "<ruby>寝<rt>ね</rt></ruby>ているふりをした。",
+          "en": "I pretended to be asleep."
+        },
+        {
+          "jp": "彼女は平気なふりをしていたが、実は悲しかった。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>平気<rt>へいき</rt></ruby>なふりをしていたが、<ruby>実<rt>じつ</rt></ruby>は<ruby>悲<rt>かな</rt></ruby>しかった。",
+          "en": "She pretended to be fine, but she was actually sad."
+        }
+      ]
+    },
+    "ふと": {
+      "formation": "ふと + verb",
+      "note": "'Suddenly / accidentally / without thinking'. An unintended, spontaneous action — not planned, just happened.",
+      "examples": [
+        {
+          "jp": "ふと空を見上げた。",
+          "furigana": "ふと<ruby>空<rt>そら</rt></ruby>を<ruby>見<rt>み</rt></ruby>上げた。",
+          "en": "I happened to look up at the sky."
+        },
+        {
+          "jp": "ふと彼女のことを思い出した。",
+          "furigana": "ふと<ruby>彼女<rt>かのじょ</rt></ruby>のことを<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>だ</rt></ruby>した。",
+          "en": "I suddenly thought of her."
+        },
+        {
+          "jp": "歩いていたらふとアイデアが浮かんだ。",
+          "furigana": "<ruby>歩<rt>ある</rt></ruby>いていたらふとアイデアが<ruby>浮<rt>u</rt></ruby>かんだ。",
+          "en": "While walking, an idea suddenly came to me."
         }
       ]
     }
