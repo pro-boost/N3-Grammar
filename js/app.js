@@ -346,11 +346,9 @@ function getDetail(g) {
       note: null,
       examples: [
         {
-          jp:
-            g.ex.split(". ")[0] +
-            (g.ex.split(". ")[0].endsWith("。") ? "" : "。"),
+          jp: g.ex.split(/[.。]/)[0].trim() + "。",
           furigana: null,
-          en: g.ex.split(". ").slice(1).join(". ") || g.m,
+          en: (g.ex.split(/[.。]/)[1] || "").trim() || g.m,
         },
       ],
     }
@@ -390,7 +388,7 @@ function renderLesson(container, pts) {
       const uid = `ex-${gi}-${ei}`;
       html += `<div class="ex-block">
         <div class="ex-jp" id="${uid}-jp">${ex.jp}</div>
-        ${ex.furigana ? `<div class="ex-furigana" id="${uid}-furi">${ex.furigana}</div>` : ""}
+        ${ex.furigana ? `<div class="ex-furigana" id="${uid}-furi" style="display:none">${ex.furigana}</div>` : ""}
         <div class="ex-en" id="${uid}-en" style="display:none">${ex.en}</div>
         <div class="ex-toggle-row">
           ${ex.furigana ? `<button class="ex-toggle" onclick="toggleEl('${uid}-furi')">あ Furigana</button>` : ""}
@@ -617,21 +615,16 @@ function renderQuiz(container, pool, distractorPool) {
         scheduleSave();
         const fb = container.querySelector("#qfb");
         fb.className = "quiz-fb " + (correct ? "good" : "bad");
+        const detail = getDetail(q);
+        const example = detail.examples[0] || { jp: q.ex, en: '' };
         fb.innerHTML =
           (correct
             ? "<strong>✓ Correct!</strong> "
             : "<strong>✗ Incorrect.</strong> ") +
-          "<span style=\"font-family:'Shippori Mincho',serif\">" +
-          q.g +
-          "</span> (" +
-          q.r +
-          ") = " +
-          q.m +
-          '<div style="margin-top:6px;font-size:12px;font-style:italic;color:inherit;opacity:.8">🇯🇵 ' +
-          q.ex.split(". ")[0] +
-          "。 &nbsp; 🇬🇧 " +
-          q.ex.split(". ").slice(1).join(". ") +
-          "</div>";
+          `<span style="font-family:'Shippori Mincho',serif">${q.g}</span> (${q.r}) = ${q.m}` +
+          `<div style="margin-top:6px;font-size:12px;font-style:italic;color:inherit;opacity:.8">` +
+          `🇯🇵 ${example.jp} &nbsp; 🇬🇧 ${example.en}` +
+          `</div>`;
         fb.style.display = "block";
         container.querySelector("#qnext").style.display = "block";
       };

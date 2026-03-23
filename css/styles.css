@@ -616,12 +616,14 @@ nav {
 }
 .srs-tag {
   position: absolute;
-  top: 10px;
-  right: 14px;
+  top: 12px;
+  left: 14px;
   font-size: 10px;
-  padding: 2px 6px;
-  border-radius: 10px;
+  padding: 2px 8px;
+  border-radius: 100px;
   font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 .srs-tag.k {
   background: var(--green-l);
@@ -635,7 +637,7 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 6px;
-  margin-bottom: 0.75rem;
+  margin: 0.75rem 0; /* Added vertical margin */
 }
 .btn-srs {
   padding: 10px 6px;
@@ -1164,22 +1166,23 @@ nav {
 }
 .ex-jp {
   font-family: "Shippori Mincho", serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 2.2;
   margin-bottom: 2px;
+  color: var(--ink);
+  font-weight: 600;
 }
 .ex-furigana {
   font-family: "Shippori Mincho", serif;
-  font-size: 13px;
-  line-height: 2.4;
-  color: rgba(26, 23, 20, 0.7);
-  display: none;
+  font-size: 14px;
+  line-height: 2.2;
+  margin-bottom: 4px;
+  color: var(--ink);
 }
 .ex-en {
-  font-size: 12px;
+  font-size: 13px;
   font-style: italic;
-  color: rgba(26, 23, 20, 0.5);
-  margin-top: 2px;
+  color: #5c554d;
 }
 .ex-toggle-row {
   display: flex;

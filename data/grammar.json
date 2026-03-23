@@ -1191,6 +1191,230 @@
     }
   ],
   "GRAMMAR_DETAIL": {
+    "上げる": {
+      "formation": "Verb-stem + 上げる",
+      "note": "Indicates the completion of an action, or moving something upward. Often implies that a lot of effort was put into finishing the task.",
+      "examples": [
+        {
+          "jp": "レポートを書き上げた。",
+          "furigana": "レポートを<ruby>書<rt>か</rt></ruby>き<ruby>上<rt>あ</rt></ruby>げた。",
+          "en": "I finished writing the report."
+        },
+        {
+          "jp": "料理を作り上げるのに三時間かかった。",
+          "furigana": "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げるのに<ruby>三時間<rt>さんじかん</rt></ruby>かかった。",
+          "en": "It took three hours to finish cooking the meal."
+        }
+      ]
+    },
+    "あまり": {
+      "formation": "Verb-dictionary form / Noun + の / な-adj + な + あまり",
+      "note": "'So much that...' or 'Because of excessive...'. Used to express that an extreme state leads to a certain (often negative) result.",
+      "examples": [
+        {
+          "jp": "驚きのあまり、声も出なかった。",
+          "furigana": "<ruby>驚<rt>おどろ</rt></ruby>きのあまり、<ruby>声<rt>こえ</rt></ruby>も<ruby>出<rt>で</rt></ruby>なかった。",
+          "en": "I was so surprised I couldn't even speak."
+        },
+        {
+          "jp": "忙しさのあまり、食事を忘れていた。",
+          "furigana": "<ruby>忙<rt>いそが</rt></ruby>しさのあまり、<ruby>食事<rt>しょくじ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れていた。",
+          "en": "I was so busy that I forgot to eat."
+        }
+      ]
+    },
+    "あまりにも": {
+      "formation": "あまりにも + Adj / Verb / Adverb",
+      "note": "'Too much', 'excessively', or 'so very'. A stronger version of 'amari' used as an adverb to emphasize an extreme degree.",
+      "examples": [
+        {
+          "jp": "あまりにも美しくて、言葉を失った。",
+          "furigana": "あまりにも<ruby>美<rt>うつく</rt></ruby>しくて、<ruby>言葉<rt>ことば</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>った。",
+          "en": "It was so beautiful that I was lost for words."
+        },
+        {
+          "jp": "そのニュースはあまりにも突然だった。",
+          "furigana": "そのニュースはあまりにも<ruby>突然<rt>とつぜん</rt></ruby>だった。",
+          "en": "That news was far too sudden."
+        }
+      ]
+    },
+    "合う": {
+      "formation": "Verb-stem + 合う",
+      "note": "'To do something together' or 'to each other'. Expresses reciprocal or mutual action.",
+      "examples": [
+        {
+          "jp": "私たちは助け合って生きていかなければならない。",
+          "furigana": "<ruby>私<rt>わたし</rt></ruby>たちは<ruby>助<rt>たす</rt></ruby>け<ruby>合<rt>あ</rt></ruby>って<ruby>生<rt>い</rt></ruby>きていかなければならない。",
+          "en": "We must live by helping each other."
+        },
+        {
+          "jp": "二人は見つめ合った。",
+          "furigana": "<ruby>二入<rt>ふたり</rt></ruby>は<ruby>見<rt>み</rt></ruby>つめ<ruby>合<rt>あ</rt></ruby>った。",
+          "en": "The two stared at each other."
+        }
+      ]
+    },
+    "ばいい": {
+      "formation": "Verb-eba form + いい",
+      "note": "'Should / It would be good if...'. Often used to give advice or express that a simple action is all that is required.",
+      "examples": [
+        {
+          "jp": "分からないときは先生に聞けばいい。",
+          "furigana": "<ruby>分<rt>わ</rt></ruby>からないときは<ruby>先生<rt>せんせい</rt></ruby>に<ruby>聞<rt>き</rt></ruby>けばいい。",
+          "en": "When you don't understand, you should just ask the teacher."
+        },
+        {
+          "jp": "ゆっくり休めばいいですよ。",
+          "furigana": "ゆっくり<ruby>休<rt>やす</rt></ruby>めばいいですよ。",
+          "en": "You should just take a good rest."
+        }
+      ]
+    },
+    "ばよかった": {
+      "formation": "Verb-eba form + よかった",
+      "note": "'I should have...' or 'I wish I had...'. Expresses regret about something that didn't happen in the past.",
+      "examples": [
+        {
+          "jp": "もっと勉強すればよかった。",
+          "furigana": "もっと<ruby>勉強<rt>べんきょう</rt></ruby>すればよかった。",
+          "en": "I should have studied more."
+        },
+        {
+          "jp": "傘を持ってくればよかった。",
+          "furigana": "<ruby>傘<rt>かさ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってくればよかった。",
+          "en": "I wish I had brought an umbrella."
+        }
+      ]
+    },
+    "ば～ほど": {
+      "formation": "Verb-eba + Verb-plain + ほど / い-adj-eba + い-adj-plain + ほど / な-adj-なら + な-adj-な + ほど",
+      "note": "'The more... the more...'. Indicates that as the degree of one thing increases, another thing increases accordingly.",
+      "examples": [
+        {
+          "jp": "日本語は勉強すればするほど難しくなる。",
+          "furigana": "<ruby>日本語<rt>にほんご</rt></ruby>は<ruby>勉強<rt>べんきょう</rt></ruby>すればするほど<ruby>難<rt>むずか</rt></ruby>しくなる。",
+          "en": "The more you study Japanese, the more difficult it becomes."
+        },
+        {
+          "jp": "山は登れば登るほど空気が薄くなる。",
+          "furigana": "<ruby>山<rt>やま</rt></ruby>は<ruby>登<rt>のぼ</rt></ruby>れば<ruby>登<rt>のぼ</rt></ruby>るほど<ruby>空気<rt>くうき</rt></ruby>が<ruby>薄<rt>うす</rt></ruby>くなる。",
+          "en": "The higher you climb the mountain, the thinner the air becomes."
+        }
+      ]
+    },
+    "ば～のに": {
+      "formation": "Verb-eba form + ～のに",
+      "note": "'If only... (but unfortunately not)'. Used to express regret or dissatisfaction with a current situation that differs from an ideal one.",
+      "examples": [
+        {
+          "jp": "もっと安ければ買うのに。",
+          "furigana": "もっと<ruby>安<rt>やす</rt></ruby>ければ<ruby>買<rt>か</rt></ruby>うのに。",
+          "en": "If it were cheaper, I would buy it (but it's not)."
+        },
+        {
+          "jp": "明日が休みならいいのに。",
+          "furigana": "<ruby>明日<rt>あした</rt></ruby>が<ruby>休<rt>やす</rt></ruby>みならいいのに。",
+          "en": "If only tomorrow were a holiday."
+        }
+      ]
+    },
+    "ばかりで": {
+      "formation": "Verb-te form + ばかりで",
+      "note": "'Just doing [x] (and nothing else)'. Often carries a negative nuance, suggesting that someone is doing one thing to the exclusion of others.",
+      "examples": [
+        {
+          "jp": "彼は寝てばかりで、全然勉強しない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>寝<rt>ね</rt></ruby>てばかりで、<ruby>全然勉強<rt>ぜんぜんべんきょう</rt></ruby>しない。",
+          "en": "He does nothing but sleep and doesn't study at all."
+        },
+        {
+          "jp": "文句を言ってばかりで何もしない。",
+          "furigana": "<ruby>文句<rt>もんく</rt></ruby>を<ruby>言<rt>い</rt></ruby>ってばかりで<ruby>何<rt>なに</rt></ruby>もしない。",
+          "en": "He's just complaining and not doing anything."
+        }
+      ]
+    },
+    "ばかりでなく": {
+      "formation": "Noun / Verb-plain / Adj + ばかりでなく",
+      "note": "'Not only... but also...'. Used to add more information of a similar nature.",
+      "examples": [
+        {
+          "jp": "彼は英語ばかりでなく、中国語も話せる。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>英語<rt>えいご</rt></ruby>ばかりでなく、<ruby>中国語<rt>ちゅうごくご</rt></ruby>も<ruby>話<rt>はな</rt></ruby>せる。",
+          "en": "He can speak not only English but also Chinese."
+        },
+        {
+          "jp": "この料理は美味しいばかりでなく、見た目もいい。",
+          "furigana": "この<ruby>料理<rt>りょうり</rt></ruby>は<ruby>美味<rt>おい</rt></ruby>しいばかりでなく、<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>もいい。",
+          "en": "This food is not only delicious but also looks good."
+        }
+      ]
+    },
+    "べきだ": {
+      "formation": "Verb-dictionary form + べきだ (suru -> すべき)",
+      "note": "'Should' or 'must'. Expresses a strong social obligation or something that is naturally expected of someone.",
+      "examples": [
+        {
+          "jp": "約束は守るべきだ。",
+          "furigana": "<ruby>約束<rt>やくそく</rt></ruby>は<ruby>守<rt>まも</rt></ruby>るべきだ。",
+          "en": "You should keep your promises."
+        },
+        {
+          "jp": "もっと早く寝るべきだった。",
+          "furigana": "もっと<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>るべきだった。",
+          "en": "I should have gone to bed earlier."
+        }
+      ]
+    },
+    "べきではない": {
+      "formation": "Verb-dictionary form + べきではない",
+      "note": "'Should not'. Expresses that an action is inappropriate or morally wrong.",
+      "examples": [
+        {
+          "jp": "そんなひどいことを言うべきではない。",
+          "furigana": "そんなひどいことを<ruby>言<rt>い</rt></ruby>うべきではない。",
+          "en": "You shouldn't say such terrible things."
+        },
+        {
+          "jp": "嘘をつくべきではない。",
+          "furigana": "<ruby>嘘<rt>うそ</rt></ruby>をつくべきではない。",
+          "en": "You should not tell lies."
+        }
+      ]
+    },
+    "別に～ない": {
+      "formation": "別に + Verb-nai / Adj-nai / Noun-janai",
+      "note": "'Not particularly' or 'not really'. Used to soften a negative statement or indicate a lack of special interest.",
+      "examples": [
+        {
+          "jp": "別に怒っていません。",
+          "furigana": "<ruby>別<rt>べつ</rt></ruby>に<ruby>怒<rt>おこ</rt></ruby>っていません。",
+          "en": "I'm not particularly angry."
+        },
+        {
+          "jp": "それは別に難しくない。",
+          "furigana": "それは<ruby>別<rt>べつ</rt></ruby>に<ruby>難<rt>むずか</rt></ruby>しくない。",
+          "en": "That isn't particularly difficult."
+        }
+      ]
+    },
+    "ぶりに": {
+      "formation": "Time period + ぶりに",
+      "note": "'For the first time in [period of time]'. Used when an action happens again after a long interval.",
+      "examples": [
+        {
+          "jp": "三年ぶりに日本へ帰った。",
+          "furigana": "<ruby>三年<rt>さんねん</rt></ruby>ぶりに<ruby>日本<rt>にほん</rt></ruby>へ<ruby>帰<rt>かえ</rt></ruby>った。",
+          "en": "I returned to Japan for the first time in three years."
+        },
+        {
+          "jp": "彼に会うのは久しぶりだ。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>に<ruby>会<rt>あ</rt></ruby>うのは<ruby>久<rt>ひさ</rt></ruby>しぶりだ。",
+          "en": "It’s been a long time since I last saw him."
+        }
+      ]
+    },
     "中": {
       "formation": "Noun + 中（ちゅう/じゅう）",
       "note": "ちゅう = currently in progress (工事中). じゅう = throughout an entire period or place (一年中).",
