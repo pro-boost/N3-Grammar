@@ -1,1058 +1,686 @@
 [
   {
-    "type": "fill",
-    "q": "友達が来た___、急いで部屋を片付けた。",
-    "furigana": "<ruby>友達<rt>ともだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>た___、<ruby>急<rt>いそ</rt></ruby>いで<ruby>部屋<rt>へや</rt></ruby>を<ruby>片付<rt>かたづ</rt></ruby>けた。",
-    "translation": "As soon as my friend came, I hurriedly tidied up the room.",
-    "blank": "とたん",
-    "opts": ["とたん", "だけ", "ために", "ところで"],
-    "hint": "とたん = as soon as, for an immediate unexpected result."
-  },
-  {
-    "type": "fill",
-    "q": "どんなに難しく___、あきらめない。",
-    "furigana": "どんなに<ruby>難<rt>むずか</rt></ruby>しく___、あきらめない。",
-    "translation": "No matter how difficult it is, I will not give up.",
-    "blank": "ても",
-    "opts": ["ても", "から", "ので", "のに"],
-    "hint": "どんなに〜ても = no matter how~."
-  },
-  {
-    "type": "fill",
-    "q": "先生の___で試験に合格した。",
-    "furigana": "<ruby>先生<rt>せんせい</rt></ruby>の___で<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>した。",
-    "translation": "Thanks to my teacher, I passed the exam.",
-    "blank": "おかげ",
-    "opts": ["おかげ", "せい", "ため", "わけ"],
-    "hint": "おかげ = thanks to (positive). せいで = because of (negative)."
-  },
-  {
-    "type": "fill",
-    "q": "彼は来ない___がない。",
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>こ</rt></ruby>ない___がない。",
-    "translation": "There is no way he won't come.",
-    "blank": "わけ",
-    "opts": ["わけ", "こと", "はず", "もの"],
-    "hint": "わけがない = there is no way~."
-  },
-  {
-    "type": "fill",
-    "q": "毎日ジョギングする___にしている。",
-    "furigana": "<ruby>毎日<rt>まいにち</rt></ruby>ジョギングする___にしている。",
-    "translation": "I make it a rule to jog every day.",
-    "blank": "こと",
-    "opts": ["こと", "ため", "だけ", "ほど"],
-    "hint": "ことにしている = make it a rule/habit to do~."
-  },
-  {
-    "type": "fill",
-    "q": "練習すれば___ほど上手になる。",
-    "furigana": "<ruby>練習<rt>れんしゅう</rt></ruby>すれば___ほど<ruby>上手<rt>じょうず</rt></ruby>になる。",
-    "translation": "The more you practice, the better you become.",
-    "blank": "する",
-    "opts": ["する", "した", "して", "しない"],
-    "hint": "ば〜ほど = the more~, the more~."
-  },
-  {
-    "type": "fill",
-    "q": "___遅刻してしまい、先生に謝った。",
-    "furigana": "___<ruby>遅刻<rt>ちこく</rt></ruby>してしまい、<ruby>先生<rt>せんせい</rt></ruby>に<ruby>謝<rt>あやま</rt></ruby>った。",
-    "translation": "In the end I was late and apologized to my teacher.",
-    "blank": "結局",
-    "opts": ["結局", "確かに", "むしろ", "さらに"],
-    "hint": "結局 = in the end / after all."
-  },
-  {
-    "type": "compose",
-    "q": "彼は　___　___　★　___　です。",
-    "parts": ["に", "違い", "知っている", "ない"],
-    "answer": "知っているに違いない",
-    "correct_order": ["知っている", "に", "違い", "ない"],
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>知<rt>し</rt></ruby>っているに<ruby>違<rt>ちが</rt></ruby>いないです。",
-    "translation": "He must know.",
-    "hint": "に違いない = must be / no doubt that~. Attaches to plain form."
-  },
-  {
-    "type": "compose",
-    "q": "試験が　___　___　★　___　した。",
-    "parts": ["終わって", "はじめて", "安心"],
-    "answer": "終わってはじめて安心",
-    "correct_order": ["終わって", "はじめて", "安心"],
-    "furigana": "<ruby>試験<rt>しけん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってはじめて<ruby>安心<rt>あんしん</rt></ruby>した。",
-    "translation": "Only after the exam ended did I finally feel relieved.",
-    "hint": "てはじめて = not until / only after. Order: 終わって→はじめて→安心."
-  },
-  {
-    "type": "compose",
-    "q": "___　___　★　___　ください。",
-    "parts": ["なるべく", "来て", "早く"],
-    "answer": "なるべく早く来て",
-    "correct_order": ["なるべく", "早く", "来て"],
-    "furigana": "なるべく<ruby>早<rt>はや</rt></ruby>く<ruby>来<rt>き</rt></ruby>てください。",
-    "translation": "Please come as early as possible.",
-    "hint": "なるべく = as much as possible. Order: なるべく→早く→来て."
-  },
-  {
-    "type": "text",
-    "passage": "山田さんは毎日2時間日本語を勉強している。最初は難しかった___、今では楽しくなってきた。努力した___で、N3に合格できた。",
-    "furigana": "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>毎日<rt>まいにち</rt></ruby>2<ruby>時間<rt>じかん</rt></ruby><ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>している。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しかった<b>が</b>、<ruby>今<rt>いま</rt></ruby>では<ruby>楽<rt>たの</rt></ruby>しくなってきた。<ruby>努力<rt>どりょく</rt></ruby>した<b>おかげ</b>で、N3に<ruby>合格<rt>ごうかく</rt></ruby>できた。",
-    "translation": "Yamada studies Japanese for 2 hours every day. At first it was difficult, but now it has become enjoyable. Thanks to his efforts, he was able to pass the N3.",
-    "blanks": ["が", "おかげ"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["が", "けど", "から", "ので"],
-    "opts2": ["おかげ", "せい", "ため", "わけ"],
-    "hint": "①が = contrast. ②おかげ = positive cause (thanks to)."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "毎日練習すればするほど上手になる。",
-      "彼は嘘をつくわけがない。",
-      "雨のおかげで試合が中止になった。",
-      "健康でさえあれば幸せだ。"
-    ],
-    "translations": [
-      "The more you practice, the better you get. ✓",
-      "There is no way he would lie. ✓",
-      "Thanks to the rain, the match was cancelled. ❌",
-      "As long as you are healthy, you will be happy. ✓"
-    ],
-    "furiganas": [
-      "<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>すればするほど<ruby>上手<rt>じょうず</rt></ruby>になる。",
-      "<ruby>彼<rt>かれ</rt></ruby>は<ruby>嘘<rt>うそ</rt></ruby>をつくわけがない。",
-      "<ruby>雨<rt>あめ</rt></ruby>のおかげで<ruby>試合<rt>しあい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった。",
-      "<ruby>健康<rt>けんこう</rt></ruby>でさえあれば<ruby>幸<rt>しあわ</rt></ruby>せだ。"
-    ],
-    "wrong": 2,
-    "hint": "おかげで = positive only. Match cancelled is negative → use せいで."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "彼はまるで知っているとみえる。",
-      "たとえ雨でも行きます。",
-      "彼は来てからでないとと言った。",
-      "先生のせいで合格できた。"
-    ],
-    "translations": [
-      "❌ まるで needs ようだ/みたいだ",
-      "✓ Even if it rains, I will go.",
-      "❌ grammatically broken",
-      "❌ せいで = negative cause"
-    ],
-    "furiganas": [
-      "<ruby>彼<rt>かれ</rt></ruby>はまるで<ruby>知<rt>し</rt></ruby>っているとみえる。",
-      "たとえ<ruby>雨<rt>あめ</rt></ruby>でも<ruby>行<rt>い</rt></ruby>きます。",
-      "<ruby>彼<rt>かれ</rt></ruby>は<ruby>来<rt>き</rt></ruby>てからでないとと<ruby>言<rt>い</rt></ruby>った。",
-      "<ruby>先生<rt>せんせい</rt></ruby>のせいで<ruby>合格<rt>ごうかく</rt></ruby>できた。"
-    ],
-    "wrong": 1,
-    "hint": "たとえ〜ても = even if~. Only option 2 is correct."
-  },
-  {
-    "type": "fill",
-    "q": "彼女は忙しい___、いつも笑顔を忘れない。",
-    "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しい___、いつも<ruby>笑顔<rt>えがお</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れない。",
-    "translation": "Although she is busy, she never forgets to smile.",
-    "blank": "ながらも",
-    "opts": ["ながらも", "ために", "だけに", "ところが"],
-    "hint": "ながらも = although / but / despite. Contrast: busy → still smiling."
-  },
-  {
-    "type": "fill",
-    "q": "天気___試合は予定通り行われます。",
-    "furigana": "<ruby>天気<rt>てんき</rt></ruby>___<ruby>試合<rt>しあい</rt></ruby>は<ruby>予定通<rt>よていどお</rt></ruby>り<ruby>行<rt>おこな</rt></ruby>われます。",
-    "translation": "The match will be held as planned regardless of the weather.",
-    "blank": "にかかわらず",
-    "opts": ["にかかわらず", "によると", "によって", "に対して"],
-    "hint": "にかかわらず = regardless of. The result stays the same no matter what the weather."
-  },
-  {
-    "type": "fill",
-    "q": "留学___、日本語に本気で取り組むようになった。",
-    "furigana": "<ruby>留学<rt>りゅうがく</rt></ruby>___、<ruby>日本語<rt>にほんご</rt></ruby>に<ruby>本気<rt>ほんき</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>むようになった。",
-    "translation": "Studying abroad triggered me to take Japanese seriously.",
-    "blank": "をきっかけに",
-    "opts": ["をきっかけに", "をはじめ", "を通じて", "を中心に"],
-    "hint": "をきっかけに = triggered by / using as an opportunity."
-  },
-  {
-    "type": "fill",
-    "q": "この作品は実際の事件___作られた。",
-    "furigana": "この<ruby>作品<rt>さくひん</rt></ruby>は<ruby>実際<rt>じっさい</rt></ruby>の<ruby>事件<rt>じけん</rt></ruby>___<ruby>作<rt>つく</rt></ruby>られた。",
-    "translation": "This work was made based on a real incident.",
-    "blank": "をもとに",
-    "opts": ["をもとに", "をめぐって", "を受けて", "を通じて"],
-    "hint": "をもとに = based on. The incident is the source material."
-  },
-  {
-    "type": "fill",
-    "q": "卒業___、みんなで写真を撮った。",
-    "furigana": "<ruby>卒業<rt>そつぎょう</rt></ruby>___、みんなで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>った。",
-    "translation": "Prior to graduation, everyone took a photo together.",
-    "blank": "に先立って",
-    "opts": ["に先立って", "にかわって", "にそって", "において"],
-    "hint": "に先立って = prior to / in advance of (formal). Before the main event."
-  },
-  {
-    "type": "fill",
-    "q": "この店はプロ___、料理の味が格別だ。",
-    "furigana": "この<ruby>店<rt>みせ</rt></ruby>はプロ___、<ruby>料理<rt>りょうり</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>が<ruby>格別<rt>かくべつ</rt></ruby>だ。",
-    "translation": "As expected from professionals, the food here is exceptional.",
-    "blank": "だけあって",
-    "opts": ["だけあって", "ばかりに", "くせに", "ものの"],
-    "hint": "だけあって = as expected from / no wonder. Always positive/logical outcome."
-  },
-  {
-    "type": "fill",
-    "q": "あの映画は有名な___、内容が薄かった。",
-    "furigana": "あの<ruby>映画<rt>えいが</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>な___、<ruby>内容<rt>ないよう</rt></ruby>が<ruby>薄<rt>うす</rt></ruby>かった。",
-    "translation": "Although that film is famous, the content was shallow.",
-    "blank": "ものの",
-    "opts": ["ものの", "ために", "ものだから", "ことから"],
-    "hint": "ものの = although / but. Famous (premise) → shallow content (contrasting disappointing result)."
-  },
-  {
-    "type": "fill",
-    "q": "___電車が遅れているようだ。",
-    "furigana": "___<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているようだ。",
-    "translation": "It appears that the train is running late.",
-    "blank": "どうやら",
-    "opts": ["どうやら", "もしかしたら", "たしかに", "むしろ"],
-    "hint": "どうやら～ようだ = it appears that / it seems. Based on indirect signs."
-  },
-  {
-    "type": "fill",
-    "q": "子供___知っている常識だ。",
-    "furigana": "<ruby>子供<rt>こども</rt></ruby>___<ruby>知<rt>し</rt></ruby>っている<ruby>常識<rt>じょうしき</rt></ruby>だ。",
-    "translation": "Even a child knows this common knowledge.",
-    "blank": "でさえ",
-    "opts": ["でさえ", "だけでなく", "ばかりで", "すら"],
-    "hint": "でさえ = even. If even a child knows, certainly adults should."
-  },
-  {
-    "type": "fill",
-    "q": "状況___、計画を柔軟に変えることが大切だ。",
-    "furigana": "<ruby>状況<rt>じょうきょう</rt></ruby>___、<ruby>計画<rt>けいかく</rt></ruby>を<ruby>柔軟<rt>じゅうなん</rt></ruby>に<ruby>変<rt>か</rt></ruby>えることが<ruby>大切<rt>たいせつ</rt></ruby>だ。",
-    "translation": "It is important to flexibly adjust the plan depending on the situation.",
-    "blank": "に応じて",
-    "opts": ["に応じて", "に反して", "に比べて", "に際して"],
-    "hint": "に応じて = depending on / in accordance with. The plan changes to match each situation."
-  },
-  {
-    "type": "fill",
-    "q": "三年間___、彼は毎日練習を続けた。",
-    "furigana": "<ruby>三年間<rt>さんねんかん</rt></ruby>___、<ruby>彼<rt>かれ</rt></ruby>は<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた。",
-    "translation": "He continued to practice every day throughout three years.",
-    "blank": "にわたって",
-    "opts": ["にわたって", "にかけて", "において", "にあたって"],
-    "hint": "にわたって = throughout / over a span of. 三年間 is the total duration covered."
-  },
-  {
-    "type": "fill",
-    "q": "秘密だから教える___にはいかない。",
-    "furigana": "<ruby>秘密<rt>ひみつ</rt></ruby>だから<ruby>教<rt>おし</rt></ruby>える___にはいかない。",
-    "translation": "Since it's a secret, I cannot tell you.",
-    "blank": "わけ",
-    "opts": ["わけ", "こと", "はず", "もの"],
-    "hint": "わけにはいかない = cannot / must not (moral/social constraint)."
-  },
-  {
-    "type": "fill",
-    "q": "この問題___、会議で激しく議論が起きた。",
-    "furigana": "この<ruby>問題<rt>もんだい</rt></ruby>___、<ruby>会議<rt>かいぎ</rt></ruby>で<ruby>激<rt>はげ</rt></ruby>しく<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた。",
-    "translation": "A fierce debate erupted over this issue in the meeting.",
-    "blank": "をめぐって",
-    "opts": ["をめぐって", "をもとに", "を通じて", "を前に"],
-    "hint": "をめぐって = over / surrounding. The issue is the center of the dispute."
-  },
-  {
-    "type": "fill",
-    "q": "始めた___最後まで責任を持ってやり遂げる。",
-    "furigana": "<ruby>始<rt>はじ</rt></ruby>めた___<ruby>最後<rt>さいご</rt></ruby>まで<ruby>責任<rt>せきにん</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってやり<ruby>遂<rt>と</rt></ruby>げる。",
-    "translation": "Now that I have started, I will take responsibility and see it through.",
-    "blank": "からには",
-    "opts": ["からには", "からといって", "からこそ", "ことから"],
-    "hint": "からには = now that / since. Starting implies an obligation to finish."
-  },
-  {
-    "type": "fill",
-    "q": "好きだ___こそ、正直に伝えるべきだ。",
-    "furigana": "<ruby>好<rt>す</rt></ruby>きだ___こそ、<ruby>正直<rt>しょうじき</rt></ruby>に<ruby>伝<rt>つた</rt></ruby>えるべきだ。",
-    "translation": "Precisely because you care, you should be honest.",
-    "blank": "から",
-    "opts": ["から", "ので", "のに", "ため"],
-    "hint": "からこそ = precisely because. The caring is the exact reason for the honesty."
-  },
-  {
-    "type": "fill",
-    "q": "忙しい___連絡もくれないのはひどい。",
-    "furigana": "<ruby>忙<rt>いそが</rt></ruby>しい___<ruby>連絡<rt>れんらく</rt></ruby>もくれないのはひどい。",
-    "translation": "Just because you are busy is no reason to not even contact me.",
-    "blank": "からといって",
-    "opts": ["からといって", "からには", "からこそ", "ものだから"],
-    "hint": "からといって = just because. Being busy doesn't automatically justify not contacting."
-  },
-  {
-    "type": "fill",
-    "q": "歩いていたら___いいアイデアが浮かんだ。",
-    "furigana": "<ruby>歩<rt>ある</rt></ruby>いていたら___いいアイデアが<ruby>浮<rt>う</rt></ruby>かんだ。",
-    "translation": "While walking, a good idea suddenly came to me.",
-    "blank": "ふと",
-    "opts": ["ふと", "つい", "わざわざ", "すでに"],
-    "hint": "ふと = suddenly / without thinking. Spontaneous, unplanned moment."
-  },
-  {
-    "type": "fill",
-    "q": "この仕事は楽しい___、体力的にきつい。",
-    "furigana": "この<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しい___、<ruby>体力<rt>たいりょく</rt></ruby>的にきつい。",
-    "translation": "This work is fun, but on the other hand it is physically tough.",
-    "blank": "反面",
-    "opts": ["反面", "ながらも", "ものの", "だけに"],
-    "hint": "反面 = on the other hand. Two contrasting aspects of the same thing."
-  },
-  {
-    "type": "fill",
-    "q": "故郷が恋しくて___。",
-    "furigana": "<ruby>故郷<rt>こきょう</rt></ruby>が<ruby>恋<rt>こい</rt></ruby>しくて___。",
-    "translation": "I cannot help but miss my hometown.",
-    "blank": "ならない",
-    "opts": ["ならない", "しかたがない", "いられない", "たまらない"],
-    "hint": "てならない = cannot help but (literary). 恋しくてならない = unbearably homesick."
-  },
-  {
-    "type": "fill",
-    "q": "あの話を聞いて笑わ___にはいられなかった。",
-    "furigana": "あの<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて<ruby>笑<rt>わら</rt></ruby>わ___にはいられなかった。",
-    "translation": "I could not help but laugh after hearing that story.",
-    "blank": "ず",
-    "opts": ["ず", "ない", "なく", "ぬ"],
-    "hint": "ずにはいられない = cannot help but. 笑わず = literary negative (replace ない with ず)."
-  },
-  {
-    "type": "fill",
-    "q": "彼の不注意___事故が起きてしまった。",
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>の<ruby>不注意<rt>ふちゅうい</rt></ruby>___<ruby>事故<rt>じこ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きてしまった。",
-    "translation": "The accident happened because of his carelessness.",
-    "blank": "のせいで",
-    "opts": ["のせいで", "のおかげで", "のために", "によっては"],
-    "hint": "のせいで = because of (negative cause/blame). An accident is a bad outcome."
-  },
-  {
-    "type": "fill",
-    "q": "費用が足りない。___計画を変更する。",
-    "furigana": "<ruby>費用<rt>ひよう</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない。___<ruby>計画<rt>けいかく</rt></ruby>を<ruby>変更<rt>へんこう</rt></ruby>する。",
-    "translation": "There are not enough funds. Therefore, the plan will be changed.",
-    "blank": "したがって",
-    "opts": ["したがって", "それでも", "そればかりか", "そうすると"],
-    "hint": "したがって = therefore / accordingly. Logical conclusion follows the stated reason."
-  },
-  {
-    "type": "fill",
-    "q": "失敗した。___、チームは諦めなかった。",
-    "furigana": "<ruby>失敗<rt>しっぱい</rt></ruby>した。___、チームは<ruby>諦<rt>あきら</rt></ruby>めなかった。",
-    "translation": "We failed. Even so, the team did not give up.",
-    "blank": "それでも",
-    "opts": ["それでも", "したがって", "そればかりか", "そうすると"],
-    "hint": "それでも = even so / nevertheless. Contrasting persistence despite failure."
-  },
-  {
-    "type": "fill",
-    "q": "彼女は日本語___英語も流暢に話せる。",
-    "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>日本語<rt>にほんご</rt></ruby>___<ruby>英語<rt>えいご</rt></ruby>も<ruby>流暢<rt>りゅうちょう</rt></ruby>に<ruby>話<rt>はな</rt></ruby>せる。",
-    "translation": "She can speak fluently not only Japanese but also English.",
-    "blank": "はもとより",
-    "opts": ["はもとより", "ばかりか", "だけでなく", "のみならず"],
-    "hint": "はもとより = not only / let alone. Japanese is obvious; English is the added surprise."
-  },
-  {
-    "type": "fill",
-    "q": "雨が降った。___雷まで鳴り出した。",
-    "furigana": "<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>った。___<ruby>雷<rt>かみなり</rt></ruby>まで<ruby>鳴<rt>な</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した。",
-    "translation": "It rained. Not only that, thunder even started.",
-    "blank": "そればかりか",
-    "opts": ["そればかりか", "それでも", "したがって", "そうすると"],
-    "hint": "そればかりか = not only that but also / moreover. Adds a stronger or more surprising fact."
-  },
-  {
-    "type": "fill",
-    "q": "電車を___、バスも止まっているようだ。",
-    "furigana": "<ruby>電車<rt>でんしゃ</rt></ruby>を___、バスも<ruby>止<rt>と</rt></ruby>まっているようだ。",
-    "translation": "Starting with the trains, the buses also seem to have stopped.",
-    "blank": "はじめ",
-    "opts": ["はじめ", "めぐって", "もとに", "きっかけに"],
-    "hint": "をはじめ = starting with / for example. Trains are the representative example; buses are additional."
-  },
-  {
-    "type": "fill",
-    "q": "SNS___友達ができるとは思わなかった。",
-    "furigana": "SNS___<ruby>友達<rt>ともだち</rt></ruby>ができるとは<ruby>思<rt>おも</rt></ruby>わなかった。",
-    "translation": "I never thought I could make friends through social media.",
-    "blank": "を通じて",
-    "opts": ["を通じて", "をめぐって", "をもとに", "を前に"],
-    "hint": "を通じて = through / via. Social media is the medium/channel."
-  },
-  {
-    "type": "fill",
-    "q": "暗くなら___うちに家に帰ろう。",
-    "furigana": "<ruby>暗<rt>くら</rt></ruby>くなら___うちに<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>ろう。",
-    "translation": "Let's go home before it gets dark.",
-    "blank": "ない",
-    "opts": ["ない", "ず", "なかった", "ぬ"],
-    "hint": "ないうちに = before something happens. ない is the negative form before うちに."
-  },
-  {
-    "type": "fill",
-    "q": "あんな難しいテスト、受かり___。",
-    "furigana": "あんな<ruby>難<rt>むずか</rt></ruby>しいテスト、<ruby>受<rt>う</rt></ruby>かり___。",
-    "translation": "There's absolutely no way I could pass such a difficult test.",
-    "blank": "っこない",
-    "opts": ["っこない", "わけがない", "はずがない", "ないだろう"],
-    "hint": "っこない = strong informal 'no way / absolutely impossible'. More emphatic than わけがない."
-  },
-  {
-    "type": "fill",
-    "q": "計画___、作業を進めてください。",
-    "furigana": "<ruby>計画<rt>けいかく</rt></ruby>___、<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めてください。",
-    "translation": "Please proceed with the work in accordance with the plan.",
-    "blank": "にそって",
-    "opts": ["にそって", "において", "にわたって", "にかけて"],
-    "hint": "にそって = along / following / in accordance with. Following a plan or guideline."
-  },
-  {
-    "type": "fill",
-    "q": "山田さんは料理___掃除も得意だ。",
-    "furigana": "<ruby>山田<rt>やまだ</rt></ruby>さんは<ruby>料理<rt>りょうり</rt></ruby>___<ruby>掃除<rt>そうじ</rt></ruby>も<ruby>得意<rt>とくい</rt></ruby>だ。",
-    "translation": "Yamada-san is good at not only cooking but also cleaning.",
-    "blank": "はもとより",
-    "opts": ["はもとより", "だけでなく", "ばかりか", "のみならず"],
-    "hint": "はもとより = not only / let alone. Cooking is obvious; cleaning is added."
-  },
-  {
-    "type": "fill",
-    "q": "病気___、生活習慣を改めた。",
-    "furigana": "<ruby>病気<rt>びょうき</rt></ruby>___、<ruby>生活習慣<rt>せいかつしゅうかん</rt></ruby>を<ruby>改<rt>あらた</rt></ruby>めた。",
-    "translation": "An illness served as a turning point for me to change my lifestyle.",
-    "blank": "を契機に",
-    "opts": ["を契機に", "をきっかけに", "をめぐって", "を通じて"],
-    "hint": "を契機に = triggered by / as a turning point. More formal than をきっかけに."
-  },
-  {
-    "type": "fill",
-    "q": "彼女は試験を___、ひどく緊張していた。",
-    "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>試験<rt>しけん</rt></ruby>を___、ひどく<ruby>緊張<rt>きんちょう</rt></ruby>していた。",
-    "translation": "With the exam ahead, she was terribly nervous.",
-    "blank": "前に",
-    "opts": ["前に", "きっかけに", "はじめ", "めぐって"],
-    "hint": "を前に = with ~ ahead / before ~. The exam is the upcoming event."
-  },
-  {
-    "type": "fill",
-    "q": "難しい___、諦めたくない。",
-    "furigana": "<ruby>難<rt>むずか</rt></ruby>しい___、<ruby>諦<rt>あきら</rt></ruby>めたくない。",
-    "translation": "Having said that it's difficult, I still don't want to give up.",
-    "blank": "とはいえ",
-    "opts": ["とはいえ", "ながらも", "ものの", "だけあって"],
-    "hint": "とはいえ = that said / even so. Acknowledges reality but presents a contrasting feeling."
-  },
-  {
-    "type": "fill",
-    "q": "___遠くからわざわざ来てくれてありがとう。",
-    "furigana": "___<ruby>遠<rt>とお</rt></ruby>くからわざわざ<ruby>来<rt>き</rt></ruby>てくれてありがとう。",
-    "translation": "Thank you so much for going out of your way to come all this way.",
-    "blank": "こんなに",
-    "opts": ["こんなに", "なかなか", "いくら", "せいぜい"],
-    "hint": "こんなに～わざわざ = going to such trouble. Expresses gratitude for special effort."
-  },
-  {
-    "type": "fill",
-    "q": "彼___、必ず時間を守る人だ。",
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>___、<ruby>必<rt>かなら</rt></ruby>ず<ruby>時間<rt>じかん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>人<rt>ひと</rt></ruby>だ。",
-    "translation": "As you would expect from him, he is always punctual.",
-    "blank": "らしく",
-    "opts": ["らしく", "だけあって", "ように", "として"],
-    "hint": "らしく = typical of / befitting. His punctuality is characteristic of him."
-  },
-  {
-    "type": "fill",
-    "q": "___体の調子が悪い日が続いている。",
-    "furigana": "___<ruby>体<rt>からだ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>が<ruby>続<rt>つづ</rt></ruby>いている。",
-    "translation": "Lately I have been feeling unwell for days on end.",
-    "blank": "どうやら",
-    "opts": ["どうやら", "どうしても", "なかなか", "せいぜい"],
-    "hint": "どうやら = it seems / apparently. Signals indirect awareness of the situation."
-  },
-  {
-    "type": "fill",
-    "q": "もう二度と遅刻する___と心に誓った。",
-    "furigana": "もう<ruby>二度<rt>にど</rt></ruby>と<ruby>遅刻<rt>ちこく</rt></ruby>する___と<ruby>心<rt>こころ</rt></ruby>に<ruby>誓<rt>ちか</rt></ruby>った。",
-    "translation": "I swore in my heart that I would never be late again.",
-    "blank": "まい",
-    "opts": ["まい", "ない", "まいか", "わけがない"],
-    "hint": "まい = will not / intend not to (negative volitional). Strong determination not to do something."
-  },
-  {
-    "type": "fill",
-    "q": "問い合わせた___、在庫がまだあると分かった。",
-    "furigana": "<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせた___、<ruby>在庫<rt>ざいこ</rt></ruby>がまだあると<ruby>分<rt>わ</rt></ruby>かった。",
-    "translation": "When I inquired, I found out that there was still stock.",
-    "blank": "ところ",
-    "opts": ["ところ", "とたん", "ところに", "まま"],
-    "hint": "たところ = upon doing / when I did (discovered result). Different from とたん (immediate/involuntary)."
-  },
-  {
-    "type": "fill",
-    "q": "散歩___、スーパーで買い物してきた。",
-    "furigana": "<ruby>散歩<rt>さんぽ</rt></ruby>___、スーパーで<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>してきた。",
-    "translation": "While I was out for a walk, I did some shopping at the supermarket.",
-    "blank": "がてら",
-    "opts": ["がてら", "ついでに", "かたわら", "ながらも"],
-    "hint": "がてら = while / on the occasion of. Doing a secondary thing during the main activity."
-  },
-  {
-    "type": "fill",
-    "q": "仕事の___小説を書き続けている。",
-    "furigana": "<ruby>仕事<rt>しごと</rt></ruby>の___<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>書<rt>か</rt></ruby>き<ruby>続<rt>つづ</rt></ruby>けている。",
-    "translation": "Alongside my job, I continue to write novels.",
-    "blank": "かたわら",
-    "opts": ["かたわら", "がてら", "ついでに", "うちに"],
-    "hint": "かたわら = while / alongside. A secondary activity done alongside one's main occupation."
-  },
-  {
-    "type": "fill",
-    "q": "これは努力の結果に___ならない。",
-    "furigana": "これは<ruby>努力<rt>どりょく</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>に___ならない。",
-    "translation": "This is nothing other than the result of effort.",
-    "blank": "ほか",
-    "opts": ["ほか", "すぎ", "かかわら", "わたっ"],
-    "hint": "にほかならない = nothing other than / none other than. Fixed expression asserting the only explanation."
-  },
-  {
-    "type": "compose",
-    "q": "彼は何も　___　___　★　___　去った。",
-    "parts": ["言わ", "ずに", "立ち"],
-    "answer": "何も言わずに立ち去った",
-    "correct_order": ["言わ", "ず", "に", "立ち"],
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わずに<ruby>立<rt>た</rt></ruby>ち<ruby>去<rt>さ</rt></ruby>った。",
-    "translation": "He left without saying a word.",
-    "hint": "ずに = without doing (literary). 言わずに = without saying. Order: 言わ→ず→に→立ち."
-  },
-  {
-    "type": "compose",
-    "q": "SNSを　___　___　★　___　なった。",
-    "parts": ["通じて", "彼女と", "友達に"],
-    "answer": "SNSを通じて彼女と友達になった",
-    "correct_order": ["通じて", "彼女と", "友達に"],
-    "furigana": "SNSを<ruby>通<rt>つう</rt></ruby>じて<ruby>彼女<rt>かのじょ</rt></ruby>と<ruby>友達<rt>ともだち</rt></ruby>になった。",
-    "translation": "I became friends with her through social media.",
-    "hint": "を通じて = through / via. Order: を→通じて→彼女と→友達に→なった."
-  },
-  {
-    "type": "compose",
-    "q": "旅行予約を　___　___　★　___　した。",
-    "parts": ["確認した", "うえで", "キャンセル"],
-    "answer": "旅行予約を確認したうえでキャンセルした",
-    "correct_order": ["確認した", "うえで", "キャンセル"],
-    "furigana": "<ruby>旅行<rt>りょこう</rt></ruby><ruby>予約<rt>よやく</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>したうえで<ruby>キャンセル</rt>した。",
-    "translation": "After confirming the reservation, I cancelled it.",
-    "hint": "うえで = after doing. Order: 確認した→うえで→キャンセル→した."
-  },
-  {
-    "type": "compose",
-    "q": "秘密だから　___　___　★　___　いかない。",
-    "parts": ["は", "わけ", "に", "教える"],
-    "answer": "教えるわけにはいかない",
-    "correct_order": ["教える", "わけ", "に", "は"],
-    "furigana": "<ruby>秘密<rt>ひみつ</rt></ruby>だから<ruby>教<rt>おし</rt></ruby>えるわけにはいかない。",
-    "translation": "Since it's a secret, there's no way I can tell you.",
-    "hint": "わけにはいかない = cannot (moral/social constraint). Order: 教える→わけ→に→は→いかない."
-  },
-  {
-    "type": "compose",
-    "q": "この映画は　___　___　★　___　です。",
-    "parts": ["実話", "もとに", "した", "を"],
-    "answer": "実話をもとにした映画です",
-    "correct_order": ["実話", "を", "もとに", "した"],
-    "furigana": "この<ruby>映画<rt>えいが</rt></ruby>は<ruby>実話<rt>じつわ</rt></ruby>をもとにした<ruby>映画<rt>えいが</rt></ruby>です。",
-    "translation": "This film is based on a true story.",
-    "hint": "をもとに = based on. Order: 実話→を→もとに→した+(noun)."
-  },
-  {
-    "type": "compose",
-    "q": "あんな難しい　___　___　★　___　ない。",
-    "parts": ["受かり", "試験", "っこ"],
-    "answer": "あんな難しい試験受かりっこない",
-    "correct_order": ["試験", "受かり", "っこ"],
-    "furigana": "あんな<ruby>難<rt>むずか</rt></ruby>しい<ruby>試験<rt>しけん</rt></ruby><ruby>受<rt>u</rt></ruby>かりっこない。",
-    "translation": "There is absolutely no way of passing such a difficult exam.",
-    "hint": "っこない = strong 'no way'. Attaches to verb stem: 受かり+っこ+ない."
-  },
-  {
-    "type": "compose",
-    "q": "___　___　★　___　ないようにした。",
-    "parts": ["暗くなら", "うちに", "帰れ"],
-    "answer": "暗くならないうちに帰れないようにした",
-    "correct_order": ["暗くなら", "ない", "うちに"],
-    "furigana": "<ruby>暗<rt>くら</rt></ruby>くならないうちに<ruby>帰<rt>かえ</rt></ruby>れないようにした。",
-    "translation": "I made sure to get home before it got dark.",
-    "hint": "ないうちに = before ~ happens. Order: 暗くなら→ない→うちに."
-  },
-  {
-    "type": "compose",
-    "q": "彼女の　___　___　★　___　ならない。",
-    "parts": ["優しさ", "が", "恋しくて"],
-    "answer": "彼女の優しさが恋しくてならない",
-    "correct_order": ["優しさ", "が", "恋しくて"],
-    "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>優<rt>やさ</rt></ruby>しさが<ruby>恋<rt>こい</rt></ruby>しくてならない。",
-    "translation": "I cannot help but miss her kindness.",
-    "hint": "てならない = cannot help but (literary). Order: 優しさ→が→恋しくて→ならない."
-  },
-  {
-    "type": "compose",
-    "q": "留学を　___　___　★　___　なった。",
-    "parts": ["きっかけに", "日本語に", "興味を持つように"],
-    "answer": "留学をきっかけに日本語に興味を持つようになった",
-    "correct_order": ["きっかけに", "日本語に", "興味を持つように"],
-    "furigana": "<ruby>留学<rt>りゅうがく</rt></ruby>を<ruby>きっかけ</rt>に<ruby>日本語<rt>にほんご</rt></ruby>に<ruby>興味<rt>きょうみ</rt></ruby>を<ruby>持<rt>も</rt></ruby>つようになった。",
-    "translation": "Studying abroad sparked an interest in Japanese.",
-    "hint": "をきっかけに = triggered by. Order: をきっかけに→日本語に→興味を持つように→なった."
-  },
-  {
-    "type": "compose",
-    "q": "子どもが　___　___　★　___　した。",
-    "parts": ["急に", "泣き出", "笑い"],
-    "answer": "子どもが急に笑い泣き出した",
-    "correct_order": ["急に", "笑い", "泣き出"],
-    "furigana": "<ruby>子<rt>こ</rt></ruby>どもが<ruby>急<rt>きゅう</rt></ruby>に<ruby>泣<rt>な</rt></ruby>き<ruby>出<rt>だ</rt></ruby>した。",
-    "translation": "The child suddenly burst into tears.",
-    "hint": "出す = sudden start (verb suffix). 泣き出す = burst into crying. Order: 急に→泣き→出→した."
-  },
-  {
-    "type": "compose",
-    "q": "この仕事は　___　___　★　___　大変だ。",
-    "parts": ["楽しい", "体力的に", "反面"],
-    "answer": "この仕事は楽しい反面体力的に大変だ",
-    "correct_order": ["楽しい", "反面", "体力的に"],
-    "furigana": "この<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しい<ruby>反面<rt>はんめん</rt></ruby>、<ruby>体力<rt>たいりょく</rt></ruby>的に<ruby>大変<rt>たいへん</rt></ruby>だ。",
-    "translation": "This work is fun, but on the other hand it is physically demanding.",
-    "hint": "反面 = on the other hand. Order: 楽しい→反面→体力的に→大変だ."
-  },
-  {
-    "type": "compose",
-    "q": "彼は___　___　★　___　います。",
-    "parts": ["毎日", "走り続けて", "3年間"],
-    "answer": "彼は3年間毎日走り続けています",
-    "correct_order": ["3年間", "毎日", "走り続けて"],
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は3<ruby>年間<rt>ねんかん</rt></ruby><ruby>毎日<rt>まいにち</rt></ruby><ruby>走<rt>はし</rt></ruby>り<ruby>続<rt>つづ</rt></ruby>けています。",
-    "translation": "He has been running every day for three years.",
-    "hint": "続ける = to continue doing. Order: 3年間→毎日→走り続けて→います."
-  },
-  {
-    "type": "compose",
-    "q": "雨の　___　___　★　___　なった。",
-    "parts": ["試合", "中止に", "せいで"],
-    "answer": "雨のせいで試合が中止になった",
-    "correct_order": ["せいで", "試合", "中止に"],
-    "furigana": "<ruby>雨<rt>あめ</rt></ruby>のせいで<ruby>試合<rt>しあい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった。",
-    "translation": "The match was cancelled because of the rain.",
-    "hint": "のせいで = because of (negative). Order: 雨の→せいで→試合が→中止に→なった."
-  },
-  {
-    "type": "compose",
-    "q": "困難な状況　___　___　★　___　なかった。",
-    "parts": ["にあっても", "彼は", "諦め"],
-    "answer": "困難な状況にあっても彼は諦めなかった",
-    "correct_order": ["にあっても", "彼は", "諦め"],
-    "furigana": "<ruby>困難<rt>こんなん</rt></ruby>な<ruby>状況<rt>じょうきょう</rt></ruby>にあっても<ruby>彼<rt>かれ</rt></ruby>は<ruby>諦<rt>あきら</rt></ruby>めなかった。",
-    "translation": "Even in a difficult situation, he did not give up.",
-    "hint": "にあっても = even in the situation of (formal). Order: 状況→にあっても→彼は→諦め→なかった."
-  },
-  {
-    "type": "compose",
-    "q": "もう二度と　___　___　★　___　誓った。",
-    "parts": ["と", "遅刻するまい", "心に"],
-    "answer": "もう二度と遅刻するまいと心に誓った",
-    "correct_order": ["遅刻するまい", "と", "心に"],
-    "furigana": "もう<ruby>二度<rt>にど</rt></ruby>と<ruby>遅刻<rt>ちこく</rt></ruby>するまいと<ruby>心<rt>こころ</rt></ruby>に<ruby>誓<rt>ちか</rt></ruby>った。",
-    "translation": "I swore in my heart never to be late again.",
-    "hint": "まい = negative volitional (will not). まいと心に誓った = swore not to. Order: 遅刻するまい→と→心に→誓った."
-  },
-  {
-    "type": "compose",
-    "q": "彼女は　___　___　★　___　笑顔だ。",
-    "parts": ["忙しい", "いつも", "ながらも"],
-    "answer": "彼女は忙しいながらもいつも笑顔だ",
-    "correct_order": ["忙しい", "ながらも", "いつも"],
-    "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいながらもいつも<ruby>笑顔<rt>えがお</rt></ruby>だ。",
-    "translation": "Although she is busy, she is always smiling.",
-    "hint": "ながらも = although / despite. Order: 忙しい→ながらも→いつも→笑顔だ."
-  },
-  {
-    "type": "compose",
-    "q": "___　___　★　___　した。",
-    "parts": ["確認してから", "でないと", "送信"],
-    "answer": "確認してからでないと送信した",
-    "correct_order": ["確認してから", "でないと", "送信"],
-    "furigana": "<ruby>確認<rt>かくにん</rt></ruby>してからでないと<ruby>送信<rt>そうしん</rt></ruby>できない。",
-    "translation": "You cannot send it without first confirming.",
-    "hint": "てからでないと = must first do X before Y. Order: 確認してから→でないと→送信→できない."
-  },
-  {
-    "type": "compose",
-    "q": "___　___　★　___　ならない。",
-    "parts": ["気に", "試験の結果が", "なって"],
-    "answer": "試験の結果が気になってならない",
-    "correct_order": ["試験の結果が", "気に", "なって"],
-    "furigana": "<ruby>試験<rt>しけん</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>が<ruby>気<rt>き</rt></ruby>になってならない。",
-    "translation": "I cannot stop worrying about the exam results.",
-    "hint": "気になってならない = cannot help being bothered. Order: 試験の結果が→気に→なって→ならない."
-  },
-  {
-    "type": "text",
-    "passage": "田中さんは体調が悪かった___、大事な発表を最後までやり遂げた。周りの人は彼女の頑張りに感心した。努力___、こんな素晴らしい結果が出たのだ。",
-    "furigana": "<ruby>田中<rt>たなか</rt></ruby>さんは<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>かった<b>ものの</b>、<ruby>大事<rt>だいじ</rt></ruby>な<ruby>発表<rt>はっぴょう</rt></ruby>を<ruby>最後<rt>さいご</rt></ruby>までやり<ruby>遂<rt>と</rt></ruby>げた。<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>は<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>頑張<rt>がんば</rt></ruby>りに<ruby>感心<rt>かんしん</rt></ruby>した。<ruby>努力<rt>どりょく</rt></ruby>した<b>からこそ</b>、こんな<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>たのだ。",
-    "translation": "Although Tanaka felt unwell, she completed the important presentation. Those around her were impressed by her perseverance. It is precisely because she worked hard that such wonderful results came out.",
-    "blanks": ["ものの", "からこそ"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["ものの", "ために", "ので", "のに"],
-    "opts2": ["からこそ", "からといって", "からには", "ことから"],
-    "hint": "①ものの = although (contrasting result). ②からこそ = precisely because. Her effort is the exact reason for the great results."
-  },
-  {
-    "type": "text",
-    "passage": "鈴木さんは10年間___、毎日練習を続けた。失敗しても___、前を向いてきた。その結果、ついに夢の舞台に立てた。",
-    "furigana": "<ruby>鈴木<rt>すずき</rt></ruby>さんは10<ruby>年間<rt>ねんかん</rt></ruby><b>にわたって</b>、<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた。<ruby>失敗<rt>しっぱい</rt></ruby>しても<b>諦めずに</b>、<ruby>前<rt>まえ</rt></ruby>を<ruby>向<rt>む</rt></ruby>いてきた。その<ruby>結果<rt>けっか</rt></ruby>、ついに<ruby>夢<rt>ゆめ</rt></ruby>の<ruby>舞台<rt>ぶたい</rt></ruby>に<ruby>立<rt>た</rt></ruby>てた。",
-    "translation": "Suzuki continued to practice every day over ten years. Even when she failed, she kept moving forward without giving up. As a result, she finally got to stand on her dream stage.",
-    "blanks": ["にわたって", "諦めずに"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["にわたって", "にかけて", "において", "によって"],
-    "opts2": ["諦めずに", "諦めないで", "諦めなくて", "諦めなければ"],
-    "hint": "①にわたって = throughout / over a span of (10 years). ②ずに = without doing (literary). 諦めずに = without giving up (more formal/literary than ないで)."
-  },
-  {
-    "type": "text",
-    "passage": "このプロジェクトは予算が少なかった___、素晴らしい成果を上げた。担当者の努力の___だと皆が感じていた。困難もあった。___、チームは最後まで諦めなかった。",
-    "furigana": "このプロジェクトは<ruby>予算<rt>よさん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なかった<b>ものの</b>、<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>成果<rt>せいか</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げた。<ruby>担当者<rt>たんとうしゃ</rt></ruby>の<ruby>努力<rt>どりょく</rt></ruby>の<b>おかげ</b>だと<ruby>皆<rt>みな</rt></ruby>が<ruby>感<rt>かん</rt></ruby>じていた。<ruby>困難<rt>こんなん</rt></ruby>もあった。<b>それでも</b>、チームは<ruby>最後<rt>さいご</rt></ruby>まで<ruby>諦<rt>あきら</rt></ruby>めなかった。",
-    "translation": "Although the project had a small budget, it achieved wonderful results. Everyone felt it was thanks to the efforts of the person in charge. There were difficulties. Even so, the team never gave up.",
-    "blanks": ["ものの", "おかげ", "それでも"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["ものの", "ために", "から", "ので"],
-    "opts2": ["おかげ", "せい", "わけ", "こと"],
-    "opts3": ["それでも", "したがって", "そればかりか", "そうすると"],
-    "hint": "①ものの = although. ②おかげ = thanks to (positive). ③それでも = even so / nevertheless."
-  },
-  {
-    "type": "text",
-    "passage": "新しいシステムを導入した___、以前のシステムも残している。利用者の___に応じて、どちらでも使えるようにした。担当者は___にわたって準備を続けた。",
-    "furigana": "<ruby>新<rt>あたら</rt></ruby>しいシステムを<ruby>導入<rt>どうにゅう</rt></ruby>した<b>ものの</b>、<ruby>以前<rt>いぜん</rt></ruby>のシステムも<ruby>残<rt>のこ</rt></ruby>している。<ruby>利用者<rt>りようしゃ</rt></ruby>の<b>ニーズ</b>に<ruby>応<rt>おう</rt></ruby>じて、どちらでも<ruby>使<rt>つか</rt></ruby>えるようにした。<ruby>担当者<rt>たんとうしゃ</rt></ruby>は<b>半年間</b>にわたって<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けた。",
-    "translation": "Although a new system was introduced, the old system is also kept. Either can be used depending on the user's needs. The person in charge continued preparations over a period of six months.",
-    "blanks": ["ものの", "ニーズ", "半年間"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["ものの", "ために", "ので", "けれど"],
-    "opts2": ["ニーズ", "希望", "要求", "ため"],
-    "opts3": ["半年間", "毎日", "これまで", "全国"],
-    "hint": "①ものの = although. ②に応じて = depending on (ニーズ = needs fits best). ③にわたって needs a time/range noun — 半年間 (half a year)."
-  },
-  {
-    "type": "text",
-    "passage": "彼は試験に合格した___、まだ不安が残っていた。努力した___、結果が出たのは当然だ。しかし成功した___、油断は禁物だ。",
-    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>した<b>ものの</b>、まだ<ruby>不安<rt>ふあん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>っていた。<ruby>努力<rt>どりょく</rt></ruby>した<b>からこそ</b>、<ruby>結果<rt>けっか</rt></ruby>が<ruby>出<rt>で</rt></ruby>たのは<ruby>当然<rt>とうぜん</rt></ruby>だ。しかし<ruby>成功<rt>せいこう</rt></ruby>した<b>からといって</b>、<ruby>油断<rt>ゆだん</rt></ruby>は<ruby>禁物<rt>きんもつ</rt></ruby>だ。",
-    "translation": "Although he passed the exam, he still had lingering anxiety. It is natural that results came out precisely because he worked hard. However, just because he succeeded doesn't mean he should let his guard down.",
-    "blanks": ["ものの", "からこそ", "からといって"],
-    "q": "（　）に入る正しい言葉を選んでください。",
-    "opts1": ["ものの", "ために", "ので", "のに"],
-    "opts2": ["からこそ", "からといって", "からには", "ことから"],
-    "opts3": ["からといって", "からこそ", "からには", "ことから"],
-    "hint": "①ものの = although. ②からこそ = precisely because. ③からといって = just because (doesn't mean...)."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "練習したおかげで、試合に勝てた。",
-      "雨のせいで、試合が中止になった。",
-      "先生のおかげで、試験に落ちてしまった。",
-      "彼の努力のおかげで、プロジェクトが成功した。"
-    ],
-    "translations": [
-      "Thanks to practicing, I could win. ✓",
-      "Due to the rain, the match was cancelled. ✓",
-      "Thanks to my teacher, I failed the exam. ❌",
-      "Thanks to his effort, the project succeeded. ✓"
-    ],
-    "furiganas": [
-      "<ruby>練習<rt>れんしゅう</rt></ruby>したおかげで、<ruby>試合<rt>しあい</rt></ruby>に<ruby>勝<rt>か</rt></ruby>てた。",
-      "<ruby>雨<rt>あめ</rt></ruby>のせいで、<ruby>試合<rt>しあい</rt></ruby>が<ruby>中止<rt>ちゅうし</rt></ruby>になった。",
-      "<ruby>先生<rt>せんせい</rt></ruby>のおかげで、<ruby>試験<rt>しけん</rt></ruby>に<ruby>落<rt>お</rt></ruby>ちてしまった。",
-      "<ruby>彼<rt>かれ</rt></ruby>の<ruby>努力<rt>どりょく</rt></ruby>のおかげで、プロジェクトが<ruby>成功<rt>せいこう</rt></ruby>した。"
-    ],
-    "wrong": 2,
-    "hint": "おかげで = positive outcomes only. Failing is negative → use せいで."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "天気をかかわらず、試合は行われる。",
-      "状況に応じて、対応を変えることが大切だ。",
-      "この件にとって質問があります。",
-      "努力によっては、必ず成功する。"
-    ],
-    "translations": [
-      "❌ を→に (にかかわらず)",
-      "✓ It is important to change depending on situation.",
-      "❌ にとって is for people not matters",
-      "❌ によっては = depending on (not causation)"
-    ],
-    "furiganas": [
-      "<ruby>天気<rt>てんき</rt></ruby>をかかわらず、<ruby>試合<rt>しあい</rt></ruby>は<ruby>行<rt>おこな</rt></ruby>われる。",
-      "<ruby>状況<rt>じょうきょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じて、<ruby>対応<rt>たいおう</rt></ruby>を<ruby>変<rt>か</rt></ruby>えることが<ruby>大切<rt>たいせつ</rt></ruby>だ。",
-      "この<ruby>件<rt>けん</rt></ruby>にとって<ruby>質問<rt>しつもん</rt></ruby>があります。",
-      "<ruby>努力<rt>どりょく</rt></ruby>によっては、<ruby>必<rt>かなら</rt></ruby>ず<ruby>成功<rt>せいこう</rt></ruby>する。"
-    ],
-    "wrong": 1,
-    "hint": "②状況に応じて is correct. ①needs にかかわらず. ③use に関して not にとって. ④によっては = depending on (not guaranteed causation)."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "始めたからには、最後までやり遂げる。",
-      "忙しいからといって、連絡しないのはよくない。",
-      "疲れているからとはいえ、もっと頑張れる。",
-      "好きだからこそ、厳しく言う。"
-    ],
-    "translations": [
-      "Now that I started, I will finish. ✓",
-      "Just because busy doesn't excuse not contacting. ✓",
-      "❌ からとはいえ does not exist",
-      "Precisely because I like, I am strict. ✓"
-    ],
-    "furiganas": [
-      "<ruby>始<rt>はじ</rt></ruby>めたからには、<ruby>最後<rt>さいご</rt></ruby>までやり<ruby>遂<rt>と</rt></ruby>げる。",
-      "<ruby>忙<rt>いそが</rt></ruby>しいからといって、<ruby>連絡<rt>れんらく</rt></ruby>しないのはよくない。",
-      "<ruby>疲<rt>つか</rt></ruby>れているからとはいえ、もっと<ruby>頑張<rt>がんば</rt></ruby>れる。",
-      "<ruby>好<rt>す</rt></ruby>きだからこそ、<ruby>厳<rt>きび</rt></ruby>しく<ruby>言<rt>い</rt></ruby>う。"
-    ],
-    "wrong": 2,
-    "hint": "からとはいえ does not exist. Use とはいえ alone OR からといって. ③ should be: 疲れているとはいえ or 疲れているからといって."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "彼はまるで知っているかのようだ。",
-      "まるで子供っぽい行動をした。",
-      "まるで知っているとみえる。",
-      "まるで嘘のような本当の話だ。"
-    ],
-    "translations": [
-      "✓ It is as if he knows (かのようだ is correct)",
-      "❌ まるで needs ように/みたいだ not っぽい",
-      "❌ まるで + とみえる is wrong",
-      "✓ A true story that seems like a lie"
-    ],
-    "furiganas": [
-      "<ruby>彼<rt>かれ</rt></ruby>はまるで<ruby>知<rt>し</rt></ruby>っているかのようだ。",
-      "まるで<ruby>子供<rt>こども</rt></ruby>っぽい<ruby>行動<rt>こうどう</rt></ruby>をした。",
-      "まるで<ruby>知<rt>し</rt></ruby>っているとみえる。",
-      "まるで<ruby>嘘<rt>うそ</rt></ruby>のような<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>だ。"
-    ],
-    "wrong": 1,
-    "hint": "まるで must pair with ように/ようだ/みたいだ/かのようだ. ①かのようだ ✓. ④のような ✓. ②っぽい and ③とみえる cannot follow まるで."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "もう二度と嘘をつくまいと誓った。",
-      "あの映画には人を感動させるものがある。",
-      "これは努力の結果にほかなりない。",
-      "失敗したにもかかわらず、再挑戦した。"
-    ],
-    "translations": [
-      "I swore never to lie again. ✓",
-      "There is something moving about that film. ✓",
-      "❌ にほかなりない is wrong form",
-      "Despite failing, tried again. ✓"
-    ],
-    "furiganas": [
-      "もう<ruby>二度<rt>にど</rt></ruby>と<ruby>嘘<rt>うそ</rt></ruby>をつくまいと<ruby>誓<rt>ちか</rt></ruby>った。",
-      "あの<ruby>映画<rt>えいが</rt></ruby>には<ruby>人<rt>ひと</rt></ruby>を<ruby>感動<rt>かんどう</rt></ruby>させるものがある。",
-      "これは<ruby>努力<rt>どりょく</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>にほかなりない。",
-      "<ruby>失敗<rt>しっぱい</rt></ruby>したにもかかわらず、<ruby>再挑戦<rt>さいちょうせん</rt></ruby>した。"
-    ],
-    "wrong": 2,
-    "hint": "The correct form is にほかならない, not にほかなりない. ならない is a prohibition pattern — entirely different from the fixed expression ほかならない."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "どうやら電車が遅れているらしい。",
-      "どうやら彼女は怒っているようだ。",
-      "どうやら電車が遅れているらしないようだ。",
-      "どうやら試験が延期になるようだ。"
-    ],
-    "translations": [
-      "Apparently the train is late. ✓",
-      "She seems to be angry. ✓",
-      "❌ らしないようだ is completely ungrammatical",
-      "The exam seems to be postponed. ✓"
-    ],
-    "furiganas": [
-      "どうやら<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているらしい。",
-      "どうやら<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>怒<rt>おこ</rt></ruby>っているようだ。",
-      "どうやら<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているらしないようだ。",
-      "どうやら<ruby>試験<rt>しけん</rt></ruby>が<ruby>延期<rt>えんき</rt></ruby>になるようだ。"
-    ],
-    "wrong": 2,
-    "hint": "らしないようだ is completely ungrammatical. どうやら pairs with らしい OR ようだ alone — never stacked together."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "早く起きたところに、電話がかかってきた。",
-      "出かけようとしたところに、電話がかかってきた。",
-      "試験が終わったところに、友達が来た。",
-      "確認したところ、在庫があった。"
-    ],
-    "translations": [
-      "❌ 起きたところに is unnatural here",
-      "✓ Just as I was about to leave, the phone rang.",
-      "❌ たところに needs ongoing/imminent action, not completed event",
-      "✓ When I checked, there was stock."
-    ],
-    "furiganas": [
-      "<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きたところに、<ruby>電話<rt>でんわ</rt></ruby>がかかってきた。",
-      "<ruby>出<rt>で</rt></ruby>かけようとしたところに、<ruby>電話<rt>でんわ</rt></ruby>がかかってきた。",
-      "<ruby>試験<rt>しけん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わったところに、<ruby>友達<rt>ともだち</rt></ruby>が<ruby>来<rt>き</rt></ruby>た。",
-      "<ruby>確認<rt>かくにん</rt></ruby>したところ、<ruby>在庫<rt>ざいこ</rt></ruby>があった。"
-    ],
-    "wrong": 0,
-    "hint": "②出かけようとしたところに ✓ (just as/imminent action). ④確認したところ ✓ (upon doing, discovered result). ①and③ use ところに with completed past states — unnatural."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "若いうちに、たくさん勉強したほうがいい。",
-      "体調が悪いながらも、発表を最後までやった。",
-      "難しいとはながらも、諦めたくない。",
-      "初心者ながらも、よくできた。"
-    ],
-    "translations": [
-      "While young, you had better study a lot. ✓",
-      "Although not feeling well, he finished the presentation. ✓",
-      "❌ とはながらも does not exist",
-      "Although a beginner, he did well. ✓"
-    ],
-    "furiganas": [
-      "<ruby>若<rt>わか</rt></ruby>いうちに、たくさん<ruby>勉強<rt>べんきょう</rt></ruby>したほうがいい。",
-      "<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いながらも、<ruby>発表<rt>はっぴょう</rt></ruby>を<ruby>最後<rt>さいご</rt></ruby>までやった。",
-      "<ruby>難<rt>むずか</rt></ruby>しいとはながらも、<ruby>諦<rt>あきら</rt></ruby>めたくない。",
-      "<ruby>初心者<rt>しょしんしゃ</rt></ruby>ながらも、よくできた。"
-    ],
-    "wrong": 2,
-    "hint": "とはながらも does not exist. ③ should be 難しいながらも OR 難しいとはいえ. ①うちに ✓. ②と④ use ながらも correctly."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "わざわざ遠くから来てくれてありがとう。",
-      "そんなにわざわざことをしなくてもいい。",
-      "彼はわざわざ自分から謝りに行くわけがない。",
-      "わざわざ来なくてよかったのに来てしまった。"
-    ],
-    "translations": [
-      "✓ Thank you for going out of your way.",
-      "❌ わざわざことを is ungrammatical",
-      "✓ There's no way he'd go out of his way to apologise.",
-      "✓ You didn't need to go to the trouble of coming."
-    ],
-    "furiganas": [
-      "わざわざ<ruby>遠<rt>とお</rt></ruby>くから<ruby>来<rt>き</rt></ruby>てくれてありがとう。",
-      "そんなにわざわざことをしなくてもいい。",
-      "<ruby>彼<rt>かれ</rt></ruby>はわざわざ<ruby>自分<rt>じぶん</rt></ruby>から<ruby>謝<rt>あやま</rt></ruby>りに<ruby>行<rt>い</rt></ruby>くわけがない。",
-      "わざわざ<ruby>来<rt>こ</rt></ruby>なくてよかったのに<ruby>来<rt>き</rt></ruby>てしまった。"
-    ],
-    "wrong": 1,
-    "hint": "わざわざことを is completely ungrammatical — わざわざ modifies verbs directly (わざわざ来る), not こと phrases. ①③④ are all grammatically correct."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "彼女は忙しいながらも、いつも笑顔だ。",
-      "この仕事は楽しい反面、大変だ。",
-      "都会は便利な反面ながらも、物価が高い。",
-      "彼は頭がいい反面、社交性に欠ける。"
-    ],
-    "translations": [
-      "Although busy, she is always smiling. ✓",
-      "Fun but demanding. ✓",
-      "❌ 反面ながらも is redundant/ungrammatical",
-      "Smart but lacks social skills. ✓"
-    ],
-    "furiganas": [
-      "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいながらも、いつも<ruby>笑顔<rt>えがお</rt></ruby>だ。",
-      "この<ruby>仕事<rt>しごと</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しい<ruby>反面<rt>はんめん</rt></ruby>、<ruby>大変<rt>たいへん</rt></ruby>だ。",
-      "<ruby>都会<rt>とかい</rt></ruby>は<ruby>便利<rt>べんり</rt></ruby>な<ruby>反面<rt>はんめん</rt></ruby>ながらも、<ruby>物価<rt>ぶっか</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い。",
-      "<ruby>彼<rt>かれ</rt></ruby>は<ruby>頭<rt>あたま</rt></ruby>がいい<ruby>反面<rt>はんめん</rt></ruby>、<ruby>社交性<rt>しゃこうせい</rt></ruby>に<ruby>欠<rt>か</rt></ruby>ける。"
-    ],
-    "wrong": 2,
-    "hint": "反面ながらも is redundant — these are two separate contrast patterns and cannot be combined. Use either 反面 or ながらも alone."
-  },
-  {
-    "type": "error",
-    "q": "文法的に正しい文を選んでください。",
-    "opts": [
-      "彼が嘘をつくわけがない。",
-      "あんな難しい試験受かりっこない。",
-      "この件にとって詳しく説明します。",
-      "先生のせいで試験に合格できた。"
-    ],
-    "translations": [
-      "✓ No way he would lie.",
-      "✓ No way of passing that exam.",
-      "❌ にとって = for (persons). Use に関して.",
-      "❌ せいで = negative cause. Passing is positive."
-    ],
-    "furiganas": [
-      "<ruby>彼<rt>かれ</rt></ruby>が<ruby>嘘<rt>うそ</rt></ruby>をつくわけがない。",
-      "あんな<ruby>難<rt>むずか</rt></ruby>しい<ruby>試験<rt>しけん</rt></ruby><ruby>受<rt>u</rt></ruby>かりっこない。",
-      "この<ruby>件<rt>けん</rt></ruby>にとって<ruby>詳<rt>くわ</rt></ruby>しく<ruby>説明<rt>せつめい</rt></ruby>します。",
-      "<ruby>先生<rt>せんせい</rt></ruby>のせいで<ruby>試験<rt>しけん</rt></ruby>に<ruby>合格<rt>ごうかく</rt></ruby>できた。"
-    ],
-    "wrong": 2,
-    "hint": "①わけがない ✓. ②っこない ✓. ③にとって is for persons, not topics — use この件に関して. ④せいで = negative cause but 合格 is positive."
-  },
-  {
-    "type": "error",
-    "q": "次の文の中で文法的に正しくないものを選んでください。",
-    "opts": [
-      "見ないことには何とも言えない。",
-      "試してみないことには分からない。",
-      "考えないことには答えが出ない。",
-      "もっと練習することにはうまくなる。"
-    ],
-    "translations": [
-      "Unless I see it I can't say anything. ✓",
-      "Unless you try you won't know. ✓",
-      "Unless you think no answer will come. ✓",
-      "❌ することにはうまくなる is ungrammatical"
-    ],
-    "furiganas": [
-      "<ruby>見<rt>み</rt></ruby>ないことには<ruby>何<rt>なん</rt></ruby>とも<ruby>言<rt>い</rt></ruby>えない。",
-      "<ruby>試<rt>ため</rt></ruby>してみないことには<ruby>分<rt>わ</rt></ruby>からない。",
-      "<ruby>考<rt>かんが</rt></ruby>えないことには<ruby>答<rt>こた</rt></ruby>えが<ruby>出<rt>で</rt></ruby>ない。",
-      "もっと<ruby>練習<rt>れんしゅう</rt></ruby>することにはうまくなる。"
-    ],
-    "wrong": 3,
-    "hint": "ないことには = 'unless'. The ない is essential — it must be a negative verb. することには (positive verb) is ungrammatical. ④ should be: 練習すればうまくなる."
+    "set": 1,
+    "title": "文法 第１回",
+    "mondai1": {
+      "label": "問題１",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つえらんでください。",
+      "questions": [
+        {
+          "id": "1-1-1",
+          "q": "今日は大事な試験がある（　）、早く起きた。",
+          "furigana": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>大事<rt>だいじ</rt></ruby>な<ruby>試験<rt>しけん</rt></ruby>がある（　）、<ruby>早<rt>はや</rt></ruby>く<ruby>起<rt>お</rt></ruby>きた。",
+          "translation": "Because I have an important exam today, I got up early.",
+          "opts": ["ので", "のに", "でも", "けど"],
+          "answer": 1,
+          "hint": "ので = because (polite reason). Explains a natural cause → result."
+        },
+        {
+          "id": "1-1-2",
+          "q": "このボタンを押す（　）、ドアが開きます。",
+          "furigana": "このボタンを<ruby>押<rt>お</rt></ruby>す（　）、ドアが<ruby>開<rt>あ</rt></ruby>きます。",
+          "translation": "If you press this button, the door will open.",
+          "opts": ["と", "に", "から", "ても"],
+          "answer": 1,
+          "hint": "と = if/when (automatic/natural result). Pressing always causes the door to open."
+        },
+        {
+          "id": "1-1-3",
+          "q": "彼女は泣き（　）笑った。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>泣<rt>な</rt></ruby>き（　）<ruby>笑<rt>わら</rt></ruby>った。",
+          "translation": "She laughed while crying.",
+          "opts": ["ながら", "まま", "てから", "ために"],
+          "answer": 1,
+          "hint": "ながら = while doing two things at the same time. Verb stem + ながら."
+        },
+        {
+          "id": "1-1-4",
+          "q": "薬を飲ん（　）、まだ頭が痛い。",
+          "furigana": "<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>ん（　）、まだ<ruby>頭<rt>あたま</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>い。",
+          "translation": "Even though I took medicine, my head still hurts.",
+          "opts": ["でも", "だから", "ので", "なら"],
+          "answer": 1,
+          "hint": "でも = even though / but. のんでも = even though I drank/took it."
+        },
+        {
+          "id": "1-1-5",
+          "q": "もっと日本語が上手（　）なりたい。",
+          "furigana": "もっと<ruby>日本語<rt>にほんご</rt></ruby>が<ruby>上手<rt>じょうず</rt></ruby>（　）なりたい。",
+          "translation": "I want to become better at Japanese.",
+          "opts": ["に", "で", "が", "を"],
+          "answer": 1,
+          "hint": "〜になる = to become ~. Adjective/noun + に + なる."
+        },
+        {
+          "id": "1-1-6",
+          "q": "この問題は難しすぎて、私（　）は解けない。",
+          "furigana": "この<ruby>問題<rt>もんだい</rt></ruby>は<ruby>難<rt>むずか</rt></ruby>しすぎて、<ruby>私<rt>わたし</rt></ruby>（　）は<ruby>解<rt>と</rt></ruby>けない。",
+          "translation": "This problem is too difficult; I cannot solve it.",
+          "opts": ["に", "が", "で", "を"],
+          "answer": 1,
+          "hint": "〜には = for ~ / in terms of ~. Used to set a reference point."
+        },
+        {
+          "id": "1-1-7",
+          "q": "彼はきっと来る（　）。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>はきっと<ruby>来<rt>く</rt></ruby>る（　）。",
+          "translation": "He will surely come.",
+          "opts": ["はずだ", "らしい", "ようだ", "みたいだ"],
+          "answer": 1,
+          "hint": "はずだ = should / expected to (logical expectation based on reasoning)."
+        },
+        {
+          "id": "1-1-8",
+          "q": "外が暗く（　）きた。",
+          "furigana": "<ruby>外<rt>そと</rt></ruby>が<ruby>暗<rt>くら</rt></ruby>く（　）きた。",
+          "translation": "It has become dark outside (gradually).",
+          "opts": ["なって", "して", "みて", "おいて"],
+          "answer": 1,
+          "hint": "〜てくる = a gradual change coming toward the present. 暗くなってくる = getting darker."
+        },
+        {
+          "id": "1-1-9",
+          "q": "子どものころ、よく川で泳い（　）。",
+          "furigana": "<ruby>子<rt>こ</rt></ruby>どものころ、よく<ruby>川<rt>かわ</rt></ruby>で<ruby>泳<rt>およ</rt></ruby>い（　）。",
+          "translation": "When I was a child, I used to often swim in the river.",
+          "opts": ["たものだ", "ていた", "てみた", "てしまった"],
+          "answer": 1,
+          "hint": "たものだ = used to ~ (nostalgic past habit). よく〜たものだ is a common pattern."
+        },
+        {
+          "id": "1-1-10",
+          "q": "道が分から（　）、地図を見た。",
+          "furigana": "<ruby>道<rt>みち</rt></ruby>が<ruby>分<rt>わ</rt></ruby>から（　）、<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>た。",
+          "translation": "Because I didn't know the way, I looked at the map.",
+          "opts": ["なかったので", "なかったのに", "ないと", "なくても"],
+          "answer": 1,
+          "hint": "〜なかったので = because ~ was not / because I didn't ~. Cause for a natural result."
+        },
+        {
+          "id": "1-1-11",
+          "q": "この映画は三回（　）見たことがある。",
+          "furigana": "この<ruby>映画<rt>えいが</rt></ruby>は<ruby>三回<rt>さんかい</rt></ruby>（　）<ruby>見<rt>み</rt></ruby>たことがある。",
+          "translation": "I have seen this movie as many as three times.",
+          "opts": ["も", "だけ", "しか", "まで"],
+          "answer": 1,
+          "hint": "〜も = as many/much as (shows surprise at the quantity). Three is many!"
+        },
+        {
+          "id": "1-1-12",
+          "q": "電車に乗ろう（　）、財布を忘れたことに気づいた。",
+          "furigana": "<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>ろう（　）、<ruby>財布<rt>さいふ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れたことに<ruby>気<rt>き</rt></ruby>づいた。",
+          "translation": "Just as I was about to board the train, I realized I had forgotten my wallet.",
+          "opts": ["としたら", "ので", "ながら", "ために"],
+          "answer": 1,
+          "hint": "〜とした + ら = just when about to do ~. Volitional form + としたら/としたとき."
+        },
+        {
+          "id": "1-1-13",
+          "q": "先生に何度も説明して（　）、ようやく分かった。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>に<ruby>何度<rt>なんど</rt></ruby>も<ruby>説明<rt>せつめい</rt></ruby>して（　）、ようやく<ruby>分<rt>わ</rt></ruby>かった。",
+          "translation": "Having been explained many times by my teacher, I finally understood.",
+          "opts": ["もらって", "あげて", "くれて", "おいて"],
+          "answer": 1,
+          "hint": "〜てもらう = to have someone do ~ for you (you are the beneficiary). Teacher explains for my benefit."
+        }
+      ]
+    },
+    "mondai2": {
+      "label": "問題２",
+      "instruction": "つぎの文の　★　に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "note": "A・B・C・Dを並べ替えて文を作り、★の位置に来る言葉の番号を答えてください。",
+      "questions": [
+        {
+          "id": "1-2-1",
+          "q": "彼女は　＿＿＿　＿★＿　＿＿＿　している。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は　＿＿＿　＿★＿　＿＿＿　している。",
+          "translation": "She is trying to become able to play the piano.",
+          "opts": ["ように", "ひける", "ピアノが", "なろうと"],
+          "correct_sentence": "彼女はピアノがひけるようになろうとしている。",
+          "correct_order": ["ピアノが", "ひける", "ように", "なろうと"],
+          "star_position": 2,
+          "star_answer": 3,
+          "hint": "ように + なる = to become able to. 〜ようになる = come to be able to. Order: ピアノが→ひける→ように→なろうと."
+        },
+        {
+          "id": "1-2-2",
+          "q": "この仕事は　＿＿＿　＿★＿　＿＿＿　ません。",
+          "furigana": "この<ruby>仕事<rt>しごと</rt></ruby>は　＿＿＿　＿★＿　＿＿＿　ません。",
+          "translation": "This job is not something that can be done alone.",
+          "opts": ["一人では", "できる", "もので", "は"],
+          "correct_sentence": "この仕事は一人ではできるものではありません。",
+          "correct_order": ["一人では", "できる", "もので", "は"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜もの = something that naturally... 〜ものではない = is not something that. Order: 一人では→できる→もの→では."
+        },
+        {
+          "id": "1-2-3",
+          "q": "子どもに　＿＿＿　＿★＿　＿＿＿　した。",
+          "furigana": "<ruby>子<rt>こ</rt></ruby>どもに　＿＿＿　＿★＿　＿＿＿　した。",
+          "translation": "I bought a present for my child.",
+          "opts": ["プレゼントを", "買って", "あげよう", "と"],
+          "correct_sentence": "子どもにプレゼントを買ってあげようとした。",
+          "correct_order": ["プレゼントを", "買って", "あげよう", "と"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜てあげる = to do something for someone else's benefit. Order: プレゼントを→買って→あげよう→と."
+        },
+        {
+          "id": "1-2-4",
+          "q": "試合に　＿＿＿　＿★＿　＿＿＿　ほしい。",
+          "furigana": "<ruby>試合<rt>しあい</rt></ruby>に　＿＿＿　＿★＿　＿＿＿　ほしい。",
+          "translation": "I want you to win the match.",
+          "correct_sentence": "試合にぜひ勝ってほしい。",
+          "opts": ["勝って", "ぜひ", "に", "勝ち"],
+          "correct_order": ["ぜひ", "勝って"],
+          "star_position": 2,
+          "star_answer": 1,
+          "hint": "〜てほしい = want someone to do ~. ぜひ = by all means. Order: ぜひ→勝って→ほしい."
+        },
+        {
+          "id": "1-2-5",
+          "q": "会議の時間を　＿＿＿　＿★＿　＿＿＿　ください。",
+          "furigana": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>を　＿＿＿　＿★＿　＿＿＿　ください。",
+          "translation": "Please let me know about the meeting time.",
+          "opts": ["教えて", "知らせて", "に", "早めに"],
+          "correct_sentence": "会議の時間を早めに知らせてください。",
+          "correct_order": ["早めに", "知らせて"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜てください = please do ~. 早めに = early / ahead of time. Order: 早めに→知らせて→ください."
+        }
+      ]
+    },
+    "mondai3": {
+      "label": "問題３",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（　１　）から（　４　）の中に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "passage_title": "日記",
+      "passage": "今日は友達と映画を見に行った。映画館の前で待ち合わせを（　１　）、友達は30分も遅刻してきた。最初は少し怒って（　２　）、友達が「ごめん、電車が止まってしまって」と言ったので、しかたがないと思った。映画はとても面白（　３　）、見てよかったと思う。帰り道に二人でおいしいものを食べ（　４　）、楽しい一日になった。",
+      "furigana": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>友達<rt>ともだち</rt></ruby>と<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>に<ruby>行<rt>い</rt></ruby>った。<ruby>映画館<rt>えいがかん</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせを（　１　）、<ruby>友達<rt>ともだち</rt></ruby>は30<ruby>分<rt>ふん</rt></ruby>も<ruby>遅刻<rt>ちこく</rt></ruby>してきた。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>怒<rt>おこ</rt></ruby>って（　２　）、<ruby>友達<rt>ともだち</rt></ruby>が「ごめん、<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>止<rt>と</rt></ruby>まってしまって」と<ruby>言<rt>い</rt></ruby>ったので、しかたがないと<ruby>思<rt>おも</rt></ruby>った。<ruby>映画<rt>えいが</rt></ruby>はとても<ruby>面白<rt>おもしろ</rt></ruby>（　３　）、<ruby>見<rt>み</rt></ruby>てよかったと<ruby>思<rt>おも</rt></ruby>う。<ruby>帰<rt>かえ</rt></ruby>り<ruby>道<rt>みち</rt></ruby>に<ruby>二人<rt>ふたり</rt></ruby>でおいしいものを<ruby>食<rt>た</rt></ruby>べ（　４　）、<ruby>楽<rt>たの</rt></ruby>しい<ruby>一日<rt>いちにち</rt></ruby>になった。",
+      "translation": "Today I went to see a movie with a friend. We arranged to meet in front of the cinema, but my friend was 30 minutes late. At first I was a little angry, but since my friend said 'Sorry, the train stopped,' I thought it couldn't be helped. The movie was very interesting, so I'm glad I watched it. On the way home we ate something delicious together, and it turned into a fun day.",
+      "questions": [
+        {
+          "number": 1,
+          "opts": ["していたら", "するなら", "したので", "するとき"],
+          "answer": 1,
+          "hint": "〜ていたら = while I was doing ~ (when something happened). Waiting → friend was late."
+        },
+        {
+          "number": 2,
+          "opts": ["いたけれど", "いたので", "いるから", "いるなら"],
+          "answer": 1,
+          "hint": "〜けれど = but / although. Angry → but then accepted the excuse (contrast)."
+        },
+        {
+          "number": 3,
+          "opts": ["かったので", "かったから", "くて", "なので"],
+          "answer": 3,
+          "hint": "〜くて = and / because (adjective て-form connecting two clauses smoothly). 面白くて = interesting and so..."
+        },
+        {
+          "number": 4,
+          "opts": ["ながら", "てから", "たり", "ことに"],
+          "answer": 2,
+          "hint": "〜てから = after doing ~. After eating → it became a good day."
+        }
+      ]
+    }
+  },
+  {
+    "set": 2,
+    "title": "文法 第２回",
+    "mondai1": {
+      "label": "問題１",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つえらんでください。",
+      "questions": [
+        {
+          "id": "1-2-1",
+          "q": "日本語を勉強し始めて（　）、まだ2か月しかたっていない。",
+          "furigana": "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めて（　）、まだ2か<ruby>月<rt>げつ</rt></ruby>しかたっていない。",
+          "translation": "I have only been studying Japanese for 2 months.",
+          "opts": ["から", "ので", "のに", "ながら"],
+          "answer": 1,
+          "hint": "〜てから = since / after starting. 〜てからまだ〜しかたっていない = it has only been ~ since."
+        },
+        {
+          "id": "1-2-2",
+          "q": "窓を開けた（　）、冷たい風が入ってきた。",
+          "furigana": "<ruby>窓<rt>まど</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けた（　）、<ruby>冷<rt>つめ</rt></ruby>たい<ruby>風<rt>かぜ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>ってきた。",
+          "translation": "The moment I opened the window, cold wind came in.",
+          "opts": ["とたん", "ので", "なら", "けど"],
+          "answer": 1,
+          "hint": "〜たとたん = the moment ~ / as soon as ~ (immediate unexpected result)."
+        },
+        {
+          "id": "1-2-3",
+          "q": "授業中、スマホを使って（　）いけません。",
+          "furigana": "<ruby>授業<rt>じゅぎょう</rt></ruby>中、スマホを<ruby>使<rt>つか</rt></ruby>って（　）いけません。",
+          "translation": "You must not use your smartphone during class.",
+          "opts": ["は", "が", "も", "を"],
+          "answer": 1,
+          "hint": "〜てはいけない = must not / not allowed to. てはいけない is a prohibition pattern."
+        },
+        {
+          "id": "1-2-4",
+          "q": "駅まで歩いて10分（　）かかりません。",
+          "furigana": "<ruby>駅<rt>えき</rt></ruby>まで<ruby>歩<rt>ある</rt></ruby>いて10<ruby>分<rt>ぷん</rt></ruby>（　）かかりません。",
+          "translation": "It doesn't take even 10 minutes to walk to the station.",
+          "opts": ["も", "だけ", "しか", "ほど"],
+          "answer": 3,
+          "hint": "〜しか〜ない = only / nothing but. 10分しかかからない = it takes only 10 minutes."
+        },
+        {
+          "id": "1-2-5",
+          "q": "明日は雨が降る（　）。天気予報でそう言っていた。",
+          "furigana": "<ruby>明日<rt>あした</rt></ruby>は<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>る（　）。<ruby>天気予報<rt>てんきよほう</rt></ruby>でそう<ruby>言<rt>い</rt></ruby>っていた。",
+          "translation": "It seems it will rain tomorrow. The weather forecast said so.",
+          "opts": ["らしい", "はずだ", "べきだ", "かもしれない"],
+          "answer": 1,
+          "hint": "らしい = seems like / apparently (based on information from others). Weather forecast is a source."
+        },
+        {
+          "id": "1-2-6",
+          "q": "この薬を飲め（　）、すぐに良くなりますよ。",
+          "furigana": "この<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>め（　）、すぐに<ruby>良<rt>よ</rt></ruby>くなりますよ。",
+          "translation": "If you take this medicine, you will get better soon.",
+          "opts": ["ば", "のに", "から", "ながら"],
+          "answer": 1,
+          "hint": "〜ば〜 = if ~ (conditional). 飲めば = if you drink/take it."
+        },
+        {
+          "id": "1-2-7",
+          "q": "財布を（　）まま、家を出てしまった。",
+          "furigana": "<ruby>財布<rt>さいふ</rt></ruby>を（　）まま、<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>てしまった。",
+          "translation": "I left the house with my wallet forgotten (left behind as it was).",
+          "opts": ["忘れた", "忘れる", "忘れて", "忘れない"],
+          "answer": 1,
+          "hint": "〜たまま = leaving something in the state of having done ~ (unchanged state). Past tense + まま."
+        },
+        {
+          "id": "1-2-8",
+          "q": "最近、毎日運動する（　）にしています。",
+          "furigana": "<ruby>最近<rt>さいきん</rt></ruby>、<ruby>毎日<rt>まいにち</rt></ruby><ruby>運動<rt>うんどう</rt></ruby>する（　）にしています。",
+          "translation": "Lately I have made it a habit to exercise every day.",
+          "opts": ["こと", "ため", "だけ", "ほど"],
+          "answer": 1,
+          "hint": "〜ことにしている = have decided to / make it a habit to. Expresses deliberate habit."
+        },
+        {
+          "id": "1-2-9",
+          "q": "あの人は外国人（　）日本語がとても上手だ。",
+          "furigana": "あの<ruby>人<rt>ひと</rt></ruby>は<ruby>外国人<rt>がいこくじん</rt></ruby>（　）<ruby>日本語<rt>にほんご</rt></ruby>がとても<ruby>上手<rt>じょうず</rt></ruby>だ。",
+          "translation": "For a foreigner, that person's Japanese is very good.",
+          "opts": ["にしては", "としては", "によっては", "についても"],
+          "answer": 1,
+          "hint": "〜にしては = considering ~ / for ~ (unexpectedly good or bad compared to the standard)."
+        },
+        {
+          "id": "1-2-10",
+          "q": "試験勉強を（　）ために、図書館へ行った。",
+          "furigana": "<ruby>試験<rt>しけん</rt></ruby><ruby>勉強<rt>べんきょう</rt></ruby>を（　）ために、<ruby>図書館<rt>としょかん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>った。",
+          "translation": "I went to the library in order to study for the exam.",
+          "opts": ["する", "した", "して", "しない"],
+          "answer": 1,
+          "hint": "〜するために = in order to do ~ (purpose). Dictionary form + ために for purpose."
+        },
+        {
+          "id": "1-2-11",
+          "q": "どんなに忙し（　）、毎日日記を書いている。",
+          "furigana": "どんなに<ruby>忙<rt>いそが</rt></ruby>し（　）、<ruby>毎日<rt>まいにち</rt></ruby><ruby>日記<rt>にっき</rt></ruby>を<ruby>書<rt>か</rt></ruby>いている。",
+          "translation": "No matter how busy I am, I write in my diary every day.",
+          "opts": ["くても", "くて", "かった", "ければ"],
+          "answer": 1,
+          "hint": "どんなに〜ても = no matter how ~. い-adj: 〜くても."
+        },
+        {
+          "id": "1-2-12",
+          "q": "宿題を全部やって（　）、ゲームをしてもいいよ。",
+          "furigana": "<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>全部<rt>ぜんぶ</rt></ruby>やって（　）、ゲームをしてもいいよ。",
+          "translation": "After you finish all your homework, you can play games.",
+          "opts": ["から", "ので", "のに", "でも"],
+          "answer": 1,
+          "hint": "〜てから = after doing ~. やってから = after doing (the homework). Sequence of actions."
+        },
+        {
+          "id": "1-2-13",
+          "q": "部長（　）その計画は無理だと言われた。",
+          "furigana": "<ruby>部長<rt>ぶちょう</rt></ruby>（　）その<ruby>計画<rt>けいかく</rt></ruby>は<ruby>無理<rt>むり</rt></ruby>だと<ruby>言<rt>い</rt></ruby>われた。",
+          "translation": "I was told by the department head that the plan is impossible.",
+          "opts": ["に", "から", "で", "を"],
+          "answer": 1,
+          "hint": "〜に言われた = was told by ~. に marks the person/agent in passive sentences."
+        }
+      ]
+    },
+    "mondai2": {
+      "label": "問題２",
+      "instruction": "つぎの文の　★　に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "note": "A・B・C・Dを並べ替えて文を作り、★の位置に来る言葉の番号を答えてください。",
+      "questions": [
+        {
+          "id": "2-2-1",
+          "q": "彼が　＿＿＿　＿★＿　＿＿＿　ない。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>が　＿＿＿　＿★＿　＿＿＿　ない。",
+          "translation": "There is no way he would lie.",
+          "opts": ["をつく", "嘘", "はずが", "とは"],
+          "correct_sentence": "彼が嘘をつくはずがない。",
+          "correct_order": ["嘘", "を", "つく", "はずが"],
+          "star_position": 2,
+          "star_answer": 3,
+          "hint": "〜はずがない = there is no way / cannot possibly. Order: 嘘を→つく→はずが→ない."
+        },
+        {
+          "id": "2-2-2",
+          "q": "今日の試験は　＿＿＿　＿★＿　＿＿＿　思った。",
+          "furigana": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>試験<rt>しけん</rt></ruby>は　＿＿＿　＿★＿　＿＿＿　<ruby>思<rt>おも</rt></ruby>った。",
+          "translation": "I thought today's exam was easier than I expected.",
+          "opts": ["より", "思ったより", "簡単だと", "簡単"],
+          "correct_sentence": "今日の試験は思ったより簡単だと思った。",
+          "correct_order": ["思ったより", "簡単", "だと"],
+          "star_position": 2,
+          "star_answer": 4,
+          "hint": "〜より = than ~. 思ったより = than I thought. Order: 思ったより→簡単→だと→思った."
+        },
+        {
+          "id": "2-2-3",
+          "q": "彼女は　＿＿＿　＿★＿　＿＿＿　ている。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は　＿＿＿　＿★＿　＿＿＿　ている。",
+          "translation": "She is trying hard to study every day.",
+          "opts": ["勉強しよう", "毎日", "と", "努力し"],
+          "correct_sentence": "彼女は毎日勉強しようと努力している。",
+          "correct_order": ["毎日", "勉強しよう", "と", "努力し"],
+          "star_position": 2,
+          "star_answer": 1,
+          "hint": "〜ようとする = to try to do ~. Order: 毎日→勉強しよう→と→努力し→ている."
+        },
+        {
+          "id": "2-2-4",
+          "q": "病院に　＿＿＿　＿★＿　＿＿＿　ください。",
+          "furigana": "<ruby>病院<rt>びょういん</rt></ruby>に　＿＿＿　＿★＿　＿＿＿　ください。",
+          "translation": "Please go to the hospital to get an examination.",
+          "opts": ["受けに", "行って", "診察を", "早めに"],
+          "correct_sentence": "病院に早めに診察を受けに行ってください。",
+          "correct_order": ["早めに", "診察を", "受けに", "行って"],
+          "star_position": 2,
+          "star_answer": 3,
+          "hint": "〜に行く = go to do ~. Verb stem + に + 行く. Order: 早めに→診察を→受けに→行って→ください."
+        },
+        {
+          "id": "2-2-5",
+          "q": "その話を　＿＿＿　＿★＿　＿＿＿　しまった。",
+          "furigana": "その<ruby>話<rt>はなし</rt></ruby>を　＿＿＿　＿★＿　＿＿＿　しまった。",
+          "translation": "Having heard that story, I ended up crying.",
+          "opts": ["思わず", "聞いて", "泣いて", "から"],
+          "correct_sentence": "その話を聞いて思わず泣いてしまった。",
+          "correct_order": ["聞いて", "思わず", "泣いて"],
+          "star_position": 2,
+          "star_answer": 3,
+          "hint": "〜てしまう = ended up doing (unintentional). 思わず = involuntarily. Order: 聞いて→思わず→泣いて→しまった."
+        }
+      ]
+    },
+    "mondai3": {
+      "label": "問題３",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（　１　）から（　４　）の中に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "passage_title": "お知らせ",
+      "passage": "来月から、市の図書館が改装工事を始める（　１　）、図書館は2か月間休みます。本を借りたい方は、今月中に（　２　）ください。また、インターネットを（　３　）、本の予約はできますので、ご利用ください。工事が終わった（　４　）、新しいコーナーが増えますのでお楽しみに。",
+      "furigana": "<ruby>来月<rt>らいげつ</rt></ruby>から、<ruby>市<rt>し</rt></ruby>の<ruby>図書館<rt>としょかん</rt></ruby>が<ruby>改装<rt>かいそう</rt></ruby><ruby>工事<rt>こうじ</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める（　１　）、<ruby>図書館<rt>としょかん</rt></ruby>は2か<ruby>月間<rt>げつかん</rt></ruby><ruby>休<rt>やす</rt></ruby>みます。<ruby>本<rt>ほん</rt></ruby>を<ruby>借<rt>か</rt></ruby>りたい<ruby>方<rt>かた</rt></ruby>は、<ruby>今月<rt>こんげつ</rt></ruby><ruby>中<rt>じゅう</rt></ruby>に（　２　）ください。また、インターネットを（　３　）、<ruby>本<rt>ほん</rt></ruby>の<ruby>予約<rt>よやく</rt></ruby>はできますので、ご<ruby>利用<rt>りよう</rt></ruby>ください。<ruby>工事<rt>こうじ</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった（　４　）、<ruby>新<rt>あたら</rt></ruby>しいコーナーが<ruby>増<rt>ふ</rt></ruby>えますのでお<ruby>楽<rt>たの</rt></ruby>しみに。",
+      "translation": "Starting next month, the city library will begin renovation work, so the library will be closed for 2 months. Those who want to borrow books should do so within this month. Also, you can reserve books via the internet, so please make use of this. After the construction is finished, new sections will be added, so look forward to it.",
+      "questions": [
+        {
+          "number": 1,
+          "opts": ["ため", "のに", "のは", "から"],
+          "answer": 1,
+          "hint": "〜ため = because of / for the purpose of (noun + の + ため). Cause → library will close."
+        },
+        {
+          "number": 2,
+          "opts": ["借りて置いて", "借りておいて", "借りておき", "借りて"],
+          "answer": 3,
+          "hint": "〜ておく = do in advance / do and leave ready. 借りておく = borrow ahead of time."
+        },
+        {
+          "number": 3,
+          "opts": ["使えば", "使っても", "使って", "使うと"],
+          "answer": 4,
+          "hint": "〜と = if/when (natural outcome). インターネットを使うと = if you use the internet, (you can reserve)."
+        },
+        {
+          "number": 4,
+          "opts": ["あと", "ので", "から", "ために"],
+          "answer": 1,
+          "hint": "〜たあと = after ~ is done. 工事が終わったあと = after the construction is finished."
+        }
+      ]
+    }
+  },
+  {
+    "set": 3,
+    "title": "文法 第３回",
+    "mondai1": {
+      "label": "問題１",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つえらんでください。",
+      "questions": [
+        {
+          "id": "3-1-1",
+          "q": "もっと若い時に、もっと勉強すれば（　）と思う。",
+          "furigana": "もっと<ruby>若<rt>わか</rt></ruby>い<ruby>時<rt>とき</rt></ruby>に、もっと<ruby>勉強<rt>べんきょう</rt></ruby>すれば（　）と<ruby>思<rt>おも</rt></ruby>う。",
+          "translation": "I think I should have studied more when I was younger.",
+          "opts": ["よかった", "いい", "よくて", "よさそう"],
+          "answer": 1,
+          "hint": "〜ばよかった = should have done / wish I had done (regret about past)."
+        },
+        {
+          "id": "3-1-2",
+          "q": "彼女は歌い（　）が上手だ。",
+          "furigana": "<ruby>彼女<rt>かのじょ</rt></ruby>は<ruby>歌<rt>うた</rt></ruby>い（　）が<ruby>上手<rt>じょうず</rt></ruby>だ。",
+          "translation": "She is good at singing.",
+          "opts": ["かた", "こと", "もの", "ため"],
+          "answer": 1,
+          "hint": "〜かた = way of doing / how to do ~. 歌いかた = way of singing."
+        },
+        {
+          "id": "3-1-3",
+          "q": "バスが来なかった（　）、会議に遅刻してしまった。",
+          "furigana": "バスが<ruby>来<rt>こ</rt></ruby>なかった（　）、<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>遅刻<rt>ちこく</rt></ruby>してしまった。",
+          "translation": "Because the bus did not come, I ended up being late for the meeting.",
+          "opts": ["せいで", "おかげで", "ために", "だけで"],
+          "answer": 1,
+          "hint": "〜せいで = because of (negative result/blame). Missing the bus → late (bad outcome)."
+        },
+        {
+          "id": "3-1-4",
+          "q": "この店はいつも混んでいる。（　）おいしい証拠だ。",
+          "furigana": "この<ruby>店<rt>みせ</rt></ruby>はいつも<ruby>混<rt>こ</rt></ruby>んでいる。（　）おいしい<ruby>証拠<rt>しょうこ</rt></ruby>だ。",
+          "translation": "This restaurant is always crowded. That is proof that it is delicious.",
+          "opts": ["それだけ", "それでも", "それほど", "それより"],
+          "answer": 1,
+          "hint": "それだけ = that much / to that extent. Crowded → that means it is that much more delicious."
+        },
+        {
+          "id": "3-1-5",
+          "q": "熱があるなら、無理して学校に行か（　）ほうがいい。",
+          "furigana": "<ruby>熱<rt>ねつ</rt></ruby>があるなら、<ruby>無理<rt>むり</rt></ruby>して<ruby>学校<rt>がっこう</rt></ruby>に<ruby>行<rt>い</rt></ruby>か（　）ほうがいい。",
+          "translation": "If you have a fever, it is better not to push yourself to go to school.",
+          "opts": ["ない", "ず", "なく", "なくて"],
+          "answer": 1,
+          "hint": "〜ないほうがいい = it is better not to do ~. Negative form + ほうがいい."
+        },
+        {
+          "id": "3-1-6",
+          "q": "先生の説明を聞いて（　）、ようやく問題が解けた。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>いて（　）、ようやく<ruby>問題<rt>もんだい</rt></ruby>が<ruby>解<rt>と</rt></ruby>けた。",
+          "translation": "After hearing the teacher's explanation, I was finally able to solve the problem.",
+          "opts": ["みて", "おいて", "しまって", "あって"],
+          "answer": 1,
+          "hint": "〜てみる = try doing ~ and see what happens. 聞いてみて = after trying to listen."
+        },
+        {
+          "id": "3-1-7",
+          "q": "兄（　）、弟はとても背が高い。",
+          "furigana": "<ruby>兄<rt>あに</rt></ruby>（　）、<ruby>弟<rt>おとうと</rt></ruby>はとても<ruby>背<rt>せ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い。",
+          "translation": "Compared to his older brother, the younger brother is very tall.",
+          "opts": ["に比べて", "に対して", "によって", "について"],
+          "answer": 1,
+          "hint": "〜に比べて = compared to ~. Comparing the height of two people."
+        },
+        {
+          "id": "3-1-8",
+          "q": "部屋を（　）まま出かけてしまった。",
+          "furigana": "<ruby>部屋<rt>へや</rt></ruby>を（　）まま<ruby>出<rt>で</rt></ruby>かけてしまった。",
+          "translation": "I left the room with it all messy (without tidying up).",
+          "opts": ["散らかした", "散らかす", "散らかして", "散らかさない"],
+          "answer": 1,
+          "hint": "〜たまま = in the state of having done ~ (unchanged). Past tense verb + まま."
+        },
+        {
+          "id": "3-1-9",
+          "q": "この薬は食事の後で飲む（　）になっています。",
+          "furigana": "この<ruby>薬<rt>くすり</rt></ruby>は<ruby>食事<rt>しょくじ</rt></ruby>の<ruby>後<rt>あと</rt></ruby>で<ruby>飲<rt>の</rt></ruby>む（　）になっています。",
+          "translation": "This medicine is supposed to be taken after meals.",
+          "opts": ["こと", "ため", "もの", "わけ"],
+          "answer": 1,
+          "hint": "〜ことになっている = it is decided/scheduled that / is supposed to. Rules and arrangements."
+        },
+        {
+          "id": "3-1-10",
+          "q": "バスに乗ろう（　）、突然雨が降ってきた。",
+          "furigana": "バスに<ruby>乗<rt>の</rt></ruby>ろう（　）、<ruby>突然<rt>とつぜん</rt></ruby><ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>ってきた。",
+          "translation": "Just as I was about to board the bus, it suddenly started to rain.",
+          "opts": ["としたとき", "するとき", "したとき", "ならとき"],
+          "answer": 1,
+          "hint": "〜ようとしたとき / 〜としたとき = just when about to do ~. Volitional + としたとき."
+        },
+        {
+          "id": "3-1-11",
+          "q": "彼は約束の時間（　）遅れて来た。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>約束<rt>やくそく</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>（　）<ruby>遅<rt>おく</rt></ruby>れて<ruby>来<rt>き</rt></ruby>た。",
+          "translation": "He came late, even past the agreed time.",
+          "opts": ["より", "ほど", "だけ", "まで"],
+          "answer": 1,
+          "hint": "〜より = later than / more than. 約束の時間より遅れた = later than the agreed time."
+        },
+        {
+          "id": "3-1-12",
+          "q": "風邪を引か（　）ように、手洗いをしましょう。",
+          "furigana": "<ruby>風邪<rt>かぜ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>か（　）ように、<ruby>手洗<rt>てあら</rt></ruby>いをしましょう。",
+          "translation": "Let's wash our hands so we don't catch a cold.",
+          "opts": ["ない", "なく", "ず", "なくて"],
+          "answer": 1,
+          "hint": "〜ないように = so that ~ doesn't happen / in order not to. ない + ように."
+        },
+        {
+          "id": "3-1-13",
+          "q": "このレストランの料理（　）、値段が高すぎる。",
+          "furigana": "このレストランの<ruby>料理<rt>りょうり</rt></ruby>（　）、<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>すぎる。",
+          "translation": "For this restaurant's food, the price is too high.",
+          "opts": ["にしては", "としては", "については", "にとっては"],
+          "answer": 1,
+          "hint": "〜にしては = considering ~ / for ~ (unexpectedly bad). Food quality vs. high price."
+        }
+      ]
+    },
+    "mondai2": {
+      "label": "問題２",
+      "instruction": "つぎの文の　★　に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "note": "A・B・C・Dを並べ替えて文を作り、★の位置に来る言葉の番号を答えてください。",
+      "questions": [
+        {
+          "id": "3-2-1",
+          "q": "宿題を　＿＿＿　＿★＿　＿＿＿　ください。",
+          "furigana": "<ruby>宿題<rt>しゅくだい</rt></ruby>を　＿＿＿　＿★＿　＿＿＿　ください。",
+          "translation": "Please make sure to hand in your homework.",
+          "opts": ["忘れない", "出すのを", "ように", "必ず"],
+          "correct_sentence": "宿題を必ず出すのを忘れないようにください。",
+          "correct_order": ["必ず", "出すのを", "忘れない", "ように"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜ないように = so as not to / make sure not to. Order: 必ず→出すのを→忘れない→ように→ください."
+        },
+        {
+          "id": "3-2-2",
+          "q": "この映画は　＿＿＿　＿★＿　＿＿＿　ある。",
+          "furigana": "この<ruby>映画<rt>えいが</rt></ruby>は　＿＿＿　＿★＿　＿＿＿　ある。",
+          "translation": "I have seen this movie three times.",
+          "opts": ["ことが", "三回", "見た", "もう"],
+          "correct_sentence": "この映画はもう三回見たことがある。",
+          "correct_order": ["もう", "三回", "見た", "ことが"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜たことがある = have the experience of doing ~. Order: もう→三回→見た→ことが→ある."
+        },
+        {
+          "id": "3-2-3",
+          "q": "彼は音楽を　＿＿＿　＿★＿　＿＿＿　いた。",
+          "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>音楽<rt>おんがく</rt></ruby>を　＿＿＿　＿★＿　＿＿＿　いた。",
+          "translation": "He was studying while listening to music.",
+          "opts": ["ながら", "聞き", "勉強して", "を"],
+          "correct_sentence": "彼は音楽を聞きながら勉強していた。",
+          "correct_order": ["聞き", "ながら", "勉強して"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜ながら = while doing ~. Verb stem + ながら. Order: 聞き→ながら→勉強して→いた."
+        },
+        {
+          "id": "3-2-4",
+          "q": "先生に　＿＿＿　＿★＿　＿＿＿　うれしかった。",
+          "furigana": "<ruby>先生<rt>せんせい</rt></ruby>に　＿＿＿　＿★＿　＿＿＿　うれしかった。",
+          "translation": "I was happy to have the teacher praise me.",
+          "opts": ["ほめて", "が", "もらって", "の"],
+          "correct_sentence": "先生にほめてもらってうれしかった。",
+          "correct_order": ["ほめて", "もらって"],
+          "star_position": 2,
+          "star_answer": 3,
+          "hint": "〜てもらう = have someone do ~ for you. 先生にほめてもらう = to be praised by the teacher. Order: ほめて→もらって→うれしかった."
+        },
+        {
+          "id": "3-2-5",
+          "q": "外が　＿＿＿　＿★＿　＿＿＿　した。",
+          "furigana": "<ruby>外<rt>そと</rt></ruby>が　＿＿＿　＿★＿　＿＿＿　した。",
+          "translation": "It became so noisy outside that I could not study.",
+          "opts": ["うるさくて", "勉強が", "できなく", "が"],
+          "correct_sentence": "外がうるさくて勉強ができなくなった。",
+          "correct_order": ["うるさくて", "勉強が", "できなく"],
+          "star_position": 2,
+          "star_answer": 2,
+          "hint": "〜くて〜できない = too ~ so cannot do ~. Order: うるさくて→勉強が→できなく→なった."
+        }
+      ]
+    },
+    "mondai3": {
+      "label": "問題３",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（　１　）から（　４　）の中に入る最もよいものを、１・２・３・４から一つえらんでください。",
+      "passage_title": "私の趣味",
+      "passage": "私の趣味は料理です。料理を始めた（　１　）は高校生のころで、母が忙しくて夕飯を作れない日があったからです。最初は簡単な料理（　２　）作れませんでしたが、毎日練習するうちに少しずつ上手に（　３　）きました。今では友達に「おいしい」と言って（　４　）とてもうれしいです。これからも新しい料理に挑戦したいと思っています。",
+      "furigana": "<ruby>私<rt>わたし</rt></ruby>の<ruby>趣味<rt>しゅみ</rt></ruby>は<ruby>料理<rt>りょうり</rt></ruby>です。<ruby>料理<rt>りょうり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めた（　１　）は<ruby>高校生<rt>こうこうせい</rt></ruby>のころで、<ruby>母<rt>はは</rt></ruby>が<ruby>忙<rt>いそが</rt></ruby>しくて<ruby>夕飯<rt>ゆうはん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>れない<ruby>日<rt>ひ</rt></ruby>があったからです。<ruby>最初<rt>さいしょ</rt></ruby>は<ruby>簡単<rt>かんたん</rt></ruby>な<ruby>料理<rt>りょうり</rt></ruby>（　２　）<ruby>作<rt>つく</rt></ruby>れませんでしたが、<ruby>毎日<rt>まいにち</rt></ruby><ruby>練習<rt>れんしゅう</rt></ruby>するうちに<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>上手<rt>じょうず</rt></ruby>に（　３　）きました。<ruby>今<rt>いま</rt></ruby>では<ruby>友達<rt>ともだち</rt></ruby>に「おいしい」と<ruby>言<rt>い</rt></ruby>って（　４　）とてもうれしいです。これからも<ruby>新<rt>あたら</rt></ruby>しい<ruby>料理<rt>りょうり</rt></ruby>に<ruby>挑戦<rt>ちょうせん</rt></ruby>したいと<ruby>思<rt>おも</rt></ruby>っています。",
+      "translation": "My hobby is cooking. I started cooking when I was in high school because there were days when my mother was too busy to make dinner. At first I could only make simple dishes, but as I practiced every day I gradually became better. Now I am very happy when my friends say 'delicious'. I intend to keep challenging myself with new dishes.",
+      "questions": [
+        {
+          "number": 1,
+          "opts": ["こと", "の", "ため", "わけ"],
+          "answer": 2,
+          "hint": "の (nominalizer) is used here: 料理を始めたの = the fact that I started cooking. の + は topic marker."
+        },
+        {
+          "number": 2,
+          "opts": ["しか", "だけ", "でも", "まで"],
+          "answer": 1,
+          "hint": "〜しか〜ない = only / nothing but (with negative verb). 簡単な料理しか作れなかった = could only make simple dishes."
+        },
+        {
+          "number": 3,
+          "opts": ["なって", "して", "できて", "なくなって"],
+          "answer": 1,
+          "hint": "〜ようになってくる = to gradually come to be able to. 上手になってきた = became better (gradually)."
+        },
+        {
+          "number": 4,
+          "opts": ["もらえると", "くれると", "あげると", "させると"],
+          "answer": 1,
+          "hint": "〜てもらえる = to be able to have someone do ~ for you. 言ってもらえる = to have them say it (you benefit)."
+        }
+      ]
+    }
   }
 ]
