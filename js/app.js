@@ -52,7 +52,15 @@ async function initApp() {
       await saveProgress();
     }
 
-    renderSchedule();
+    // Listen for back/forward buttons
+    window.addEventListener("hashchange", handleHash);
+
+    // Initial routing
+    if (window.location.hash) {
+      handleHash();
+    } else {
+      renderSchedule();
+    }
 
     console.log("App initialized successfully");
   } catch (error) {
@@ -147,12 +155,32 @@ function applyFilter(pool) {
 }
 
 // ============================================================
-// NAVIGATION
+// NAVIGATION & ROUTING
 // ============================================================
 let currentPage = "schedule";
 
-function showPage(p, btn) {
+function handleHash() {
+  const hash = window.location.hash.replace("#", "") || "schedule";
+  const validPages = [
+    "schedule",
+    "lessons",
+    "flashcards",
+    "quiz",
+    "exam",
+    "game",
+  ];
+  if (validPages.includes(hash)) {
+    showPage(hash, null, false);
+  }
+}
+
+function showPage(p, btn, updateHash = true) {
   currentPage = p;
+
+  // Update URL Hash for back/forward support
+  if (updateHash) {
+    window.location.hash = p;
+  }
 
   // Update active page
   document
