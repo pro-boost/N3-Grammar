@@ -195,8 +195,8 @@ nav {
 .hero-strip {
   background: linear-gradient(135deg, var(--ink) 0%, #2d2520 100%);
   color: #fff;
-  padding: 2rem;
-  min-height: 160px;
+  padding: 1.25rem 2rem;
+  min-height: 120px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -430,7 +430,31 @@ nav {
   font-weight: 500;
 }
 .filter-select-wrap {
-  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 1.25rem;
+}
+.exam-entry-btn {
+  background: var(--red);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.exam-entry-btn:hover {
+  background: #a93226;
+  transform: translateY(-1px);
+}
+.exam-entry-btn.active {
+  background: #8e2c22;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 #global-filter-select {
   padding: 4px 8px;
@@ -496,12 +520,10 @@ nav {
   color: var(--red);
 }
 .card-scene {
-  perspective: 1200px;
-  width: 100%;
+  perspective: 1000px;
   cursor: pointer;
-  margin-bottom: 1.1rem;
-  user-select: none;
-  position: relative;
+  min-height: 220px;
+  width: 100%;
 }
 .card-3d {
   width: 100%;
@@ -539,21 +561,28 @@ nav {
   text-align: left;
   animation: fadeSlide 0.2s ease;
 }
-.card-scene.flipped .card-front-wrap {
-  display: none;
-}
-.card-scene.flipped .card-back-wrap {
-  display: block;
+.card-scene.flipped .card-3d {
+  transform: rotateY(180deg);
 }
 .card-front-wrap {
   display: block;
+}
+.card-3d {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 .card-scene.flipped .card-3d {
   transform: rotateY(180deg);
 }
 .card-side {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
   display: flex;
@@ -562,11 +591,13 @@ nav {
   justify-content: center;
   padding: 1.5rem;
   text-align: center;
+  min-height: 220px;
 }
 .card-front {
   background: var(--ink);
   color: var(--paper);
   border: 2px solid rgba(255, 255, 255, 0.04);
+  z-index: 2;
 }
 .card-back {
   background: var(--paper2);
@@ -1106,6 +1137,40 @@ nav {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
+}
+.status-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--border-s);
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  transition: all 0.2s;
+  color: var(--ink);
+  opacity: 0.6;
+}
+.status-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.status-btn.again:hover {
+  background: var(--red-l);
+  color: var(--red);
+  border-color: var(--red);
+}
+.status-btn.unsure:hover {
+  background: var(--gold-l);
+  color: var(--gold);
+  border-color: var(--gold);
+}
+.status-btn.known:hover {
+  background: var(--green-l);
+  color: var(--green);
+  border-color: var(--green);
 }
 .lesson-glyph {
   font-family: "Shippori Mincho", serif;

@@ -43,12 +43,15 @@ async function initApp() {
     const examRes = await fetch("data/exams.json");
     EXAM_QS = await examRes.json();
 
-    // Init progress
-    if (!PROGRESS.startDate)
-      PROGRESS.startDate = getLocalDateString(getStudyStart());
-
     // Load cloud data first, then render
     await loadProgress();
+
+    // Init start date if missing
+    if (!PROGRESS.startDate) {
+      PROGRESS.startDate = getLocalDateString(getStudyStart());
+      await saveProgress();
+    }
+
     renderSchedule();
 
     console.log("App initialized successfully");
@@ -70,8 +73,11 @@ function getLocalDateString(date) {
 }
 
 function getStudyStart() {
-  if (PROGRESS.startDate)
-    return new Date(PROGRESS.startDate.replace(/-/g, "/")); // Use / for cross-browser local date parsing
+  if (PROGRESS.startDate) {
+    const d = new Date(PROGRESS.startDate.replace(/-/g, "/"));
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
   const now = new Date();
   const dow = now.getDay(); // 0=Sun,1=Mon,...,6=Sat
   const daysToMon = dow === 0 ? -6 : 1 - dow;
@@ -88,11 +94,11 @@ function studyDay() {
   now.setHours(0, 0, 0, 0);
   let day = 0,
     cur = new Date(start);
-  while (cur <= now) {
+  while (cur.getTime() <= now.getTime()) {
     const dow = cur.getDay();
     if (dow >= 1 && dow <= 5) day++; // only weekdays count
-    if (cur.getTime() === now.getTime()) break;
     cur.setDate(cur.getDate() + 1);
+    cur.setHours(0, 0, 0, 0); // Reset hours to handle DST jumps
   }
   return Math.max(1, day);
 }
@@ -157,7 +163,7 @@ function showPage(p, btn) {
 
   // Update active tab
   document
-    .querySelectorAll(".mode-tab")
+    .querySelectorAll(".mode-tab, .exam-entry-btn")
     .forEach((e) => e.classList.remove("active"));
   if (btn) {
     btn.classList.add("active");
@@ -337,6 +343,38 @@ function openLesson(grammarName) {
 }
 
 // ============================================================
+// STATUS UPDATER
+// ============================================================
+function setStatus(grammarName, s) {
+  // Remove from all sets first
+  PROGRESS.fcKnownSet = PROGRESS.fcKnownSet.filter((x) => x !== grammarName);
+  PROGRESS.fcUnsureSet = PROGRESS.fcUnsureSet.filter((x) => x !== grammarName);
+  PROGRESS.fcAgainSet = PROGRESS.fcAgainSet.filter((x) => x !== grammarName);
+
+  if (s === "known") PROGRESS.fcKnownSet.push(grammarName);
+  else if (s === "unsure") PROGRESS.fcUnsureSet.push(grammarName);
+  else if (s === "again") PROGRESS.fcAgainSet.push(grammarName);
+
+  PROGRESS.totalKnown = PROGRESS.fcKnownSet.length;
+  updateGlobalStats();
+  scheduleSave();
+
+  // Refresh UI
+  if (currentPage === "lessons") {
+    showPage("lessons");
+  } else if (currentPage === "schedule") {
+    renderSchedule();
+  }
+}
+
+function updateGlobalStats() {
+  ["h-stat-1", "fc-known-h"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = PROGRESS.totalKnown;
+  });
+}
+
+// ============================================================
 // LESSON RENDERER
 // ============================================================
 function getDetail(g) {
@@ -366,7 +404,9 @@ function renderLesson(container, pts) {
       ? "<span style=\"font-size:10px;padding:2px 8px;border-radius:100px;background:#4caf82;color:#fff;font-family:'DM Mono',monospace;\">✓ mastered</span>"
       : unsure
         ? "<span style=\"font-size:10px;padding:2px 8px;border-radius:100px;background:var(--gold-l);color:var(--gold);font-family:'DM Mono',monospace;\">〜 review</span>"
-        : "";
+        : PROGRESS.fcAgainSet.includes(g.g)
+          ? "<span style=\"font-size:10px;padding:2px 8px;border-radius:100px;background:var(--red-l);color:var(--red);font-family:'DM Mono',monospace;\">↺ again</span>"
+          : "";
 
     html += `<div class="lesson-card">
       <div class="lesson-header">
@@ -377,7 +417,12 @@ function renderLesson(container, pts) {
         </div>
         <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
           <div class="lesson-meaning">${g.m}</div>
-          ${statusBadge}
+          <div style="display:flex;gap:4px;align-items:center">
+            <button class="status-btn again" onclick="setStatus('${g.g}', 'again')" title="Again">↺</button>
+            <button class="status-btn unsure" onclick="setStatus('${g.g}', 'unsure')" title="Unsure">〜</button>
+            <button class="status-btn known" onclick="setStatus('${g.g}', 'known')" title="Mastered">✓</button>
+            ${statusBadge}
+          </div>
         </div>
       </div>
       <div class="lesson-formation"><strong>Formation: </strong>${det.formation}</div>
@@ -470,20 +515,18 @@ function renderFC(container, pool) {
         <span class="srs-sc u">〜 ${unsureC}</span>
         <span class="srs-sc a">↺ ${againC}</span>
       </div>
-      <div class="card-scene" id="fc-scene" onclick="this.classList.toggle('flipped')">
-        <!-- FRONT -->
-        <div class="card-front-wrap">
-          <div class="card-front card-side" style="min-height:180px;position:relative">
+      <div class="card-scene" onclick="this.classList.toggle('flipped')">
+        <div class="card-3d">
+          <!-- FRONT -->
+          <div class="card-front card-side">
             <button class="lesson-link-icon" onclick="event.stopPropagation(); openLesson('${c.g}')" title="View full lesson">📖</button>
             <div class="card-glyph">${c.g}</div>
             <div class="card-romaji">${c.r}</div>
             <div class="card-tap">tap to reveal</div>
             ${tag ? `<span class="srs-tag ${tag}">${tag === "k" ? "mastered" : "unsure"}</span>` : ""}
           </div>
-        </div>
-        <!-- BACK -->
-        <div class="card-back-wrap">
-          <div onclick="event.stopPropagation()">
+          <!-- BACK -->
+          <div class="card-back card-side">
             <div style="font-size:10px;font-weight:500;color:rgba(26,23,20,0.28);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem">Meaning</div>
             <div style="font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:var(--ink);margin-bottom:.75rem;padding-bottom:.6rem;border-bottom:1px solid var(--border)">${c.m}</div>
             ${(() => {
@@ -503,7 +546,7 @@ function renderFC(container, pool) {
           </div>
         </div>
       </div>
-      <button class="btn-flip-fc" onclick="document.getElementById('fc-scene').classList.toggle('flipped')">Flip — show meaning & examples</button>
+      <button class="btn-flip-fc" onclick="const scene = this.previousElementSibling; if(scene.classList.contains('card-scene')) scene.classList.toggle('flipped')">Flip — show meaning & examples</button>
       <div class="srs-actions">
         <button class="btn-srs btn-again" id="srs-a">↺ Again</button>
         <button class="btn-srs btn-unsure" id="srs-u">〜 Not Sure</button>
@@ -616,7 +659,7 @@ function renderQuiz(container, pool, distractorPool) {
         const fb = container.querySelector("#qfb");
         fb.className = "quiz-fb " + (correct ? "good" : "bad");
         const detail = getDetail(q);
-        const example = detail.examples[0] || { jp: q.ex, en: '' };
+        const example = detail.examples[0] || { jp: q.ex, en: "" };
         fb.innerHTML =
           (correct
             ? "<strong>✓ Correct!</strong> "
