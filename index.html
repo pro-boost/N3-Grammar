@@ -6,13 +6,18 @@
 <title>N3 Grammar Master — JLPT Study</title>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/kanji.css">
 </head>
 <body>
 
 <header>
-  <div class="logo" onclick="showPage('schedule')" style="cursor:pointer">
-    <span class="logo-jp">文法マスター</span>
+  <div class="logo" onclick="switchMode(currentMode, 'schedule')" style="cursor:pointer">
+    <span class="logo-jp" id="logo-title">文法マスター</span>
     <span class="logo-en">JLPT N3</span>
+  </div>
+  <div class="mode-switch-header">
+    <button class="ph-btn active" id="sw-grammar" onclick="switchMode('grammar')"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:5px"></span>Grammar</button>
+    <button class="ph-btn" id="sw-kanji" onclick="switchMode('kanji')"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--teal);margin-right:5px"></span>Kanji & Vocab</button>
   </div>
   <div class="header-right">
     <div class="sync-status"><div class="sync-dot" id="sync-dot"></div><span id="sync-label">…</span></div>
@@ -39,12 +44,17 @@
   <div class="filter-select-wrap" id="global-filter-wrap">
     <button class="exam-entry-btn" id="tab-exam" onclick="showPage('exam',this)">Exam</button>
     <select id="global-filter-select" onchange="setGF(this.value)">
-      <option value="all">All Grammar</option>
+      <option value="all">All Items</option>
       <option value="today">Today</option>
       <option value="week">This Week</option>
       <option value="month">This Month</option>
       <option value="reached">Unlocked</option>
       <option value="srs_review">SRS Review</option>
+    </select>
+    <select id="type-filter-select" onchange="setTF(this.value)" style="display:none">
+      <option value="all">All Types</option>
+      <option value="kanji">Kanji Only</option>
+      <option value="vocab">Vocab Only</option>
     </select>
   </div>
 </div>
@@ -85,5 +95,6 @@
 </div>
 
 <script src="js/app.js"></script>
+<script src="js/kanji.js"></script>
 </body>
 </html>

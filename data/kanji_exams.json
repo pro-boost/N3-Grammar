@@ -1,0 +1,104 @@
+[
+  {
+    "type": "fill",
+    "q": "<ruby>昨日<rt>きのう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>に___が<ruby>見<rt>み</rt></ruby>えた。",
+    "furigana": "<ruby>昨日<rt>きのう</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>、<ruby>窓<rt>まど</rt></ruby>の<ruby>外<rt>そと</rt></ruby>に<b>明かり</b>が<ruby>見<rt>み</rt></ruby>えた。",
+    "translation": "Last night, I could see a light outside the window.",
+    "blank": "明かり",
+    "opts": ["明かり", "雨", "音", "空気"],
+    "hint": "明かり (あかり) = light/glow. The other options don't fit — rain, sound, and air are not \"seen\" at night outside."
+  },
+  {
+    "type": "fill",
+    "q": "<ruby>試験<rt>しけん</rt></ruby>の___はいつですか。<ruby>来月<rt>らいげつ</rt></ruby>の10<ruby>日<rt>にち</rt></ruby>です。",
+    "furigana": "<ruby>試験<rt>しけん</rt></ruby>の<b><ruby>申<rt>もう</rt></ruby>し<ruby>込<rt>こ</rt></ruby>み</b>はいつですか。<ruby>来月<rt>らいげつ</rt></ruby>の10<ruby>日<rt>にち</rt></ruby>です。",
+    "translation": "When is the exam application? It's the 10th of next month.",
+    "blank": "申し込み",
+    "opts": ["申し込み", "場合", "以上", "前後"],
+    "hint": "申し込み (もうしこみ) = application/registration. The question asks for when to apply."
+  },
+  {
+    "type": "fill",
+    "q": "この<ruby>地域<rt>ちいき</rt></ruby>は___が<ruby>不便<rt>ふべん</rt></ruby>なので、<ruby>車<rt>くるま</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。",
+    "furigana": "この<ruby>地域<rt>ちいき</rt></ruby>は<b><ruby>交通<rt>こうつう</rt></ruby></b>が<ruby>不便<rt>ふべん</rt></ruby>なので、<ruby>車<rt>くるま</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だ。",
+    "translation": "Because transport in this area is inconvenient, a car is necessary.",
+    "blank": "交通",
+    "opts": ["交通", "気候", "費用", "生活"],
+    "hint": "交通 (こうつう) = transportation/traffic. 不便な交通 = inconvenient transport."
+  },
+  {
+    "type": "fill",
+    "q": "___に<ruby>気<rt>き</rt></ruby>をつけてください。<ruby>足元<rt>あしもと</rt></ruby>がぬれています。",
+    "furigana": "<b><ruby>注意<rt>ちゅうい</rt></ruby></b>に<ruby>気<rt>き</rt></ruby>をつけてください。<ruby>足元<rt>あしもと</rt></ruby>がぬれています。",
+    "translation": "Please be careful. The ground is wet.",
+    "blank": "注意",
+    "opts": ["注意", "安心", "習慣", "意識"],
+    "hint": "注意 (ちゅうい) = attention/caution. 注意してください = please be careful."
+  },
+  {
+    "type": "reading",
+    "q": "次の漢字の読み方を選んでください：　環境",
+    "answer": "かんきょう",
+    "opts": ["かんきょう", "かんけい", "えんきょう", "かんけん"],
+    "furigana": "<ruby>環境<rt>かんきょう</rt></ruby>",
+    "translation": "environment; surroundings",
+    "hint": "環 (かん) = ring/environment + 境 (きょう) = boundary. Together = environment."
+  },
+  {
+    "type": "reading",
+    "q": "次の漢字の読み方を選んでください：　経験",
+    "answer": "けいけん",
+    "opts": ["けいけん", "きょうけん", "けいかん", "きょうかん"],
+    "furigana": "<ruby>経験<rt>けいけん</rt></ruby>",
+    "translation": "experience",
+    "hint": "経 (けい) + 験 (けん) = experience. Both use on-yomi."
+  },
+  {
+    "type": "reading",
+    "q": "次の漢字の読み方を選んでください：　確認",
+    "answer": "かくにん",
+    "opts": ["かくにん", "かんにん", "がくにん", "こくにん"],
+    "furigana": "<ruby>確認<rt>かくにん</rt></ruby>",
+    "translation": "confirmation; check; verification",
+    "hint": "確 (かく) = certain + 認 (にん) = acknowledge. 確認 = to confirm."
+  },
+  {
+    "type": "compose",
+    "q": "___　___　★　___　ください。",
+    "parts": ["を", "確認", "予約", "して"],
+    "answer": "予約を確認して",
+    "correct_order": ["予約", "を", "確認", "して"],
+    "furigana": "<ruby>予約<rt>よやく</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>してください。",
+    "translation": "Please confirm the reservation.",
+    "hint": "予約 (reservation) + を (object marker) + 確認 (confirm) + して (te-form) + ください."
+  },
+  {
+    "type": "compose",
+    "q": "<ruby>彼<rt>かれ</rt></ruby>は___　___　★　___　いる。",
+    "parts": ["将来", "について", "悩んで", "の"],
+    "answer": "将来のことについて悩んで",
+    "correct_order": ["将来", "の", "について", "悩んで"],
+    "furigana": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>将来<rt>しょうらい</rt></ruby>のことについて<ruby>悩<rt>なや</rt></ruby>んでいる。",
+    "translation": "He is troubled about the future.",
+    "hint": "将来 (future) + の (possessive) + こと (matter/thing) + について (about) + 悩んでいる."
+  },
+  {
+    "type": "text",
+    "passage": "山田さんは___の勉強をしている。将来は、国際的な___で働きたいと思っている。そのために毎日___に取り組んでいる。",
+    "blanks": ["経済", "分野", "情報収集"],
+    "furigana": "<ruby>山田<rt>やまだ</rt></ruby>さんは<b><ruby>経済<rt>けいざい</rt></ruby></b>の<ruby>勉強<rt>べんきょう</rt></ruby>をしている。<ruby>将来<rt>しょうらい</rt></ruby>は、<ruby>国際的<rt>こくさいてき</rt></ruby>な<b><ruby>分野<rt>ぶんや</rt></ruby></b>で<ruby>働<rt>はたら</rt></ruby>きたいと<ruby>思<rt>おも</rt></ruby>っている。そのために<ruby>毎日<rt>まいにち</rt></ruby><b><ruby>情報収集<rt>じょうほうしゅうしゅう</rt></ruby></b>に<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>んでいる。",
+    "translation": "Yamada is studying economics. In the future, he wants to work in an international field. For that purpose, he works on information gathering every day.",
+    "q": "（　）に入る正しい言葉を選んでください。（①）",
+    "opts1": ["経済", "習慣", "生活", "技術"],
+    "hint": "① 経済 (economics) fits because he's \"studying\" it as an academic subject."
+  },
+  {
+    "type": "error",
+    "q": "次の文の中で正しくないものを選んでください。",
+    "opts": ["環境を守ることが大切だ。", "確認をしてから出発した。", "費用がかかりますので、注意してください。", "経験をするのは不必要だ。"],
+    "translations": ["It is important to protect the environment. ✓", "I confirmed and then departed. ✓", "There are costs involved, so please take note. ✓", "Having experience is unnecessary. ✗"],
+    "furiganas": ["<ruby>環境<rt>かんきょう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることが<ruby>大切<rt>たいせつ</rt></ruby>だ。", "<ruby>確認<rt>かくにん</rt></ruby>をしてから<ruby>出発<rt>しゅっぱつ</rt></ruby>した。", "<ruby>費用<rt>ひよう</rt></ruby>がかかりますので、<ruby>注意<rt>ちゅうい</rt></ruby>してください。", "<ruby>経験<rt>けいけん</rt></ruby>をするのは<ruby>不必要<rt>ふひつよう</rt></ruby>だ。"],
+    "wrong": 3,
+    "hint": "経験 (experience) is always valuable — saying it is 不必要 (unnecessary) is semantically wrong in context."
+  }
+]

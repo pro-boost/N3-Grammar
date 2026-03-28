@@ -25,6 +25,31 @@ const SHEET_URL =
 let syncTimer = null;
 let globalFilter = "all";
 let filterDay = null; // {w, d}
+let currentMode = localStorage.getItem('jlpt-mode') || 'grammar';
+
+function switchMode(newMode, p) {
+  currentMode = newMode;
+  localStorage.setItem('jlpt-mode', newMode);
+  
+  // Update header buttons
+  document.querySelectorAll('.ph-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('sw-'+newMode).classList.add('active');
+  
+  // Update logo text
+  const logoTitle = document.getElementById('logo-title');
+  if(logoTitle) logoTitle.textContent = newMode==='kanji' ? '漢字マスター' : '文法マスター';
+  
+  // Update Type filter visibility
+  const tf = document.getElementById('type-filter-select');
+  if(tf) tf.style.display = newMode==='kanji' ? 'inline-block' : 'none';
+  
+  // Reset filter to 'all' when switching modes
+  globalFilter = 'all';
+  const gf = document.getElementById('global-filter-select');
+  if(gf) gf.value = 'all';
+
+  showPage(p || 'schedule', null, true);
+}
 
 // ============================================================
 // DATA FETCHING
@@ -52,14 +77,19 @@ async function initApp() {
       await saveProgress();
     }
 
+    // Load kanji data BEFORE routing so content is ready for first render
+    if(typeof initKanjiApp === 'function') {
+        await initKanjiApp();
+    }
+
     // Listen for back/forward buttons
     window.addEventListener("hashchange", handleHash);
 
-    // Initial routing
+    // Initial routing (data must be loaded before this point)
     if (window.location.hash) {
       handleHash();
     } else {
-      renderSchedule();
+      window.location.hash = `${currentMode}/schedule`;
     }
 
     console.log("App initialized successfully");
@@ -160,17 +190,43 @@ function applyFilter(pool) {
 let currentPage = "schedule";
 
 function handleHash() {
-  const hash = window.location.hash.replace("#", "") || "schedule";
-  const validPages = [
-    "schedule",
-    "lessons",
-    "flashcards",
-    "quiz",
-    "exam",
-    "game",
-  ];
-  if (validPages.includes(hash)) {
-    showPage(hash, null, false);
+  let hash = window.location.hash.replace("#", "");
+  let m = currentMode;
+  let p = "schedule";
+
+  if (hash) {
+    if (hash.includes('/')) {
+      const parts = hash.split('/');
+      m = parts[0];
+      p = parts[1];
+    } else {
+      p = hash;
+    }
+  }
+
+  if (m === 'grammar' || m === 'kanji') {
+    currentMode = m;
+    localStorage.setItem('jlpt-mode', m);
+    document.querySelectorAll('.ph-btn').forEach(b=>b.classList.remove('active'));
+    document.getElementById('sw-'+m).classList.add('active');
+    
+    // Update active logo colors/fonts
+    if(m==='kanji'){
+        document.getElementById('logo-title').textContent = '漢字マスター';
+    } else {
+        document.getElementById('logo-title').textContent = '文法マスター';
+    }
+    
+    // Update Type filter visibility
+    const tf = document.getElementById('type-filter-select');
+    if(tf) tf.style.display = m==='kanji' ? 'inline-block' : 'none';
+  }
+
+  const validPages = ["schedule", "lessons", "flashcards", "quiz", "exam", "game"];
+  if (validPages.includes(p)) {
+    showPage(p, null, false);
+  } else {
+    showPage('schedule', null, false);
   }
 }
 
@@ -179,7 +235,7 @@ function showPage(p, btn, updateHash = true) {
 
   // Update URL Hash for back/forward support
   if (updateHash) {
-    window.location.hash = p;
+    window.location.hash = `${currentMode}/${p}`;
   }
 
   // Update active page
@@ -213,6 +269,11 @@ function showPage(p, btn, updateHash = true) {
   const hLbl1 = document.getElementById("h-lbl-1");
   const hStat2 = document.getElementById("h-stat-2");
   const hLbl2 = document.getElementById("h-lbl-2");
+
+  if (currentMode === 'kanji' && typeof renderKanjiPage === 'function') {
+      renderKanjiPage(p, heroSub, heroMain, hStat1, hLbl1, hStat2, hLbl2);
+      return;
+  }
 
   const pool = applyFilter(GRAMMAR);
 
@@ -287,6 +348,15 @@ function setGF(f) {
   // Update select value if not already set (e.g. when called from code)
   const select = document.getElementById("global-filter-select");
   if (select && select.value !== f) select.value = f;
+
+  // Refresh current page with new filter
+  showPage(currentPage);
+}
+
+function setTF(f) {
+  // Update kanji type filter (kanji-only / vocab-only / all)
+  if (typeof kanjiTypeFilter !== 'undefined') kanjiTypeFilter = f;
+  window.kanjiTypeFilter = f;
 
   // Refresh current page with new filter
   showPage(currentPage);

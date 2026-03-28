@@ -1,0 +1,9122 @@
+[
+  {
+    "id": "政",
+    "type": "kanji",
+    "main": "政",
+    "reading": "セイ・ショウ/まつりごと",
+    "meaning": "government; politics",
+    "words": "政治 (せいじ) / 政府 (せいふ) / 政策 (せいさく)",
+    "examples": [
+      {
+        "jp": "<ruby>政<rt>セイ</rt></ruby>",
+        "en": "government; politics"
+      }
+    ],
+    "w": 1,
+    "d": 1
+  },
+  {
+    "id": "議",
+    "type": "kanji",
+    "main": "議",
+    "reading": "ギ",
+    "meaning": "discuss; debate; meeting",
+    "words": "会議 (かいぎ) / 議論 (ぎろん) / 議員 (ぎいん)",
+    "examples": [
+      {
+        "jp": "<ruby>議<rt>ギ</rt></ruby>",
+        "en": "discuss; debate; meeting"
+      }
+    ],
+    "w": 1,
+    "d": 1
+  },
+  {
+    "id": "政治",
+    "type": "noun",
+    "main": "政治",
+    "reading": "せいじ",
+    "meaning": "politics; government",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>政治<rt>せいじ</rt></ruby>",
+        "en": "politics; government"
+      }
+    ],
+    "w": 1,
+    "d": 1
+  },
+  {
+    "id": "民",
+    "type": "kanji",
+    "main": "民",
+    "reading": "ミン/たみ",
+    "meaning": "people; nation",
+    "words": "国民 (こくみん) / 民族 (みんぞく) / 市民 (しみん)",
+    "examples": [
+      {
+        "jp": "<ruby>民<rt>ミン</rt></ruby>",
+        "en": "people; nation"
+      }
+    ],
+    "w": 1,
+    "d": 2
+  },
+  {
+    "id": "連",
+    "type": "kanji",
+    "main": "連",
+    "reading": "レン/つら.なる・つ.れる",
+    "meaning": "join; connect; series",
+    "words": "連絡 (れんらく) / 関連 (かんれん) / 連続 (れんぞく)",
+    "examples": [
+      {
+        "jp": "<ruby>連<rt>レン</rt></ruby>",
+        "en": "join; connect; series"
+      }
+    ],
+    "w": 1,
+    "d": 2
+  },
+  {
+    "id": "対",
+    "type": "kanji",
+    "main": "対",
+    "reading": "タイ・ツイ",
+    "meaning": "oppose; versus; anti-",
+    "words": "対策 (たいさく) / 反対 (はんたい) / 対象 (たいしょう)",
+    "examples": [
+      {
+        "jp": "<ruby>対<rt>タイ</rt></ruby>",
+        "en": "oppose; versus; anti-"
+      }
+    ],
+    "w": 1,
+    "d": 2
+  },
+  {
+    "id": "社会",
+    "type": "noun",
+    "main": "社会",
+    "reading": "しゃかい",
+    "meaning": "society; community",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>社会<rt>しゃかい</rt></ruby>",
+        "en": "society; community"
+      }
+    ],
+    "w": 1,
+    "d": 2
+  },
+  {
+    "id": "部",
+    "type": "kanji",
+    "main": "部",
+    "reading": "ブ/べ",
+    "meaning": "section; department; part",
+    "words": "部分 (ぶぶん) / 全部 (ぜんぶ) / 部長 (ぶちょう)",
+    "examples": [
+      {
+        "jp": "<ruby>部<rt>ブ</rt></ruby>",
+        "en": "section; department; part"
+      }
+    ],
+    "w": 1,
+    "d": 3
+  },
+  {
+    "id": "合",
+    "type": "kanji",
+    "main": "合",
+    "reading": "ゴウ・カッ/あ.わせる・あ.う",
+    "meaning": "match; fit; combine",
+    "words": "合格 (ごうかく) / 場合 (ばあい) / 試合 (しあい)",
+    "examples": [
+      {
+        "jp": "<ruby>合<rt>ゴウ</rt></ruby>",
+        "en": "match; fit; combine"
+      }
+    ],
+    "w": 1,
+    "d": 3
+  },
+  {
+    "id": "責任",
+    "type": "noun",
+    "main": "責任",
+    "reading": "せきにん",
+    "meaning": "responsibility; duty",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>責任<rt>せきにん</rt></ruby>",
+        "en": "responsibility; duty"
+      }
+    ],
+    "w": 1,
+    "d": 3
+  },
+  {
+    "id": "義務",
+    "type": "noun",
+    "main": "義務",
+    "reading": "ぎむ",
+    "meaning": "duty; obligation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>義務<rt>ぎむ</rt></ruby>",
+        "en": "duty; obligation"
+      }
+    ],
+    "w": 1,
+    "d": 3
+  },
+  {
+    "id": "市",
+    "type": "kanji",
+    "main": "市",
+    "reading": "シ/いち",
+    "meaning": "city; market",
+    "words": "市場 (いちば) / 都市 (とし) / 市民 (しみん)",
+    "examples": [
+      {
+        "jp": "<ruby>市<rt>シ</rt></ruby>",
+        "en": "city; market"
+      }
+    ],
+    "w": 1,
+    "d": 4
+  },
+  {
+    "id": "内",
+    "type": "kanji",
+    "main": "内",
+    "reading": "ナイ・ダイ/うち",
+    "meaning": "inside; within",
+    "words": "国内 (こくない) / 以内 (いない) / 室内 (しつない)",
+    "examples": [
+      {
+        "jp": "<ruby>内<rt>ナイ</rt></ruby>",
+        "en": "inside; within"
+      }
+    ],
+    "w": 1,
+    "d": 4
+  },
+  {
+    "id": "相",
+    "type": "kanji",
+    "main": "相",
+    "reading": "ソウ・ショウ/あい",
+    "meaning": "mutual; minister",
+    "words": "相談 (そうだん) / 首相 (しゅしょう) / 相互 (そうご)",
+    "examples": [
+      {
+        "jp": "<ruby>相<rt>ソウ</rt></ruby>",
+        "en": "mutual; minister"
+      }
+    ],
+    "w": 1,
+    "d": 4
+  },
+  {
+    "id": "権利",
+    "type": "noun",
+    "main": "権利",
+    "reading": "けんり",
+    "meaning": "right; privilege; entitlement",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>権利<rt>けんり</rt></ruby>",
+        "en": "right; privilege; entitlement"
+      }
+    ],
+    "w": 1,
+    "d": 4
+  },
+  {
+    "id": "定",
+    "type": "kanji",
+    "main": "定",
+    "reading": "テイ・ジョウ/さだ.める",
+    "meaning": "determine; fix",
+    "words": "予定 (よてい) / 決定 (けってい) / 安定 (あんてい)",
+    "examples": [
+      {
+        "jp": "<ruby>定<rt>テイ</rt></ruby>",
+        "en": "determine; fix"
+      }
+    ],
+    "w": 1,
+    "d": 5
+  },
+  {
+    "id": "回",
+    "type": "kanji",
+    "main": "回",
+    "reading": "カイ・エ/まわ.る",
+    "meaning": "turn; times",
+    "words": "今回 (こんかい) / 回答 (かいとう) / 回転 (かいてん)",
+    "examples": [
+      {
+        "jp": "<ruby>回<rt>カイ</rt></ruby>",
+        "en": "turn; times"
+      }
+    ],
+    "w": 1,
+    "d": 5
+  },
+  {
+    "id": "法律",
+    "type": "noun",
+    "main": "法律",
+    "reading": "ほうりつ",
+    "meaning": "law; legislation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>法律<rt>ほうりつ</rt></ruby>",
+        "en": "law; legislation"
+      }
+    ],
+    "w": 1,
+    "d": 5
+  },
+  {
+    "id": "選",
+    "type": "kanji",
+    "main": "選",
+    "reading": "セン/えら.ぶ",
+    "meaning": "choose; elect",
+    "words": "選ぶ (えらぶ) / 選挙 (せんきょ) / 選択 (せんたく)",
+    "examples": [
+      {
+        "jp": "<ruby>選<rt>セン</rt></ruby>",
+        "en": "choose; elect"
+      }
+    ],
+    "w": 2,
+    "d": 1
+  },
+  {
+    "id": "米",
+    "type": "kanji",
+    "main": "米",
+    "reading": "ベイ・マイ/こめ",
+    "meaning": "rice; USA",
+    "words": "米 (こめ) / 欧米 (おうべい) / 米国 (べいこく)",
+    "examples": [
+      {
+        "jp": "<ruby>米<rt>ベイ</rt></ruby>",
+        "en": "rice; USA"
+      }
+    ],
+    "w": 2,
+    "d": 1
+  },
+  {
+    "id": "実",
+    "type": "kanji",
+    "main": "実",
+    "reading": "ジツ/み・みの.る",
+    "meaning": "truth; reality; actual",
+    "words": "実際 (じっさい) / 事実 (じじつ) / 実現 (じつげん)",
+    "examples": [
+      {
+        "jp": "<ruby>実<rt>ジツ</rt></ruby>",
+        "en": "truth; reality; actual"
+      }
+    ],
+    "w": 2,
+    "d": 1
+  },
+  {
+    "id": "制度",
+    "type": "noun",
+    "main": "制度",
+    "reading": "せいど",
+    "meaning": "system; institution",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>制度<rt>せいど</rt></ruby>",
+        "en": "system; institution"
+      }
+    ],
+    "w": 2,
+    "d": 1
+  },
+  {
+    "id": "報告",
+    "type": "noun",
+    "main": "報告",
+    "reading": "ほうこく",
+    "meaning": "report; notification",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>報告<rt>ほうこく</rt></ruby>",
+        "en": "report; notification"
+      }
+    ],
+    "w": 2,
+    "d": 1
+  },
+  {
+    "id": "関",
+    "type": "kanji",
+    "main": "関",
+    "reading": "カン/かか.わる",
+    "meaning": "relate; involve",
+    "words": "関係 (かんけい) / 機関 (きかん) / 関連 (かんれん)",
+    "examples": [
+      {
+        "jp": "<ruby>関<rt>カン</rt></ruby>",
+        "en": "relate; involve"
+      }
+    ],
+    "w": 2,
+    "d": 2
+  },
+  {
+    "id": "決",
+    "type": "kanji",
+    "main": "決",
+    "reading": "ケツ/き.める",
+    "meaning": "decide; determine",
+    "words": "決める (きめる) / 決定 (けってい) / 解決 (かいけつ)",
+    "examples": [
+      {
+        "jp": "<ruby>決<rt>ケツ</rt></ruby>",
+        "en": "decide; determine"
+      }
+    ],
+    "w": 2,
+    "d": 2
+  },
+  {
+    "id": "発表",
+    "type": "noun",
+    "main": "発表",
+    "reading": "はっぴょう",
+    "meaning": "announcement; presentation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>発表<rt>はっぴょう</rt></ruby>",
+        "en": "announcement; presentation"
+      }
+    ],
+    "w": 2,
+    "d": 2
+  },
+  {
+    "id": "全",
+    "type": "kanji",
+    "main": "全",
+    "reading": "ゼン/まった.く",
+    "meaning": "all; whole; complete",
+    "words": "全部 (ぜんぶ) / 全国 (ぜんこく) / 全然 (ぜんぜん)",
+    "examples": [
+      {
+        "jp": "<ruby>全<rt>ゼン</rt></ruby>",
+        "en": "all; whole; complete"
+      }
+    ],
+    "w": 2,
+    "d": 3
+  },
+  {
+    "id": "表",
+    "type": "kanji",
+    "main": "表",
+    "reading": "ヒョウ/おもて・あらわ.す",
+    "meaning": "surface; express; table",
+    "words": "表現 (ひょうげん) / 発表 (はっぴょう) / 表面 (ひょうめん)",
+    "examples": [
+      {
+        "jp": "<ruby>表<rt>ヒョウ</rt></ruby>",
+        "en": "surface; express; table"
+      }
+    ],
+    "w": 2,
+    "d": 3
+  },
+  {
+    "id": "戦",
+    "type": "kanji",
+    "main": "戦",
+    "reading": "セン/いくさ・たたか.う",
+    "meaning": "war; battle; fight",
+    "words": "戦争 (せんそう) / 挑戦 (ちょうせん) / 戦う (たたかう)",
+    "examples": [
+      {
+        "jp": "<ruby>戦<rt>セン</rt></ruby>",
+        "en": "war; battle; fight"
+      }
+    ],
+    "w": 2,
+    "d": 3
+  },
+  {
+    "id": "確認",
+    "type": "noun",
+    "main": "確認",
+    "reading": "かくにん",
+    "meaning": "confirmation; verification",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>確認<rt>かくにん</rt></ruby>",
+        "en": "confirmation; verification"
+      }
+    ],
+    "w": 2,
+    "d": 3
+  },
+  {
+    "id": "経",
+    "type": "kanji",
+    "main": "経",
+    "reading": "ケイ・キョウ/へ.る",
+    "meaning": "pass through; manage",
+    "words": "経済 (けいざい) / 経験 (けいけん) / 経営 (けいえい)",
+    "examples": [
+      {
+        "jp": "<ruby>経<rt>ケイ</rt></ruby>",
+        "en": "pass through; manage"
+      }
+    ],
+    "w": 2,
+    "d": 4
+  },
+  {
+    "id": "最",
+    "type": "kanji",
+    "main": "最",
+    "reading": "サイ/もっと.も",
+    "meaning": "utmost; most",
+    "words": "最近 (さいきん) / 最高 (さいこう) / 最後 (さいご)",
+    "examples": [
+      {
+        "jp": "<ruby>最<rt>サイ</rt></ruby>",
+        "en": "utmost; most"
+      }
+    ],
+    "w": 2,
+    "d": 4
+  },
+  {
+    "id": "連絡",
+    "type": "noun",
+    "main": "連絡",
+    "reading": "れんらく",
+    "meaning": "contact; communication",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>連絡<rt>れんらく</rt></ruby>",
+        "en": "contact; communication"
+      }
+    ],
+    "w": 2,
+    "d": 4
+  },
+  {
+    "id": "協力",
+    "type": "noun",
+    "main": "協力",
+    "reading": "きょうりょく",
+    "meaning": "cooperation; collaboration",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>協力<rt>きょうりょく</rt></ruby>",
+        "en": "cooperation; collaboration"
+      }
+    ],
+    "w": 2,
+    "d": 4
+  },
+  {
+    "id": "現",
+    "type": "kanji",
+    "main": "現",
+    "reading": "ゲン/あらわ.れる",
+    "meaning": "appear; present; actual",
+    "words": "現在 (げんざい) / 現代 (げんだい) / 実現 (じつげん)",
+    "examples": [
+      {
+        "jp": "<ruby>現<rt>ゲン</rt></ruby>",
+        "en": "appear; present; actual"
+      }
+    ],
+    "w": 2,
+    "d": 5
+  },
+  {
+    "id": "調",
+    "type": "kanji",
+    "main": "調",
+    "reading": "チョウ/しら.べる",
+    "meaning": "investigate; tune",
+    "words": "調べる (しらべる) / 調査 (ちょうさ) / 調整 (ちょうせい)",
+    "examples": [
+      {
+        "jp": "<ruby>調<rt>チョウ</rt></ruby>",
+        "en": "investigate; tune"
+      }
+    ],
+    "w": 2,
+    "d": 5
+  },
+  {
+    "id": "化",
+    "type": "kanji",
+    "main": "化",
+    "reading": "カ・ケ/ば.ける",
+    "meaning": "change; transform",
+    "words": "変化 (へんか) / 文化 (ぶんか) / 化学 (かがく)",
+    "examples": [
+      {
+        "jp": "<ruby>化<rt>カ</rt></ruby>",
+        "en": "change; transform"
+      }
+    ],
+    "w": 2,
+    "d": 5
+  },
+  {
+    "id": "参加",
+    "type": "noun",
+    "main": "参加",
+    "reading": "さんか",
+    "meaning": "participation; attendance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>参加<rt>さんか</rt></ruby>",
+        "en": "participation; attendance"
+      }
+    ],
+    "w": 2,
+    "d": 5
+  },
+  {
+    "id": "当",
+    "type": "kanji",
+    "main": "当",
+    "reading": "トウ/あ.たる",
+    "meaning": "hit; appropriate",
+    "words": "当然 (とうぜん) / 担当 (たんとう) / 当たる (あたる)",
+    "examples": [
+      {
+        "jp": "<ruby>当<rt>トウ</rt></ruby>",
+        "en": "hit; appropriate"
+      }
+    ],
+    "w": 3,
+    "d": 1
+  },
+  {
+    "id": "約",
+    "type": "kanji",
+    "main": "約",
+    "reading": "ヤク",
+    "meaning": "promise; approximately",
+    "words": "約束 (やくそく) / 約 (やく) / 条約 (じょうやく)",
+    "examples": [
+      {
+        "jp": "<ruby>約<rt>ヤク</rt></ruby>",
+        "en": "promise; approximately"
+      }
+    ],
+    "w": 3,
+    "d": 1
+  },
+  {
+    "id": "会議",
+    "type": "noun",
+    "main": "会議",
+    "reading": "かいぎ",
+    "meaning": "meeting; conference",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>会議<rt>かいぎ</rt></ruby>",
+        "en": "meeting; conference"
+      }
+    ],
+    "w": 3,
+    "d": 1
+  },
+  {
+    "id": "首",
+    "type": "kanji",
+    "main": "首",
+    "reading": "シュ/くび",
+    "meaning": "neck; head; chief",
+    "words": "首相 (しゅしょう) / 首都 (しゅと) / 首 (くび)",
+    "examples": [
+      {
+        "jp": "<ruby>首<rt>シュ</rt></ruby>",
+        "en": "neck; head; chief"
+      }
+    ],
+    "w": 3,
+    "d": 2
+  },
+  {
+    "id": "法",
+    "type": "kanji",
+    "main": "法",
+    "reading": "ホウ・ハッ/のり",
+    "meaning": "law; method",
+    "words": "法律 (ほうりつ) / 方法 (ほうほう) / 違法 (いほう)",
+    "examples": [
+      {
+        "jp": "<ruby>法<rt>ホウ</rt></ruby>",
+        "en": "law; method"
+      }
+    ],
+    "w": 3,
+    "d": 2
+  },
+  {
+    "id": "性",
+    "type": "kanji",
+    "main": "性",
+    "reading": "セイ・ショウ",
+    "meaning": "sex; nature; character",
+    "words": "性格 (せいかく) / 女性 (じょせい) / 個性 (こせい)",
+    "examples": [
+      {
+        "jp": "<ruby>性<rt>セイ</rt></ruby>",
+        "en": "sex; nature; character"
+      }
+    ],
+    "w": 3,
+    "d": 2
+  },
+  {
+    "id": "決定",
+    "type": "noun",
+    "main": "決定",
+    "reading": "けってい",
+    "meaning": "decision; determination",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>決定<rt>けってい</rt></ruby>",
+        "en": "decision; determination"
+      }
+    ],
+    "w": 3,
+    "d": 2
+  },
+  {
+    "id": "計画",
+    "type": "noun",
+    "main": "計画",
+    "reading": "けいかく",
+    "meaning": "plan; project; schedule",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>計画<rt>けいかく</rt></ruby>",
+        "en": "plan; project; schedule"
+      }
+    ],
+    "w": 3,
+    "d": 2
+  },
+  {
+    "id": "的",
+    "type": "kanji",
+    "main": "的",
+    "reading": "テキ/まと",
+    "meaning": "target; -like; -al",
+    "words": "目的 (もくてき) / 的 (まと) / 一般的 (いっぱんてき)",
+    "examples": [
+      {
+        "jp": "<ruby>的<rt>テキ</rt></ruby>",
+        "en": "target; -like; -al"
+      }
+    ],
+    "w": 3,
+    "d": 3
+  },
+  {
+    "id": "要",
+    "type": "kanji",
+    "main": "要",
+    "reading": "ヨウ/い.る",
+    "meaning": "necessary; main point",
+    "words": "必要 (ひつよう) / 重要 (じゅうよう) / 要求 (ようきゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>要<rt>ヨウ</rt></ruby>",
+        "en": "necessary; main point"
+      }
+    ],
+    "w": 3,
+    "d": 3
+  },
+  {
+    "id": "目的",
+    "type": "noun",
+    "main": "目的",
+    "reading": "もくてき",
+    "meaning": "purpose; aim; goal",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>目的<rt>もくてき</rt></ruby>",
+        "en": "purpose; aim; goal"
+      }
+    ],
+    "w": 3,
+    "d": 3
+  },
+  {
+    "id": "制",
+    "type": "kanji",
+    "main": "制",
+    "reading": "セイ",
+    "meaning": "system; control",
+    "words": "制度 (せいど) / 制限 (せいげん) / 体制 (たいせい)",
+    "examples": [
+      {
+        "jp": "<ruby>制<rt>セイ</rt></ruby>",
+        "en": "system; control"
+      }
+    ],
+    "w": 3,
+    "d": 4
+  },
+  {
+    "id": "治",
+    "type": "kanji",
+    "main": "治",
+    "reading": "ジ・チ/おさ.める・なお.る",
+    "meaning": "reign; cure; heal",
+    "words": "政治 (せいじ) / 治療 (ちりょう) / 治る (なおる)",
+    "examples": [
+      {
+        "jp": "<ruby>治<rt>ジ</rt></ruby>",
+        "en": "reign; cure; heal"
+      }
+    ],
+    "w": 3,
+    "d": 4
+  },
+  {
+    "id": "務",
+    "type": "kanji",
+    "main": "務",
+    "reading": "ム/つと.める",
+    "meaning": "task; duty; serve",
+    "words": "義務 (ぎむ) / 業務 (ぎょうむ) / 務める (つとめる)",
+    "examples": [
+      {
+        "jp": "<ruby>務<rt>ム</rt></ruby>",
+        "en": "task; duty; serve"
+      }
+    ],
+    "w": 3,
+    "d": 4
+  },
+  {
+    "id": "方法",
+    "type": "noun",
+    "main": "方法",
+    "reading": "ほうほう",
+    "meaning": "method; way; means",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>方法<rt>ほうほう</rt></ruby>",
+        "en": "method; way; means"
+      }
+    ],
+    "w": 3,
+    "d": 4
+  },
+  {
+    "id": "成",
+    "type": "kanji",
+    "main": "成",
+    "reading": "セイ・ジョウ/な.る",
+    "meaning": "become; achieve",
+    "words": "成功 (せいこう) / 成長 (せいちょう) / 完成 (かんせい)",
+    "examples": [
+      {
+        "jp": "<ruby>成<rt>セイ</rt></ruby>",
+        "en": "become; achieve"
+      }
+    ],
+    "w": 3,
+    "d": 5
+  },
+  {
+    "id": "期",
+    "type": "kanji",
+    "main": "期",
+    "reading": "キ・ゴ",
+    "meaning": "period; term; expect",
+    "words": "期間 (きかん) / 期待 (きたい) / 定期 (ていき)",
+    "examples": [
+      {
+        "jp": "<ruby>期<rt>キ</rt></ruby>",
+        "en": "period; term; expect"
+      }
+    ],
+    "w": 3,
+    "d": 5
+  },
+  {
+    "id": "手段",
+    "type": "noun",
+    "main": "手段",
+    "reading": "しゅだん",
+    "meaning": "means; method; measure",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>手段<rt>しゅだん</rt></ruby>",
+        "en": "means; method; measure"
+      }
+    ],
+    "w": 3,
+    "d": 5
+  },
+  {
+    "id": "組織",
+    "type": "noun",
+    "main": "組織",
+    "reading": "そしき",
+    "meaning": "organization; structure",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>組織<rt>そしき</rt></ruby>",
+        "en": "organization; structure"
+      }
+    ],
+    "w": 3,
+    "d": 5
+  },
+  {
+    "id": "取",
+    "type": "kanji",
+    "main": "取",
+    "reading": "シュ/と.る",
+    "meaning": "take; fetch; get",
+    "words": "取る (とる) / 受け取る (うけとる) / 取引 (とりひき)",
+    "examples": [
+      {
+        "jp": "<ruby>取<rt>シュ</rt></ruby>",
+        "en": "take; fetch; get"
+      }
+    ],
+    "w": 4,
+    "d": 1
+  },
+  {
+    "id": "都",
+    "type": "kanji",
+    "main": "都",
+    "reading": "ト・ツ/みやこ",
+    "meaning": "metropolis; capital",
+    "words": "東京都 / 都市 (とし) / 都会 (とかい)",
+    "examples": [
+      {
+        "jp": "<ruby>都<rt>ト</rt></ruby>",
+        "en": "metropolis; capital"
+      }
+    ],
+    "w": 4,
+    "d": 1
+  },
+  {
+    "id": "和",
+    "type": "kanji",
+    "main": "和",
+    "reading": "ワ・オ/やわ.らぐ",
+    "meaning": "harmony; peace; Japan",
+    "words": "平和 (へいわ) / 和食 (わしょく) / 調和 (ちょうわ)",
+    "examples": [
+      {
+        "jp": "<ruby>和<rt>ワ</rt></ruby>",
+        "en": "harmony; peace; Japan"
+      }
+    ],
+    "w": 4,
+    "d": 1
+  },
+  {
+    "id": "職場",
+    "type": "noun",
+    "main": "職場",
+    "reading": "しょくば",
+    "meaning": "workplace; office",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>職場<rt>しょくば</rt></ruby>",
+        "en": "workplace; office"
+      }
+    ],
+    "w": 4,
+    "d": 1
+  },
+  {
+    "id": "機",
+    "type": "kanji",
+    "main": "機",
+    "reading": "キ/はた",
+    "meaning": "machine; opportunity",
+    "words": "機械 (きかい) / 飛行機 (ひこうき) / 機会 (きかい)",
+    "examples": [
+      {
+        "jp": "<ruby>機<rt>キ</rt></ruby>",
+        "en": "machine; opportunity"
+      }
+    ],
+    "w": 4,
+    "d": 2
+  },
+  {
+    "id": "平",
+    "type": "kanji",
+    "main": "平",
+    "reading": "ヘイ・ビョウ/たい.ら",
+    "meaning": "flat; calm; peaceful",
+    "words": "平和 (へいわ) / 平均 (へいきん) / 水平 (すいへい)",
+    "examples": [
+      {
+        "jp": "<ruby>平<rt>ヘイ</rt></ruby>",
+        "en": "flat; calm; peaceful"
+      }
+    ],
+    "w": 4,
+    "d": 2
+  },
+  {
+    "id": "経営",
+    "type": "noun",
+    "main": "経営",
+    "reading": "けいえい",
+    "meaning": "management; administration",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>経営<rt>けいえい</rt></ruby>",
+        "en": "management; administration"
+      }
+    ],
+    "w": 4,
+    "d": 2
+  },
+  {
+    "id": "加",
+    "type": "kanji",
+    "main": "加",
+    "reading": "カ/くわ.える",
+    "meaning": "add; join; increase",
+    "words": "加える (くわえる) / 参加 (さんか) / 追加 (ついか)",
+    "examples": [
+      {
+        "jp": "<ruby>加<rt>カ</rt></ruby>",
+        "en": "add; join; increase"
+      }
+    ],
+    "w": 4,
+    "d": 3
+  },
+  {
+    "id": "受",
+    "type": "kanji",
+    "main": "受",
+    "reading": "ジュ/う.ける",
+    "meaning": "receive; accept",
+    "words": "受ける (うける) / 受験 (じゅけん) / 受付 (うけつけ)",
+    "examples": [
+      {
+        "jp": "<ruby>受<rt>ジュ</rt></ruby>",
+        "en": "receive; accept"
+      }
+    ],
+    "w": 4,
+    "d": 3
+  },
+  {
+    "id": "続",
+    "type": "kanji",
+    "main": "続",
+    "reading": "ゾク/つづ.く",
+    "meaning": "continue; series",
+    "words": "続く (つづく) / 継続 (けいぞく) / 続き (つづき)",
+    "examples": [
+      {
+        "jp": "<ruby>続<rt>ゾク</rt></ruby>",
+        "en": "continue; series"
+      }
+    ],
+    "w": 4,
+    "d": 3
+  },
+  {
+    "id": "理由",
+    "type": "noun",
+    "main": "理由",
+    "reading": "りゆう",
+    "meaning": "reason; cause; grounds",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>理由<rt>りゆう</rt></ruby>",
+        "en": "reason; cause; grounds"
+      }
+    ],
+    "w": 4,
+    "d": 3
+  },
+  {
+    "id": "結果",
+    "type": "noun",
+    "main": "結果",
+    "reading": "けっか",
+    "meaning": "result; outcome; consequence",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>結果<rt>けっか</rt></ruby>",
+        "en": "result; outcome; consequence"
+      }
+    ],
+    "w": 4,
+    "d": 3
+  },
+  {
+    "id": "進",
+    "type": "kanji",
+    "main": "進",
+    "reading": "シン/すす.む",
+    "meaning": "advance; proceed",
+    "words": "進む (すすむ) / 前進 (ぜんしん) / 進歩 (しんぽ)",
+    "examples": [
+      {
+        "jp": "<ruby>進<rt>シン</rt></ruby>",
+        "en": "advance; proceed"
+      }
+    ],
+    "w": 4,
+    "d": 4
+  },
+  {
+    "id": "数",
+    "type": "kanji",
+    "main": "数",
+    "reading": "スウ・ス/かず",
+    "meaning": "number; count",
+    "words": "数字 (すうじ) / 数学 (すうがく) / 多数 (たすう)",
+    "examples": [
+      {
+        "jp": "<ruby>数<rt>スウ</rt></ruby>",
+        "en": "number; count"
+      }
+    ],
+    "w": 4,
+    "d": 4
+  },
+  {
+    "id": "原因",
+    "type": "noun",
+    "main": "原因",
+    "reading": "げんいん",
+    "meaning": "cause; reason; origin",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>原因<rt>げんいん</rt></ruby>",
+        "en": "cause; reason; origin"
+      }
+    ],
+    "w": 4,
+    "d": 4
+  },
+  {
+    "id": "記",
+    "type": "kanji",
+    "main": "記",
+    "reading": "キ/しる.す",
+    "meaning": "write down; record",
+    "words": "記録 (きろく) / 日記 (にっき) / 記念 (きねん)",
+    "examples": [
+      {
+        "jp": "<ruby>記<rt>キ</rt></ruby>",
+        "en": "write down; record"
+      }
+    ],
+    "w": 4,
+    "d": 5
+  },
+  {
+    "id": "初",
+    "type": "kanji",
+    "main": "初",
+    "reading": "ショ/はじ.めて",
+    "meaning": "first; beginning",
+    "words": "初めて (はじめて) / 最初 (さいしょ) / 初日 (しょにち)",
+    "examples": [
+      {
+        "jp": "<ruby>初<rt>ショ</rt></ruby>",
+        "en": "first; beginning"
+      }
+    ],
+    "w": 4,
+    "d": 5
+  },
+  {
+    "id": "指",
+    "type": "kanji",
+    "main": "指",
+    "reading": "シ/ゆび・さ.す",
+    "meaning": "finger; point",
+    "words": "指 (ゆび) / 指示 (しじ) / 指摘 (してき)",
+    "examples": [
+      {
+        "jp": "<ruby>指<rt>シ</rt></ruby>",
+        "en": "finger; point"
+      }
+    ],
+    "w": 4,
+    "d": 5
+  },
+  {
+    "id": "影響",
+    "type": "noun",
+    "main": "影響",
+    "reading": "えいきょう",
+    "meaning": "influence; effect; impact",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>影響<rt>えいきょう</rt></ruby>",
+        "en": "influence; effect; impact"
+      }
+    ],
+    "w": 4,
+    "d": 5
+  },
+  {
+    "id": "権",
+    "type": "kanji",
+    "main": "権",
+    "reading": "ケン・ゴン",
+    "meaning": "right; authority; power",
+    "words": "権利 (けんり) / 人権 (じんけん) / 権力 (けんりょく)",
+    "examples": [
+      {
+        "jp": "<ruby>権<rt>ケン</rt></ruby>",
+        "en": "right; authority; power"
+      }
+    ],
+    "w": 5,
+    "d": 1
+  },
+  {
+    "id": "支",
+    "type": "kanji",
+    "main": "支",
+    "reading": "シ/ささ.える",
+    "meaning": "support; branch; pay",
+    "words": "支払い (しはらい) / 支持 (しじ) / 支店 (してん)",
+    "examples": [
+      {
+        "jp": "<ruby>支<rt>シ</rt></ruby>",
+        "en": "support; branch; pay"
+      }
+    ],
+    "w": 5,
+    "d": 1
+  },
+  {
+    "id": "問題",
+    "type": "noun",
+    "main": "問題",
+    "reading": "もんだい",
+    "meaning": "problem; question; issue",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>問題<rt>もんだい</rt></ruby>",
+        "en": "problem; question; issue"
+      }
+    ],
+    "w": 5,
+    "d": 1
+  },
+  {
+    "id": "解決",
+    "type": "noun",
+    "main": "解決",
+    "reading": "かいけつ",
+    "meaning": "solution; settlement",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>解決<rt>かいけつ</rt></ruby>",
+        "en": "solution; settlement"
+      }
+    ],
+    "w": 5,
+    "d": 1
+  },
+  {
+    "id": "産",
+    "type": "kanji",
+    "main": "産",
+    "reading": "サン/う.む",
+    "meaning": "produce; birth; property",
+    "words": "産業 (さんぎょう) / 生産 (せいさん) / 出産 (しゅっさん)",
+    "examples": [
+      {
+        "jp": "<ruby>産<rt>サン</rt></ruby>",
+        "en": "produce; birth; property"
+      }
+    ],
+    "w": 5,
+    "d": 2
+  },
+  {
+    "id": "点",
+    "type": "kanji",
+    "main": "点",
+    "reading": "テン",
+    "meaning": "point; spot; mark",
+    "words": "点 (てん) / 得点 (とくてん) / 問題点 (もんだいてん)",
+    "examples": [
+      {
+        "jp": "<ruby>点<rt>テン</rt></ruby>",
+        "en": "point; spot; mark"
+      }
+    ],
+    "w": 5,
+    "d": 2
+  },
+  {
+    "id": "報",
+    "type": "kanji",
+    "main": "報",
+    "reading": "ホウ/むく.いる",
+    "meaning": "report; inform",
+    "words": "情報 (じょうほう) / 報告 (ほうこく) / 報道 (ほうどう)",
+    "examples": [
+      {
+        "jp": "<ruby>報<rt>ホウ</rt></ruby>",
+        "en": "report; inform"
+      }
+    ],
+    "w": 5,
+    "d": 2
+  },
+  {
+    "id": "目標",
+    "type": "noun",
+    "main": "目標",
+    "reading": "もくひょう",
+    "meaning": "goal; target; objective",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>目標<rt>もくひょう</rt></ruby>",
+        "en": "goal; target; objective"
+      }
+    ],
+    "w": 5,
+    "d": 2
+  },
+  {
+    "id": "済",
+    "type": "kanji",
+    "main": "済",
+    "reading": "サイ/す.む",
+    "meaning": "settle; finish; economy",
+    "words": "経済 (けいざい) / 済む (すむ) / 救済 (きゅうさい)",
+    "examples": [
+      {
+        "jp": "<ruby>済<rt>サイ</rt></ruby>",
+        "en": "settle; finish; economy"
+      }
+    ],
+    "w": 5,
+    "d": 3
+  },
+  {
+    "id": "活",
+    "type": "kanji",
+    "main": "活",
+    "reading": "カツ",
+    "meaning": "active; lively; live",
+    "words": "活動 (かつどう) / 生活 (せいかつ) / 活用 (かつよう)",
+    "examples": [
+      {
+        "jp": "<ruby>活<rt>カツ</rt></ruby>",
+        "en": "active; lively; live"
+      }
+    ],
+    "w": 5,
+    "d": 3
+  },
+  {
+    "id": "意見",
+    "type": "noun",
+    "main": "意見",
+    "reading": "いけん",
+    "meaning": "opinion; view; comment",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>意見<rt>いけん</rt></ruby>",
+        "en": "opinion; view; comment"
+      }
+    ],
+    "w": 5,
+    "d": 3
+  },
+  {
+    "id": "原",
+    "type": "kanji",
+    "main": "原",
+    "reading": "ゲン/はら",
+    "meaning": "field; original; cause",
+    "words": "原因 (げんいん) / 原則 (げんそく) / 原料 (げんりょう)",
+    "examples": [
+      {
+        "jp": "<ruby>原<rt>ゲン</rt></ruby>",
+        "en": "field; original; cause"
+      }
+    ],
+    "w": 5,
+    "d": 4
+  },
+  {
+    "id": "共",
+    "type": "kanji",
+    "main": "共",
+    "reading": "キョウ/とも",
+    "meaning": "together; common; both",
+    "words": "共通 (きょうつう) / 共同 (きょうどう) / 共に (ともに)",
+    "examples": [
+      {
+        "jp": "<ruby>共<rt>キョウ</rt></ruby>",
+        "en": "together; common; both"
+      }
+    ],
+    "w": 5,
+    "d": 4
+  },
+  {
+    "id": "得",
+    "type": "kanji",
+    "main": "得",
+    "reading": "トク/え.る",
+    "meaning": "gain; acquire; profit",
+    "words": "得る (える) / 取得 (しゅとく) / 納得 (なっとく)",
+    "examples": [
+      {
+        "jp": "<ruby>得<rt>トク</rt></ruby>",
+        "en": "gain; acquire; profit"
+      }
+    ],
+    "w": 5,
+    "d": 4
+  },
+  {
+    "id": "判断",
+    "type": "noun",
+    "main": "判断",
+    "reading": "はんだん",
+    "meaning": "judgment; decision",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>判断<rt>はんだん</rt></ruby>",
+        "en": "judgment; decision"
+      }
+    ],
+    "w": 5,
+    "d": 4
+  },
+  {
+    "id": "場合",
+    "type": "noun",
+    "main": "場合",
+    "reading": "ばあい",
+    "meaning": "case; situation; circumstance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>場合<rt>ばあい</rt></ruby>",
+        "en": "case; situation; circumstance"
+      }
+    ],
+    "w": 5,
+    "d": 4
+  },
+  {
+    "id": "解",
+    "type": "kanji",
+    "main": "解",
+    "reading": "カイ・ゲ/と.く",
+    "meaning": "solve; understand",
+    "words": "解決 (かいけつ) / 理解 (りかい) / 解説 (かいせつ)",
+    "examples": [
+      {
+        "jp": "<ruby>解<rt>カイ</rt></ruby>",
+        "en": "solve; understand"
+      }
+    ],
+    "w": 5,
+    "d": 5
+  },
+  {
+    "id": "交",
+    "type": "kanji",
+    "main": "交",
+    "reading": "コウ/まじ.わる",
+    "meaning": "cross; exchange; mix",
+    "words": "交通 (こうつう) / 交流 (こうりゅう) / 交差点 (こうさてん)",
+    "examples": [
+      {
+        "jp": "<ruby>交<rt>コウ</rt></ruby>",
+        "en": "cross; exchange; mix"
+      }
+    ],
+    "w": 5,
+    "d": 5
+  },
+  {
+    "id": "期間",
+    "type": "noun",
+    "main": "期間",
+    "reading": "きかん",
+    "meaning": "period; duration; term",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>期間<rt>きかん</rt></ruby>",
+        "en": "period; duration; term"
+      }
+    ],
+    "w": 5,
+    "d": 5
+  },
+  {
+    "id": "資",
+    "type": "kanji",
+    "main": "資",
+    "reading": "シ",
+    "meaning": "assets; resources",
+    "words": "資金 (しきん) / 資料 (しりょう) / 資格 (しかく)",
+    "examples": [
+      {
+        "jp": "<ruby>資<rt>シ</rt></ruby>",
+        "en": "assets; resources"
+      }
+    ],
+    "w": 6,
+    "d": 1
+  },
+  {
+    "id": "予",
+    "type": "kanji",
+    "main": "予",
+    "reading": "ヨ/あらかじ.め",
+    "meaning": "beforehand; predict",
+    "words": "予定 (よてい) / 予算 (よさん) / 予約 (よやく)",
+    "examples": [
+      {
+        "jp": "<ruby>予<rt>ヨ</rt></ruby>",
+        "en": "beforehand; predict"
+      }
+    ],
+    "w": 6,
+    "d": 1
+  },
+  {
+    "id": "向",
+    "type": "kanji",
+    "main": "向",
+    "reading": "コウ/む.く",
+    "meaning": "face; toward; suitable",
+    "words": "向かう (むかう) / 方向 (ほうこう) / 傾向 (けいこう)",
+    "examples": [
+      {
+        "jp": "<ruby>向<rt>コウ</rt></ruby>",
+        "en": "face; toward; suitable"
+      }
+    ],
+    "w": 6,
+    "d": 1
+  },
+  {
+    "id": "時代",
+    "type": "noun",
+    "main": "時代",
+    "reading": "じだい",
+    "meaning": "era; age; period",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>時代<rt>じだい</rt></ruby>",
+        "en": "era; age; period"
+      }
+    ],
+    "w": 6,
+    "d": 1
+  },
+  {
+    "id": "際",
+    "type": "kanji",
+    "main": "際",
+    "reading": "サイ/きわ",
+    "meaning": "occasion; side; edge",
+    "words": "際に (さいに) / 国際 (こくさい) / 実際 (じっさい)",
+    "examples": [
+      {
+        "jp": "<ruby>際<rt>サイ</rt></ruby>",
+        "en": "occasion; side; edge"
+      }
+    ],
+    "w": 6,
+    "d": 2
+  },
+  {
+    "id": "勝",
+    "type": "kanji",
+    "main": "勝",
+    "reading": "ショウ/か.つ",
+    "meaning": "victory; win; beat",
+    "words": "勝つ (かつ) / 優勝 (ゆうしょう) / 勝利 (しょうり)",
+    "examples": [
+      {
+        "jp": "<ruby>勝<rt>ショウ</rt></ruby>",
+        "en": "victory; win; beat"
+      }
+    ],
+    "w": 6,
+    "d": 2
+  },
+  {
+    "id": "以上",
+    "type": "noun",
+    "main": "以上",
+    "reading": "いじょう",
+    "meaning": "more than; above; that is all",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>以上<rt>いじょう</rt></ruby>",
+        "en": "more than; above; that is all"
+      }
+    ],
+    "w": 6,
+    "d": 2
+  },
+  {
+    "id": "以下",
+    "type": "noun",
+    "main": "以下",
+    "reading": "いか",
+    "meaning": "less than; below; the following",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>以下<rt>いか</rt></ruby>",
+        "en": "less than; below; the following"
+      }
+    ],
+    "w": 6,
+    "d": 2
+  },
+  {
+    "id": "面",
+    "type": "kanji",
+    "main": "面",
+    "reading": "メン/おも・おもて",
+    "meaning": "face; surface; aspect",
+    "words": "面接 (めんせつ) / 側面 (そくめん) / 場面 (ばめん)",
+    "examples": [
+      {
+        "jp": "<ruby>面<rt>メン</rt></ruby>",
+        "en": "face; surface; aspect"
+      }
+    ],
+    "w": 6,
+    "d": 3
+  },
+  {
+    "id": "告",
+    "type": "kanji",
+    "main": "告",
+    "reading": "コク/つ.げる",
+    "meaning": "tell; announce; inform",
+    "words": "報告 (ほうこく) / 広告 (こうこく) / 告げる (つげる)",
+    "examples": [
+      {
+        "jp": "<ruby>告<rt>コク</rt></ruby>",
+        "en": "tell; announce; inform"
+      }
+    ],
+    "w": 6,
+    "d": 3
+  },
+  {
+    "id": "反",
+    "type": "kanji",
+    "main": "反",
+    "reading": "ハン・ホン/そ.る",
+    "meaning": "oppose; anti-; reverse",
+    "words": "反対 (はんたい) / 違反 (いはん) / 反省 (はんせい)",
+    "examples": [
+      {
+        "jp": "<ruby>反<rt>ハン</rt></ruby>",
+        "en": "oppose; anti-; reverse"
+      }
+    ],
+    "w": 6,
+    "d": 3
+  },
+  {
+    "id": "直後",
+    "type": "noun",
+    "main": "直後",
+    "reading": "ちょくご",
+    "meaning": "immediately after; right after",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>直後<rt>ちょくご</rt></ruby>",
+        "en": "immediately after; right after"
+      }
+    ],
+    "w": 6,
+    "d": 3
+  },
+  {
+    "id": "判",
+    "type": "kanji",
+    "main": "判",
+    "reading": "ハン・バン",
+    "meaning": "judge; seal",
+    "words": "判断 (はんだん) / 批判 (ひはん) / 裁判 (さいばん)",
+    "examples": [
+      {
+        "jp": "<ruby>判<rt>ハン</rt></ruby>",
+        "en": "judge; seal"
+      }
+    ],
+    "w": 6,
+    "d": 4
+  },
+  {
+    "id": "認",
+    "type": "kanji",
+    "main": "認",
+    "reading": "ニン/みと.める",
+    "meaning": "recognize; admit",
+    "words": "認める (みとめる) / 確認 (かくにん) / 承認 (しょうにん)",
+    "examples": [
+      {
+        "jp": "<ruby>認<rt>ニン</rt></ruby>",
+        "en": "recognize; admit"
+      }
+    ],
+    "w": 6,
+    "d": 4
+  },
+  {
+    "id": "直前",
+    "type": "noun",
+    "main": "直前",
+    "reading": "ちょくぜん",
+    "meaning": "just before; immediately before",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>直前<rt>ちょくぜん</rt></ruby>",
+        "en": "just before; immediately before"
+      }
+    ],
+    "w": 6,
+    "d": 4
+  },
+  {
+    "id": "参",
+    "type": "kanji",
+    "main": "参",
+    "reading": "サン/まい.る",
+    "meaning": "visit; participate",
+    "words": "参加 (さんか) / 参考 (さんこう) / 参る (まいる)",
+    "examples": [
+      {
+        "jp": "<ruby>参<rt>サン</rt></ruby>",
+        "en": "visit; participate"
+      }
+    ],
+    "w": 6,
+    "d": 5
+  },
+  {
+    "id": "利",
+    "type": "kanji",
+    "main": "利",
+    "reading": "リ/き.く",
+    "meaning": "profit; advantage",
+    "words": "利用 (りよう) / 有利 (ゆうり) / 利益 (りえき)",
+    "examples": [
+      {
+        "jp": "<ruby>利<rt>リ</rt></ruby>",
+        "en": "profit; advantage"
+      }
+    ],
+    "w": 6,
+    "d": 5
+  },
+  {
+    "id": "組",
+    "type": "kanji",
+    "main": "組",
+    "reading": "ソ/く.む",
+    "meaning": "group; assemble; team",
+    "words": "組織 (そしき) / 組む (くむ) / 番組 (ばんぐみ)",
+    "examples": [
+      {
+        "jp": "<ruby>組<rt>ソ</rt></ruby>",
+        "en": "group; assemble; team"
+      }
+    ],
+    "w": 6,
+    "d": 5
+  },
+  {
+    "id": "途中",
+    "type": "noun",
+    "main": "途中",
+    "reading": "とちゅう",
+    "meaning": "on the way; in the middle of",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>途中<rt>とちゅう</rt></ruby>",
+        "en": "on the way; in the middle of"
+      }
+    ],
+    "w": 6,
+    "d": 5
+  },
+  {
+    "id": "現在",
+    "type": "noun",
+    "main": "現在",
+    "reading": "げんざい",
+    "meaning": "present; now; current",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>現在<rt>げんざい</rt></ruby>",
+        "en": "present; now; current"
+      }
+    ],
+    "w": 6,
+    "d": 5
+  },
+  {
+    "id": "信",
+    "type": "kanji",
+    "main": "信",
+    "reading": "シン",
+    "meaning": "trust; believe; faith",
+    "words": "信じる (しんじる) / 信頼 (しんらい) / 自信 (じしん)",
+    "examples": [
+      {
+        "jp": "<ruby>信<rt>シン</rt></ruby>",
+        "en": "trust; believe; faith"
+      }
+    ],
+    "w": 7,
+    "d": 1
+  },
+  {
+    "id": "在",
+    "type": "kanji",
+    "main": "在",
+    "reading": "ザイ/あ.る",
+    "meaning": "exist; be present",
+    "words": "存在 (そんざい) / 現在 (げんざい) / 在学 (ざいがく)",
+    "examples": [
+      {
+        "jp": "<ruby>在<rt>ザイ</rt></ruby>",
+        "en": "exist; be present"
+      }
+    ],
+    "w": 7,
+    "d": 1
+  },
+  {
+    "id": "将来",
+    "type": "noun",
+    "main": "将来",
+    "reading": "しょうらい",
+    "meaning": "future; prospects; outlook",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>将来<rt>しょうらい</rt></ruby>",
+        "en": "future; prospects; outlook"
+      }
+    ],
+    "w": 7,
+    "d": 1
+  },
+  {
+    "id": "件",
+    "type": "kanji",
+    "main": "件",
+    "reading": "ケン",
+    "meaning": "matter; case; affair",
+    "words": "事件 (じけん) / 条件 (じょうけん) / 件 (けん)",
+    "examples": [
+      {
+        "jp": "<ruby>件<rt>ケン</rt></ruby>",
+        "en": "matter; case; affair"
+      }
+    ],
+    "w": 7,
+    "d": 2
+  },
+  {
+    "id": "側",
+    "type": "kanji",
+    "main": "側",
+    "reading": "ソク/がわ・そば",
+    "meaning": "side; flank; aspect",
+    "words": "側面 (そくめん) / 側 (がわ) / 両側 (りょうがわ)",
+    "examples": [
+      {
+        "jp": "<ruby>側<rt>ソク</rt></ruby>",
+        "en": "side; flank; aspect"
+      }
+    ],
+    "w": 7,
+    "d": 2
+  },
+  {
+    "id": "任",
+    "type": "kanji",
+    "main": "任",
+    "reading": "ニン/まか.せる",
+    "meaning": "entrust; duties",
+    "words": "責任 (せきにん) / 任務 (にんむ) / 担任 (たんにん)",
+    "examples": [
+      {
+        "jp": "<ruby>任<rt>ニン</rt></ruby>",
+        "en": "entrust; duties"
+      }
+    ],
+    "w": 7,
+    "d": 2
+  },
+  {
+    "id": "以前",
+    "type": "noun",
+    "main": "以前",
+    "reading": "いぜん",
+    "meaning": "before; formerly; previously",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>以前<rt>いぜん</rt></ruby>",
+        "en": "before; formerly; previously"
+      }
+    ],
+    "w": 7,
+    "d": 2
+  },
+  {
+    "id": "引",
+    "type": "kanji",
+    "main": "引",
+    "reading": "イン/ひ.く",
+    "meaning": "pull; draw; attract",
+    "words": "引く (ひく) / 引用 (いんよう) / 引退 (いんたい)",
+    "examples": [
+      {
+        "jp": "<ruby>引<rt>イン</rt></ruby>",
+        "en": "pull; draw; attract"
+      }
+    ],
+    "w": 7,
+    "d": 3
+  },
+  {
+    "id": "求",
+    "type": "kanji",
+    "main": "求",
+    "reading": "キュウ/もと.める",
+    "meaning": "request; demand; seek",
+    "words": "求める (もとめる) / 要求 (ようきゅう) / 求人 (きゅうじん)",
+    "examples": [
+      {
+        "jp": "<ruby>求<rt>キュウ</rt></ruby>",
+        "en": "request; demand; seek"
+      }
+    ],
+    "w": 7,
+    "d": 3
+  },
+  {
+    "id": "最初",
+    "type": "noun",
+    "main": "最初",
+    "reading": "さいしょ",
+    "meaning": "first; beginning; outset",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>最初<rt>さいしょ</rt></ruby>",
+        "en": "first; beginning; outset"
+      }
+    ],
+    "w": 7,
+    "d": 3
+  },
+  {
+    "id": "最後",
+    "type": "noun",
+    "main": "最後",
+    "reading": "さいご",
+    "meaning": "last; end; conclusion",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>最後<rt>さいご</rt></ruby>",
+        "en": "last; end; conclusion"
+      }
+    ],
+    "w": 7,
+    "d": 3
+  },
+  {
+    "id": "所",
+    "type": "kanji",
+    "main": "所",
+    "reading": "ショ/ところ",
+    "meaning": "place; point",
+    "words": "場所 (ばしょ) / 住所 (じゅうしょ) / 所得 (しょとく)",
+    "examples": [
+      {
+        "jp": "<ruby>所<rt>ショ</rt></ruby>",
+        "en": "place; point"
+      }
+    ],
+    "w": 7,
+    "d": 4
+  },
+  {
+    "id": "次",
+    "type": "kanji",
+    "main": "次",
+    "reading": "ジ・シ/つぎ",
+    "meaning": "next; order; second",
+    "words": "次 (つぎ) / 次第 (しだい) / 次回 (じかい)",
+    "examples": [
+      {
+        "jp": "<ruby>次<rt>ジ</rt></ruby>",
+        "en": "next; order; second"
+      }
+    ],
+    "w": 7,
+    "d": 4
+  },
+  {
+    "id": "昨",
+    "type": "kanji",
+    "main": "昨",
+    "reading": "サク",
+    "meaning": "yesterday; previous",
+    "words": "昨日 (きのう) / 昨年 (さくねん) / 昨夜 (さくや)",
+    "examples": [
+      {
+        "jp": "<ruby>昨<rt>サク</rt></ruby>",
+        "en": "yesterday; previous"
+      }
+    ],
+    "w": 7,
+    "d": 4
+  },
+  {
+    "id": "感情",
+    "type": "noun",
+    "main": "感情",
+    "reading": "かんじょう",
+    "meaning": "emotion; feeling; sentiment",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>感情<rt>かんじょう</rt></ruby>",
+        "en": "emotion; feeling; sentiment"
+      }
+    ],
+    "w": 7,
+    "d": 4
+  },
+  {
+    "id": "論",
+    "type": "kanji",
+    "main": "論",
+    "reading": "ロン",
+    "meaning": "argument; theory",
+    "words": "議論 (ぎろん) / 理論 (りろん) / 結論 (けつろん)",
+    "examples": [
+      {
+        "jp": "<ruby>論<rt>ロン</rt></ruby>",
+        "en": "argument; theory"
+      }
+    ],
+    "w": 7,
+    "d": 5
+  },
+  {
+    "id": "官",
+    "type": "kanji",
+    "main": "官",
+    "reading": "カン",
+    "meaning": "bureaucrat; government",
+    "words": "官僚 (かんりょう) / 警官 (けいかん) / 官庁 (かんちょう)",
+    "examples": [
+      {
+        "jp": "<ruby>官<rt>カン</rt></ruby>",
+        "en": "bureaucrat; government"
+      }
+    ],
+    "w": 7,
+    "d": 5
+  },
+  {
+    "id": "気持ち",
+    "type": "noun",
+    "main": "気持ち",
+    "reading": "きもち",
+    "meaning": "feeling; mood; sensation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>気持ち<rt>きもち</rt></ruby>",
+        "en": "feeling; mood; sensation"
+      }
+    ],
+    "w": 7,
+    "d": 5
+  },
+  {
+    "id": "増",
+    "type": "kanji",
+    "main": "増",
+    "reading": "ゾウ/ふ.える",
+    "meaning": "increase; add",
+    "words": "増える (ふえる) / 増加 (ぞうか) / 増大 (ぞうだい)",
+    "examples": [
+      {
+        "jp": "<ruby>増<rt>ゾウ</rt></ruby>",
+        "en": "increase; add"
+      }
+    ],
+    "w": 8,
+    "d": 1
+  },
+  {
+    "id": "係",
+    "type": "kanji",
+    "main": "係",
+    "reading": "ケイ/かか.る",
+    "meaning": "related; in charge",
+    "words": "係 (かかり) / 関係 (かんけい) / 係長 (かかりちょう)",
+    "examples": [
+      {
+        "jp": "<ruby>係<rt>ケイ</rt></ruby>",
+        "en": "related; in charge"
+      }
+    ],
+    "w": 8,
+    "d": 1
+  },
+  {
+    "id": "感",
+    "type": "kanji",
+    "main": "感",
+    "reading": "カン",
+    "meaning": "sensation; feeling",
+    "words": "感じる (かんじる) / 感謝 (かんしゃ) / 感情 (かんじょう)",
+    "examples": [
+      {
+        "jp": "<ruby>感<rt>カン</rt></ruby>",
+        "en": "sensation; feeling"
+      }
+    ],
+    "w": 8,
+    "d": 1
+  },
+  {
+    "id": "意識",
+    "type": "noun",
+    "main": "意識",
+    "reading": "いしき",
+    "meaning": "consciousness; awareness",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>意識<rt>いしき</rt></ruby>",
+        "en": "consciousness; awareness"
+      }
+    ],
+    "w": 8,
+    "d": 1
+  },
+  {
+    "id": "不安",
+    "type": "noun",
+    "main": "不安",
+    "reading": "ふあん",
+    "meaning": "anxiety; unease; worry",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>不安<rt>ふあん</rt></ruby>",
+        "en": "anxiety; unease; worry"
+      }
+    ],
+    "w": 8,
+    "d": 1
+  },
+  {
+    "id": "情",
+    "type": "kanji",
+    "main": "情",
+    "reading": "ジョウ・セイ/なさ.け",
+    "meaning": "emotion; feeling; info",
+    "words": "感情 (かんじょう) / 情報 (じょうほう) / 同情 (どうじょう)",
+    "examples": [
+      {
+        "jp": "<ruby>情<rt>ジョウ</rt></ruby>",
+        "en": "emotion; feeling; info"
+      }
+    ],
+    "w": 8,
+    "d": 2
+  },
+  {
+    "id": "投",
+    "type": "kanji",
+    "main": "投",
+    "reading": "トウ/な.げる",
+    "meaning": "throw; cast; invest",
+    "words": "投げる (なげる) / 投票 (とうひょう) / 投資 (とうし)",
+    "examples": [
+      {
+        "jp": "<ruby>投<rt>トウ</rt></ruby>",
+        "en": "throw; cast; invest"
+      }
+    ],
+    "w": 8,
+    "d": 2
+  },
+  {
+    "id": "安心",
+    "type": "noun",
+    "main": "安心",
+    "reading": "あんしん",
+    "meaning": "relief; peace of mind",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>安心<rt>あんしん</rt></ruby>",
+        "en": "relief; peace of mind"
+      }
+    ],
+    "w": 8,
+    "d": 2
+  },
+  {
+    "id": "示",
+    "type": "kanji",
+    "main": "示",
+    "reading": "ジ・シ/しめ.す",
+    "meaning": "show; indicate; display",
+    "words": "示す (しめす) / 指示 (しじ) / 展示 (てんじ)",
+    "examples": [
+      {
+        "jp": "<ruby>示<rt>ジ</rt></ruby>",
+        "en": "show; indicate; display"
+      }
+    ],
+    "w": 8,
+    "d": 3
+  },
+  {
+    "id": "変",
+    "type": "kanji",
+    "main": "変",
+    "reading": "ヘン/か.わる",
+    "meaning": "change; vary; unusual",
+    "words": "変わる (かわる) / 変化 (へんか) / 変 (へん)",
+    "examples": [
+      {
+        "jp": "<ruby>変<rt>ヘン</rt></ruby>",
+        "en": "change; vary; unusual"
+      }
+    ],
+    "w": 8,
+    "d": 3
+  },
+  {
+    "id": "打",
+    "type": "kanji",
+    "main": "打",
+    "reading": "ダ/う.つ",
+    "meaning": "hit; strike; knock",
+    "words": "打つ (うつ) / 打撃 (だげき) / 打ち合わせ (うちあわせ)",
+    "examples": [
+      {
+        "jp": "<ruby>打<rt>ダ</rt></ruby>",
+        "en": "hit; strike; knock"
+      }
+    ],
+    "w": 8,
+    "d": 3
+  },
+  {
+    "id": "緊張",
+    "type": "noun",
+    "main": "緊張",
+    "reading": "きんちょう",
+    "meaning": "tension; nervousness; stress",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>緊張<rt>きんちょう</rt></ruby>",
+        "en": "tension; nervousness; stress"
+      }
+    ],
+    "w": 8,
+    "d": 3
+  },
+  {
+    "id": "直",
+    "type": "kanji",
+    "main": "直",
+    "reading": "チョク・ジキ/ただ.ちに・なお.す",
+    "meaning": "straight; direct; honest",
+    "words": "直接 (ちょくせつ) / 直す (なおす) / 正直 (しょうじき)",
+    "examples": [
+      {
+        "jp": "<ruby>直<rt>チョク</rt></ruby>",
+        "en": "straight; direct; honest"
+      }
+    ],
+    "w": 8,
+    "d": 4
+  },
+  {
+    "id": "両",
+    "type": "kanji",
+    "main": "両",
+    "reading": "リョウ",
+    "meaning": "both; two",
+    "words": "両方 (りょうほう) / 両親 (りょうしん) / 両側 (りょうがわ)",
+    "examples": [
+      {
+        "jp": "<ruby>両<rt>リョウ</rt></ruby>",
+        "en": "both; two"
+      }
+    ],
+    "w": 8,
+    "d": 4
+  },
+  {
+    "id": "印象",
+    "type": "noun",
+    "main": "印象",
+    "reading": "いんしょう",
+    "meaning": "impression; image",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>印象<rt>いんしょう</rt></ruby>",
+        "en": "impression; image"
+      }
+    ],
+    "w": 8,
+    "d": 4
+  },
+  {
+    "id": "興味",
+    "type": "noun",
+    "main": "興味",
+    "reading": "きょうみ",
+    "meaning": "interest; concern",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>興味<rt>きょうみ</rt></ruby>",
+        "en": "interest; concern"
+      }
+    ],
+    "w": 8,
+    "d": 4
+  },
+  {
+    "id": "式",
+    "type": "kanji",
+    "main": "式",
+    "reading": "シキ",
+    "meaning": "style; ceremony; formula",
+    "words": "式 (しき) / 方式 (ほうしき) / 結婚式 (けっこんしき)",
+    "examples": [
+      {
+        "jp": "<ruby>式<rt>シキ</rt></ruby>",
+        "en": "style; ceremony; formula"
+      }
+    ],
+    "w": 8,
+    "d": 5
+  },
+  {
+    "id": "確",
+    "type": "kanji",
+    "main": "確",
+    "reading": "カク/たし.か",
+    "meaning": "certain; confirm; accurate",
+    "words": "確認 (かくにん) / 確かに (たしかに) / 正確 (せいかく)",
+    "examples": [
+      {
+        "jp": "<ruby>確<rt>カク</rt></ruby>",
+        "en": "certain; confirm; accurate"
+      }
+    ],
+    "w": 8,
+    "d": 5
+  },
+  {
+    "id": "果",
+    "type": "kanji",
+    "main": "果",
+    "reading": "カ/は.たす",
+    "meaning": "result; fruit; carry out",
+    "words": "結果 (けっか) / 果物 (くだもの) / 効果 (こうか)",
+    "examples": [
+      {
+        "jp": "<ruby>果<rt>カ</rt></ruby>",
+        "en": "result; fruit; carry out"
+      }
+    ],
+    "w": 8,
+    "d": 5
+  },
+  {
+    "id": "感動",
+    "type": "noun",
+    "main": "感動",
+    "reading": "かんどう",
+    "meaning": "being moved emotionally",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>感動<rt>かんどう</rt></ruby>",
+        "en": "being moved emotionally"
+      }
+    ],
+    "w": 8,
+    "d": 5
+  },
+  {
+    "id": "容",
+    "type": "kanji",
+    "main": "容",
+    "reading": "ヨウ",
+    "meaning": "contain; appearance",
+    "words": "容易 (ようい) / 内容 (ないよう) / 容認 (ようにん)",
+    "examples": [
+      {
+        "jp": "<ruby>容<rt>ヨウ</rt></ruby>",
+        "en": "contain; appearance"
+      }
+    ],
+    "w": 9,
+    "d": 1
+  },
+  {
+    "id": "必",
+    "type": "kanji",
+    "main": "必",
+    "reading": "ヒツ/かなら.ず",
+    "meaning": "invariably; necessary",
+    "words": "必要 (ひつよう) / 必ず (かならず) / 必死 (ひっし)",
+    "examples": [
+      {
+        "jp": "<ruby>必<rt>ヒツ</rt></ruby>",
+        "en": "invariably; necessary"
+      }
+    ],
+    "w": 9,
+    "d": 1
+  },
+  {
+    "id": "希望",
+    "type": "noun",
+    "main": "希望",
+    "reading": "きぼう",
+    "meaning": "hope; wish; desire",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>希望<rt>きぼう</rt></ruby>",
+        "en": "hope; wish; desire"
+      }
+    ],
+    "w": 9,
+    "d": 1
+  },
+  {
+    "id": "演",
+    "type": "kanji",
+    "main": "演",
+    "reading": "エン",
+    "meaning": "perform; act",
+    "words": "演じる (えんじる) / 演説 (えんぜつ) / 演奏 (えんそう)",
+    "examples": [
+      {
+        "jp": "<ruby>演<rt>エン</rt></ruby>",
+        "en": "perform; act"
+      }
+    ],
+    "w": 9,
+    "d": 2
+  },
+  {
+    "id": "歳",
+    "type": "kanji",
+    "main": "歳",
+    "reading": "サイ・セイ",
+    "meaning": "age; years old",
+    "words": "歳 (さい) / 年歳 (としさい) / 万歳 (ばんざい)",
+    "examples": [
+      {
+        "jp": "<ruby>歳<rt>サイ</rt></ruby>",
+        "en": "age; years old"
+      }
+    ],
+    "w": 9,
+    "d": 2
+  },
+  {
+    "id": "争",
+    "type": "kanji",
+    "main": "争",
+    "reading": "ソウ/あらそ.う",
+    "meaning": "contend; dispute",
+    "words": "争う (あらそう) / 戦争 (せんそう) / 競争 (きょうそう)",
+    "examples": [
+      {
+        "jp": "<ruby>争<rt>ソウ</rt></ruby>",
+        "en": "contend; dispute"
+      }
+    ],
+    "w": 9,
+    "d": 2
+  },
+  {
+    "id": "失望",
+    "type": "noun",
+    "main": "失望",
+    "reading": "しつぼう",
+    "meaning": "disappointment; despair",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>失望<rt>しつぼう</rt></ruby>",
+        "en": "disappointment; despair"
+      }
+    ],
+    "w": 9,
+    "d": 2
+  },
+  {
+    "id": "努力",
+    "type": "noun",
+    "main": "努力",
+    "reading": "どりょく",
+    "meaning": "effort; endeavor; exertion",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>努力<rt>どりょく</rt></ruby>",
+        "en": "effort; endeavor; exertion"
+      }
+    ],
+    "w": 9,
+    "d": 2
+  },
+  {
+    "id": "談",
+    "type": "kanji",
+    "main": "談",
+    "reading": "ダン",
+    "meaning": "talk; conversation",
+    "words": "相談 (そうだん) / 談話 (だんわ) / 会談 (かいだん)",
+    "examples": [
+      {
+        "jp": "<ruby>談<rt>ダン</rt></ruby>",
+        "en": "talk; conversation"
+      }
+    ],
+    "w": 9,
+    "d": 3
+  },
+  {
+    "id": "能",
+    "type": "kanji",
+    "main": "能",
+    "reading": "ノウ",
+    "meaning": "ability; skill; talent",
+    "words": "能力 (のうりょく) / 可能 (かのう) / 才能 (さいのう)",
+    "examples": [
+      {
+        "jp": "<ruby>能<rt>ノウ</rt></ruby>",
+        "en": "ability; skill; talent"
+      }
+    ],
+    "w": 9,
+    "d": 3
+  },
+  {
+    "id": "苦労",
+    "type": "noun",
+    "main": "苦労",
+    "reading": "くろう",
+    "meaning": "hardship; trouble; difficulty",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>苦労<rt>くろう</rt></ruby>",
+        "en": "hardship; trouble; difficulty"
+      }
+    ],
+    "w": 9,
+    "d": 3
+  },
+  {
+    "id": "位",
+    "type": "kanji",
+    "main": "位",
+    "reading": "イ/くらい・ぐらい",
+    "meaning": "rank; grade; approximately",
+    "words": "位置 (いち) / 地位 (ちい) / 上位 (じょうい)",
+    "examples": [
+      {
+        "jp": "<ruby>位<rt>イ</rt></ruby>",
+        "en": "rank; grade; approximately"
+      }
+    ],
+    "w": 9,
+    "d": 4
+  },
+  {
+    "id": "置",
+    "type": "kanji",
+    "main": "置",
+    "reading": "チ/お.く",
+    "meaning": "place; put; deposit",
+    "words": "置く (おく) / 位置 (いち) / 設置 (せっち)",
+    "examples": [
+      {
+        "jp": "<ruby>置<rt>チ</rt></ruby>",
+        "en": "place; put; deposit"
+      }
+    ],
+    "w": 9,
+    "d": 4
+  },
+  {
+    "id": "流",
+    "type": "kanji",
+    "main": "流",
+    "reading": "リュウ・ル/なが.れる",
+    "meaning": "current; flow; trend",
+    "words": "流れる (ながれる) / 交流 (こうりゅう) / 流行 (りゅうこう)",
+    "examples": [
+      {
+        "jp": "<ruby>流<rt>リュウ</rt></ruby>",
+        "en": "current; flow; trend"
+      }
+    ],
+    "w": 9,
+    "d": 4
+  },
+  {
+    "id": "知識",
+    "type": "noun",
+    "main": "知識",
+    "reading": "ちしき",
+    "meaning": "knowledge; information",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>知識<rt>ちしき</rt></ruby>",
+        "en": "knowledge; information"
+      }
+    ],
+    "w": 9,
+    "d": 4
+  },
+  {
+    "id": "格",
+    "type": "kanji",
+    "main": "格",
+    "reading": "カク・コウ",
+    "meaning": "status; standard; rank",
+    "words": "性格 (せいかく) / 価格 (かかく) / 合格 (ごうかく)",
+    "examples": [
+      {
+        "jp": "<ruby>格<rt>カク</rt></ruby>",
+        "en": "status; standard; rank"
+      }
+    ],
+    "w": 9,
+    "d": 5
+  },
+  {
+    "id": "疑",
+    "type": "kanji",
+    "main": "疑",
+    "reading": "ギ/うたが.う",
+    "meaning": "doubt; distrust",
+    "words": "疑う (うたがう) / 疑問 (ぎもん) / 疑惑 (ぎわく)",
+    "examples": [
+      {
+        "jp": "<ruby>疑<rt>ギ</rt></ruby>",
+        "en": "doubt; distrust"
+      }
+    ],
+    "w": 9,
+    "d": 5
+  },
+  {
+    "id": "情報",
+    "type": "noun",
+    "main": "情報",
+    "reading": "じょうほう",
+    "meaning": "information; data; news",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>情報<rt>じょうほう</rt></ruby>",
+        "en": "information; data; news"
+      }
+    ],
+    "w": 9,
+    "d": 5
+  },
+  {
+    "id": "説明",
+    "type": "noun",
+    "main": "説明",
+    "reading": "せつめい",
+    "meaning": "explanation; description",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>説明<rt>せつめい</rt></ruby>",
+        "en": "explanation; description"
+      }
+    ],
+    "w": 9,
+    "d": 5
+  },
+  {
+    "id": "過",
+    "type": "kanji",
+    "main": "過",
+    "reading": "カ/す.ぎる",
+    "meaning": "exceed; pass; too much",
+    "words": "過ぎる (すぎる) / 通過 (つうか) / 経過 (けいか)",
+    "examples": [
+      {
+        "jp": "<ruby>過<rt>カ</rt></ruby>",
+        "en": "exceed; pass; too much"
+      }
+    ],
+    "w": 10,
+    "d": 1
+  },
+  {
+    "id": "局",
+    "type": "kanji",
+    "main": "局",
+    "reading": "キョク",
+    "meaning": "bureau; office",
+    "words": "郵便局 (ゆうびんきょく) / 放送局 (ほうそうきょく) / 結局 (けっきょく)",
+    "examples": [
+      {
+        "jp": "<ruby>局<rt>キョク</rt></ruby>",
+        "en": "bureau; office"
+      }
+    ],
+    "w": 10,
+    "d": 1
+  },
+  {
+    "id": "放",
+    "type": "kanji",
+    "main": "放",
+    "reading": "ホウ/はな.す・ゆる.す",
+    "meaning": "release; set free; broadcast",
+    "words": "放送 (ほうそう) / 放す (はなす) / 解放 (かいほう)",
+    "examples": [
+      {
+        "jp": "<ruby>放<rt>ホウ</rt></ruby>",
+        "en": "release; set free; broadcast"
+      }
+    ],
+    "w": 10,
+    "d": 1
+  },
+  {
+    "id": "理解",
+    "type": "noun",
+    "main": "理解",
+    "reading": "りかい",
+    "meaning": "understanding; comprehension",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>理解<rt>りかい</rt></ruby>",
+        "en": "understanding; comprehension"
+      }
+    ],
+    "w": 10,
+    "d": 1
+  },
+  {
+    "id": "常",
+    "type": "kanji",
+    "main": "常",
+    "reading": "ジョウ/つね",
+    "meaning": "usual; ordinary; normal",
+    "words": "日常 (にちじょう) / 非常 (ひじょう) / 常識 (じょうしき)",
+    "examples": [
+      {
+        "jp": "<ruby>常<rt>ジョウ</rt></ruby>",
+        "en": "usual; ordinary; normal"
+      }
+    ],
+    "w": 10,
+    "d": 2
+  },
+  {
+    "id": "状",
+    "type": "kanji",
+    "main": "状",
+    "reading": "ジョウ",
+    "meaning": "state; condition; letter",
+    "words": "状態 (じょうたい) / 状況 (じょうきょう) / 現状 (げんじょう)",
+    "examples": [
+      {
+        "jp": "<ruby>状<rt>ジョウ</rt></ruby>",
+        "en": "state; condition; letter"
+      }
+    ],
+    "w": 10,
+    "d": 2
+  },
+  {
+    "id": "表現",
+    "type": "noun",
+    "main": "表現",
+    "reading": "ひょうげん",
+    "meaning": "expression; representation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>表現<rt>ひょうげん</rt></ruby>",
+        "en": "expression; representation"
+      }
+    ],
+    "w": 10,
+    "d": 2
+  },
+  {
+    "id": "球",
+    "type": "kanji",
+    "main": "球",
+    "reading": "キュウ/たま",
+    "meaning": "ball; sphere; globe",
+    "words": "球 (たま) / 地球 (ちきゅう) / 野球 (やきゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>球<rt>キュウ</rt></ruby>",
+        "en": "ball; sphere; globe"
+      }
+    ],
+    "w": 10,
+    "d": 3
+  },
+  {
+    "id": "職",
+    "type": "kanji",
+    "main": "職",
+    "reading": "ショク",
+    "meaning": "occupation; job",
+    "words": "職業 (しょくぎょう) / 職場 (しょくば) / 転職 (てんしょく)",
+    "examples": [
+      {
+        "jp": "<ruby>職<rt>ショク</rt></ruby>",
+        "en": "occupation; job"
+      }
+    ],
+    "w": 10,
+    "d": 3
+  },
+  {
+    "id": "与",
+    "type": "kanji",
+    "main": "与",
+    "reading": "ヨ/あた.える",
+    "meaning": "give; bestow; provide",
+    "words": "与える (あたえる) / 関与 (かんよ) / 与党 (よとう)",
+    "examples": [
+      {
+        "jp": "<ruby>与<rt>ヨ</rt></ruby>",
+        "en": "give; bestow; provide"
+      }
+    ],
+    "w": 10,
+    "d": 3
+  },
+  {
+    "id": "研究",
+    "type": "noun",
+    "main": "研究",
+    "reading": "けんきゅう",
+    "meaning": "research; study; investigation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>研究<rt>けんきゅう</rt></ruby>",
+        "en": "research; study; investigation"
+      }
+    ],
+    "w": 10,
+    "d": 3
+  },
+  {
+    "id": "調査",
+    "type": "noun",
+    "main": "調査",
+    "reading": "ちょうさ",
+    "meaning": "investigation; survey; inquiry",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>調査<rt>ちょうさ</rt></ruby>",
+        "en": "investigation; survey; inquiry"
+      }
+    ],
+    "w": 10,
+    "d": 3
+  },
+  {
+    "id": "供",
+    "type": "kanji",
+    "main": "供",
+    "reading": "キョウ・ク/そな.える・とも",
+    "meaning": "offer; present; together",
+    "words": "提供 (ていきょう) / 供える (そなえる) / 子供 (こども)",
+    "examples": [
+      {
+        "jp": "<ruby>供<rt>キョウ</rt></ruby>",
+        "en": "offer; present; together"
+      }
+    ],
+    "w": 10,
+    "d": 4
+  },
+  {
+    "id": "役",
+    "type": "kanji",
+    "main": "役",
+    "reading": "ヤク・エキ",
+    "meaning": "role; service; duty",
+    "words": "役に立つ (やくにたつ) / 役割 (やくわり) / 役所 (やくしょ)",
+    "examples": [
+      {
+        "jp": "<ruby>役<rt>ヤク</rt></ruby>",
+        "en": "role; service; duty"
+      }
+    ],
+    "w": 10,
+    "d": 4
+  },
+  {
+    "id": "分析",
+    "type": "noun",
+    "main": "分析",
+    "reading": "ぶんせき",
+    "meaning": "analysis",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>分析<rt>ぶんせき</rt></ruby>",
+        "en": "analysis"
+      }
+    ],
+    "w": 10,
+    "d": 4
+  },
+  {
+    "id": "構",
+    "type": "kanji",
+    "main": "構",
+    "reading": "コウ/かま.える",
+    "meaning": "build; framework; set up",
+    "words": "構造 (こうぞう) / 構える (かまえる) / 結構 (けっこう)",
+    "examples": [
+      {
+        "jp": "<ruby>構<rt>コウ</rt></ruby>",
+        "en": "build; framework; set up"
+      }
+    ],
+    "w": 10,
+    "d": 5
+  },
+  {
+    "id": "割",
+    "type": "kanji",
+    "main": "割",
+    "reading": "カツ/わ.る",
+    "meaning": "divide; split; ratio",
+    "words": "割合 (わりあい) / 割引 (わりびき) / 分割 (ぶんかつ)",
+    "examples": [
+      {
+        "jp": "<ruby>割<rt>カツ</rt></ruby>",
+        "en": "divide; split; ratio"
+      }
+    ],
+    "w": 10,
+    "d": 5
+  },
+  {
+    "id": "身",
+    "type": "kanji",
+    "main": "身",
+    "reading": "シン/み",
+    "meaning": "body; somebody",
+    "words": "身 (み) / 自身 (じしん) / 身体 (しんたい)",
+    "examples": [
+      {
+        "jp": "<ruby>身<rt>シン</rt></ruby>",
+        "en": "body; somebody"
+      }
+    ],
+    "w": 10,
+    "d": 5
+  },
+  {
+    "id": "質問",
+    "type": "noun",
+    "main": "質問",
+    "reading": "しつもん",
+    "meaning": "question; inquiry",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>質問<rt>しつもん</rt></ruby>",
+        "en": "question; inquiry"
+      }
+    ],
+    "w": 10,
+    "d": 5
+  },
+  {
+    "id": "費",
+    "type": "kanji",
+    "main": "費",
+    "reading": "ヒ/つい.やす",
+    "meaning": "expense; cost; spend",
+    "words": "費用 (ひよう) / 消費 (しょうひ) / 交通費 (こうつうひ)",
+    "examples": [
+      {
+        "jp": "<ruby>費<rt>ヒ</rt></ruby>",
+        "en": "expense; cost; spend"
+      }
+    ],
+    "w": 11,
+    "d": 1
+  },
+  {
+    "id": "付",
+    "type": "kanji",
+    "main": "付",
+    "reading": "フ/つ.ける",
+    "meaning": "attach; add; affix",
+    "words": "付ける (つける) / 受付 (うけつけ) / 交付 (こうふ)",
+    "examples": [
+      {
+        "jp": "<ruby>付<rt>フ</rt></ruby>",
+        "en": "attach; add; affix"
+      }
+    ],
+    "w": 11,
+    "d": 1
+  },
+  {
+    "id": "経験",
+    "type": "noun",
+    "main": "経験",
+    "reading": "けいけん",
+    "meaning": "experience",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>経験<rt>けいけん</rt></ruby>",
+        "en": "experience"
+      }
+    ],
+    "w": 11,
+    "d": 1
+  },
+  {
+    "id": "習慣",
+    "type": "noun",
+    "main": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "habit; custom; practice",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>習慣<rt>しゅうかん</rt></ruby>",
+        "en": "habit; custom; practice"
+      }
+    ],
+    "w": 11,
+    "d": 1
+  },
+  {
+    "id": "由",
+    "type": "kanji",
+    "main": "由",
+    "reading": "ユ・ユウ/よし",
+    "meaning": "reason; freedom; origin",
+    "words": "理由 (りゆう) / 自由 (じゆう) / 由来 (ゆらい)",
+    "examples": [
+      {
+        "jp": "<ruby>由<rt>ユ</rt></ruby>",
+        "en": "reason; freedom; origin"
+      }
+    ],
+    "w": 11,
+    "d": 2
+  },
+  {
+    "id": "説",
+    "type": "kanji",
+    "main": "説",
+    "reading": "セツ・ゼイ/と.く",
+    "meaning": "theory; explain",
+    "words": "説明 (せつめい) / 小説 (しょうせつ) / 演説 (えんぜつ)",
+    "examples": [
+      {
+        "jp": "<ruby>説<rt>セツ</rt></ruby>",
+        "en": "theory; explain"
+      }
+    ],
+    "w": 11,
+    "d": 2
+  },
+  {
+    "id": "難",
+    "type": "kanji",
+    "main": "難",
+    "reading": "ナン/むずか.しい",
+    "meaning": "difficult; problem",
+    "words": "難しい (むずかしい) / 困難 (こんなん) / 難民 (なんみん)",
+    "examples": [
+      {
+        "jp": "<ruby>難<rt>ナン</rt></ruby>",
+        "en": "difficult; problem"
+      }
+    ],
+    "w": 11,
+    "d": 2
+  },
+  {
+    "id": "記録",
+    "type": "noun",
+    "main": "記録",
+    "reading": "きろく",
+    "meaning": "record; document; archive",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>記録<rt>きろく</rt></ruby>",
+        "en": "record; document; archive"
+      }
+    ],
+    "w": 11,
+    "d": 2
+  },
+  {
+    "id": "優",
+    "type": "kanji",
+    "main": "優",
+    "reading": "ユウ・ウ/やさ.しい・すぐ.れる",
+    "meaning": "superior; gentle; actor",
+    "words": "優しい (やさしい) / 優秀 (ゆうしゅう) / 俳優 (はいゆう)",
+    "examples": [
+      {
+        "jp": "<ruby>優<rt>ユウ</rt></ruby>",
+        "en": "superior; gentle; actor"
+      }
+    ],
+    "w": 11,
+    "d": 3
+  },
+  {
+    "id": "夫",
+    "type": "kanji",
+    "main": "夫",
+    "reading": "フ・フウ/おっと",
+    "meaning": "husband",
+    "words": "夫 (おっと) / 夫婦 (ふうふ) / 夫人 (ふじん)",
+    "examples": [
+      {
+        "jp": "<ruby>夫<rt>フ</rt></ruby>",
+        "en": "husband"
+      }
+    ],
+    "w": 11,
+    "d": 3
+  },
+  {
+    "id": "健康",
+    "type": "noun",
+    "main": "健康",
+    "reading": "けんこう",
+    "meaning": "health; healthy",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>健康<rt>けんこう</rt></ruby>",
+        "en": "health; healthy"
+      }
+    ],
+    "w": 11,
+    "d": 3
+  },
+  {
+    "id": "収",
+    "type": "kanji",
+    "main": "収",
+    "reading": "シュウ/おさ.める",
+    "meaning": "income; collect; contain",
+    "words": "収入 (しゅうにゅう) / 収集 (しゅうしゅう) / 収容 (しゅうよう)",
+    "examples": [
+      {
+        "jp": "<ruby>収<rt>シュウ</rt></ruby>",
+        "en": "income; collect; contain"
+      }
+    ],
+    "w": 11,
+    "d": 4
+  },
+  {
+    "id": "断",
+    "type": "kanji",
+    "main": "断",
+    "reading": "ダン/ことわ.る・た.つ",
+    "meaning": "refuse; cut off; judge",
+    "words": "断る (ことわる) / 判断 (はんだん) / 断言 (だんげん)",
+    "examples": [
+      {
+        "jp": "<ruby>断<rt>ダン</rt></ruby>",
+        "en": "refuse; cut off; judge"
+      }
+    ],
+    "w": 11,
+    "d": 4
+  },
+  {
+    "id": "石",
+    "type": "kanji",
+    "main": "石",
+    "reading": "セキ・シャク/いし",
+    "meaning": "stone; rock",
+    "words": "石 (いし) / 岩石 (がんせき) / 宝石 (ほうせき)",
+    "examples": [
+      {
+        "jp": "<ruby>石<rt>セキ</rt></ruby>",
+        "en": "stone; rock"
+      }
+    ],
+    "w": 11,
+    "d": 4
+  },
+  {
+    "id": "治療",
+    "type": "noun",
+    "main": "治療",
+    "reading": "ちりょう",
+    "meaning": "medical treatment; therapy",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>治療<rt>ちりょう</rt></ruby>",
+        "en": "medical treatment; therapy"
+      }
+    ],
+    "w": 11,
+    "d": 4
+  },
+  {
+    "id": "手術",
+    "type": "noun",
+    "main": "手術",
+    "reading": "しゅじゅつ",
+    "meaning": "surgery; operation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>手術<rt>しゅじゅつ</rt></ruby>",
+        "en": "surgery; operation"
+      }
+    ],
+    "w": 11,
+    "d": 4
+  },
+  {
+    "id": "違",
+    "type": "kanji",
+    "main": "違",
+    "reading": "イ/ちが.う",
+    "meaning": "differ; difference; wrong",
+    "words": "違う (ちがう) / 違反 (いはん) / 間違い (まちがい)",
+    "examples": [
+      {
+        "jp": "<ruby>違<rt>イ</rt></ruby>",
+        "en": "differ; difference; wrong"
+      }
+    ],
+    "w": 11,
+    "d": 5
+  },
+  {
+    "id": "消",
+    "type": "kanji",
+    "main": "消",
+    "reading": "ショウ/き.える・け.す",
+    "meaning": "extinguish; erase; vanish",
+    "words": "消える (きえる) / 消費 (しょうひ) / 解消 (かいしょう)",
+    "examples": [
+      {
+        "jp": "<ruby>消<rt>ショウ</rt></ruby>",
+        "en": "extinguish; erase; vanish"
+      }
+    ],
+    "w": 11,
+    "d": 5
+  },
+  {
+    "id": "症状",
+    "type": "noun",
+    "main": "症状",
+    "reading": "しょうじょう",
+    "meaning": "symptom; condition",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>症状<rt>しょうじょう</rt></ruby>",
+        "en": "symptom; condition"
+      }
+    ],
+    "w": 11,
+    "d": 5
+  },
+  {
+    "id": "神",
+    "type": "kanji",
+    "main": "神",
+    "reading": "シン・ジン/かみ",
+    "meaning": "god; deity; spirit",
+    "words": "神様 (かみさま) / 精神 (せいしん) / 神社 (じんじゃ)",
+    "examples": [
+      {
+        "jp": "<ruby>神<rt>シン</rt></ruby>",
+        "en": "god; deity; spirit"
+      }
+    ],
+    "w": 12,
+    "d": 1
+  },
+  {
+    "id": "番",
+    "type": "kanji",
+    "main": "番",
+    "reading": "バン",
+    "meaning": "number in series; turn",
+    "words": "番号 (ばんごう) / 当番 (とうばん) / 一番 (いちばん)",
+    "examples": [
+      {
+        "jp": "<ruby>番<rt>バン</rt></ruby>",
+        "en": "number in series; turn"
+      }
+    ],
+    "w": 12,
+    "d": 1
+  },
+  {
+    "id": "規",
+    "type": "kanji",
+    "main": "規",
+    "reading": "キ",
+    "meaning": "regulation; rule; standard",
+    "words": "規則 (きそく) / 規模 (きぼ) / 規制 (きせい)",
+    "examples": [
+      {
+        "jp": "<ruby>規<rt>キ</rt></ruby>",
+        "en": "regulation; rule; standard"
+      }
+    ],
+    "w": 12,
+    "d": 1
+  },
+  {
+    "id": "体力",
+    "type": "noun",
+    "main": "体力",
+    "reading": "たいりょく",
+    "meaning": "physical strength; stamina",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>体力<rt>たいりょく</rt></ruby>",
+        "en": "physical strength; stamina"
+      }
+    ],
+    "w": 12,
+    "d": 1
+  },
+  {
+    "id": "術",
+    "type": "kanji",
+    "main": "術",
+    "reading": "ジュツ",
+    "meaning": "technique; skill; art",
+    "words": "技術 (ぎじゅつ) / 手術 (しゅじゅつ) / 芸術 (げいじゅつ)",
+    "examples": [
+      {
+        "jp": "<ruby>術<rt>ジュツ</rt></ruby>",
+        "en": "technique; skill; art"
+      }
+    ],
+    "w": 12,
+    "d": 2
+  },
+  {
+    "id": "備",
+    "type": "kanji",
+    "main": "備",
+    "reading": "ビ/そな.える",
+    "meaning": "prepare; equip; provide",
+    "words": "準備 (じゅんび) / 設備 (せつび) / 整備 (せいび)",
+    "examples": [
+      {
+        "jp": "<ruby>備<rt>ビ</rt></ruby>",
+        "en": "prepare; equip; provide"
+      }
+    ],
+    "w": 12,
+    "d": 2
+  },
+  {
+    "id": "栄養",
+    "type": "noun",
+    "main": "栄養",
+    "reading": "えいよう",
+    "meaning": "nutrition; nourishment",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>栄養<rt>えいよう</rt></ruby>",
+        "en": "nutrition; nourishment"
+      }
+    ],
+    "w": 12,
+    "d": 2
+  },
+  {
+    "id": "注意",
+    "type": "noun",
+    "main": "注意",
+    "reading": "ちゅうい",
+    "meaning": "attention; caution; warning",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>注意<rt>ちゅうい</rt></ruby>",
+        "en": "attention; caution; warning"
+      }
+    ],
+    "w": 12,
+    "d": 2
+  },
+  {
+    "id": "宅",
+    "type": "kanji",
+    "main": "宅",
+    "reading": "タク",
+    "meaning": "home; house; residence",
+    "words": "宅 (たく) / 自宅 (じたく) / 帰宅 (きたく)",
+    "examples": [
+      {
+        "jp": "<ruby>宅<rt>タク</rt></ruby>",
+        "en": "home; house; residence"
+      }
+    ],
+    "w": 12,
+    "d": 3
+  },
+  {
+    "id": "害",
+    "type": "kanji",
+    "main": "害",
+    "reading": "ガイ",
+    "meaning": "harm; damage; injury",
+    "words": "害 (がい) / 被害 (ひがい) / 障害 (しょうがい)",
+    "examples": [
+      {
+        "jp": "<ruby>害<rt>ガイ</rt></ruby>",
+        "en": "harm; damage; injury"
+      }
+    ],
+    "w": 12,
+    "d": 3
+  },
+  {
+    "id": "配",
+    "type": "kanji",
+    "main": "配",
+    "reading": "ハイ/くば.る",
+    "meaning": "distribute; worry; care",
+    "words": "配る (くばる) / 心配 (しんぱい) / 配慮 (はいりょ)",
+    "examples": [
+      {
+        "jp": "<ruby>配<rt>ハイ</rt></ruby>",
+        "en": "distribute; worry; care"
+      }
+    ],
+    "w": 12,
+    "d": 3
+  },
+  {
+    "id": "生活",
+    "type": "noun",
+    "main": "生活",
+    "reading": "せいかつ",
+    "meaning": "daily life; livelihood",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>生活<rt>せいかつ</rt></ruby>",
+        "en": "daily life; livelihood"
+      }
+    ],
+    "w": 12,
+    "d": 3
+  },
+  {
+    "id": "警",
+    "type": "kanji",
+    "main": "警",
+    "reading": "ケイ",
+    "meaning": "admonish; warn; police",
+    "words": "警察 (けいさつ) / 警告 (けいこく) / 警備 (けいび)",
+    "examples": [
+      {
+        "jp": "<ruby>警<rt>ケイ</rt></ruby>",
+        "en": "admonish; warn; police"
+      }
+    ],
+    "w": 12,
+    "d": 4
+  },
+  {
+    "id": "育",
+    "type": "kanji",
+    "main": "育",
+    "reading": "イク/そだ.てる",
+    "meaning": "grow; raise; bring up",
+    "words": "育てる (そだてる) / 教育 (きょういく) / 発育 (はついく)",
+    "examples": [
+      {
+        "jp": "<ruby>育<rt>イク</rt></ruby>",
+        "en": "grow; raise; bring up"
+      }
+    ],
+    "w": 12,
+    "d": 4
+  },
+  {
+    "id": "経済",
+    "type": "noun",
+    "main": "経済",
+    "reading": "けいざい",
+    "meaning": "economy; economics",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>経済<rt>けいざい</rt></ruby>",
+        "en": "economy; economics"
+      }
+    ],
+    "w": 12,
+    "d": 4
+  },
+  {
+    "id": "席",
+    "type": "kanji",
+    "main": "席",
+    "reading": "セキ",
+    "meaning": "seat; place",
+    "words": "席 (せき) / 出席 (しゅっせき) / 欠席 (けっせき)",
+    "examples": [
+      {
+        "jp": "<ruby>席<rt>セキ</rt></ruby>",
+        "en": "seat; place"
+      }
+    ],
+    "w": 12,
+    "d": 5
+  },
+  {
+    "id": "訪",
+    "type": "kanji",
+    "main": "訪",
+    "reading": "ホウ/たず.ねる",
+    "meaning": "visit; call on",
+    "words": "訪ねる (たずねる) / 訪問 (ほうもん) / 来訪 (らいほう)",
+    "examples": [
+      {
+        "jp": "<ruby>訪<rt>ホウ</rt></ruby>",
+        "en": "visit; call on"
+      }
+    ],
+    "w": 12,
+    "d": 5
+  },
+  {
+    "id": "乗",
+    "type": "kanji",
+    "main": "乗",
+    "reading": "ジョウ/の.る",
+    "meaning": "ride; board; get on",
+    "words": "乗る (のる) / 乗客 (じょうきゃく) / 乗り換え (のりかえ)",
+    "examples": [
+      {
+        "jp": "<ruby>乗<rt>ジョウ</rt></ruby>",
+        "en": "ride; board; get on"
+      }
+    ],
+    "w": 12,
+    "d": 5
+  },
+  {
+    "id": "費用",
+    "type": "noun",
+    "main": "費用",
+    "reading": "ひよう",
+    "meaning": "cost; expense; expenditure",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>費用<rt>ひよう</rt></ruby>",
+        "en": "cost; expense; expenditure"
+      }
+    ],
+    "w": 12,
+    "d": 5
+  },
+  {
+    "id": "収入",
+    "type": "noun",
+    "main": "収入",
+    "reading": "しゅうにゅう",
+    "meaning": "income; earnings; revenue",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>収入<rt>しゅうにゅう</rt></ruby>",
+        "en": "income; earnings; revenue"
+      }
+    ],
+    "w": 12,
+    "d": 5
+  },
+  {
+    "id": "残",
+    "type": "kanji",
+    "main": "残",
+    "reading": "ザン/のこ.る",
+    "meaning": "remainder; balance; remain",
+    "words": "残る (のこる) / 残念 (ざんねん) / 残業 (ざんぎょう)",
+    "examples": [
+      {
+        "jp": "<ruby>残<rt>ザン</rt></ruby>",
+        "en": "remainder; balance; remain"
+      }
+    ],
+    "w": 13,
+    "d": 1
+  },
+  {
+    "id": "想",
+    "type": "kanji",
+    "main": "想",
+    "reading": "ソウ・ソ",
+    "meaning": "concept; think; idea",
+    "words": "想像 (そうぞう) / 予想 (よそう) / 感想 (かんそう)",
+    "examples": [
+      {
+        "jp": "<ruby>想<rt>ソウ</rt></ruby>",
+        "en": "concept; think; idea"
+      }
+    ],
+    "w": 13,
+    "d": 1
+  },
+  {
+    "id": "節約",
+    "type": "noun",
+    "main": "節約",
+    "reading": "せつやく",
+    "meaning": "saving; economy; frugality",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>節約<rt>せつやく</rt></ruby>",
+        "en": "saving; economy; frugality"
+      }
+    ],
+    "w": 13,
+    "d": 1
+  },
+  {
+    "id": "声",
+    "type": "kanji",
+    "main": "声",
+    "reading": "セイ・ショウ/こえ",
+    "meaning": "voice; sound",
+    "words": "声 (こえ) / 声援 (せいえん) / 音声 (おんせい)",
+    "examples": [
+      {
+        "jp": "<ruby>声<rt>セイ</rt></ruby>",
+        "en": "voice; sound"
+      }
+    ],
+    "w": 13,
+    "d": 2
+  },
+  {
+    "id": "助",
+    "type": "kanji",
+    "main": "助",
+    "reading": "ジョ/たす.ける",
+    "meaning": "help; assist; rescue",
+    "words": "助ける (たすける) / 助言 (じょげん) / 援助 (えんじょ)",
+    "examples": [
+      {
+        "jp": "<ruby>助<rt>ジョ</rt></ruby>",
+        "en": "help; assist; rescue"
+      }
+    ],
+    "w": 13,
+    "d": 2
+  },
+  {
+    "id": "労",
+    "type": "kanji",
+    "main": "労",
+    "reading": "ロウ/いたわ.る",
+    "meaning": "labor; toil; thank for",
+    "words": "労働 (ろうどう) / 苦労 (くろう) / 過労 (かろう)",
+    "examples": [
+      {
+        "jp": "<ruby>労<rt>ロウ</rt></ruby>",
+        "en": "labor; toil; thank for"
+      }
+    ],
+    "w": 13,
+    "d": 2
+  },
+  {
+    "id": "消費",
+    "type": "noun",
+    "main": "消費",
+    "reading": "しょうひ",
+    "meaning": "consumption; spending",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>消費<rt>しょうひ</rt></ruby>",
+        "en": "consumption; spending"
+      }
+    ],
+    "w": 13,
+    "d": 2
+  },
+  {
+    "id": "例",
+    "type": "kanji",
+    "main": "例",
+    "reading": "レイ/たと.えば",
+    "meaning": "example; instance",
+    "words": "例えば (たとえば) / 例外 (れいがい) / 事例 (じれい)",
+    "examples": [
+      {
+        "jp": "<ruby>例<rt>レイ</rt></ruby>",
+        "en": "example; instance"
+      }
+    ],
+    "w": 13,
+    "d": 3
+  },
+  {
+    "id": "然",
+    "type": "kanji",
+    "main": "然",
+    "reading": "ゼン・ネン",
+    "meaning": "sort of; like that; yes",
+    "words": "自然 (しぜん) / 当然 (とうぜん) / 全然 (ぜんぜん)",
+    "examples": [
+      {
+        "jp": "<ruby>然<rt>ゼン</rt></ruby>",
+        "en": "sort of; like that; yes"
+      }
+    ],
+    "w": 13,
+    "d": 3
+  },
+  {
+    "id": "利益",
+    "type": "noun",
+    "main": "利益",
+    "reading": "りえき",
+    "meaning": "profit; benefit; gain",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>利益<rt>りえき</rt></ruby>",
+        "en": "profit; benefit; gain"
+      }
+    ],
+    "w": 13,
+    "d": 3
+  },
+  {
+    "id": "交通",
+    "type": "noun",
+    "main": "交通",
+    "reading": "こうつう",
+    "meaning": "traffic; transport",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>交通<rt>こうつう</rt></ruby>",
+        "en": "traffic; transport"
+      }
+    ],
+    "w": 13,
+    "d": 3
+  },
+  {
+    "id": "限",
+    "type": "kanji",
+    "main": "限",
+    "reading": "ゲン/かぎ.る",
+    "meaning": "limit; restrict",
+    "words": "限る (かぎる) / 制限 (せいげん) / 有限 (ゆうげん)",
+    "examples": [
+      {
+        "jp": "<ruby>限<rt>ゲン</rt></ruby>",
+        "en": "limit; restrict"
+      }
+    ],
+    "w": 13,
+    "d": 4
+  },
+  {
+    "id": "追",
+    "type": "kanji",
+    "main": "追",
+    "reading": "ツイ/お.う",
+    "meaning": "chase; pursue; follow",
+    "words": "追う (おう) / 追加 (ついか) / 追求 (ついきゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>追<rt>ツイ</rt></ruby>",
+        "en": "chase; pursue; follow"
+      }
+    ],
+    "w": 13,
+    "d": 4
+  },
+  {
+    "id": "商",
+    "type": "kanji",
+    "main": "商",
+    "reading": "ショウ/あきな.う",
+    "meaning": "deal; trade; merchant",
+    "words": "商業 (しょうぎょう) / 商品 (しょうひん) / 商売 (しょうばい)",
+    "examples": [
+      {
+        "jp": "<ruby>商<rt>ショウ</rt></ruby>",
+        "en": "deal; trade; merchant"
+      }
+    ],
+    "w": 13,
+    "d": 4
+  },
+  {
+    "id": "移動",
+    "type": "noun",
+    "main": "移動",
+    "reading": "いどう",
+    "meaning": "movement; migration; travel",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>移動<rt>いどう</rt></ruby>",
+        "en": "movement; migration; travel"
+      }
+    ],
+    "w": 13,
+    "d": 4
+  },
+  {
+    "id": "葉",
+    "type": "kanji",
+    "main": "葉",
+    "reading": "ヨウ/は",
+    "meaning": "leaf; foliage; word",
+    "words": "葉 (は) / 言葉 (ことば) / 紅葉 (もみじ)",
+    "examples": [
+      {
+        "jp": "<ruby>葉<rt>ヨウ</rt></ruby>",
+        "en": "leaf; foliage; word"
+      }
+    ],
+    "w": 13,
+    "d": 5
+  },
+  {
+    "id": "伝",
+    "type": "kanji",
+    "main": "伝",
+    "reading": "デン/つた.える",
+    "meaning": "transmit; communicate",
+    "words": "伝える (つたえる) / 伝統 (でんとう) / 伝言 (でんごん)",
+    "examples": [
+      {
+        "jp": "<ruby>伝<rt>デン</rt></ruby>",
+        "en": "transmit; communicate"
+      }
+    ],
+    "w": 13,
+    "d": 5
+  },
+  {
+    "id": "出発",
+    "type": "noun",
+    "main": "出発",
+    "reading": "しゅっぱつ",
+    "meaning": "departure; setting off",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>出発<rt>しゅっぱつ</rt></ruby>",
+        "en": "departure; setting off"
+      }
+    ],
+    "w": 13,
+    "d": 5
+  },
+  {
+    "id": "働",
+    "type": "kanji",
+    "main": "働",
+    "reading": "ドウ/はたら.く",
+    "meaning": "work; labor; function",
+    "words": "働く (はたらく) / 労働 (ろうどう) / 実働 (じつどう)",
+    "examples": [
+      {
+        "jp": "<ruby>働<rt>ドウ</rt></ruby>",
+        "en": "work; labor; function"
+      }
+    ],
+    "w": 14,
+    "d": 1
+  },
+  {
+    "id": "形",
+    "type": "kanji",
+    "main": "形",
+    "reading": "ケイ・ギョウ/かたち",
+    "meaning": "shape; form; figure",
+    "words": "形 (かたち) / 形式 (けいしき) / 変形 (へんけい)",
+    "examples": [
+      {
+        "jp": "<ruby>形<rt>ケイ</rt></ruby>",
+        "en": "shape; form; figure"
+      }
+    ],
+    "w": 14,
+    "d": 1
+  },
+  {
+    "id": "景",
+    "type": "kanji",
+    "main": "景",
+    "reading": "ケイ",
+    "meaning": "view; scenery; conditions",
+    "words": "景色 (けしき) / 風景 (ふうけい) / 景気 (けいき)",
+    "examples": [
+      {
+        "jp": "<ruby>景<rt>ケイ</rt></ruby>",
+        "en": "view; scenery; conditions"
+      }
+    ],
+    "w": 14,
+    "d": 1
+  },
+  {
+    "id": "到着",
+    "type": "noun",
+    "main": "到着",
+    "reading": "とうちゃく",
+    "meaning": "arrival",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>到着<rt>とうちゃく</rt></ruby>",
+        "en": "arrival"
+      }
+    ],
+    "w": 14,
+    "d": 1
+  },
+  {
+    "id": "予約",
+    "type": "noun",
+    "main": "予約",
+    "reading": "よやく",
+    "meaning": "reservation; booking",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>予約<rt>よやく</rt></ruby>",
+        "en": "reservation; booking"
+      }
+    ],
+    "w": 14,
+    "d": 1
+  },
+  {
+    "id": "落",
+    "type": "kanji",
+    "main": "落",
+    "reading": "ラク/お.ちる",
+    "meaning": "fall; drop; decline",
+    "words": "落ちる (おちる) / 落下 (らっか) / 落胆 (らくたん)",
+    "examples": [
+      {
+        "jp": "<ruby>落<rt>ラク</rt></ruby>",
+        "en": "fall; drop; decline"
+      }
+    ],
+    "w": 14,
+    "d": 2
+  },
+  {
+    "id": "好",
+    "type": "kanji",
+    "main": "好",
+    "reading": "コウ/す.く・この.む",
+    "meaning": "like; fond of; good",
+    "words": "好き (すき) / 好む (このむ) / 好評 (こうひょう)",
+    "examples": [
+      {
+        "jp": "<ruby>好<rt>コウ</rt></ruby>",
+        "en": "like; fond of; good"
+      }
+    ],
+    "w": 14,
+    "d": 2
+  },
+  {
+    "id": "距離",
+    "type": "noun",
+    "main": "距離",
+    "reading": "きょり",
+    "meaning": "distance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>距離<rt>きょり</rt></ruby>",
+        "en": "distance"
+      }
+    ],
+    "w": 14,
+    "d": 2
+  },
+  {
+    "id": "退",
+    "type": "kanji",
+    "main": "退",
+    "reading": "タイ/しりぞ.く",
+    "meaning": "retreat; withdraw; resign",
+    "words": "退職 (たいしょく) / 引退 (いんたい) / 後退 (こうたい)",
+    "examples": [
+      {
+        "jp": "<ruby>退<rt>タイ</rt></ruby>",
+        "en": "retreat; withdraw; resign"
+      }
+    ],
+    "w": 14,
+    "d": 3
+  },
+  {
+    "id": "頭",
+    "type": "kanji",
+    "main": "頭",
+    "reading": "トウ・ズ/あたま",
+    "meaning": "head; top; brain",
+    "words": "頭 (あたま) / 先頭 (せんとう) / 頭脳 (ずのう)",
+    "examples": [
+      {
+        "jp": "<ruby>頭<rt>トウ</rt></ruby>",
+        "en": "head; top; brain"
+      }
+    ],
+    "w": 14,
+    "d": 3
+  },
+  {
+    "id": "負",
+    "type": "kanji",
+    "main": "負",
+    "reading": "フ/ま.ける",
+    "meaning": "lose; defeat; carry",
+    "words": "負ける (まける) / 負担 (ふたん) / 勝負 (しょうぶ)",
+    "examples": [
+      {
+        "jp": "<ruby>負<rt>フ</rt></ruby>",
+        "en": "lose; defeat; carry"
+      }
+    ],
+    "w": 14,
+    "d": 3
+  },
+  {
+    "id": "文化",
+    "type": "noun",
+    "main": "文化",
+    "reading": "ぶんか",
+    "meaning": "culture; civilization",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>文化<rt>ぶんか</rt></ruby>",
+        "en": "culture; civilization"
+      }
+    ],
+    "w": 14,
+    "d": 3
+  },
+  {
+    "id": "渡",
+    "type": "kanji",
+    "main": "渡",
+    "reading": "ト/わた.る",
+    "meaning": "cross over; go across",
+    "words": "渡る (わたる) / 渡す (わたす) / 伝わる (つたわる)",
+    "examples": [
+      {
+        "jp": "<ruby>渡<rt>ト</rt></ruby>",
+        "en": "cross over; go across"
+      }
+    ],
+    "w": 14,
+    "d": 4
+  },
+  {
+    "id": "失",
+    "type": "kanji",
+    "main": "失",
+    "reading": "シツ/うしな.う",
+    "meaning": "lose; miss; error",
+    "words": "失敗 (しっぱい) / 失う (うしなう) / 失礼 (しつれい)",
+    "examples": [
+      {
+        "jp": "<ruby>失<rt>シツ</rt></ruby>",
+        "en": "lose; miss; error"
+      }
+    ],
+    "w": 14,
+    "d": 4
+  },
+  {
+    "id": "伝統",
+    "type": "noun",
+    "main": "伝統",
+    "reading": "でんとう",
+    "meaning": "tradition; convention",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>伝統<rt>でんとう</rt></ruby>",
+        "en": "tradition; convention"
+      }
+    ],
+    "w": 14,
+    "d": 4
+  },
+  {
+    "id": "分野",
+    "type": "noun",
+    "main": "分野",
+    "reading": "ぶんや",
+    "meaning": "field; area; domain",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>分野<rt>ぶんや</rt></ruby>",
+        "en": "field; area; domain"
+      }
+    ],
+    "w": 14,
+    "d": 4
+  },
+  {
+    "id": "差",
+    "type": "kanji",
+    "main": "差",
+    "reading": "サ/さ.す",
+    "meaning": "difference; distinction",
+    "words": "差 (さ) / 差別 (さべつ) / 格差 (かくさ)",
+    "examples": [
+      {
+        "jp": "<ruby>差<rt>サ</rt></ruby>",
+        "en": "difference; distinction"
+      }
+    ],
+    "w": 14,
+    "d": 5
+  },
+  {
+    "id": "末",
+    "type": "kanji",
+    "main": "末",
+    "reading": "マツ・バツ/すえ",
+    "meaning": "end; tip; last part",
+    "words": "週末 (しゅうまつ) / 月末 (げつまつ) / 末 (すえ)",
+    "examples": [
+      {
+        "jp": "<ruby>末<rt>マツ</rt></ruby>",
+        "en": "end; tip; last part"
+      }
+    ],
+    "w": 14,
+    "d": 5
+  },
+  {
+    "id": "守",
+    "type": "kanji",
+    "main": "守",
+    "reading": "シュ・ス/まも.る",
+    "meaning": "protect; guard; keep",
+    "words": "守る (まもる) / 守備 (しゅび) / 保守 (ほしゅ)",
+    "examples": [
+      {
+        "jp": "<ruby>守<rt>シュ</rt></ruby>",
+        "en": "protect; guard; keep"
+      }
+    ],
+    "w": 14,
+    "d": 5
+  },
+  {
+    "id": "技術",
+    "type": "noun",
+    "main": "技術",
+    "reading": "ぎじゅつ",
+    "meaning": "technology; skill; technique",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>技術<rt>ぎじゅつ</rt></ruby>",
+        "en": "technology; skill; technique"
+      }
+    ],
+    "w": 14,
+    "d": 5
+  },
+  {
+    "id": "若",
+    "type": "kanji",
+    "main": "若",
+    "reading": "ジャク・ニャク/わか.い",
+    "meaning": "young; if perhaps",
+    "words": "若い (わかい) / 若者 (わかもの) / 若干 (じゃっかん)",
+    "examples": [
+      {
+        "jp": "<ruby>若<rt>ジャク</rt></ruby>",
+        "en": "young; if perhaps"
+      }
+    ],
+    "w": 15,
+    "d": 1
+  },
+  {
+    "id": "種",
+    "type": "kanji",
+    "main": "種",
+    "reading": "シュ/たね",
+    "meaning": "kind; type; seed",
+    "words": "種類 (しゅるい) / 品種 (ひんしゅ) / 種目 (しゅもく)",
+    "examples": [
+      {
+        "jp": "<ruby>種<rt>シュ</rt></ruby>",
+        "en": "kind; type; seed"
+      }
+    ],
+    "w": 15,
+    "d": 1
+  },
+  {
+    "id": "産業",
+    "type": "noun",
+    "main": "産業",
+    "reading": "さんぎょう",
+    "meaning": "industry",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>産業<rt>さんぎょう</rt></ruby>",
+        "en": "industry"
+      }
+    ],
+    "w": 15,
+    "d": 1
+  },
+  {
+    "id": "美",
+    "type": "kanji",
+    "main": "美",
+    "reading": "ビ・ミ/うつく.しい",
+    "meaning": "beauty; beautiful",
+    "words": "美しい (うつくしい) / 美術 (びじゅつ) / 美容 (びよう)",
+    "examples": [
+      {
+        "jp": "<ruby>美<rt>ビ</rt></ruby>",
+        "en": "beauty; beautiful"
+      }
+    ],
+    "w": 15,
+    "d": 2
+  },
+  {
+    "id": "命",
+    "type": "kanji",
+    "main": "命",
+    "reading": "メイ・ミョウ/いのち",
+    "meaning": "life; command; fate",
+    "words": "命令 (めいれい) / 命 (いのち) / 使命 (しめい)",
+    "examples": [
+      {
+        "jp": "<ruby>命<rt>メイ</rt></ruby>",
+        "en": "life; command; fate"
+      }
+    ],
+    "w": 15,
+    "d": 2
+  },
+  {
+    "id": "福",
+    "type": "kanji",
+    "main": "福",
+    "reading": "フク",
+    "meaning": "blessing; fortune; happiness",
+    "words": "幸福 (こうふく) / 福祉 (ふくし) / 福 (ふく)",
+    "examples": [
+      {
+        "jp": "<ruby>福<rt>フク</rt></ruby>",
+        "en": "blessing; fortune; happiness"
+      }
+    ],
+    "w": 15,
+    "d": 2
+  },
+  {
+    "id": "可能性",
+    "type": "noun",
+    "main": "可能性",
+    "reading": "かのうせい",
+    "meaning": "possibility; potential",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>可能性<rt>かのうせい</rt></ruby>",
+        "en": "possibility; potential"
+      }
+    ],
+    "w": 15,
+    "d": 2
+  },
+  {
+    "id": "自由",
+    "type": "noun",
+    "main": "自由",
+    "reading": "じゆう",
+    "meaning": "freedom; liberty",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>自由<rt>じゆう</rt></ruby>",
+        "en": "freedom; liberty"
+      }
+    ],
+    "w": 15,
+    "d": 2
+  },
+  {
+    "id": "望",
+    "type": "kanji",
+    "main": "望",
+    "reading": "ボウ・モウ/のぞ.む",
+    "meaning": "hope; wish; desire",
+    "words": "希望 (きぼう) / 絶望 (ぜつぼう) / 展望 (てんぼう)",
+    "examples": [
+      {
+        "jp": "<ruby>望<rt>ボウ</rt></ruby>",
+        "en": "hope; wish; desire"
+      }
+    ],
+    "w": 15,
+    "d": 3
+  },
+  {
+    "id": "非",
+    "type": "kanji",
+    "main": "非",
+    "reading": "ヒ",
+    "meaning": "not; un-; fault",
+    "words": "非常 (ひじょう) / 非公式 (ひこうしき) / 是非 (ぜひ)",
+    "examples": [
+      {
+        "jp": "<ruby>非<rt>ヒ</rt></ruby>",
+        "en": "not; un-; fault"
+      }
+    ],
+    "w": 15,
+    "d": 3
+  },
+  {
+    "id": "平和",
+    "type": "noun",
+    "main": "平和",
+    "reading": "へいわ",
+    "meaning": "peace; harmony",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>平和<rt>へいわ</rt></ruby>",
+        "en": "peace; harmony"
+      }
+    ],
+    "w": 15,
+    "d": 3
+  },
+  {
+    "id": "観",
+    "type": "kanji",
+    "main": "観",
+    "reading": "カン",
+    "meaning": "outlook; view; observe",
+    "words": "観光 (かんこう) / 観察 (かんさつ) / 価値観 (かちかん)",
+    "examples": [
+      {
+        "jp": "<ruby>観<rt>カン</rt></ruby>",
+        "en": "outlook; view; observe"
+      }
+    ],
+    "w": 15,
+    "d": 4
+  },
+  {
+    "id": "察",
+    "type": "kanji",
+    "main": "察",
+    "reading": "サツ",
+    "meaning": "inspect; investigate",
+    "words": "観察 (かんさつ) / 警察 (けいさつ) / 察する (さっする)",
+    "examples": [
+      {
+        "jp": "<ruby>察<rt>サツ</rt></ruby>",
+        "en": "inspect; investigate"
+      }
+    ],
+    "w": 15,
+    "d": 4
+  },
+  {
+    "id": "段",
+    "type": "kanji",
+    "main": "段",
+    "reading": "ダン",
+    "meaning": "grade; step; stairs",
+    "words": "段階 (だんかい) / 手段 (しゅだん) / 値段 (ねだん)",
+    "examples": [
+      {
+        "jp": "<ruby>段<rt>ダン</rt></ruby>",
+        "en": "grade; step; stairs"
+      }
+    ],
+    "w": 15,
+    "d": 4
+  },
+  {
+    "id": "平等",
+    "type": "noun",
+    "main": "平等",
+    "reading": "びょうどう",
+    "meaning": "equality; equal treatment",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>平等<rt>びょうどう</rt></ruby>",
+        "en": "equality; equal treatment"
+      }
+    ],
+    "w": 15,
+    "d": 4
+  },
+  {
+    "id": "横",
+    "type": "kanji",
+    "main": "横",
+    "reading": "オウ/よこ",
+    "meaning": "sideways; horizontal; side",
+    "words": "横 (よこ) / 横断 (おうだん) / 横切る (よこぎる)",
+    "examples": [
+      {
+        "jp": "<ruby>横<rt>オウ</rt></ruby>",
+        "en": "sideways; horizontal; side"
+      }
+    ],
+    "w": 15,
+    "d": 5
+  },
+  {
+    "id": "深",
+    "type": "kanji",
+    "main": "深",
+    "reading": "シン/ふか.い",
+    "meaning": "deep; profound",
+    "words": "深い (ふかい) / 深夜 (しんや) / 深刻 (しんこく)",
+    "examples": [
+      {
+        "jp": "<ruby>深<rt>シン</rt></ruby>",
+        "en": "deep; profound"
+      }
+    ],
+    "w": 15,
+    "d": 5
+  },
+  {
+    "id": "安全",
+    "type": "noun",
+    "main": "安全",
+    "reading": "あんぜん",
+    "meaning": "safety; security",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>安全<rt>あんぜん</rt></ruby>",
+        "en": "safety; security"
+      }
+    ],
+    "w": 15,
+    "d": 5
+  },
+  {
+    "id": "危険",
+    "type": "noun",
+    "main": "危険",
+    "reading": "きけん",
+    "meaning": "danger; peril; risk",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>危険<rt>きけん</rt></ruby>",
+        "en": "danger; peril; risk"
+      }
+    ],
+    "w": 15,
+    "d": 5
+  },
+  {
+    "id": "申",
+    "type": "kanji",
+    "main": "申",
+    "reading": "シン/もう.す",
+    "meaning": "speak (humble); ninth zodiac",
+    "words": "申し込む (もうしこむ) / 申し上げる / 申告 (しんこく)",
+    "examples": [
+      {
+        "jp": "<ruby>申<rt>シン</rt></ruby>",
+        "en": "speak (humble); ninth zodiac"
+      }
+    ],
+    "w": 16,
+    "d": 1
+  },
+  {
+    "id": "様",
+    "type": "kanji",
+    "main": "様",
+    "reading": "ヨウ/さま",
+    "meaning": "manner; Mr./Mrs.; design",
+    "words": "様子 (ようす) / 様々 (さまざま) / お客様 (おきゃくさま)",
+    "examples": [
+      {
+        "jp": "<ruby>様<rt>ヨウ</rt></ruby>",
+        "en": "manner; Mr./Mrs.; design"
+      }
+    ],
+    "w": 16,
+    "d": 1
+  },
+  {
+    "id": "財",
+    "type": "kanji",
+    "main": "財",
+    "reading": "ザイ・サイ",
+    "meaning": "property; wealth; assets",
+    "words": "財産 (ざいさん) / 財布 (さいふ) / 財政 (ざいせい)",
+    "examples": [
+      {
+        "jp": "<ruby>財<rt>ザイ</rt></ruby>",
+        "en": "property; wealth; assets"
+      }
+    ],
+    "w": 16,
+    "d": 1
+  },
+  {
+    "id": "成功",
+    "type": "noun",
+    "main": "成功",
+    "reading": "せいこう",
+    "meaning": "success",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>成功<rt>せいこう</rt></ruby>",
+        "en": "success"
+      }
+    ],
+    "w": 16,
+    "d": 1
+  },
+  {
+    "id": "港",
+    "type": "kanji",
+    "main": "港",
+    "reading": "コウ/みなと",
+    "meaning": "port; harbor",
+    "words": "港 (みなと) / 空港 (くうこう) / 港町 (みなとまち)",
+    "examples": [
+      {
+        "jp": "<ruby>港<rt>コウ</rt></ruby>",
+        "en": "port; harbor"
+      }
+    ],
+    "w": 16,
+    "d": 2
+  },
+  {
+    "id": "識",
+    "type": "kanji",
+    "main": "識",
+    "reading": "シキ",
+    "meaning": "discern; know; consciousness",
+    "words": "知識 (ちしき) / 意識 (いしき) / 認識 (にんしき)",
+    "examples": [
+      {
+        "jp": "<ruby>識<rt>シキ</rt></ruby>",
+        "en": "discern; know; consciousness"
+      }
+    ],
+    "w": 16,
+    "d": 2
+  },
+  {
+    "id": "失敗",
+    "type": "noun",
+    "main": "失敗",
+    "reading": "しっぱい",
+    "meaning": "failure; mistake; blunder",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>失敗<rt>しっぱい</rt></ruby>",
+        "en": "failure; mistake; blunder"
+      }
+    ],
+    "w": 16,
+    "d": 2
+  },
+  {
+    "id": "呼",
+    "type": "kanji",
+    "main": "呼",
+    "reading": "コ/よ.ぶ",
+    "meaning": "call; call out; invite",
+    "words": "呼ぶ (よぶ) / 呼吸 (こきゅう) / 呼び出す (よびだす)",
+    "examples": [
+      {
+        "jp": "<ruby>呼<rt>コ</rt></ruby>",
+        "en": "call; call out; invite"
+      }
+    ],
+    "w": 16,
+    "d": 3
+  },
+  {
+    "id": "達",
+    "type": "kanji",
+    "main": "達",
+    "reading": "タツ",
+    "meaning": "reach; attain; plural suffix",
+    "words": "友達 (ともだち) / 達成 (たっせい) / 伝達 (でんたつ)",
+    "examples": [
+      {
+        "jp": "<ruby>達<rt>タツ</rt></ruby>",
+        "en": "reach; attain; plural suffix"
+      }
+    ],
+    "w": 16,
+    "d": 3
+  },
+  {
+    "id": "良",
+    "type": "kanji",
+    "main": "良",
+    "reading": "リョウ/よ.い",
+    "meaning": "good; fine; quality",
+    "words": "良い (よい) / 改良 (かいりょう) / 優良 (ゆうりょう)",
+    "examples": [
+      {
+        "jp": "<ruby>良<rt>リョウ</rt></ruby>",
+        "en": "good; fine; quality"
+      }
+    ],
+    "w": 16,
+    "d": 3
+  },
+  {
+    "id": "成長",
+    "type": "noun",
+    "main": "成長",
+    "reading": "せいちょう",
+    "meaning": "growth; development; maturity",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>成長<rt>せいちょう</rt></ruby>",
+        "en": "growth; development; maturity"
+      }
+    ],
+    "w": 16,
+    "d": 3
+  },
+  {
+    "id": "変化",
+    "type": "noun",
+    "main": "変化",
+    "reading": "へんか",
+    "meaning": "change; transformation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>変化<rt>へんか</rt></ruby>",
+        "en": "change; transformation"
+      }
+    ],
+    "w": 16,
+    "d": 3
+  },
+  {
+    "id": "阪",
+    "type": "kanji",
+    "main": "阪",
+    "reading": "ハン/さか",
+    "meaning": "slope (Osaka)",
+    "words": "大阪 (おおさか) / 阪神 (はんしん)",
+    "examples": [
+      {
+        "jp": "<ruby>阪<rt>ハン</rt></ruby>",
+        "en": "slope (Osaka)"
+      }
+    ],
+    "w": 16,
+    "d": 4
+  },
+  {
+    "id": "候",
+    "type": "kanji",
+    "main": "候",
+    "reading": "コウ/そうろう",
+    "meaning": "condition; season; climate",
+    "words": "気候 (きこう) / 天候 (てんこう) / 候補 (こうほ)",
+    "examples": [
+      {
+        "jp": "<ruby>候<rt>コウ</rt></ruby>",
+        "en": "condition; season; climate"
+      }
+    ],
+    "w": 16,
+    "d": 4
+  },
+  {
+    "id": "増加",
+    "type": "noun",
+    "main": "増加",
+    "reading": "ぞうか",
+    "meaning": "increase; growth; rise",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>増加<rt>ぞうか</rt></ruby>",
+        "en": "increase; growth; rise"
+      }
+    ],
+    "w": 16,
+    "d": 4
+  },
+  {
+    "id": "程",
+    "type": "kanji",
+    "main": "程",
+    "reading": "テイ/ほど",
+    "meaning": "extent; degree; course",
+    "words": "程度 (ていど) / 日程 (にってい) / 過程 (かてい)",
+    "examples": [
+      {
+        "jp": "<ruby>程<rt>テイ</rt></ruby>",
+        "en": "extent; degree; course"
+      }
+    ],
+    "w": 16,
+    "d": 5
+  },
+  {
+    "id": "満",
+    "type": "kanji",
+    "main": "満",
+    "reading": "マン/み.ちる",
+    "meaning": "full; satisfy; enough",
+    "words": "満足 (まんぞく) / 満員 (まんいん) / 未満 (みまん)",
+    "examples": [
+      {
+        "jp": "<ruby>満<rt>マン</rt></ruby>",
+        "en": "full; satisfy; enough"
+      }
+    ],
+    "w": 16,
+    "d": 5
+  },
+  {
+    "id": "敗",
+    "type": "kanji",
+    "main": "敗",
+    "reading": "ハイ/やぶ.れる",
+    "meaning": "defeat; lose; fail",
+    "words": "失敗 (しっぱい) / 敗北 (はいぼく) / 成敗 (せいばい)",
+    "examples": [
+      {
+        "jp": "<ruby>敗<rt>ハイ</rt></ruby>",
+        "en": "defeat; lose; fail"
+      }
+    ],
+    "w": 16,
+    "d": 5
+  },
+  {
+    "id": "減少",
+    "type": "noun",
+    "main": "減少",
+    "reading": "げんしょう",
+    "meaning": "decrease; decline; reduction",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>減少<rt>げんしょう</rt></ruby>",
+        "en": "decrease; decline; reduction"
+      }
+    ],
+    "w": 16,
+    "d": 5
+  },
+  {
+    "id": "値",
+    "type": "kanji",
+    "main": "値",
+    "reading": "チ/ね・あたい",
+    "meaning": "price; value; cost",
+    "words": "値段 (ねだん) / 価値 (かち) / 数値 (すうち)",
+    "examples": [
+      {
+        "jp": "<ruby>値<rt>チ</rt></ruby>",
+        "en": "price; value; cost"
+      }
+    ],
+    "w": 17,
+    "d": 1
+  },
+  {
+    "id": "突",
+    "type": "kanji",
+    "main": "突",
+    "reading": "トツ/つ.く",
+    "meaning": "thrust; abruptly; sudden",
+    "words": "突然 (とつぜん) / 突っ込む (つっこむ) / 衝突 (しょうとつ)",
+    "examples": [
+      {
+        "jp": "<ruby>突<rt>トツ</rt></ruby>",
+        "en": "thrust; abruptly; sudden"
+      }
+    ],
+    "w": 17,
+    "d": 1
+  },
+  {
+    "id": "驚く",
+    "type": "verb",
+    "main": "驚く",
+    "reading": "おどろく",
+    "meaning": "to be surprised; to be astonished",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>驚く<rt>おどろく</rt></ruby>",
+        "en": "to be surprised; to be astonished"
+      }
+    ],
+    "w": 17,
+    "d": 1
+  },
+  {
+    "id": "悩む",
+    "type": "verb",
+    "main": "悩む",
+    "reading": "なやむ",
+    "meaning": "to worry; to be troubled",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>悩む<rt>なやむ</rt></ruby>",
+        "en": "to worry; to be troubled"
+      }
+    ],
+    "w": 17,
+    "d": 1
+  },
+  {
+    "id": "光",
+    "type": "kanji",
+    "main": "光",
+    "reading": "コウ/ひか.る・ひかり",
+    "meaning": "light; ray; shine",
+    "words": "光 (ひかり) / 光線 (こうせん) / 観光 (かんこう)",
+    "examples": [
+      {
+        "jp": "<ruby>光<rt>コウ</rt></ruby>",
+        "en": "light; ray; shine"
+      }
+    ],
+    "w": 17,
+    "d": 2
+  },
+  {
+    "id": "路",
+    "type": "kanji",
+    "main": "路",
+    "reading": "ロ/じ",
+    "meaning": "road; path; route",
+    "words": "道路 (どうろ) / 路線 (ろせん) / 経路 (けいろ)",
+    "examples": [
+      {
+        "jp": "<ruby>路<rt>ロ</rt></ruby>",
+        "en": "road; path; route"
+      }
+    ],
+    "w": 17,
+    "d": 2
+  },
+  {
+    "id": "科",
+    "type": "kanji",
+    "main": "科",
+    "reading": "カ",
+    "meaning": "department; subject; course",
+    "words": "科学 (かがく) / 教科書 (きょうかしょ) / 外科 (げか)",
+    "examples": [
+      {
+        "jp": "<ruby>科<rt>カ</rt></ruby>",
+        "en": "department; subject; course"
+      }
+    ],
+    "w": 17,
+    "d": 2
+  },
+  {
+    "id": "諦める",
+    "type": "verb",
+    "main": "諦める",
+    "reading": "あきらめる",
+    "meaning": "to give up; to abandon",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>諦める<rt>あきらめる</rt></ruby>",
+        "en": "to give up; to abandon"
+      }
+    ],
+    "w": 17,
+    "d": 2
+  },
+  {
+    "id": "積",
+    "type": "kanji",
+    "main": "積",
+    "reading": "セキ/つ.む",
+    "meaning": "pile up; accumulate",
+    "words": "積む (つむ) / 面積 (めんせき) / 積極的 (せっきょくてき)",
+    "examples": [
+      {
+        "jp": "<ruby>積<rt>セキ</rt></ruby>",
+        "en": "pile up; accumulate"
+      }
+    ],
+    "w": 17,
+    "d": 3
+  },
+  {
+    "id": "他",
+    "type": "kanji",
+    "main": "他",
+    "reading": "タ/ほか",
+    "meaning": "other; another; outside",
+    "words": "他の (ほかの) / 他人 (たにん) / その他 (そのほか)",
+    "examples": [
+      {
+        "jp": "<ruby>他<rt>タ</rt></ruby>",
+        "en": "other; another; outside"
+      }
+    ],
+    "w": 17,
+    "d": 3
+  },
+  {
+    "id": "比べる",
+    "type": "verb",
+    "main": "比べる",
+    "reading": "くらべる",
+    "meaning": "to compare; to contrast",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>比べる<rt>くらべる</rt></ruby>",
+        "en": "to compare; to contrast"
+      }
+    ],
+    "w": 17,
+    "d": 3
+  },
+  {
+    "id": "処",
+    "type": "kanji",
+    "main": "処",
+    "reading": "ショ",
+    "meaning": "dispose; deal with",
+    "words": "処理 (しょり) / 対処 (たいしょ) / 処置 (しょち)",
+    "examples": [
+      {
+        "jp": "<ruby>処<rt>ショ</rt></ruby>",
+        "en": "dispose; deal with"
+      }
+    ],
+    "w": 17,
+    "d": 4
+  },
+  {
+    "id": "太",
+    "type": "kanji",
+    "main": "太",
+    "reading": "タイ・タ/ふと.い",
+    "meaning": "fat; thick; bold",
+    "words": "太い (ふとい) / 太平洋 (たいへいよう) / 太陽 (たいよう)",
+    "examples": [
+      {
+        "jp": "<ruby>太<rt>タイ</rt></ruby>",
+        "en": "fat; thick; bold"
+      }
+    ],
+    "w": 17,
+    "d": 4
+  },
+  {
+    "id": "客",
+    "type": "kanji",
+    "main": "客",
+    "reading": "キャク・カク",
+    "meaning": "customer; visitor; guest",
+    "words": "客 (きゃく) / 観客 (かんきゃく) / 乗客 (じょうきゃく)",
+    "examples": [
+      {
+        "jp": "<ruby>客<rt>キャク</rt></ruby>",
+        "en": "customer; visitor; guest"
+      }
+    ],
+    "w": 17,
+    "d": 4
+  },
+  {
+    "id": "続ける",
+    "type": "verb",
+    "main": "続ける",
+    "reading": "つづける",
+    "meaning": "to continue; to keep doing",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>続ける<rt>つづける</rt></ruby>",
+        "en": "to continue; to keep doing"
+      }
+    ],
+    "w": 17,
+    "d": 4
+  },
+  {
+    "id": "調べる",
+    "type": "verb",
+    "main": "調べる",
+    "reading": "しらべる",
+    "meaning": "to investigate; to look into",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>調べる<rt>しらべる</rt></ruby>",
+        "en": "to investigate; to look into"
+      }
+    ],
+    "w": 17,
+    "d": 4
+  },
+  {
+    "id": "否",
+    "type": "kanji",
+    "main": "否",
+    "reading": "ヒ/いな・いや",
+    "meaning": "negate; no; decline",
+    "words": "否定 (ひてい) / 否 (いな) / 賛否 (さんぴ)",
+    "examples": [
+      {
+        "jp": "<ruby>否<rt>ヒ</rt></ruby>",
+        "en": "negate; no; decline"
+      }
+    ],
+    "w": 17,
+    "d": 5
+  },
+  {
+    "id": "師",
+    "type": "kanji",
+    "main": "師",
+    "reading": "シ",
+    "meaning": "master; teacher; expert",
+    "words": "医師 (いし) / 教師 (きょうし) / 師匠 (ししょう)",
+    "examples": [
+      {
+        "jp": "<ruby>師<rt>シ</rt></ruby>",
+        "en": "master; teacher; expert"
+      }
+    ],
+    "w": 17,
+    "d": 5
+  },
+  {
+    "id": "伝える",
+    "type": "verb",
+    "main": "伝える",
+    "reading": "つたえる",
+    "meaning": "to convey; to communicate",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>伝える<rt>つたえる</rt></ruby>",
+        "en": "to convey; to communicate"
+      }
+    ],
+    "w": 17,
+    "d": 5
+  },
+  {
+    "id": "登",
+    "type": "kanji",
+    "main": "登",
+    "reading": "トウ・ト/のぼ.る",
+    "meaning": "ascend; climb; register",
+    "words": "登る (のぼる) / 登場 (とうじょう) / 登録 (とうろく)",
+    "examples": [
+      {
+        "jp": "<ruby>登<rt>トウ</rt></ruby>",
+        "en": "ascend; climb; register"
+      }
+    ],
+    "w": 18,
+    "d": 1
+  },
+  {
+    "id": "易",
+    "type": "kanji",
+    "main": "易",
+    "reading": "エキ・イ/やさ.しい",
+    "meaning": "easy; trade",
+    "words": "容易 (ようい) / 貿易 (ぼうえき) / 安易 (あんい)",
+    "examples": [
+      {
+        "jp": "<ruby>易<rt>エキ</rt></ruby>",
+        "en": "easy; trade"
+      }
+    ],
+    "w": 18,
+    "d": 1
+  },
+  {
+    "id": "速",
+    "type": "kanji",
+    "main": "速",
+    "reading": "ソク/はや.い",
+    "meaning": "fast; quick; speed",
+    "words": "速い (はやい) / 速度 (そくど) / 急速 (きゅうそく)",
+    "examples": [
+      {
+        "jp": "<ruby>速<rt>ソク</rt></ruby>",
+        "en": "fast; quick; speed"
+      }
+    ],
+    "w": 18,
+    "d": 1
+  },
+  {
+    "id": "認める",
+    "type": "verb",
+    "main": "認める",
+    "reading": "みとめる",
+    "meaning": "to recognize; to acknowledge",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>認める<rt>みとめる</rt></ruby>",
+        "en": "to recognize; to acknowledge"
+      }
+    ],
+    "w": 18,
+    "d": 1
+  },
+  {
+    "id": "存",
+    "type": "kanji",
+    "main": "存",
+    "reading": "ソン・ゾン",
+    "meaning": "exist; know",
+    "words": "存在 (そんざい) / 保存 (ほぞん) / 依存 (いぞん)",
+    "examples": [
+      {
+        "jp": "<ruby>存<rt>ソン</rt></ruby>",
+        "en": "exist; know"
+      }
+    ],
+    "w": 18,
+    "d": 2
+  },
+  {
+    "id": "飛",
+    "type": "kanji",
+    "main": "飛",
+    "reading": "ヒ/と.ぶ",
+    "meaning": "fly; jump; skip",
+    "words": "飛ぶ (とぶ) / 飛行機 (ひこうき) / 飛行 (ひこう)",
+    "examples": [
+      {
+        "jp": "<ruby>飛<rt>ヒ</rt></ruby>",
+        "en": "fly; jump; skip"
+      }
+    ],
+    "w": 18,
+    "d": 2
+  },
+  {
+    "id": "断る",
+    "type": "verb",
+    "main": "断る",
+    "reading": "ことわる",
+    "meaning": "to refuse; to decline",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>断る<rt>ことわる</rt></ruby>",
+        "en": "to refuse; to decline"
+      }
+    ],
+    "w": 18,
+    "d": 2
+  },
+  {
+    "id": "頼む",
+    "type": "verb",
+    "main": "頼む",
+    "reading": "たのむ",
+    "meaning": "to ask; to request; to order",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>頼む<rt>たのむ</rt></ruby>",
+        "en": "to ask; to request; to order"
+      }
+    ],
+    "w": 18,
+    "d": 2
+  },
+  {
+    "id": "殺",
+    "type": "kanji",
+    "main": "殺",
+    "reading": "サツ・セツ/ころ.す",
+    "meaning": "kill; murder",
+    "words": "殺す (ころす) / 殺人 (さつじん) / 自殺 (じさつ)",
+    "examples": [
+      {
+        "jp": "<ruby>殺<rt>サツ</rt></ruby>",
+        "en": "kill; murder"
+      }
+    ],
+    "w": 18,
+    "d": 3
+  },
+  {
+    "id": "号",
+    "type": "kanji",
+    "main": "号",
+    "reading": "ゴウ",
+    "meaning": "number; signal; name",
+    "words": "番号 (ばんごう) / 信号 (しんごう) / 号外 (ごうがい)",
+    "examples": [
+      {
+        "jp": "<ruby>号<rt>ゴウ</rt></ruby>",
+        "en": "number; signal; name"
+      }
+    ],
+    "w": 18,
+    "d": 3
+  },
+  {
+    "id": "単",
+    "type": "kanji",
+    "main": "単",
+    "reading": "タン/ひとえ",
+    "meaning": "simple; single; alone",
+    "words": "単純 (たんじゅん) / 単語 (たんご) / 単独 (たんどく)",
+    "examples": [
+      {
+        "jp": "<ruby>単<rt>タン</rt></ruby>",
+        "en": "simple; single; alone"
+      }
+    ],
+    "w": 18,
+    "d": 3
+  },
+  {
+    "id": "迷う",
+    "type": "verb",
+    "main": "迷う",
+    "reading": "まよう",
+    "meaning": "to be lost; to hesitate",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>迷う<rt>まよう</rt></ruby>",
+        "en": "to be lost; to hesitate"
+      }
+    ],
+    "w": 18,
+    "d": 3
+  },
+  {
+    "id": "座",
+    "type": "kanji",
+    "main": "座",
+    "reading": "ザ/すわ.る",
+    "meaning": "seat; sit; constellation",
+    "words": "座る (すわる) / 座席 (ざせき) / 星座 (せいざ)",
+    "examples": [
+      {
+        "jp": "<ruby>座<rt>ザ</rt></ruby>",
+        "en": "seat; sit; constellation"
+      }
+    ],
+    "w": 18,
+    "d": 4
+  },
+  {
+    "id": "破",
+    "type": "kanji",
+    "main": "破",
+    "reading": "ハ/やぶ.る",
+    "meaning": "rip; tear; destroy",
+    "words": "破る (やぶる) / 破壊 (はかい) / 破片 (はへん)",
+    "examples": [
+      {
+        "jp": "<ruby>破<rt>ハ</rt></ruby>",
+        "en": "rip; tear; destroy"
+      }
+    ],
+    "w": 18,
+    "d": 4
+  },
+  {
+    "id": "逃げる",
+    "type": "verb",
+    "main": "逃げる",
+    "reading": "にげる",
+    "meaning": "to run away; to escape",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>逃げる<rt>にげる</rt></ruby>",
+        "en": "to run away; to escape"
+      }
+    ],
+    "w": 18,
+    "d": 4
+  },
+  {
+    "id": "除",
+    "type": "kanji",
+    "main": "除",
+    "reading": "ジョ・ジ/のぞ.く",
+    "meaning": "exclude; remove",
+    "words": "除く (のぞく) / 除外 (じょがい) / 解除 (かいじょ)",
+    "examples": [
+      {
+        "jp": "<ruby>除<rt>ジョ</rt></ruby>",
+        "en": "exclude; remove"
+      }
+    ],
+    "w": 18,
+    "d": 5
+  },
+  {
+    "id": "完",
+    "type": "kanji",
+    "main": "完",
+    "reading": "カン",
+    "meaning": "complete; perfect; finish",
+    "words": "完成 (かんせい) / 完全 (かんぜん) / 完了 (かんりょう)",
+    "examples": [
+      {
+        "jp": "<ruby>完<rt>カン</rt></ruby>",
+        "en": "complete; perfect; finish"
+      }
+    ],
+    "w": 18,
+    "d": 5
+  },
+  {
+    "id": "降",
+    "type": "kanji",
+    "main": "降",
+    "reading": "コウ・ゴ/ふ.る・お.りる",
+    "meaning": "descend; fall; rain",
+    "words": "降る (ふる) / 降りる (おりる) / 降車 (こうしゃ)",
+    "examples": [
+      {
+        "jp": "<ruby>降<rt>コウ</rt></ruby>",
+        "en": "descend; fall; rain"
+      }
+    ],
+    "w": 18,
+    "d": 5
+  },
+  {
+    "id": "助ける",
+    "type": "verb",
+    "main": "助ける",
+    "reading": "たすける",
+    "meaning": "to help; to rescue; to save",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>助ける<rt>たすける</rt></ruby>",
+        "en": "to help; to rescue; to save"
+      }
+    ],
+    "w": 18,
+    "d": 5
+  },
+  {
+    "id": "守る",
+    "type": "verb",
+    "main": "守る",
+    "reading": "まもる",
+    "meaning": "to protect; to defend; to keep",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>守る<rt>まもる</rt></ruby>",
+        "en": "to protect; to defend; to keep"
+      }
+    ],
+    "w": 18,
+    "d": 5
+  },
+  {
+    "id": "責",
+    "type": "kanji",
+    "main": "責",
+    "reading": "セキ/せ.める",
+    "meaning": "liability; blame; duty",
+    "words": "責任 (せきにん) / 責める (せめる) / 自責 (じせき)",
+    "examples": [
+      {
+        "jp": "<ruby>責<rt>セキ</rt></ruby>",
+        "en": "liability; blame; duty"
+      }
+    ],
+    "w": 19,
+    "d": 1
+  },
+  {
+    "id": "捕",
+    "type": "kanji",
+    "main": "捕",
+    "reading": "ホ/と.る・つか.まる",
+    "meaning": "catch; capture; arrest",
+    "words": "捕まえる (つかまえる) / 逮捕 (たいほ) / 捕獲 (ほかく)",
+    "examples": [
+      {
+        "jp": "<ruby>捕<rt>ホ</rt></ruby>",
+        "en": "catch; capture; arrest"
+      }
+    ],
+    "w": 19,
+    "d": 1
+  },
+  {
+    "id": "壊れる",
+    "type": "verb",
+    "main": "壊れる",
+    "reading": "こわれる",
+    "meaning": "to break; to be damaged",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>壊れる<rt>こわれる</rt></ruby>",
+        "en": "to break; to be damaged"
+      }
+    ],
+    "w": 19,
+    "d": 1
+  },
+  {
+    "id": "危",
+    "type": "kanji",
+    "main": "危",
+    "reading": "キ/あぶ.ない",
+    "meaning": "dangerous; risky; uneasy",
+    "words": "危険 (きけん) / 危ない (あぶない) / 危機 (きき)",
+    "examples": [
+      {
+        "jp": "<ruby>危<rt>キ</rt></ruby>",
+        "en": "dangerous; risky; uneasy"
+      }
+    ],
+    "w": 19,
+    "d": 2
+  },
+  {
+    "id": "給",
+    "type": "kanji",
+    "main": "給",
+    "reading": "キュウ/たま.う",
+    "meaning": "supply; wage; provide",
+    "words": "給料 (きゅうりょう) / 給付 (きゅうふ) / 供給 (きょうきゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>給<rt>キュウ</rt></ruby>",
+        "en": "supply; wage; provide"
+      }
+    ],
+    "w": 19,
+    "d": 2
+  },
+  {
+    "id": "苦",
+    "type": "kanji",
+    "main": "苦",
+    "reading": "ク/くる.しい・にが.い",
+    "meaning": "suffering; hardship; bitter",
+    "words": "苦しい (くるしい) / 苦労 (くろう) / 苦手 (にがて)",
+    "examples": [
+      {
+        "jp": "<ruby>苦<rt>ク</rt></ruby>",
+        "en": "suffering; hardship; bitter"
+      }
+    ],
+    "w": 19,
+    "d": 2
+  },
+  {
+    "id": "直す",
+    "type": "verb",
+    "main": "直す",
+    "reading": "なおす",
+    "meaning": "to fix; to correct; to redo",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>直す<rt>なおす</rt></ruby>",
+        "en": "to fix; to correct; to redo"
+      }
+    ],
+    "w": 19,
+    "d": 2
+  },
+  {
+    "id": "迎",
+    "type": "kanji",
+    "main": "迎",
+    "reading": "ゲイ/むか.える",
+    "meaning": "welcome; receive; meet",
+    "words": "迎える (むかえる) / 歓迎 (かんげい) / 出迎え (でむかえ)",
+    "examples": [
+      {
+        "jp": "<ruby>迎<rt>ゲイ</rt></ruby>",
+        "en": "welcome; receive; meet"
+      }
+    ],
+    "w": 19,
+    "d": 3
+  },
+  {
+    "id": "園",
+    "type": "kanji",
+    "main": "園",
+    "reading": "エン/その",
+    "meaning": "garden; park; institution",
+    "words": "公園 (こうえん) / 幼稚園 (ようちえん) / 動物園 (どうぶつえん)",
+    "examples": [
+      {
+        "jp": "<ruby>園<rt>エン</rt></ruby>",
+        "en": "garden; park; institution"
+      }
+    ],
+    "w": 19,
+    "d": 3
+  },
+  {
+    "id": "倒れる",
+    "type": "verb",
+    "main": "倒れる",
+    "reading": "たおれる",
+    "meaning": "to fall over; to collapse",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>倒れる<rt>たおれる</rt></ruby>",
+        "en": "to fall over; to collapse"
+      }
+    ],
+    "w": 19,
+    "d": 3
+  },
+  {
+    "id": "招く",
+    "type": "verb",
+    "main": "招く",
+    "reading": "まねく",
+    "meaning": "to invite; to beckon; to cause",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>招く<rt>まねく</rt></ruby>",
+        "en": "to invite; to beckon; to cause"
+      }
+    ],
+    "w": 19,
+    "d": 3
+  },
+  {
+    "id": "具",
+    "type": "kanji",
+    "main": "具",
+    "reading": "グ",
+    "meaning": "tool; ingredients; ingredient",
+    "words": "道具 (どうぐ) / 具体的 (ぐたいてき) / 家具 (かぐ)",
+    "examples": [
+      {
+        "jp": "<ruby>具<rt>グ</rt></ruby>",
+        "en": "tool; ingredients; ingredient"
+      }
+    ],
+    "w": 19,
+    "d": 4
+  },
+  {
+    "id": "辞",
+    "type": "kanji",
+    "main": "辞",
+    "reading": "ジ/や.める",
+    "meaning": "resign; quit; word",
+    "words": "辞める (やめる) / 辞書 (じしょ) / 辞職 (じしょく)",
+    "examples": [
+      {
+        "jp": "<ruby>辞<rt>ジ</rt></ruby>",
+        "en": "resign; quit; word"
+      }
+    ],
+    "w": 19,
+    "d": 4
+  },
+  {
+    "id": "因",
+    "type": "kanji",
+    "main": "因",
+    "reading": "イン/よ.る",
+    "meaning": "cause; factor; depend on",
+    "words": "原因 (げんいん) / 要因 (よういん) / 因果 (いんが)",
+    "examples": [
+      {
+        "jp": "<ruby>因<rt>イン</rt></ruby>",
+        "en": "cause; factor; depend on"
+      }
+    ],
+    "w": 19,
+    "d": 4
+  },
+  {
+    "id": "困る",
+    "type": "verb",
+    "main": "困る",
+    "reading": "こまる",
+    "meaning": "to be troubled; to have difficulty",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>困る<rt>こまる</rt></ruby>",
+        "en": "to be troubled; to have difficulty"
+      }
+    ],
+    "w": 19,
+    "d": 4
+  },
+  {
+    "id": "馬",
+    "type": "kanji",
+    "main": "馬",
+    "reading": "バ/うま",
+    "meaning": "horse",
+    "words": "馬 (うま) / 馬力 (ばりき) / 競馬 (けいば)",
+    "examples": [
+      {
+        "jp": "<ruby>馬<rt>バ</rt></ruby>",
+        "en": "horse"
+      }
+    ],
+    "w": 19,
+    "d": 5
+  },
+  {
+    "id": "愛",
+    "type": "kanji",
+    "main": "愛",
+    "reading": "アイ/いと.しい",
+    "meaning": "love; affection",
+    "words": "愛 (あい) / 愛情 (あいじょう) / 恋愛 (れんあい)",
+    "examples": [
+      {
+        "jp": "<ruby>愛<rt>アイ</rt></ruby>",
+        "en": "love; affection"
+      }
+    ],
+    "w": 19,
+    "d": 5
+  },
+  {
+    "id": "似る",
+    "type": "verb",
+    "main": "似る",
+    "reading": "にる",
+    "meaning": "to resemble; to be similar to",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>似る<rt>にる</rt></ruby>",
+        "en": "to resemble; to be similar to"
+      }
+    ],
+    "w": 19,
+    "d": 5
+  },
+  {
+    "id": "富",
+    "type": "kanji",
+    "main": "富",
+    "reading": "フ・フウ/と.む",
+    "meaning": "wealth; enrich; rich",
+    "words": "豊富 (ほうふ) / 富む (とむ) / 富裕 (ふゆう)",
+    "examples": [
+      {
+        "jp": "<ruby>富<rt>フ</rt></ruby>",
+        "en": "wealth; enrich; rich"
+      }
+    ],
+    "w": 20,
+    "d": 1
+  },
+  {
+    "id": "彼",
+    "type": "kanji",
+    "main": "彼",
+    "reading": "ヒ/かれ・かの",
+    "meaning": "he; him; that",
+    "words": "彼 (かれ) / 彼女 (かのじょ) / 彼ら (かれら)",
+    "examples": [
+      {
+        "jp": "<ruby>彼<rt>ヒ</rt></ruby>",
+        "en": "he; him; that"
+      }
+    ],
+    "w": 20,
+    "d": 1
+  },
+  {
+    "id": "未",
+    "type": "kanji",
+    "main": "未",
+    "reading": "ミ・ビ/まだ",
+    "meaning": "not yet; un-; still",
+    "words": "未来 (みらい) / 未定 (みてい) / 未満 (みまん)",
+    "examples": [
+      {
+        "jp": "<ruby>未<rt>ミ</rt></ruby>",
+        "en": "not yet; un-; still"
+      }
+    ],
+    "w": 20,
+    "d": 1
+  },
+  {
+    "id": "明らか",
+    "type": "adj",
+    "main": "明らか",
+    "reading": "あきらか",
+    "meaning": "clear; obvious; evident",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>明らか<rt>あきらか</rt></ruby>",
+        "en": "clear; obvious; evident"
+      }
+    ],
+    "w": 20,
+    "d": 1
+  },
+  {
+    "id": "様々",
+    "type": "adj",
+    "main": "様々",
+    "reading": "さまざま",
+    "meaning": "various; diverse; all kinds of",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>様々<rt>さまざま</rt></ruby>",
+        "en": "various; diverse; all kinds of"
+      }
+    ],
+    "w": 20,
+    "d": 1
+  },
+  {
+    "id": "舞",
+    "type": "kanji",
+    "main": "舞",
+    "reading": "ブ/ま.う",
+    "meaning": "dance; circle",
+    "words": "舞う (まう) / 舞台 (ぶたい) / 舞踊 (ぶよう)",
+    "examples": [
+      {
+        "jp": "<ruby>舞<rt>ブ</rt></ruby>",
+        "en": "dance; circle"
+      }
+    ],
+    "w": 20,
+    "d": 2
+  },
+  {
+    "id": "亡",
+    "type": "kanji",
+    "main": "亡",
+    "reading": "ボウ・モウ/な.くなる",
+    "meaning": "deceased; dying; lost",
+    "words": "亡くなる (なくなる) / 死亡 (しぼう) / 亡命 (ぼうめい)",
+    "examples": [
+      {
+        "jp": "<ruby>亡<rt>ボウ</rt></ruby>",
+        "en": "deceased; dying; lost"
+      }
+    ],
+    "w": 20,
+    "d": 2
+  },
+  {
+    "id": "重要",
+    "type": "adj",
+    "main": "重要",
+    "reading": "じゅうよう",
+    "meaning": "important; significant; crucial",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>重要<rt>じゅうよう</rt></ruby>",
+        "en": "important; significant; crucial"
+      }
+    ],
+    "w": 20,
+    "d": 2
+  },
+  {
+    "id": "冷",
+    "type": "kanji",
+    "main": "冷",
+    "reading": "レイ/つめ.たい・さ.める",
+    "meaning": "cool; cold; chill",
+    "words": "冷たい (つめたい) / 冷静 (れいせい) / 冷蔵庫 (れいぞうこ)",
+    "examples": [
+      {
+        "jp": "<ruby>冷<rt>レイ</rt></ruby>",
+        "en": "cool; cold; chill"
+      }
+    ],
+    "w": 20,
+    "d": 3
+  },
+  {
+    "id": "適",
+    "type": "kanji",
+    "main": "適",
+    "reading": "テキ",
+    "meaning": "suitable; appropriate; fit",
+    "words": "適切 (てきせつ) / 適当 (てきとう) / 適応 (てきおう)",
+    "examples": [
+      {
+        "jp": "<ruby>適<rt>テキ</rt></ruby>",
+        "en": "suitable; appropriate; fit"
+      }
+    ],
+    "w": 20,
+    "d": 3
+  },
+  {
+    "id": "婦",
+    "type": "kanji",
+    "main": "婦",
+    "reading": "フ/よめ",
+    "meaning": "woman; wife; lady",
+    "words": "婦人 (ふじん) / 主婦 (しゅふ) / 夫婦 (ふうふ)",
+    "examples": [
+      {
+        "jp": "<ruby>婦<rt>フ</rt></ruby>",
+        "en": "woman; wife; lady"
+      }
+    ],
+    "w": 20,
+    "d": 3
+  },
+  {
+    "id": "必要",
+    "type": "adj",
+    "main": "必要",
+    "reading": "ひつよう",
+    "meaning": "necessary; essential; required",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>必要<rt>ひつよう</rt></ruby>",
+        "en": "necessary; essential; required"
+      }
+    ],
+    "w": 20,
+    "d": 3
+  },
+  {
+    "id": "寄",
+    "type": "kanji",
+    "main": "寄",
+    "reading": "キ/よ.る",
+    "meaning": "approach; donate; gather",
+    "words": "寄る (よる) / 寄付 (きふ) / 寄り道 (よりみち)",
+    "examples": [
+      {
+        "jp": "<ruby>寄<rt>キ</rt></ruby>",
+        "en": "approach; donate; gather"
+      }
+    ],
+    "w": 20,
+    "d": 4
+  },
+  {
+    "id": "込",
+    "type": "kanji",
+    "main": "込",
+    "reading": "/こ.める・こ.む",
+    "meaning": "crowded; put into",
+    "words": "混み合う (こみあう) / 申し込む (もうしこむ) / 込める (こめる)",
+    "examples": [
+      {
+        "jp": "<ruby>込<rt></rt></ruby>",
+        "en": "crowded; put into"
+      }
+    ],
+    "w": 20,
+    "d": 4
+  },
+  {
+    "id": "便利",
+    "type": "adj",
+    "main": "便利",
+    "reading": "べんり",
+    "meaning": "convenient; handy; useful",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>便利<rt>べんり</rt></ruby>",
+        "en": "convenient; handy; useful"
+      }
+    ],
+    "w": 20,
+    "d": 4
+  },
+  {
+    "id": "不便",
+    "type": "adj",
+    "main": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvenient; inopportune",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>不便<rt>ふべん</rt></ruby>",
+        "en": "inconvenient; inopportune"
+      }
+    ],
+    "w": 20,
+    "d": 4
+  },
+  {
+    "id": "顔",
+    "type": "kanji",
+    "main": "顔",
+    "reading": "ガン/かお",
+    "meaning": "face; expression",
+    "words": "顔 (かお) / 笑顔 (えがお) / 顔色 (かおいろ)",
+    "examples": [
+      {
+        "jp": "<ruby>顔<rt>ガン</rt></ruby>",
+        "en": "face; expression"
+      }
+    ],
+    "w": 20,
+    "d": 5
+  },
+  {
+    "id": "類",
+    "type": "kanji",
+    "main": "類",
+    "reading": "ルイ/たぐ.い",
+    "meaning": "sort; kind; type; genus",
+    "words": "種類 (しゅるい) / 人類 (じんるい) / 分類 (ぶんるい)",
+    "examples": [
+      {
+        "jp": "<ruby>類<rt>ルイ</rt></ruby>",
+        "en": "sort; kind; type; genus"
+      }
+    ],
+    "w": 20,
+    "d": 5
+  },
+  {
+    "id": "余",
+    "type": "kanji",
+    "main": "余",
+    "reading": "ヨ/あま.る",
+    "meaning": "surplus; excess; remain",
+    "words": "余る (あまる) / 余裕 (よゆう) / 余計 (よけい)",
+    "examples": [
+      {
+        "jp": "<ruby>余<rt>ヨ</rt></ruby>",
+        "en": "surplus; excess; remain"
+      }
+    ],
+    "w": 20,
+    "d": 5
+  },
+  {
+    "id": "正確",
+    "type": "adj",
+    "main": "正確",
+    "reading": "せいかく",
+    "meaning": "accurate; precise; correct",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>正確<rt>せいかく</rt></ruby>",
+        "en": "accurate; precise; correct"
+      }
+    ],
+    "w": 20,
+    "d": 5
+  },
+  {
+    "id": "王",
+    "type": "kanji",
+    "main": "王",
+    "reading": "オウ",
+    "meaning": "king; ruler",
+    "words": "王様 (おうさま) / 王国 (おうこく) / 女王 (じょおう)",
+    "examples": [
+      {
+        "jp": "<ruby>王<rt>オウ</rt></ruby>",
+        "en": "king; ruler"
+      }
+    ],
+    "w": 21,
+    "d": 1
+  },
+  {
+    "id": "返",
+    "type": "kanji",
+    "main": "返",
+    "reading": "ヘン/かえ.す",
+    "meaning": "return; reply; answer",
+    "words": "返す (かえす) / 返事 (へんじ) / 返却 (へんきゃく)",
+    "examples": [
+      {
+        "jp": "<ruby>返<rt>ヘン</rt></ruby>",
+        "en": "return; reply; answer"
+      }
+    ],
+    "w": 21,
+    "d": 1
+  },
+  {
+    "id": "豊か",
+    "type": "adj",
+    "main": "豊か",
+    "reading": "ゆたか",
+    "meaning": "rich; abundant; wealthy",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>豊か<rt>ゆたか</rt></ruby>",
+        "en": "rich; abundant; wealthy"
+      }
+    ],
+    "w": 21,
+    "d": 1
+  },
+  {
+    "id": "妻",
+    "type": "kanji",
+    "main": "妻",
+    "reading": "サイ/つま",
+    "meaning": "wife; spouse",
+    "words": "妻 (つま) / 夫妻 (ふさい) / 妻子 (さいし)",
+    "examples": [
+      {
+        "jp": "<ruby>妻<rt>サイ</rt></ruby>",
+        "en": "wife; spouse"
+      }
+    ],
+    "w": 21,
+    "d": 2
+  },
+  {
+    "id": "背",
+    "type": "kanji",
+    "main": "背",
+    "reading": "ハイ/せい・そむ.く",
+    "meaning": "height; back; betray",
+    "words": "背 (せ) / 背景 (はいけい) / 背中 (せなか)",
+    "examples": [
+      {
+        "jp": "<ruby>背<rt>ハイ</rt></ruby>",
+        "en": "height; back; betray"
+      }
+    ],
+    "w": 21,
+    "d": 2
+  },
+  {
+    "id": "熱",
+    "type": "kanji",
+    "main": "熱",
+    "reading": "ネツ/あつ.い",
+    "meaning": "heat; fever; enthusiasm",
+    "words": "熱い (あつい) / 体熱 (たいねつ) / 熱心 (ねっしん)",
+    "examples": [
+      {
+        "jp": "<ruby>熱<rt>ネツ</rt></ruby>",
+        "en": "heat; fever; enthusiasm"
+      }
+    ],
+    "w": 21,
+    "d": 2
+  },
+  {
+    "id": "厳しい",
+    "type": "adj",
+    "main": "厳しい",
+    "reading": "きびしい",
+    "meaning": "strict; severe; harsh",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>厳しい<rt>きびしい</rt></ruby>",
+        "en": "strict; severe; harsh"
+      }
+    ],
+    "w": 21,
+    "d": 2
+  },
+  {
+    "id": "丁寧",
+    "type": "adj",
+    "main": "丁寧",
+    "reading": "ていねい",
+    "meaning": "polite; careful; thorough",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>丁寧<rt>ていねい</rt></ruby>",
+        "en": "polite; careful; thorough"
+      }
+    ],
+    "w": 21,
+    "d": 2
+  },
+  {
+    "id": "宿",
+    "type": "kanji",
+    "main": "宿",
+    "reading": "シュク/やど",
+    "meaning": "inn; lodging; stay",
+    "words": "宿 (やど) / 宿泊 (しゅくはく) / 下宿 (げしゅく)",
+    "examples": [
+      {
+        "jp": "<ruby>宿<rt>シュク</rt></ruby>",
+        "en": "inn; lodging; stay"
+      }
+    ],
+    "w": 21,
+    "d": 3
+  },
+  {
+    "id": "薬",
+    "type": "kanji",
+    "main": "薬",
+    "reading": "ヤク/くすり",
+    "meaning": "medicine; drug",
+    "words": "薬 (くすり) / 薬局 (やっきょく) / 投薬 (とうやく)",
+    "examples": [
+      {
+        "jp": "<ruby>薬<rt>ヤク</rt></ruby>",
+        "en": "medicine; drug"
+      }
+    ],
+    "w": 21,
+    "d": 3
+  },
+  {
+    "id": "真剣",
+    "type": "adj",
+    "main": "真剣",
+    "reading": "しんけん",
+    "meaning": "serious; earnest; in earnest",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>真剣<rt>しんけん</rt></ruby>",
+        "en": "serious; earnest; in earnest"
+      }
+    ],
+    "w": 21,
+    "d": 3
+  },
+  {
+    "id": "険",
+    "type": "kanji",
+    "main": "険",
+    "reading": "ケン/けわ.しい",
+    "meaning": "steep; risky;险",
+    "words": "危険 (きけん) / 保険 (ほけん) / 冒険 (ぼうけん)",
+    "examples": [
+      {
+        "jp": "<ruby>険<rt>ケン</rt></ruby>",
+        "en": "steep; risky;险"
+      }
+    ],
+    "w": 21,
+    "d": 4
+  },
+  {
+    "id": "頼",
+    "type": "kanji",
+    "main": "頼",
+    "reading": "ライ/たの.む・たよ.る",
+    "meaning": "request; rely on; trust",
+    "words": "頼む (たのむ) / 信頼 (しんらい) / 頼もしい (たのもしい)",
+    "examples": [
+      {
+        "jp": "<ruby>頼<rt>ライ</rt></ruby>",
+        "en": "request; rely on; trust"
+      }
+    ],
+    "w": 21,
+    "d": 4
+  },
+  {
+    "id": "覚",
+    "type": "kanji",
+    "main": "覚",
+    "reading": "カク/おぼ.える・さ.める",
+    "meaning": "remember; memorize; sense",
+    "words": "覚える (おぼえる) / 感覚 (かんかく) / 目覚める (めざめる)",
+    "examples": [
+      {
+        "jp": "<ruby>覚<rt>カク</rt></ruby>",
+        "en": "remember; memorize; sense"
+      }
+    ],
+    "w": 21,
+    "d": 4
+  },
+  {
+    "id": "複雑",
+    "type": "adj",
+    "main": "複雑",
+    "reading": "ふくざつ",
+    "meaning": "complex; complicated",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>複雑<rt>ふくざつ</rt></ruby>",
+        "en": "complex; complicated"
+      }
+    ],
+    "w": 21,
+    "d": 4
+  },
+  {
+    "id": "船",
+    "type": "kanji",
+    "main": "船",
+    "reading": "セン/ふね",
+    "meaning": "ship; boat; vessel",
+    "words": "船 (ふね) / 船員 (せんいん) / 客船 (きゃくせん)",
+    "examples": [
+      {
+        "jp": "<ruby>船<rt>セン</rt></ruby>",
+        "en": "ship; boat; vessel"
+      }
+    ],
+    "w": 21,
+    "d": 5
+  },
+  {
+    "id": "途",
+    "type": "kanji",
+    "main": "途",
+    "reading": "ト/みち",
+    "meaning": "route; way; on the way",
+    "words": "途中 (とちゅう) / 途上 (とじょう) / 前途 (ぜんと)",
+    "examples": [
+      {
+        "jp": "<ruby>途<rt>ト</rt></ruby>",
+        "en": "route; way; on the way"
+      }
+    ],
+    "w": 21,
+    "d": 5
+  },
+  {
+    "id": "単純",
+    "type": "adj",
+    "main": "単純",
+    "reading": "たんじゅん",
+    "meaning": "simple; plain; uncomplicated",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>単純<rt>たんじゅん</rt></ruby>",
+        "en": "simple; plain; uncomplicated"
+      }
+    ],
+    "w": 21,
+    "d": 5
+  },
+  {
+    "id": "適切",
+    "type": "adj",
+    "main": "適切",
+    "reading": "てきせつ",
+    "meaning": "appropriate; proper; suitable",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>適切<rt>てきせつ</rt></ruby>",
+        "en": "appropriate; proper; suitable"
+      }
+    ],
+    "w": 21,
+    "d": 5
+  },
+  {
+    "id": "許",
+    "type": "kanji",
+    "main": "許",
+    "reading": "キョ/ゆる.す",
+    "meaning": "permit; forgive; allow",
+    "words": "許す (ゆるす) / 許可 (きょか) / 免許 (めんきょ)",
+    "examples": [
+      {
+        "jp": "<ruby>許<rt>キョ</rt></ruby>",
+        "en": "permit; forgive; allow"
+      }
+    ],
+    "w": 22,
+    "d": 1
+  },
+  {
+    "id": "抜",
+    "type": "kanji",
+    "main": "抜",
+    "reading": "バツ/ぬ.ける",
+    "meaning": "pull out; extract; omit",
+    "words": "抜く (ぬく) / 抜ける (ぬける) / 脱出 (だっしゅつ)",
+    "examples": [
+      {
+        "jp": "<ruby>抜<rt>バツ</rt></ruby>",
+        "en": "pull out; extract; omit"
+      }
+    ],
+    "w": 22,
+    "d": 1
+  },
+  {
+    "id": "便",
+    "type": "kanji",
+    "main": "便",
+    "reading": "ベン・ビン/たよ.り",
+    "meaning": "convenient; mail; facility",
+    "words": "便利 (べんり) / 不便 (ふべん) / 便所 (べんじょ)",
+    "examples": [
+      {
+        "jp": "<ruby>便<rt>ベン</rt></ruby>",
+        "en": "convenient; mail; facility"
+      }
+    ],
+    "w": 22,
+    "d": 1
+  },
+  {
+    "id": "有効",
+    "type": "adj",
+    "main": "有効",
+    "reading": "ゆうこう",
+    "meaning": "valid; effective; useful",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>有効<rt>ゆうこう</rt></ruby>",
+        "en": "valid; effective; useful"
+      }
+    ],
+    "w": 22,
+    "d": 1
+  },
+  {
+    "id": "留",
+    "type": "kanji",
+    "main": "留",
+    "reading": "リュウ・ル/と.まる",
+    "meaning": "detain; stay; stop",
+    "words": "留まる (とまる) / 留学 (りゅうがく) / 保留 (ほりゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>留<rt>リュウ</rt></ruby>",
+        "en": "detain; stay; stop"
+      }
+    ],
+    "w": 22,
+    "d": 2
+  },
+  {
+    "id": "罪",
+    "type": "kanji",
+    "main": "罪",
+    "reading": "ザイ/つみ",
+    "meaning": "guilt; sin; crime",
+    "words": "罪 (つみ) / 犯罪 (はんざい) / 謝罪 (しゃざい)",
+    "examples": [
+      {
+        "jp": "<ruby>罪<rt>ザイ</rt></ruby>",
+        "en": "guilt; sin; crime"
+      }
+    ],
+    "w": 22,
+    "d": 2
+  },
+  {
+    "id": "特別",
+    "type": "adj",
+    "main": "特別",
+    "reading": "とくべつ",
+    "meaning": "special; particular; extraordinary",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>特別<rt>とくべつ</rt></ruby>",
+        "en": "special; particular; extraordinary"
+      }
+    ],
+    "w": 22,
+    "d": 2
+  },
+  {
+    "id": "努",
+    "type": "kanji",
+    "main": "努",
+    "reading": "ド/つと.める",
+    "meaning": "endeavor; effort; strive",
+    "words": "努力 (どりょく) / 努める (つとめる)",
+    "examples": [
+      {
+        "jp": "<ruby>努<rt>ド</rt></ruby>",
+        "en": "endeavor; effort; strive"
+      }
+    ],
+    "w": 22,
+    "d": 3
+  },
+  {
+    "id": "精",
+    "type": "kanji",
+    "main": "精",
+    "reading": "セイ・ショウ",
+    "meaning": "refined; spirit; diligence",
+    "words": "精神 (せいしん) / 精力 (せいりょく) / 精巧 (せいこう)",
+    "examples": [
+      {
+        "jp": "<ruby>精<rt>セイ</rt></ruby>",
+        "en": "refined; spirit; diligence"
+      }
+    ],
+    "w": 22,
+    "d": 3
+  },
+  {
+    "id": "散",
+    "type": "kanji",
+    "main": "散",
+    "reading": "サン/ち.る",
+    "meaning": "scatter; disperse; walk",
+    "words": "散歩 (さんぽ) / 散らかる (ちらかる) / 解散 (かいさん)",
+    "examples": [
+      {
+        "jp": "<ruby>散<rt>サン</rt></ruby>",
+        "en": "scatter; disperse; walk"
+      }
+    ],
+    "w": 22,
+    "d": 3
+  },
+  {
+    "id": "一般的",
+    "type": "adj",
+    "main": "一般的",
+    "reading": "いっぱんてき",
+    "meaning": "general; common; ordinary",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>一般的<rt>いっぱんてき</rt></ruby>",
+        "en": "general; common; ordinary"
+      }
+    ],
+    "w": 22,
+    "d": 3
+  },
+  {
+    "id": "残念",
+    "type": "adj",
+    "main": "残念",
+    "reading": "ざんねん",
+    "meaning": "regrettable; disappointing; too bad",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>残念<rt>ざんねん</rt></ruby>",
+        "en": "regrettable; disappointing; too bad"
+      }
+    ],
+    "w": 22,
+    "d": 3
+  },
+  {
+    "id": "静",
+    "type": "kanji",
+    "main": "静",
+    "reading": "セイ・ジョウ/しず.か",
+    "meaning": "quiet; calm; still",
+    "words": "静かな (しずかな) / 冷静 (れいせい) / 静止 (せいし)",
+    "examples": [
+      {
+        "jp": "<ruby>静<rt>セイ</rt></ruby>",
+        "en": "quiet; calm; still"
+      }
+    ],
+    "w": 22,
+    "d": 4
+  },
+  {
+    "id": "婚",
+    "type": "kanji",
+    "main": "婚",
+    "reading": "コン",
+    "meaning": "marriage",
+    "words": "結婚 (けっこん) / 婚約 (こんやく) / 離婚 (りこん)",
+    "examples": [
+      {
+        "jp": "<ruby>婚<rt>コン</rt></ruby>",
+        "en": "marriage"
+      }
+    ],
+    "w": 22,
+    "d": 4
+  },
+  {
+    "id": "熱心",
+    "type": "adj",
+    "main": "熱心",
+    "reading": "ねっしん",
+    "meaning": "enthusiastic; eager; earnest",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>熱心<rt>ねっしん</rt></ruby>",
+        "en": "enthusiastic; eager; earnest"
+      }
+    ],
+    "w": 22,
+    "d": 4
+  },
+  {
+    "id": "喜",
+    "type": "kanji",
+    "main": "喜",
+    "reading": "キ/よろこ.ぶ",
+    "meaning": "rejoice; glad; delight",
+    "words": "喜ぶ (よろこぶ) / 喜び (よろこび) / 歓喜 (かんき)",
+    "examples": [
+      {
+        "jp": "<ruby>喜<rt>キ</rt></ruby>",
+        "en": "rejoice; glad; delight"
+      }
+    ],
+    "w": 22,
+    "d": 5
+  },
+  {
+    "id": "浮",
+    "type": "kanji",
+    "main": "浮",
+    "reading": "フ/う.く",
+    "meaning": "float; rise; cheer up",
+    "words": "浮く (うく) / 浮かぶ (うかぶ) / 浮気 (うわき)",
+    "examples": [
+      {
+        "jp": "<ruby>浮<rt>フ</rt></ruby>",
+        "en": "float; rise; cheer up"
+      }
+    ],
+    "w": 22,
+    "d": 5
+  },
+  {
+    "id": "絶",
+    "type": "kanji",
+    "main": "絶",
+    "reading": "ゼツ/た.える",
+    "meaning": "cut off; extinct; absolute",
+    "words": "絶える (たえる) / 絶対 (ぜったい) / 絶望 (ぜつぼう)",
+    "examples": [
+      {
+        "jp": "<ruby>絶<rt>ゼツ</rt></ruby>",
+        "en": "cut off; extinct; absolute"
+      }
+    ],
+    "w": 22,
+    "d": 5
+  },
+  {
+    "id": "不満",
+    "type": "adj",
+    "main": "不満",
+    "reading": "ふまん",
+    "meaning": "dissatisfaction; discontent",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>不満<rt>ふまん</rt></ruby>",
+        "en": "dissatisfaction; discontent"
+      }
+    ],
+    "w": 22,
+    "d": 5
+  },
+  {
+    "id": "幸",
+    "type": "kanji",
+    "main": "幸",
+    "reading": "コウ/しあわ.せ",
+    "meaning": "happiness; blessing; luck",
+    "words": "幸せ (しあわせ) / 幸福 (こうふく) / 不幸 (ふこう)",
+    "examples": [
+      {
+        "jp": "<ruby>幸<rt>コウ</rt></ruby>",
+        "en": "happiness; blessing; luck"
+      }
+    ],
+    "w": 23,
+    "d": 1
+  },
+  {
+    "id": "押",
+    "type": "kanji",
+    "main": "押",
+    "reading": "オウ/お.す",
+    "meaning": "push; press; seal",
+    "words": "押す (おす) / 押さえる (おさえる) / 押しつける",
+    "examples": [
+      {
+        "jp": "<ruby>押<rt>オウ</rt></ruby>",
+        "en": "push; press; seal"
+      }
+    ],
+    "w": 23,
+    "d": 1
+  },
+  {
+    "id": "特に",
+    "type": "adv",
+    "main": "特に",
+    "reading": "とくに",
+    "meaning": "especially; particularly; in particular",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>特に<rt>とくに</rt></ruby>",
+        "en": "especially; particularly; in particular"
+      }
+    ],
+    "w": 23,
+    "d": 1
+  },
+  {
+    "id": "既に",
+    "type": "adv",
+    "main": "既に",
+    "reading": "すでに",
+    "meaning": "already; by now; long ago",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>既に<rt>すでに</rt></ruby>",
+        "en": "already; by now; long ago"
+      }
+    ],
+    "w": 23,
+    "d": 1
+  },
+  {
+    "id": "倒",
+    "type": "kanji",
+    "main": "倒",
+    "reading": "トウ/たお.れる",
+    "meaning": "fall over; overthrow",
+    "words": "倒れる (たおれる) / 倒す (たおす) / 圧倒 (あっとう)",
+    "examples": [
+      {
+        "jp": "<ruby>倒<rt>トウ</rt></ruby>",
+        "en": "fall over; overthrow"
+      }
+    ],
+    "w": 23,
+    "d": 2
+  },
+  {
+    "id": "等",
+    "type": "kanji",
+    "main": "等",
+    "reading": "トウ/ひと.しい・など",
+    "meaning": "equal; etc.; so forth",
+    "words": "等しい (ひとしい) / 等 (など) / 平等 (びょうどう)",
+    "examples": [
+      {
+        "jp": "<ruby>等<rt>トウ</rt></ruby>",
+        "en": "equal; etc.; so forth"
+      }
+    ],
+    "w": 23,
+    "d": 2
+  },
+  {
+    "id": "老",
+    "type": "kanji",
+    "main": "老",
+    "reading": "ロウ/お.いる",
+    "meaning": "old; aged; experienced",
+    "words": "老人 (ろうじん) / 老後 (ろうご) / 老化 (ろうか)",
+    "examples": [
+      {
+        "jp": "<ruby>老<rt>ロウ</rt></ruby>",
+        "en": "old; aged; experienced"
+      }
+    ],
+    "w": 23,
+    "d": 2
+  },
+  {
+    "id": "さらに",
+    "type": "adv",
+    "main": "さらに",
+    "reading": "さらに",
+    "meaning": "furthermore; even more; additionally",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>さらに<rt>さらに</rt></ruby>",
+        "en": "furthermore; even more; additionally"
+      }
+    ],
+    "w": 23,
+    "d": 2
+  },
+  {
+    "id": "曲",
+    "type": "kanji",
+    "main": "曲",
+    "reading": "キョク/ま.げる",
+    "meaning": "bend; curve; song; tune",
+    "words": "曲 (きょく) / 曲がる (まがる) / 作曲 (さっきょく)",
+    "examples": [
+      {
+        "jp": "<ruby>曲<rt>キョク</rt></ruby>",
+        "en": "bend; curve; song; tune"
+      }
+    ],
+    "w": 23,
+    "d": 3
+  },
+  {
+    "id": "払",
+    "type": "kanji",
+    "main": "払",
+    "reading": "フツ/はら.う",
+    "meaning": "pay; brush away",
+    "words": "払う (はらう) / 支払い (しはらい) / 払い戻し (はらいもどし)",
+    "examples": [
+      {
+        "jp": "<ruby>払<rt>フツ</rt></ruby>",
+        "en": "pay; brush away"
+      }
+    ],
+    "w": 23,
+    "d": 3
+  },
+  {
+    "id": "しかし",
+    "type": "adv",
+    "main": "しかし",
+    "reading": "しかし",
+    "meaning": "however; but; nevertheless",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>しかし<rt>しかし</rt></ruby>",
+        "en": "however; but; nevertheless"
+      }
+    ],
+    "w": 23,
+    "d": 3
+  },
+  {
+    "id": "庭",
+    "type": "kanji",
+    "main": "庭",
+    "reading": "テイ/にわ",
+    "meaning": "garden; yard; courtyard",
+    "words": "庭 (にわ) / 家庭 (かてい) / 庭園 (ていえん)",
+    "examples": [
+      {
+        "jp": "<ruby>庭<rt>テイ</rt></ruby>",
+        "en": "garden; yard; courtyard"
+      }
+    ],
+    "w": 23,
+    "d": 4
+  },
+  {
+    "id": "徒",
+    "type": "kanji",
+    "main": "徒",
+    "reading": "ト",
+    "meaning": "follower; on foot; in vain",
+    "words": "生徒 (せいと) / 徒歩 (とほ) / 信徒 (しんと)",
+    "examples": [
+      {
+        "jp": "<ruby>徒<rt>ト</rt></ruby>",
+        "en": "follower; on foot; in vain"
+      }
+    ],
+    "w": 23,
+    "d": 4
+  },
+  {
+    "id": "勤",
+    "type": "kanji",
+    "main": "勤",
+    "reading": "キン・ゴン/つと.める",
+    "meaning": "work for; serve; diligent",
+    "words": "勤める (つとめる) / 勤務 (きんむ) / 通勤 (つうきん)",
+    "examples": [
+      {
+        "jp": "<ruby>勤<rt>キン</rt></ruby>",
+        "en": "work for; serve; diligent"
+      }
+    ],
+    "w": 23,
+    "d": 4
+  },
+  {
+    "id": "つまり",
+    "type": "adv",
+    "main": "つまり",
+    "reading": "つまり",
+    "meaning": "in other words; in short",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>つまり<rt>つまり</rt></ruby>",
+        "en": "in other words; in short"
+      }
+    ],
+    "w": 23,
+    "d": 4
+  },
+  {
+    "id": "もちろん",
+    "type": "adv",
+    "main": "もちろん",
+    "reading": "もちろん",
+    "meaning": "of course; certainly; naturally",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>もちろん<rt>もちろん</rt></ruby>",
+        "en": "of course; certainly; naturally"
+      }
+    ],
+    "w": 23,
+    "d": 4
+  },
+  {
+    "id": "遅",
+    "type": "kanji",
+    "main": "遅",
+    "reading": "チ/おそ.い・おく.れる",
+    "meaning": "slow; late; tardy",
+    "words": "遅い (おそい) / 遅刻 (ちこく) / 遅れる (おくれる)",
+    "examples": [
+      {
+        "jp": "<ruby>遅<rt>チ</rt></ruby>",
+        "en": "slow; late; tardy"
+      }
+    ],
+    "w": 23,
+    "d": 5
+  },
+  {
+    "id": "居",
+    "type": "kanji",
+    "main": "居",
+    "reading": "キョ/い.る",
+    "meaning": "reside; exist; be",
+    "words": "居る (いる) / 住居 (じゅうきょ) / 居間 (いま)",
+    "examples": [
+      {
+        "jp": "<ruby>居<rt>キョ</rt></ruby>",
+        "en": "reside; exist; be"
+      }
+    ],
+    "w": 23,
+    "d": 5
+  },
+  {
+    "id": "確かに",
+    "type": "adv",
+    "main": "確かに",
+    "reading": "たしかに",
+    "meaning": "certainly; surely; indeed",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>確かに<rt>たしかに</rt></ruby>",
+        "en": "certainly; surely; indeed"
+      }
+    ],
+    "w": 23,
+    "d": 5
+  },
+  {
+    "id": "雑",
+    "type": "kanji",
+    "main": "雑",
+    "reading": "ザツ・ゾウ/まじ.る",
+    "meaning": "miscellaneous; mixed; rough",
+    "words": "雑誌 (ざっし) / 複雑 (ふくざつ) / 雑談 (ざつだん)",
+    "examples": [
+      {
+        "jp": "<ruby>雑<rt>ザツ</rt></ruby>",
+        "en": "miscellaneous; mixed; rough"
+      }
+    ],
+    "w": 24,
+    "d": 1
+  },
+  {
+    "id": "招",
+    "type": "kanji",
+    "main": "招",
+    "reading": "ショウ/まね.く",
+    "meaning": "invite; beckon; summon",
+    "words": "招く (まねく) / 招待 (しょうたい) / 招集 (しょうしゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>招<rt>ショウ</rt></ruby>",
+        "en": "invite; beckon; summon"
+      }
+    ],
+    "w": 24,
+    "d": 1
+  },
+  {
+    "id": "困",
+    "type": "kanji",
+    "main": "困",
+    "reading": "コン/こま.る",
+    "meaning": "have difficulty; be troubled",
+    "words": "困る (こまる) / 困難 (こんなん) / 困惑 (こんわく)",
+    "examples": [
+      {
+        "jp": "<ruby>困<rt>コン</rt></ruby>",
+        "en": "have difficulty; be troubled"
+      }
+    ],
+    "w": 24,
+    "d": 1
+  },
+  {
+    "id": "必ず",
+    "type": "adv",
+    "main": "必ず",
+    "reading": "かならず",
+    "meaning": "always; without fail; certainly",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>必ず<rt>かならず</rt></ruby>",
+        "en": "always; without fail; certainly"
+      }
+    ],
+    "w": 24,
+    "d": 1
+  },
+  {
+    "id": "欠",
+    "type": "kanji",
+    "main": "欠",
+    "reading": "ケツ/か.ける",
+    "meaning": "lack; deficiency; absent",
+    "words": "欠ける (かける) / 欠席 (けっせき) / 欠点 (けってん)",
+    "examples": [
+      {
+        "jp": "<ruby>欠<rt>ケツ</rt></ruby>",
+        "en": "lack; deficiency; absent"
+      }
+    ],
+    "w": 24,
+    "d": 2
+  },
+  {
+    "id": "更",
+    "type": "kanji",
+    "main": "更",
+    "reading": "コウ/さら",
+    "meaning": "renew; furthermore; again",
+    "words": "更に (さらに) / 変更 (へんこう) / 更新 (こうしん)",
+    "examples": [
+      {
+        "jp": "<ruby>更<rt>コウ</rt></ruby>",
+        "en": "renew; furthermore; again"
+      }
+    ],
+    "w": 24,
+    "d": 2
+  },
+  {
+    "id": "めったに",
+    "type": "adv",
+    "main": "めったに",
+    "reading": "めったに",
+    "meaning": "rarely; seldom; hardly ever",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>めったに<rt>めったに</rt></ruby>",
+        "en": "rarely; seldom; hardly ever"
+      }
+    ],
+    "w": 24,
+    "d": 2
+  },
+  {
+    "id": "おそらく",
+    "type": "adv",
+    "main": "おそらく",
+    "reading": "おそらく",
+    "meaning": "probably; presumably; perhaps",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>おそらく<rt>おそらく</rt></ruby>",
+        "en": "probably; presumably; perhaps"
+      }
+    ],
+    "w": 24,
+    "d": 2
+  },
+  {
+    "id": "刻",
+    "type": "kanji",
+    "main": "刻",
+    "reading": "コク/きざ.む",
+    "meaning": "engrave; carve; time",
+    "words": "時刻 (じこく) / 刻む (きざむ) / 深刻 (しんこく)",
+    "examples": [
+      {
+        "jp": "<ruby>刻<rt>コク</rt></ruby>",
+        "en": "engrave; carve; time"
+      }
+    ],
+    "w": 24,
+    "d": 3
+  },
+  {
+    "id": "論",
+    "type": "kanji",
+    "main": "論",
+    "reading": "ロン",
+    "meaning": "argument; logic; theory",
+    "words": "議論 (ぎろん) / 理論 (りろん) / 結論 (けつろん)",
+    "examples": [
+      {
+        "jp": "<ruby>論<rt>ロン</rt></ruby>",
+        "en": "argument; logic; theory"
+      }
+    ],
+    "w": 24,
+    "d": 3
+  },
+  {
+    "id": "証",
+    "type": "kanji",
+    "main": "証",
+    "reading": "ショウ/あかし",
+    "meaning": "proof; certificate",
+    "words": "証明 (しょうめい) / 証拠 (しょうこ) / 保証 (ほしょう)",
+    "examples": [
+      {
+        "jp": "<ruby>証<rt>ショウ</rt></ruby>",
+        "en": "proof; certificate"
+      }
+    ],
+    "w": 24,
+    "d": 3
+  },
+  {
+    "id": "まさか",
+    "type": "adv",
+    "main": "まさか",
+    "reading": "まさか",
+    "meaning": "surely not; no way; unthinkable",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>まさか<rt>まさか</rt></ruby>",
+        "en": "surely not; no way; unthinkable"
+      }
+    ],
+    "w": 24,
+    "d": 3
+  },
+  {
+    "id": "比",
+    "type": "kanji",
+    "main": "比",
+    "reading": "ヒ/くら.べる",
+    "meaning": "compare; ratio",
+    "words": "比べる (くらべる) / 比較 (ひかく) / 比率 (ひりつ)",
+    "examples": [
+      {
+        "jp": "<ruby>比<rt>ヒ</rt></ruby>",
+        "en": "compare; ratio"
+      }
+    ],
+    "w": 24,
+    "d": 4
+  },
+  {
+    "id": "効",
+    "type": "kanji",
+    "main": "効",
+    "reading": "コウ/き.く",
+    "meaning": "effect; efficient",
+    "words": "効果 (こうか) / 有効 (ゆうこう) / 効率 (こうりつ)",
+    "examples": [
+      {
+        "jp": "<ruby>効<rt>コウ</rt></ruby>",
+        "en": "effect; efficient"
+      }
+    ],
+    "w": 24,
+    "d": 4
+  },
+  {
+    "id": "ようやく",
+    "type": "adv",
+    "main": "ようやく",
+    "reading": "ようやく",
+    "meaning": "finally; at last; barely",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>ようやく<rt>ようやく</rt></ruby>",
+        "en": "finally; at last; barely"
+      }
+    ],
+    "w": 24,
+    "d": 4
+  },
+  {
+    "id": "結",
+    "type": "kanji",
+    "main": "結",
+    "reading": "ケツ/むす.ぶ",
+    "meaning": "tie; bind; result",
+    "words": "結果 (けっか) / 結婚 (けっこん) / 結論 (けつろん)",
+    "examples": [
+      {
+        "jp": "<ruby>結<rt>ケツ</rt></ruby>",
+        "en": "tie; bind; result"
+      }
+    ],
+    "w": 24,
+    "d": 5
+  },
+  {
+    "id": "保",
+    "type": "kanji",
+    "main": "保",
+    "reading": "ホ/たも.つ",
+    "meaning": "keep; preserve; protect",
+    "words": "保護 (ほご) / 保険 (ほけん) / 保存 (ほぞん)",
+    "examples": [
+      {
+        "jp": "<ruby>保<rt>ホ</rt></ruby>",
+        "en": "keep; preserve; protect"
+      }
+    ],
+    "w": 24,
+    "d": 5
+  },
+  {
+    "id": "確",
+    "type": "kanji",
+    "main": "確",
+    "reading": "カク/たし.か",
+    "meaning": "certain; accurate",
+    "words": "確認 (かくにん) / 確かに (たしかに) / 正確 (せいかく)",
+    "examples": [
+      {
+        "jp": "<ruby>確<rt>カク</rt></ruby>",
+        "en": "certain; accurate"
+      }
+    ],
+    "w": 24,
+    "d": 5
+  },
+  {
+    "id": "ますます",
+    "type": "adv",
+    "main": "ますます",
+    "reading": "ますます",
+    "meaning": "more and more; increasingly",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>ますます<rt>ますます</rt></ruby>",
+        "en": "more and more; increasingly"
+      }
+    ],
+    "w": 24,
+    "d": 5
+  },
+  {
+    "id": "相当",
+    "type": "adv",
+    "main": "相当",
+    "reading": "そうとう",
+    "meaning": "considerably; quite; fairly",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>相当<rt>そうとう</rt></ruby>",
+        "en": "considerably; quite; fairly"
+      }
+    ],
+    "w": 24,
+    "d": 5
+  },
+  {
+    "id": "願",
+    "type": "kanji",
+    "main": "願",
+    "reading": "ガン/ねが.う",
+    "meaning": "wish; request; petition",
+    "words": "願う (ねがう) / 希望 (きぼう) / 願望 (がんぼう)",
+    "examples": [
+      {
+        "jp": "<ruby>願<rt>ガン</rt></ruby>",
+        "en": "wish; request; petition"
+      }
+    ],
+    "w": 25,
+    "d": 1
+  },
+  {
+    "id": "絵",
+    "type": "kanji",
+    "main": "絵",
+    "reading": "カイ・エ/えが.く",
+    "meaning": "picture; drawing; painting",
+    "words": "絵 (え) / 絵画 (かいが) / 絵本 (えほん)",
+    "examples": [
+      {
+        "jp": "<ruby>絵<rt>カイ</rt></ruby>",
+        "en": "picture; drawing; painting"
+      }
+    ],
+    "w": 25,
+    "d": 1
+  },
+  {
+    "id": "突然",
+    "type": "adv",
+    "main": "突然",
+    "reading": "とつぜん",
+    "meaning": "suddenly; unexpectedly; abruptly",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>突然<rt>とつぜん</rt></ruby>",
+        "en": "suddenly; unexpectedly; abruptly"
+      }
+    ],
+    "w": 25,
+    "d": 1
+  },
+  {
+    "id": "越",
+    "type": "kanji",
+    "main": "越",
+    "reading": "エツ/こ.す",
+    "meaning": "surpass; cross over",
+    "words": "越す (こす) / 越える (こえる) / 引越し (ひっこし)",
+    "examples": [
+      {
+        "jp": "<ruby>越<rt>エツ</rt></ruby>",
+        "en": "surpass; cross over"
+      }
+    ],
+    "w": 25,
+    "d": 2
+  },
+  {
+    "id": "欲",
+    "type": "kanji",
+    "main": "欲",
+    "reading": "ヨク/ほ.しい",
+    "meaning": "desire; greed; craving",
+    "words": "欲しい (ほしい) / 欲求 (よっきゅう) / 食欲 (しょくよく)",
+    "examples": [
+      {
+        "jp": "<ruby>欲<rt>ヨク</rt></ruby>",
+        "en": "desire; greed; craving"
+      }
+    ],
+    "w": 25,
+    "d": 2
+  },
+  {
+    "id": "痛",
+    "type": "kanji",
+    "main": "痛",
+    "reading": "ツウ/いた.い",
+    "meaning": "pain; ache; hurt",
+    "words": "痛い (いたい) / 頭痛 (ずつう) / 苦痛 (くつう)",
+    "examples": [
+      {
+        "jp": "<ruby>痛<rt>ツウ</rt></ruby>",
+        "en": "pain; ache; hurt"
+      }
+    ],
+    "w": 25,
+    "d": 2
+  },
+  {
+    "id": "徐々に",
+    "type": "adv",
+    "main": "徐々に",
+    "reading": "じょじょに",
+    "meaning": "gradually; little by little",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>徐々に<rt>じょじょに</rt></ruby>",
+        "en": "gradually; little by little"
+      }
+    ],
+    "w": 25,
+    "d": 2
+  },
+  {
+    "id": "笑",
+    "type": "kanji",
+    "main": "笑",
+    "reading": "ショウ/わら.う",
+    "meaning": "laugh; smile",
+    "words": "笑う (わらう) / 笑顔 (えがお) / 微笑 (びしょう)",
+    "examples": [
+      {
+        "jp": "<ruby>笑<rt>ショウ</rt></ruby>",
+        "en": "laugh; smile"
+      }
+    ],
+    "w": 25,
+    "d": 3
+  },
+  {
+    "id": "互",
+    "type": "kanji",
+    "main": "互",
+    "reading": "ゴ/たが.い",
+    "meaning": "mutually; reciprocally",
+    "words": "お互い (おたがい) / 相互 (そうご) / 互いに (たがいに)",
+    "examples": [
+      {
+        "jp": "<ruby>互<rt>ゴ</rt></ruby>",
+        "en": "mutually; reciprocally"
+      }
+    ],
+    "w": 25,
+    "d": 3
+  },
+  {
+    "id": "次第に",
+    "type": "adv",
+    "main": "次第に",
+    "reading": "しだいに",
+    "meaning": "gradually; by degrees",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>次第に<rt>しだいに</rt></ruby>",
+        "en": "gradually; by degrees"
+      }
+    ],
+    "w": 25,
+    "d": 3
+  },
+  {
+    "id": "偶然",
+    "type": "adv",
+    "main": "偶然",
+    "reading": "ぐうぜん",
+    "meaning": "by chance; accidentally; coincidentally",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>偶然<rt>ぐうぜん</rt></ruby>",
+        "en": "by chance; accidentally; coincidentally"
+      }
+    ],
+    "w": 25,
+    "d": 3
+  },
+  {
+    "id": "束",
+    "type": "kanji",
+    "main": "束",
+    "reading": "ソク/たば",
+    "meaning": "bundle; bind; bunch",
+    "words": "束 (たば) / 約束 (やくそく) / 束ねる (たばねる)",
+    "examples": [
+      {
+        "jp": "<ruby>束<rt>ソク</rt></ruby>",
+        "en": "bundle; bind; bunch"
+      }
+    ],
+    "w": 25,
+    "d": 4
+  },
+  {
+    "id": "似",
+    "type": "kanji",
+    "main": "似",
+    "reading": "ジ/に.る",
+    "meaning": "resemble; similar; look like",
+    "words": "似る (にる) / 似ている (にている) / 類似 (るいじ)",
+    "examples": [
+      {
+        "jp": "<ruby>似<rt>ジ</rt></ruby>",
+        "en": "resemble; similar; look like"
+      }
+    ],
+    "w": 25,
+    "d": 4
+  },
+  {
+    "id": "列",
+    "type": "kanji",
+    "main": "列",
+    "reading": "レツ",
+    "meaning": "row; file; line; column",
+    "words": "列 (れつ) / 列車 (れっしゃ) / 行列 (ぎょうれつ)",
+    "examples": [
+      {
+        "jp": "<ruby>列<rt>レツ</rt></ruby>",
+        "en": "row; file; line; column"
+      }
+    ],
+    "w": 25,
+    "d": 4
+  },
+  {
+    "id": "わざと",
+    "type": "adv",
+    "main": "わざと",
+    "reading": "わざと",
+    "meaning": "on purpose; deliberately; intentionally",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>わざと<rt>わざと</rt></ruby>",
+        "en": "on purpose; deliberately; intentionally"
+      }
+    ],
+    "w": 25,
+    "d": 4
+  },
+  {
+    "id": "探",
+    "type": "kanji",
+    "main": "探",
+    "reading": "タン/さが.す・さぐ.る",
+    "meaning": "search; look for; explore",
+    "words": "探す (さがす) / 探偵 (たんてい) / 探求 (たんきゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>探<rt>タン</rt></ruby>",
+        "en": "search; look for; explore"
+      }
+    ],
+    "w": 25,
+    "d": 5
+  },
+  {
+    "id": "逃",
+    "type": "kanji",
+    "main": "逃",
+    "reading": "トウ/に.げる・のが.れる",
+    "meaning": "escape; flee; evade",
+    "words": "逃げる (にげる) / 逃す (のがす) / 逃走 (とうそう)",
+    "examples": [
+      {
+        "jp": "<ruby>逃<rt>トウ</rt></ruby>",
+        "en": "escape; flee; evade"
+      }
+    ],
+    "w": 25,
+    "d": 5
+  },
+  {
+    "id": "せめて",
+    "type": "adv",
+    "main": "せめて",
+    "reading": "せめて",
+    "meaning": "at least; at most; at the very least",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>せめて<rt>せめて</rt></ruby>",
+        "en": "at least; at most; at the very least"
+      }
+    ],
+    "w": 25,
+    "d": 5
+  },
+  {
+    "id": "遊",
+    "type": "kanji",
+    "main": "遊",
+    "reading": "ユウ・ユ/あそ.ぶ",
+    "meaning": "play; hang out; enjoy",
+    "words": "遊ぶ (あそぶ) / 遊園地 (ゆうえんち) / 遊び場 (あそびば)",
+    "examples": [
+      {
+        "jp": "<ruby>遊<rt>ユウ</rt></ruby>",
+        "en": "play; hang out; enjoy"
+      }
+    ],
+    "w": 26,
+    "d": 1
+  },
+  {
+    "id": "迷",
+    "type": "kanji",
+    "main": "迷",
+    "reading": "メイ/まよ.う",
+    "meaning": "be puzzled; get lost",
+    "words": "迷う (まよう) / 迷惑 (めいわく) / 迷子 (まいご)",
+    "examples": [
+      {
+        "jp": "<ruby>迷<rt>メイ</rt></ruby>",
+        "en": "be puzzled; get lost"
+      }
+    ],
+    "w": 26,
+    "d": 1
+  },
+  {
+    "id": "夢",
+    "type": "kanji",
+    "main": "夢",
+    "reading": "ム/ゆめ",
+    "meaning": "dream; vision; illusion",
+    "words": "夢 (ゆめ) / 夢中 (むちゅう) / 悪夢 (あくむ)",
+    "examples": [
+      {
+        "jp": "<ruby>夢<rt>ム</rt></ruby>",
+        "en": "dream; vision; illusion"
+      }
+    ],
+    "w": 26,
+    "d": 1
+  },
+  {
+    "id": "状態",
+    "type": "noun",
+    "main": "状態",
+    "reading": "じょうたい",
+    "meaning": "condition; state; situation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>状態<rt>じょうたい</rt></ruby>",
+        "en": "condition; state; situation"
+      }
+    ],
+    "w": 26,
+    "d": 1
+  },
+  {
+    "id": "程度",
+    "type": "noun",
+    "main": "程度",
+    "reading": "ていど",
+    "meaning": "degree; extent; level",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>程度<rt>ていど</rt></ruby>",
+        "en": "degree; extent; level"
+      }
+    ],
+    "w": 26,
+    "d": 1
+  },
+  {
+    "id": "君",
+    "type": "kanji",
+    "main": "君",
+    "reading": "クン/きみ",
+    "meaning": "you (familiar); lord",
+    "words": "君 (きみ) / 君主 (くんしゅ)",
+    "examples": [
+      {
+        "jp": "<ruby>君<rt>クン</rt></ruby>",
+        "en": "you (familiar); lord"
+      }
+    ],
+    "w": 26,
+    "d": 2
+  },
+  {
+    "id": "閉",
+    "type": "kanji",
+    "main": "閉",
+    "reading": "ヘイ/と.じる・し.まる",
+    "meaning": "closed; shut; end",
+    "words": "閉じる (とじる) / 閉店 (へいてん) / 閉幕 (へいまく)",
+    "examples": [
+      {
+        "jp": "<ruby>閉<rt>ヘイ</rt></ruby>",
+        "en": "closed; shut; end"
+      }
+    ],
+    "w": 26,
+    "d": 2
+  },
+  {
+    "id": "手続き",
+    "type": "noun",
+    "main": "手続き",
+    "reading": "てつづき",
+    "meaning": "procedure; process; paperwork",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>手続き<rt>てつづき</rt></ruby>",
+        "en": "procedure; process; paperwork"
+      }
+    ],
+    "w": 26,
+    "d": 2
+  },
+  {
+    "id": "緒",
+    "type": "kanji",
+    "main": "緒",
+    "reading": "ショ・チョ/お",
+    "meaning": "beginning; cord; together",
+    "words": "一緒 (いっしょ) / 緒に (しょに) / 情緒 (じょうちょ)",
+    "examples": [
+      {
+        "jp": "<ruby>緒<rt>ショ</rt></ruby>",
+        "en": "beginning; cord; together"
+      }
+    ],
+    "w": 26,
+    "d": 3
+  },
+  {
+    "id": "折",
+    "type": "kanji",
+    "main": "折",
+    "reading": "セツ/お.る",
+    "meaning": "fold; bend; break",
+    "words": "折る (おる) / 折れる (おれる) / 骨折 (こっせつ)",
+    "examples": [
+      {
+        "jp": "<ruby>折<rt>セツ</rt></ruby>",
+        "en": "fold; bend; break"
+      }
+    ],
+    "w": 26,
+    "d": 3
+  },
+  {
+    "id": "草",
+    "type": "kanji",
+    "main": "草",
+    "reading": "ソウ/くさ",
+    "meaning": "grass; weed; rough draft",
+    "words": "草 (くさ) / 雑草 (ざっそう) / 草案 (そうあん)",
+    "examples": [
+      {
+        "jp": "<ruby>草<rt>ソウ</rt></ruby>",
+        "en": "grass; weed; rough draft"
+      }
+    ],
+    "w": 26,
+    "d": 3
+  },
+  {
+    "id": "準備",
+    "type": "noun",
+    "main": "準備",
+    "reading": "じゅんび",
+    "meaning": "preparation; arrangement; getting ready",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>準備<rt>じゅんび</rt></ruby>",
+        "en": "preparation; arrangement; getting ready"
+      }
+    ],
+    "w": 26,
+    "d": 3
+  },
+  {
+    "id": "暮",
+    "type": "kanji",
+    "main": "暮",
+    "reading": "ボ/く.れる・く.らす",
+    "meaning": "dusk; nightfall; livelihood",
+    "words": "暮れる (くれる) / 暮らす (くらす) / 夕暮れ (ゆうぐれ)",
+    "examples": [
+      {
+        "jp": "<ruby>暮<rt>ボ</rt></ruby>",
+        "en": "dusk; nightfall; livelihood"
+      }
+    ],
+    "w": 26,
+    "d": 4
+  },
+  {
+    "id": "酒",
+    "type": "kanji",
+    "main": "酒",
+    "reading": "シュ/さけ",
+    "meaning": "sake; alcohol; liquor",
+    "words": "酒 (さけ) / 日本酒 (にほんしゅ) / 飲酒 (いんしゅ)",
+    "examples": [
+      {
+        "jp": "<ruby>酒<rt>シュ</rt></ruby>",
+        "en": "sake; alcohol; liquor"
+      }
+    ],
+    "w": 26,
+    "d": 4
+  },
+  {
+    "id": "申し込み",
+    "type": "noun",
+    "main": "申し込み",
+    "reading": "もうしこみ",
+    "meaning": "application; registration; proposal",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>申し込み<rt>もうしこみ</rt></ruby>",
+        "en": "application; registration; proposal"
+      }
+    ],
+    "w": 26,
+    "d": 4
+  },
+  {
+    "id": "提案",
+    "type": "noun",
+    "main": "提案",
+    "reading": "ていあん",
+    "meaning": "proposal; suggestion; motion",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>提案<rt>ていあん</rt></ruby>",
+        "en": "proposal; suggestion; motion"
+      }
+    ],
+    "w": 26,
+    "d": 4
+  },
+  {
+    "id": "悲",
+    "type": "kanji",
+    "main": "悲",
+    "reading": "ヒ/かな.しい",
+    "meaning": "grieve; sad; sorrowful",
+    "words": "悲しい (かなしい) / 悲劇 (ひげき) / 悲しみ (かなしみ)",
+    "examples": [
+      {
+        "jp": "<ruby>悲<rt>ヒ</rt></ruby>",
+        "en": "grieve; sad; sorrowful"
+      }
+    ],
+    "w": 26,
+    "d": 5
+  },
+  {
+    "id": "晴",
+    "type": "kanji",
+    "main": "晴",
+    "reading": "セイ/は.れる",
+    "meaning": "clear up; fine weather",
+    "words": "晴れる (はれる) / 晴天 (せいてん) / 快晴 (かいせい)",
+    "examples": [
+      {
+        "jp": "<ruby>晴<rt>セイ</rt></ruby>",
+        "en": "clear up; fine weather"
+      }
+    ],
+    "w": 26,
+    "d": 5
+  },
+  {
+    "id": "掛",
+    "type": "kanji",
+    "main": "掛",
+    "reading": "ケイ/か.ける・か.かる",
+    "meaning": "hang; suspend; multiply",
+    "words": "掛ける (かける) / 掛かる (かかる) / 壁掛け (かべかけ)",
+    "examples": [
+      {
+        "jp": "<ruby>掛<rt>ケイ</rt></ruby>",
+        "en": "hang; suspend; multiply"
+      }
+    ],
+    "w": 26,
+    "d": 5
+  },
+  {
+    "id": "条件",
+    "type": "noun",
+    "main": "条件",
+    "reading": "じょうけん",
+    "meaning": "condition; requirement; terms",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>条件<rt>じょうけん</rt></ruby>",
+        "en": "condition; requirement; terms"
+      }
+    ],
+    "w": 26,
+    "d": 5
+  },
+  {
+    "id": "到",
+    "type": "kanji",
+    "main": "到",
+    "reading": "トウ/いた.る",
+    "meaning": "arrive; proceed; reach",
+    "words": "到着 (とうちゃく) / 到達 (とうたつ) / 到底 (とうてい)",
+    "examples": [
+      {
+        "jp": "<ruby>到<rt>トウ</rt></ruby>",
+        "en": "arrive; proceed; reach"
+      }
+    ],
+    "w": 27,
+    "d": 1
+  },
+  {
+    "id": "寝",
+    "type": "kanji",
+    "main": "寝",
+    "reading": "シン/ね.る",
+    "meaning": "lie down; sleep",
+    "words": "寝る (ねる) / 就寝 (しゅうしん) / 寝室 (しんしつ)",
+    "examples": [
+      {
+        "jp": "<ruby>寝<rt>シン</rt></ruby>",
+        "en": "lie down; sleep"
+      }
+    ],
+    "w": 27,
+    "d": 1
+  },
+  {
+    "id": "資料",
+    "type": "noun",
+    "main": "資料",
+    "reading": "しりょう",
+    "meaning": "material; data; document; resource",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>資料<rt>しりょう</rt></ruby>",
+        "en": "material; data; document; resource"
+      }
+    ],
+    "w": 27,
+    "d": 1
+  },
+  {
+    "id": "暗",
+    "type": "kanji",
+    "main": "暗",
+    "reading": "アン/くら.い",
+    "meaning": "darkness; dark; gloomy",
+    "words": "暗い (くらい) / 暗記 (あんき) / 暗号 (あんごう)",
+    "examples": [
+      {
+        "jp": "<ruby>暗<rt>アン</rt></ruby>",
+        "en": "darkness; dark; gloomy"
+      }
+    ],
+    "w": 27,
+    "d": 2
+  },
+  {
+    "id": "盗",
+    "type": "kanji",
+    "main": "盗",
+    "reading": "トウ/ぬす.む",
+    "meaning": "steal; rob; pilfer",
+    "words": "盗む (ぬすむ) / 盗難 (とうなん) / 強盗 (ごうとう)",
+    "examples": [
+      {
+        "jp": "<ruby>盗<rt>トウ</rt></ruby>",
+        "en": "steal; rob; pilfer"
+      }
+    ],
+    "w": 27,
+    "d": 2
+  },
+  {
+    "id": "吸",
+    "type": "kanji",
+    "main": "吸",
+    "reading": "キュウ/す.う",
+    "meaning": "suck; inhale; absorb",
+    "words": "吸う (すう) / 呼吸 (こきゅう) / 吸収 (きゅうしゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>吸<rt>キュウ</rt></ruby>",
+        "en": "suck; inhale; absorb"
+      }
+    ],
+    "w": 27,
+    "d": 2
+  },
+  {
+    "id": "場面",
+    "type": "noun",
+    "main": "場面",
+    "reading": "ばめん",
+    "meaning": "scene; situation; setting",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>場面<rt>ばめん</rt></ruby>",
+        "en": "scene; situation; setting"
+      }
+    ],
+    "w": 27,
+    "d": 2
+  },
+  {
+    "id": "立場",
+    "type": "noun",
+    "main": "立場",
+    "reading": "たちば",
+    "meaning": "standpoint; position; situation",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>立場<rt>たちば</rt></ruby>",
+        "en": "standpoint; position; situation"
+      }
+    ],
+    "w": 27,
+    "d": 2
+  },
+  {
+    "id": "陽",
+    "type": "kanji",
+    "main": "陽",
+    "reading": "ヨウ/ひ",
+    "meaning": "sunshine; sunlight; positive",
+    "words": "太陽 (たいよう) / 陽気 (ようき) / 陽光 (ようこう)",
+    "examples": [
+      {
+        "jp": "<ruby>陽<rt>ヨウ</rt></ruby>",
+        "en": "sunshine; sunlight; positive"
+      }
+    ],
+    "w": 27,
+    "d": 3
+  },
+  {
+    "id": "御",
+    "type": "kanji",
+    "main": "御",
+    "reading": "ギョ・ゴ/おん・お",
+    "meaning": "honorable; honorific prefix",
+    "words": "御 (ご) / 御礼 (おれい) / 御飯 (ごはん)",
+    "examples": [
+      {
+        "jp": "<ruby>御<rt>ギョ</rt></ruby>",
+        "en": "honorable; honorific prefix"
+      }
+    ],
+    "w": 27,
+    "d": 3
+  },
+  {
+    "id": "関係",
+    "type": "noun",
+    "main": "関係",
+    "reading": "かんけい",
+    "meaning": "relationship; connection; involvement",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>関係<rt>かんけい</rt></ruby>",
+        "en": "relationship; connection; involvement"
+      }
+    ],
+    "w": 27,
+    "d": 3
+  },
+  {
+    "id": "歯",
+    "type": "kanji",
+    "main": "歯",
+    "reading": "シ/は",
+    "meaning": "tooth; cog; gear",
+    "words": "歯 (は) / 歯科 (しか) / 虫歯 (むしば)",
+    "examples": [
+      {
+        "jp": "<ruby>歯<rt>シ</rt></ruby>",
+        "en": "tooth; cog; gear"
+      }
+    ],
+    "w": 27,
+    "d": 4
+  },
+  {
+    "id": "忘",
+    "type": "kanji",
+    "main": "忘",
+    "reading": "ボウ/わす.れる",
+    "meaning": "forget; leave behind",
+    "words": "忘れる (わすれる) / 忘れ物 (わすれもの) / 忘年会 (ぼうねんかい)",
+    "examples": [
+      {
+        "jp": "<ruby>忘<rt>ボウ</rt></ruby>",
+        "en": "forget; leave behind"
+      }
+    ],
+    "w": 27,
+    "d": 4
+  },
+  {
+    "id": "雪",
+    "type": "kanji",
+    "main": "雪",
+    "reading": "セツ/ゆき",
+    "meaning": "snow",
+    "words": "雪 (ゆき) / 降雪 (こうせつ) / 雪国 (ゆきぐに)",
+    "examples": [
+      {
+        "jp": "<ruby>雪<rt>セツ</rt></ruby>",
+        "en": "snow"
+      }
+    ],
+    "w": 27,
+    "d": 4
+  },
+  {
+    "id": "変更",
+    "type": "noun",
+    "main": "変更",
+    "reading": "へんこう",
+    "meaning": "change; modification; alteration",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>変更<rt>へんこう</rt></ruby>",
+        "en": "change; modification; alteration"
+      }
+    ],
+    "w": 27,
+    "d": 4
+  },
+  {
+    "id": "吹",
+    "type": "kanji",
+    "main": "吹",
+    "reading": "スイ/ふ.く",
+    "meaning": "blow; puff; breathe",
+    "words": "吹く (ふく) / 吹雪 (ふぶき) / 吹奏楽 (すいそうがく)",
+    "examples": [
+      {
+        "jp": "<ruby>吹<rt>スイ</rt></ruby>",
+        "en": "blow; puff; breathe"
+      }
+    ],
+    "w": 27,
+    "d": 5
+  },
+  {
+    "id": "娘",
+    "type": "kanji",
+    "main": "娘",
+    "reading": "ジョウ/むすめ",
+    "meaning": "daughter; young woman",
+    "words": "娘 (むすめ) / 一人娘 (ひとりむすめ)",
+    "examples": [
+      {
+        "jp": "<ruby>娘<rt>ジョウ</rt></ruby>",
+        "en": "daughter; young woman"
+      }
+    ],
+    "w": 27,
+    "d": 5
+  },
+  {
+    "id": "予定",
+    "type": "noun",
+    "main": "予定",
+    "reading": "よてい",
+    "meaning": "plan; schedule; appointment",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>予定<rt>よてい</rt></ruby>",
+        "en": "plan; schedule; appointment"
+      }
+    ],
+    "w": 27,
+    "d": 5
+  },
+  {
+    "id": "期待",
+    "type": "noun",
+    "main": "期待",
+    "reading": "きたい",
+    "meaning": "expectation; anticipation; hope",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>期待<rt>きたい</rt></ruby>",
+        "en": "expectation; anticipation; hope"
+      }
+    ],
+    "w": 27,
+    "d": 5
+  },
+  {
+    "id": "誤",
+    "type": "kanji",
+    "main": "誤",
+    "reading": "ゴ/あやま.る",
+    "meaning": "mistake; error; wrong",
+    "words": "誤る (あやまる) / 誤解 (ごかい) / 誤り (あやまり)",
+    "examples": [
+      {
+        "jp": "<ruby>誤<rt>ゴ</rt></ruby>",
+        "en": "mistake; error; wrong"
+      }
+    ],
+    "w": 28,
+    "d": 1
+  },
+  {
+    "id": "洗",
+    "type": "kanji",
+    "main": "洗",
+    "reading": "セン/あら.う",
+    "meaning": "wash; launder; investigate",
+    "words": "洗う (あらう) / 洗濯 (せんたく) / 洗面台 (せんめんだい)",
+    "examples": [
+      {
+        "jp": "<ruby>洗<rt>セン</rt></ruby>",
+        "en": "wash; launder; investigate"
+      }
+    ],
+    "w": 28,
+    "d": 1
+  },
+  {
+    "id": "慣",
+    "type": "kanji",
+    "main": "慣",
+    "reading": "カン/な.れる",
+    "meaning": "accustomed; get used to",
+    "words": "慣れる (なれる) / 習慣 (しゅうかん) / 慣習 (かんしゅう)",
+    "examples": [
+      {
+        "jp": "<ruby>慣<rt>カン</rt></ruby>",
+        "en": "accustomed; get used to"
+      }
+    ],
+    "w": 28,
+    "d": 1
+  },
+  {
+    "id": "可能",
+    "type": "noun",
+    "main": "可能",
+    "reading": "かのう",
+    "meaning": "possible; potential; feasible",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>可能<rt>かのう</rt></ruby>",
+        "en": "possible; potential; feasible"
+      }
+    ],
+    "w": 28,
+    "d": 1
+  },
+  {
+    "id": "礼",
+    "type": "kanji",
+    "main": "礼",
+    "reading": "レイ・ライ",
+    "meaning": "etiquette; courtesy; thanks",
+    "words": "礼 (れい) / 礼儀 (れいぎ) / 失礼 (しつれい)",
+    "examples": [
+      {
+        "jp": "<ruby>礼<rt>レイ</rt></ruby>",
+        "en": "etiquette; courtesy; thanks"
+      }
+    ],
+    "w": 28,
+    "d": 2
+  },
+  {
+    "id": "窓",
+    "type": "kanji",
+    "main": "窓",
+    "reading": "ソウ/まど",
+    "meaning": "window; pane",
+    "words": "窓 (まど) / 窓口 (まどぐち) / 車窓 (しゃそう)",
+    "examples": [
+      {
+        "jp": "<ruby>窓<rt>ソウ</rt></ruby>",
+        "en": "window; pane"
+      }
+    ],
+    "w": 28,
+    "d": 2
+  },
+  {
+    "id": "必要性",
+    "type": "noun",
+    "main": "必要性",
+    "reading": "ひつようせい",
+    "meaning": "necessity; need; importance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>必要性<rt>ひつようせい</rt></ruby>",
+        "en": "necessity; need; importance"
+      }
+    ],
+    "w": 28,
+    "d": 2
+  },
+  {
+    "id": "昔",
+    "type": "kanji",
+    "main": "昔",
+    "reading": "セキ・シャク/むかし",
+    "meaning": "long ago; olden times",
+    "words": "昔 (むかし) / 昔話 (むかしばなし) / 懐かしい (なつかしい)",
+    "examples": [
+      {
+        "jp": "<ruby>昔<rt>セキ</rt></ruby>",
+        "en": "long ago; olden times"
+      }
+    ],
+    "w": 28,
+    "d": 3
+  },
+  {
+    "id": "貧",
+    "type": "kanji",
+    "main": "貧",
+    "reading": "ヒン・ビン/まず.しい",
+    "meaning": "poverty; poor; needy",
+    "words": "貧しい (まずしい) / 貧困 (ひんこん) / 貧乏 (びんぼう)",
+    "examples": [
+      {
+        "jp": "<ruby>貧<rt>ヒン</rt></ruby>",
+        "en": "poverty; poor; needy"
+      }
+    ],
+    "w": 28,
+    "d": 3
+  },
+  {
+    "id": "怒",
+    "type": "kanji",
+    "main": "怒",
+    "reading": "ド/おこ.る・いか.る",
+    "meaning": "angry; be offended; rage",
+    "words": "怒る (おこる) / 怒り (いかり) / 激怒 (げきど)",
+    "examples": [
+      {
+        "jp": "<ruby>怒<rt>ド</rt></ruby>",
+        "en": "angry; be offended; rage"
+      }
+    ],
+    "w": 28,
+    "d": 3
+  },
+  {
+    "id": "重要性",
+    "type": "noun",
+    "main": "重要性",
+    "reading": "じゅうようせい",
+    "meaning": "importance; significance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>重要性<rt>じゅうようせい</rt></ruby>",
+        "en": "importance; significance"
+      }
+    ],
+    "w": 28,
+    "d": 3
+  },
+  {
+    "id": "活動",
+    "type": "noun",
+    "main": "活動",
+    "reading": "かつどう",
+    "meaning": "activity; action; campaign",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>活動<rt>かつどう</rt></ruby>",
+        "en": "activity; action; campaign"
+      }
+    ],
+    "w": 28,
+    "d": 3
+  },
+  {
+    "id": "泳",
+    "type": "kanji",
+    "main": "泳",
+    "reading": "エイ/およ.ぐ",
+    "meaning": "swim; swimming",
+    "words": "泳ぐ (およぐ) / 水泳 (すいえい) / 遠泳 (えんえい)",
+    "examples": [
+      {
+        "jp": "<ruby>泳<rt>エイ</rt></ruby>",
+        "en": "swim; swimming"
+      }
+    ],
+    "w": 28,
+    "d": 4
+  },
+  {
+    "id": "祖",
+    "type": "kanji",
+    "main": "祖",
+    "reading": "ソ",
+    "meaning": "ancestor; forefather",
+    "words": "祖父 (そふ) / 祖母 (そぼ) / 祖先 (そせん)",
+    "examples": [
+      {
+        "jp": "<ruby>祖<rt>ソ</rt></ruby>",
+        "en": "ancestor; forefather"
+      }
+    ],
+    "w": 28,
+    "d": 4
+  },
+  {
+    "id": "行動",
+    "type": "noun",
+    "main": "行動",
+    "reading": "こうどう",
+    "meaning": "action; conduct; behavior",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>行動<rt>こうどう</rt></ruby>",
+        "en": "action; conduct; behavior"
+      }
+    ],
+    "w": 28,
+    "d": 4
+  },
+  {
+    "id": "杯",
+    "type": "kanji",
+    "main": "杯",
+    "reading": "ハイ/さかずき",
+    "meaning": "cup; glass; counter for cups",
+    "words": "一杯 (いっぱい) / 杯 (はい) / 乾杯 (かんぱい)",
+    "examples": [
+      {
+        "jp": "<ruby>杯<rt>ハイ</rt></ruby>",
+        "en": "cup; glass; counter for cups"
+      }
+    ],
+    "w": 28,
+    "d": 5
+  },
+  {
+    "id": "疲",
+    "type": "kanji",
+    "main": "疲",
+    "reading": "ヒ/つか.れる",
+    "meaning": "fatigue; tire; exhaust",
+    "words": "疲れる (つかれる) / 疲労 (ひろう) / 疲弊 (ひへい)",
+    "examples": [
+      {
+        "jp": "<ruby>疲<rt>ヒ</rt></ruby>",
+        "en": "fatigue; tire; exhaust"
+      }
+    ],
+    "w": 28,
+    "d": 5
+  },
+  {
+    "id": "皆",
+    "type": "kanji",
+    "main": "皆",
+    "reading": "カイ/みな・みんな",
+    "meaning": "all; everybody; everything",
+    "words": "皆 (みな) / 皆さん (みなさん) / 皆様 (みなさま)",
+    "examples": [
+      {
+        "jp": "<ruby>皆<rt>カイ</rt></ruby>",
+        "en": "all; everybody; everything"
+      }
+    ],
+    "w": 28,
+    "d": 5
+  },
+  {
+    "id": "様子",
+    "type": "noun",
+    "main": "様子",
+    "reading": "ようす",
+    "meaning": "state; condition; appearance",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>様子<rt>ようす</rt></ruby>",
+        "en": "state; condition; appearance"
+      }
+    ],
+    "w": 28,
+    "d": 5
+  },
+  {
+    "id": "鳴",
+    "type": "kanji",
+    "main": "鳴",
+    "reading": "メイ/な.る",
+    "meaning": "cry; bark; ring; chirp",
+    "words": "鳴る (なる) / 鳴らす (ならす) / 鳥の鳴き声 (なきごえ)",
+    "examples": [
+      {
+        "jp": "<ruby>鳴<rt>メイ</rt></ruby>",
+        "en": "cry; bark; ring; chirp"
+      }
+    ],
+    "w": 29,
+    "d": 1
+  },
+  {
+    "id": "腹",
+    "type": "kanji",
+    "main": "腹",
+    "reading": "フク/はら",
+    "meaning": "abdomen; belly; stomach",
+    "words": "腹 (はら) / 腹痛 (ふくつう) / 腹立ち (はらだち)",
+    "examples": [
+      {
+        "jp": "<ruby>腹<rt>フク</rt></ruby>",
+        "en": "abdomen; belly; stomach"
+      }
+    ],
+    "w": 29,
+    "d": 1
+  },
+  {
+    "id": "理解力",
+    "type": "noun",
+    "main": "理解力",
+    "reading": "りかいりょく",
+    "meaning": "comprehension ability; understanding",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>理解力<rt>りかいりょく</rt></ruby>",
+        "en": "comprehension ability; understanding"
+      }
+    ],
+    "w": 29,
+    "d": 1
+  },
+  {
+    "id": "表情",
+    "type": "noun",
+    "main": "表情",
+    "reading": "ひょうじょう",
+    "meaning": "facial expression",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>表情<rt>ひょうじょう</rt></ruby>",
+        "en": "facial expression"
+      }
+    ],
+    "w": 29,
+    "d": 1
+  },
+  {
+    "id": "煙",
+    "type": "kanji",
+    "main": "煙",
+    "reading": "エン/けむり",
+    "meaning": "smoke; steam; haze",
+    "words": "煙 (けむり) / 煙草 (たばこ) / 禁煙 (きんえん)",
+    "examples": [
+      {
+        "jp": "<ruby>煙<rt>エン</rt></ruby>",
+        "en": "smoke; steam; haze"
+      }
+    ],
+    "w": 29,
+    "d": 2
+  },
+  {
+    "id": "眠",
+    "type": "kanji",
+    "main": "眠",
+    "reading": "ミン/ねむ.る",
+    "meaning": "sleep; drowsy",
+    "words": "眠る (ねむる) / 眠い (ねむい) / 睡眠 (すいみん)",
+    "examples": [
+      {
+        "jp": "<ruby>眠<rt>ミン</rt></ruby>",
+        "en": "sleep; drowsy"
+      }
+    ],
+    "w": 29,
+    "d": 2
+  },
+  {
+    "id": "怖",
+    "type": "kanji",
+    "main": "怖",
+    "reading": "フ/こわ.い",
+    "meaning": "scary; afraid; fearful",
+    "words": "怖い (こわい) / 恐怖 (きょうふ) / 怖がる (こわがる)",
+    "examples": [
+      {
+        "jp": "<ruby>怖<rt>フ</rt></ruby>",
+        "en": "scary; afraid; fearful"
+      }
+    ],
+    "w": 29,
+    "d": 2
+  },
+  {
+    "id": "態度",
+    "type": "noun",
+    "main": "態度",
+    "reading": "たいど",
+    "meaning": "attitude; manner; behavior",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>態度<rt>たいど</rt></ruby>",
+        "en": "attitude; manner; behavior"
+      }
+    ],
+    "w": 29,
+    "d": 2
+  },
+  {
+    "id": "耳",
+    "type": "kanji",
+    "main": "耳",
+    "reading": "ジ/みみ",
+    "meaning": "ear",
+    "words": "耳 (みみ) / 耳鼻科 (じびか) / 耳打ち (みみうち)",
+    "examples": [
+      {
+        "jp": "<ruby>耳<rt>ジ</rt></ruby>",
+        "en": "ear"
+      }
+    ],
+    "w": 29,
+    "d": 3
+  },
+  {
+    "id": "頂",
+    "type": "kanji",
+    "main": "頂",
+    "reading": "チョウ/いただ.く",
+    "meaning": "top; summit; receive (humble)",
+    "words": "頂く (いただく) / 山頂 (さんちょう) / 頂上 (ちょうじょう)",
+    "examples": [
+      {
+        "jp": "<ruby>頂<rt>チョウ</rt></ruby>",
+        "en": "top; summit; receive (humble)"
+      }
+    ],
+    "w": 29,
+    "d": 3
+  },
+  {
+    "id": "機会",
+    "type": "noun",
+    "main": "機会",
+    "reading": "きかい",
+    "meaning": "opportunity; chance; occasion",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>機会<rt>きかい</rt></ruby>",
+        "en": "opportunity; chance; occasion"
+      }
+    ],
+    "w": 29,
+    "d": 3
+  },
+  {
+    "id": "箱",
+    "type": "kanji",
+    "main": "箱",
+    "reading": "ソウ/はこ",
+    "meaning": "box; case; container",
+    "words": "箱 (はこ) / 郵便箱 (ゆうびんばこ) / 箱根 (はこね)",
+    "examples": [
+      {
+        "jp": "<ruby>箱<rt>ソウ</rt></ruby>",
+        "en": "box; case; container"
+      }
+    ],
+    "w": 29,
+    "d": 4
+  },
+  {
+    "id": "晩",
+    "type": "kanji",
+    "main": "晩",
+    "reading": "バン",
+    "meaning": "night; evening; late",
+    "words": "晩 (ばん) / 今晩 (こんばん) / 晩御飯 (ばんごはん)",
+    "examples": [
+      {
+        "jp": "<ruby>晩<rt>バン</rt></ruby>",
+        "en": "night; evening; late"
+      }
+    ],
+    "w": 29,
+    "d": 4
+  },
+  {
+    "id": "寒",
+    "type": "kanji",
+    "main": "寒",
+    "reading": "カン/さむ.い",
+    "meaning": "cold (weather)",
+    "words": "寒い (さむい) / 寒波 (かんぱ) / 寒気 (さむけ)",
+    "examples": [
+      {
+        "jp": "<ruby>寒<rt>カン</rt></ruby>",
+        "en": "cold (weather)"
+      }
+    ],
+    "w": 29,
+    "d": 4
+  },
+  {
+    "id": "選択",
+    "type": "noun",
+    "main": "選択",
+    "reading": "せんたく",
+    "meaning": "choice; selection; option",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>選択<rt>せんたく</rt></ruby>",
+        "en": "choice; selection; option"
+      }
+    ],
+    "w": 29,
+    "d": 4
+  },
+  {
+    "id": "記念",
+    "type": "noun",
+    "main": "記念",
+    "reading": "きねん",
+    "meaning": "commemoration; memory; souvenir",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>記念<rt>きねん</rt></ruby>",
+        "en": "commemoration; memory; souvenir"
+      }
+    ],
+    "w": 29,
+    "d": 4
+  },
+  {
+    "id": "髪",
+    "type": "kanji",
+    "main": "髪",
+    "reading": "ハツ/かみ",
+    "meaning": "hair (on head)",
+    "words": "髪 (かみ) / 髪型 (かみがた) / 黒髪 (くろかみ)",
+    "examples": [
+      {
+        "jp": "<ruby>髪<rt>ハツ</rt></ruby>",
+        "en": "hair (on head)"
+      }
+    ],
+    "w": 29,
+    "d": 5
+  },
+  {
+    "id": "忙",
+    "type": "kanji",
+    "main": "忙",
+    "reading": "ボウ・モウ/いそが.しい",
+    "meaning": "busy; occupied",
+    "words": "忙しい (いそがしい) / 多忙 (たぼう) / 忙殺 (ぼうさつ)",
+    "examples": [
+      {
+        "jp": "<ruby>忙<rt>ボウ</rt></ruby>",
+        "en": "busy; occupied"
+      }
+    ],
+    "w": 29,
+    "d": 5
+  },
+  {
+    "id": "経路",
+    "type": "noun",
+    "main": "経路",
+    "reading": "けいろ",
+    "meaning": "route; path; course",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>経路<rt>けいろ</rt></ruby>",
+        "en": "route; path; course"
+      }
+    ],
+    "w": 29,
+    "d": 5
+  },
+  {
+    "id": "才",
+    "type": "kanji",
+    "main": "才",
+    "reading": "サイ",
+    "meaning": "genius; age (counter)",
+    "words": "才能 (さいのう) / ～才 / 天才 (てんさい)",
+    "examples": [
+      {
+        "jp": "<ruby>才<rt>サイ</rt></ruby>",
+        "en": "genius; age (counter)"
+      }
+    ],
+    "w": 30,
+    "d": 1
+  },
+  {
+    "id": "靴",
+    "type": "kanji",
+    "main": "靴",
+    "reading": "カ/くつ",
+    "meaning": "shoes; footwear",
+    "words": "靴 (くつ) / 靴下 (くつした) / 運動靴 (うんどうぐつ)",
+    "examples": [
+      {
+        "jp": "<ruby>靴<rt>カ</rt></ruby>",
+        "en": "shoes; footwear"
+      }
+    ],
+    "w": 30,
+    "d": 1
+  },
+  {
+    "id": "恥",
+    "type": "kanji",
+    "main": "恥",
+    "reading": "チ/は.じ・は.ずかしい",
+    "meaning": "shame; disgrace; embarrass",
+    "words": "恥ずかしい (はずかしい) / 恥 (はじ) / 恥じる (はじる)",
+    "examples": [
+      {
+        "jp": "<ruby>恥<rt>チ</rt></ruby>",
+        "en": "shame; disgrace; embarrass"
+      }
+    ],
+    "w": 30,
+    "d": 1
+  },
+  {
+    "id": "過程",
+    "type": "noun",
+    "main": "過程",
+    "reading": "かてい",
+    "meaning": "process; course; progress",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>過程<rt>かてい</rt></ruby>",
+        "en": "process; course; progress"
+      }
+    ],
+    "w": 30,
+    "d": 1
+  },
+  {
+    "id": "偶",
+    "type": "kanji",
+    "main": "偶",
+    "reading": "グウ/たま",
+    "meaning": "by chance; even number; doll",
+    "words": "偶然 (ぐうぜん) / 偶数 (ぐうすう) / 人偶 (にんぐう)",
+    "examples": [
+      {
+        "jp": "<ruby>偶<rt>グウ</rt></ruby>",
+        "en": "by chance; even number; doll"
+      }
+    ],
+    "w": 30,
+    "d": 2
+  },
+  {
+    "id": "偉",
+    "type": "kanji",
+    "main": "偉",
+    "reading": "イ/えら.い",
+    "meaning": "admirable; great; grand",
+    "words": "偉い (えらい) / 偉大 (いだい) / 偉人 (いじん)",
+    "examples": [
+      {
+        "jp": "<ruby>偉<rt>イ</rt></ruby>",
+        "en": "admirable; great; grand"
+      }
+    ],
+    "w": 30,
+    "d": 2
+  },
+  {
+    "id": "結論",
+    "type": "noun",
+    "main": "結論",
+    "reading": "けつろん",
+    "meaning": "conclusion; summary",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>結論<rt>けつろん</rt></ruby>",
+        "en": "conclusion; summary"
+      }
+    ],
+    "w": 30,
+    "d": 2
+  },
+  {
+    "id": "根拠",
+    "type": "noun",
+    "main": "根拠",
+    "reading": "こんきょ",
+    "meaning": "basis; grounds; evidence",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>根拠<rt>こんきょ</rt></ruby>",
+        "en": "basis; grounds; evidence"
+      }
+    ],
+    "w": 30,
+    "d": 2
+  },
+  {
+    "id": "猫",
+    "type": "kanji",
+    "main": "猫",
+    "reading": "ビョウ/ねこ",
+    "meaning": "cat",
+    "words": "猫 (ねこ) / 猫背 (ねこぜ) / 猫じゃらし",
+    "examples": [
+      {
+        "jp": "<ruby>猫<rt>ビョウ</rt></ruby>",
+        "en": "cat"
+      }
+    ],
+    "w": 30,
+    "d": 3
+  },
+  {
+    "id": "幾",
+    "type": "kanji",
+    "main": "幾",
+    "reading": "キ/いく.つ",
+    "meaning": "how many; how much; some",
+    "words": "幾つ (いくつ) / 幾ら (いくら) / 幾何 (きか)",
+    "examples": [
+      {
+        "jp": "<ruby>幾<rt>キ</rt></ruby>",
+        "en": "how many; how much; some"
+      }
+    ],
+    "w": 30,
+    "d": 3
+  },
+  {
+    "id": "誰",
+    "type": "kanji",
+    "main": "誰",
+    "reading": "スイ/だれ",
+    "meaning": "who; someone",
+    "words": "誰 (だれ) / 誰か (だれか) / 誰でも (だれでも)",
+    "examples": [
+      {
+        "jp": "<ruby>誰<rt>スイ</rt></ruby>",
+        "en": "who; someone"
+      }
+    ],
+    "w": 30,
+    "d": 3
+  },
+  {
+    "id": "目安",
+    "type": "noun",
+    "main": "目安",
+    "reading": "めやす",
+    "meaning": "standard; criterion; rough guide",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>目安<rt>めやす</rt></ruby>",
+        "en": "standard; criterion; rough guide"
+      }
+    ],
+    "w": 30,
+    "d": 3
+  },
+  {
+    "id": "印",
+    "type": "noun",
+    "main": "印",
+    "reading": "しるし",
+    "meaning": "mark; sign; symbol; seal",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>印<rt>しるし</rt></ruby>",
+        "en": "mark; sign; symbol; seal"
+      }
+    ],
+    "w": 30,
+    "d": 4
+  },
+  {
+    "id": "傾向",
+    "type": "noun",
+    "main": "傾向",
+    "reading": "けいこう",
+    "meaning": "tendency; trend; inclination",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>傾向<rt>けいこう</rt></ruby>",
+        "en": "tendency; trend; inclination"
+      }
+    ],
+    "w": 30,
+    "d": 5
+  },
+  {
+    "id": "主張",
+    "type": "noun",
+    "main": "主張",
+    "reading": "しゅちょう",
+    "meaning": "claim; insistence; assertion",
+    "words": "",
+    "examples": [
+      {
+        "jp": "<ruby>主張<rt>しゅちょう</rt></ruby>",
+        "en": "claim; insistence; assertion"
+      }
+    ],
+    "w": 30,
+    "d": 5
+  }
+]

@@ -1,0 +1,131 @@
+/* Kanji & Vocab Mode Styles */
+.mode-switch-header {
+  display: flex;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.ph-btn {
+  background: transparent;
+  border: none;
+  color: rgba(245,240,232,0.5);
+  padding: 6px 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .15s;
+  display: flex;
+  align-items: center;
+}
+.ph-btn:hover {
+  color: var(--paper);
+  background: rgba(255,255,255,0.05);
+}
+.ph-btn.active {
+  color: var(--paper);
+  background: rgba(255,255,255,0.13);
+  font-weight: 500;
+}
+
+/* Lesson Cards For Kanji */
+.lesson-kanji {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--paper);
+}
+.lesson-vocab {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--paper);
+}
+.lesson-reading {
+  font-size: 13px;
+  font-family: 'DM Mono', monospace;
+  color: rgba(245,240,232,0.45);
+  margin-top: 6px;
+}
+.lesson-type-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-family: 'DM Mono', monospace;
+  margin-top: 6px;
+  display: inline-block;
+}
+.badge-kanji { background: rgba(90,45,130,0.5); color: #d4b8f8; }
+.badge-noun { background: rgba(26,74,138,0.5); color: #b8d0f8; }
+.badge-verb { background: rgba(13,110,110,0.5); color: #b8e8e8; }
+.badge-adj { background: rgba(184,134,11,0.4); color: #fde8a0; }
+.badge-adv { background: rgba(192,57,43,0.4); color: #f8c4bc; }
+.lesson-meaning-big {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(245,240,232,0.8);
+  text-align: right;
+  line-height: 1.5;
+  max-width: 50%;
+}
+.lesson-readings-row {
+  padding: .75rem 1.25rem;
+  background: var(--paper2);
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  font-family: 'DM Mono', monospace;
+  color: rgba(26,23,20,0.55);
+  line-height: 1.8;
+}
+.lesson-readings-row strong { color: var(--ink); font-weight: 500; }
+.lesson-examples { padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: .85rem; }
+.ex-block {
+  padding: .75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--paper2);
+}
+.ex-jp {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 16px;
+  line-height: 2.4;
+  margin-bottom: 2px;
+}
+.ex-en {
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(26,23,20,0.5);
+  margin-top: 2px;
+  border-top: 1px solid rgba(26,23,20,0.07);
+  padding-top: 4px;
+}
+
+/* Flashcard Specifics */
+.card-type {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-family: 'DM Mono', monospace;
+}
+.ct-kanji { background: rgba(90,45,130,0.4); color: #d4b8f8; }
+.ct-noun { background: rgba(26,74,138,0.4); color: #b8d0f8; }
+.ct-verb { background: rgba(13,110,110,0.4); color: #b8e8e8; }
+.ct-adj { background: rgba(184,134,11,0.4); color: #fde8a0; }
+.ct-adv { background: rgba(192,57,43,0.4); color: #f8c4bc; }
+
+/* Schedule specific for kanji */
+.type-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.type-dot.k { background: #c0392b; }
+.type-dot.v { background: #1a6b4a; }
